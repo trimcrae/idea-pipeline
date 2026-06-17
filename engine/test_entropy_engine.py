@@ -50,6 +50,45 @@ def test_out_creates_missing_dirs(tmp="/tmp/_ep_test_out/sub/pool.txt"):
     os.remove(tmp)
 
 
+def _ledger_lines(path):
+    with open(path) as fh:
+        return [l.rstrip("\n") for l in fh if l.strip()]
+
+
+def test_ledger_records_and_excludes(led="/tmp/_ep_test_led/seen.tsv"):
+    # First run records its keys; a second run must draw an entirely fresh set.
+    # Each run appends only the *new* keys it drew, so if exclusion works the
+    # ledger grows by exactly N each run with zero duplicate lines. If exclusion
+    # were broken the second run could re-draw and re-append a first-run combo,
+    # producing a duplicate line — which this checks for directly.
+    d = os.path.dirname(led)
+    if os.path.exists(led):
+        os.remove(led)
+    run(["--ledger", led], env={"N": "20"})
+    first = _ledger_lines(led)
+    assert len(first) == 20, f"first run should record 20 keys, got {len(first)}"
+
+    run(["--ledger", led], env={"N": "20"})
+    both = _ledger_lines(led)
+    assert len(both) == 40, f"ledger should grow to 40, got {len(both)}"
+    assert len(set(both)) == 40, "ledger has a duplicate combo — exclusion failed"
+    os.remove(led)
+    os.rmdir(d)
+
+
+def test_ledger_caps_when_exhausted(led="/tmp/_ep_test_led2/seen.tsv"):
+    # When the ledger leaves less than N unseen combos, the run caps, not hangs.
+    d = os.path.dirname(led)
+    if os.path.exists(led):
+        os.remove(led)
+    run(["--ledger", led], env={"N": "30"})           # seed it
+    p = run(["--ledger", led], env={"N": "10000000"})  # ask for far more than remains
+    assert "capping" in p.stderr, "expected a cap notice when ledger nears exhaustion"
+    assert p.returncode == 0, "exhausted-ledger run must still exit cleanly"
+    os.remove(led)
+    os.rmdir(d)
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     failed = 0
