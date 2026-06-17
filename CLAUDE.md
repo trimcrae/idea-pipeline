@@ -16,6 +16,9 @@ An idea pipeline for a solo builder working **only from a phone**, ~$0 budget, n
 ## Tone
 Blunt, brief, peer-level. No flattery. Never appeal to the operator's "expertise," "network," or "credibility" — assume none.
 
+## Git workflow
+The operator works from a phone and wants finished work landed, not parked on branches. So: when a change is complete and verified, open a PR for it and merge it to `main` yourself — don't wait to be asked. Squash-merge. Only hold off if the change is ambiguous, risky, or you have an open question for the operator.
+
 ## Files
 - `engine/entropy_engine.py` — generator. `python engine/entropy_engine.py --out pools/<name>.txt`
 - `RUBRIC.md` — the screen. `BACKLOG.md` — living state. `RUNBOOK.md` — human session + probe playbook.
