@@ -1,8 +1,8 @@
 # RUNBOOK.md — How to Run the Pipeline
 
 ## A session, start to finish
-1. **Generate.** Run `python engine/entropy_engine.py` for a fresh pool (default 180). Re-run with a different seed for more. Widen the `worlds` list in the script for more uncrowded reach — that axis has the most leverage.
-2. **Dedupe + skim.** Drop anything already in `BACKLOG.md` (active or killed). Expect ~90% of draws to be noise — that's the funnel working.
+1. **Generate.** Run `python engine/entropy_engine.py --out pools/pool_<date>.txt --ledger pools/seen.tsv` for a fresh pool (default 180). The `--ledger` flag gives the engine cross-run memory: it never re-emits a (world, form, twist) it has drawn before, so every pool is genuinely new and you stop re-screening the same noise. Re-run with a different seed for more. Widen the `worlds` list in the script for more uncrowded reach — that axis has the most leverage.
+2. **Dedupe + skim.** The ledger has already removed past combinations; you only need to drop draws that *substantively* duplicate something in `BACKLOG.md` (active or killed). Expect ~90% of draws to be noise — that's the funnel working.
 3. **Pre-screen + tag.** Run survivors through `RUBRIC.md`. Kill dealbreakers, cluster, tag. Do NOT rank by predicted success.
 4. **Human eyeball.** Operator reads the shortlist and picks 1–2 to probe. The model does not crown a winner.
 5. **Probe reality** on the chosen 1–2 (see playbook below). The model builds the test asset; the operator ships it.

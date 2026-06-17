@@ -5,8 +5,18 @@ Usage:
   python entropy_engine.py                 # fresh random pool of N (default 180)
   python entropy_engine.py 12345           # reproduce a specific seed
   python entropy_engine.py --out pool.txt   # also write the pool to a file
+  python entropy_engine.py --ledger pools/seen.tsv   # never re-draw a past combo
   N=300 python entropy_engine.py            # override pool size via env var
 The randomness is from os.urandom (true system entropy), not the model.
+
+The --ledger flag gives the engine cross-run memory: it loads every
+(world, form, twist) combination already drawn in past runs, excludes them
+from this pool, then appends the new ones back. This makes the pipeline's
+"discard draws already seen" step machine-enforced instead of a manual
+eyeball — important because each cloud run starts from a clean VM, so the
+only memory is what's committed to the repo. Excluding past draws is pure
+de-duplication; the randomness is still exogenous (os.urandom), so this does
+not bias generation toward LLM-plausible ideas.
 """
 import random, os, sys
 
@@ -14,6 +24,37 @@ import random, os, sys
 _seed_arg = next((a for a in sys.argv[1:] if a.lstrip("-").isdigit() and not a.startswith("--")), None)
 seed = int(_seed_arg) if _seed_arg else int.from_bytes(os.urandom(8), "big")
 rng = random.Random(seed)
+
+
+def _flag(name):
+    """Return the value following --name on the command line, or None."""
+    return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else None
+
+
+def load_ledger(path):
+    """Load already-drawn (world, form, twist) keys from a TSV ledger.
+
+    Missing file = empty ledger (first run). Blank/short lines are skipped so a
+    hand-edited or partially written ledger can't crash a run."""
+    keys = set()
+    if not path or not os.path.exists(path):
+        return keys
+    with open(path) as fh:
+        for line in fh:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) == 3 and all(parts):
+                keys.add(tuple(parts))
+    return keys
+
+
+def append_ledger(path, keys):
+    """Append newly drawn keys to the TSV ledger, creating parent dirs."""
+    parent = os.path.dirname(path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
+    with open(path, "a") as fh:
+        for w, f, t in keys:
+            fh.write(f"{w}\t{f}\t{t}\n")
 
 # WORLDS — heavily expanded. Mix of: passionate-spend hobbies, small-business /
 # supply-side, regulatory/professional edges, life-event logistics. Money and
@@ -98,18 +139,22 @@ def draw():
     return (rng.choice(worlds), rng.choice(forms), rng.choice(twists), rng.choice(wildcards))
 
 N = int(os.environ.get("N", "180"))
-# A draw is unique on (world, form, twist); cap N at that space so an
-# over-large N (or a trimmed list) can't spin the dedup loop forever.
+# A draw is unique on (world, form, twist); cap N at the space still available
+# so an over-large N (or a near-exhausted ledger) can't spin the loop forever.
 unique_space = len(worlds) * len(forms) * len(twists)
-if N > unique_space:
-    print(f"[N={N} exceeds unique space {unique_space:,}; capping]", file=sys.stderr)
-    N = unique_space
-seen=set(); out=[]
+ledger_path = _flag("--ledger")
+seen = load_ledger(ledger_path)          # past-run keys to exclude (empty if no ledger)
+remaining = unique_space - len(seen)
+if N > remaining:
+    print(f"[N={N} exceeds remaining unique space {remaining:,} "
+          f"(ledger holds {len(seen):,}); capping]", file=sys.stderr)
+    N = max(remaining, 0)
+new_keys = []; out = []
 while len(out) < N:
     w,f,t,wc = draw()
     key=(w,f,t)
     if key in seen: continue
-    seen.add(key); out.append((w,f,t,wc))
+    seen.add(key); new_keys.append(key); out.append((w,f,t,wc))
 
 header = f"seed={seed}  worlds={len(worlds)} forms={len(forms)} twists={len(twists)}  space={len(worlds)*len(forms)*len(twists):,}\n"
 lines = [f"{i:>3}. {f} for {w} — {t}.  [{wc}]" for i,(w,f,t,wc) in enumerate(out,1)]
@@ -117,11 +162,16 @@ text = header + "\n".join(lines) + "\n"
 print(text, end="")
 
 # Optional: write the raw pool to a file for the audit trail (--out PATH)
-if "--out" in sys.argv:
-    path = sys.argv[sys.argv.index("--out") + 1]
-    parent = os.path.dirname(path)
+out_path = _flag("--out")
+if out_path:
+    parent = os.path.dirname(out_path)
     if parent:
         os.makedirs(parent, exist_ok=True)
-    with open(path, "w") as fh:
+    with open(out_path, "w") as fh:
         fh.write(text)
-    print(f"\n[wrote pool to {path}]")
+    print(f"\n[wrote pool to {out_path}]")
+
+# Record this run's new keys so future runs never re-surface them (--ledger PATH).
+if ledger_path:
+    append_ledger(ledger_path, new_keys)
+    print(f"[ledger {ledger_path}: +{len(new_keys)} keys, {len(seen)} total]")

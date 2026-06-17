@@ -50,6 +50,30 @@ Each entry: id · concept · shape · tags · demand · catch · next probe · s
 - Next probe: free alert for one cultivar across 5 shops; post in a plant community; measure sign-ups.
 - Status: `backlog`
 
+**B-01 — Bond-deadline / forfeiture-risk validator for bail bondsmen**
+- Shape: enumerable + forced payment (liability). Tags: `demand:assumed crowd:low build:med reach:enumerable maint:manual`
+- Demand: assumed. A missed court date / paperwork slip can forfeit the whole bond — direct, large money loss. Bondsmen track this in spreadsheets and memory.
+- Concept: log each bond's court dates and conditions → validate the paperwork against the jurisdiction's rules and alert before a deadline that would trigger forfeiture.
+- Catch: small, slow-adopting TAM; court-rule/calendar data is per-county and not uniformly public, so "maint:manual" until a region is wired up. Enumerable upside: state-licensed bondsman lists are public, so the whole customer list is cold-reachable.
+- Next probe: 15 cold emails/calls to bondsmen in one state describing the forfeiture-alert tool; count "yes, I'd use this" replies.
+- Status: `backlog`
+
+**P-01 — Per-jurisdiction court-filing rules validator for freelance paralegals**
+- Shape: pain + public data (one region first). Tags: `demand:assumed crowd:med build:med reach:searchable maint:manual`
+- Demand: assumed. A rejected filing or missed format/service rule costs a refile and can blow a deadline (malpractice exposure for the attorney). Paralegals currently keep private checklists.
+- Concept: pick a filing type + court → checklist/validator of format, service, and deadline rules for that one jurisdiction, kept current.
+- Catch: rules vary by court and change, so staying current is real upkeep (maint:manual); start with one region. Audience is searchable but not tightly enumerable.
+- Next probe: post the one-jurisdiction validator concept in a paralegal community/subreddit; count clicks + "I'd use this."
+- Status: `backlog`
+
+**DL-01 — FDA recall / material-notice watcher for dental labs**
+- Shape: pain + public data (compliance). Tags: `demand:assumed crowd:low build:easy reach:enumerable maint:auto`
+- Demand: assumed. Labs use regulated materials/devices; a recall or safety notice they miss is a liability and remake-cost event. The FDA recall/enforcement data is public and machine-pullable.
+- Concept: per-lab watchlist of the materials/devices they use → alert when a matching FDA recall or notice posts.
+- Catch: unproven that labs feel this acutely enough to pay; ceiling is low. Virtue: data is public + re-pullable (maint:auto) and dental labs are enumerable (directories/NADL).
+- Next probe: email 20 dental labs describing the recall-alert; count replies that say they'd use/pay.
+- Status: `backlog`
+
 ## Killed
 (none yet — move dead ideas here with a one-line reason so the engine's survivors aren't re-litigated)
 

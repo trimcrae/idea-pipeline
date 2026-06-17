@@ -14,6 +14,7 @@ idea-pipeline/
 │   ├── entropy_engine.py
 │   └── test_entropy_engine.py   # smoke tests (no deps): python engine/test_entropy_engine.py
 └── pools/               # raw generated pools (audit trail)
+    └── seen.tsv         # ledger of every (world,form,twist) ever drawn — cross-run dedup
 ```
 
 ## Setup from a phone (no laptop needed)
