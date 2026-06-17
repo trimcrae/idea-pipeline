@@ -11,7 +11,8 @@ idea-pipeline/
 ├── RUNBOOK.md           # human session guide + reality-probe playbook
 ├── BACKLOG.md           # living ranked state (committed every run)
 ├── engine/
-│   └── entropy_engine.py
+│   ├── entropy_engine.py
+│   └── test_entropy_engine.py   # smoke tests (no deps): python engine/test_entropy_engine.py
 └── pools/               # raw generated pools (audit trail)
 ```
 

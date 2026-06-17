@@ -98,6 +98,12 @@ def draw():
     return (rng.choice(worlds), rng.choice(forms), rng.choice(twists), rng.choice(wildcards))
 
 N = int(os.environ.get("N", "180"))
+# A draw is unique on (world, form, twist); cap N at that space so an
+# over-large N (or a trimmed list) can't spin the dedup loop forever.
+unique_space = len(worlds) * len(forms) * len(twists)
+if N > unique_space:
+    print(f"[N={N} exceeds unique space {unique_space:,}; capping]", file=sys.stderr)
+    N = unique_space
 seen=set(); out=[]
 while len(out) < N:
     w,f,t,wc = draw()
@@ -113,6 +119,9 @@ print(text, end="")
 # Optional: write the raw pool to a file for the audit trail (--out PATH)
 if "--out" in sys.argv:
     path = sys.argv[sys.argv.index("--out") + 1]
+    parent = os.path.dirname(path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     with open(path, "w") as fh:
         fh.write(text)
     print(f"\n[wrote pool to {path}]")
