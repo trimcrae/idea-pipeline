@@ -1,7 +1,7 @@
 # RUNBOOK.md — How to Run the Pipeline
 
 ## A session, start to finish
-1. **Generate.** Run `entropy_engine_v2.py` for a fresh pool (default 180). Re-run with a different seed for more. Widen the `worlds` list in the script for more uncrowded reach — that axis has the most leverage.
+1. **Generate.** Run `python engine/entropy_engine.py` for a fresh pool (default 180). Re-run with a different seed for more. Widen the `worlds` list in the script for more uncrowded reach — that axis has the most leverage.
 2. **Dedupe + skim.** Drop anything already in `BACKLOG.md` (active or killed). Expect ~90% of draws to be noise — that's the funnel working.
 3. **Pre-screen + tag.** Run survivors through `RUBRIC.md`. Kill dealbreakers, cluster, tag. Do NOT rank by predicted success.
 4. **Human eyeball.** Operator reads the shortlist and picks 1–2 to probe. The model does not crown a winner.
