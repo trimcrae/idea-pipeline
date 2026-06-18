@@ -7,6 +7,7 @@ A phone-only idea pipeline. Exogenous randomness generates candidates, an LLM pr
 idea-pipeline/
 ├── CLAUDE.md            # doctrine, auto-loaded by Claude Code
 ├── STRATEGY.md          # central planning & strategy: phase, decisions, insight log
+├── DEVELOP.md           # idea-development playbook (variants, recombination, transposition)
 ├── TASK.md              # the prompt for one pipeline run
 ├── RUBRIC.md            # the screen (filter + tags)
 ├── RUNBOOK.md           # human session guide + reality-probe playbook

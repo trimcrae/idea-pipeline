@@ -43,6 +43,18 @@ def test_oversized_n_is_capped_not_hung():
     assert "capping" in p.stderr, "expected a cap notice on stderr"
 
 
+def test_combine_mode_collides_two_worlds():
+    # combine mode emits N deduped lines, each naming two distinct worlds.
+    out = run(["--mode", "combine"], env={"N": "30"}).stdout
+    assert "mode=combine" in out, "header should report combine mode"
+    lines = [l for l in out.splitlines() if l[:4].strip().rstrip(".").isdigit()]
+    assert len(lines) == 30, f"expected 30 lines, got {len(lines)}"
+    for l in lines:
+        assert " serving BOTH " in l and " AND " in l, f"not a two-world line: {l}"
+    # Dedup is on (pair, form, twist) — the text before the wildcard bracket.
+    assert len(set(l.split("[")[0] for l in lines)) == len(lines), "duplicate combine concepts"
+
+
 def test_out_creates_missing_dirs(tmp="/tmp/_ep_test_out/sub/pool.txt"):
     if os.path.exists(tmp):
         os.remove(tmp)

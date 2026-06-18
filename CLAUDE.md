@@ -6,7 +6,7 @@ Claude Code loads this file automatically. It governs every run.
 An idea pipeline for a solo builder working **only from a phone**, ~$0 budget, no audience, and **no cold outreach** (the operator will not cold-email, DM, call, or do 1:1 selling — see doctrine #7). The repo is the persistent memory; cloud sandboxes that run it are disposable. All state lives in `BACKLOG.md` and `pools/` and must be committed, because each cloud run starts from a clean environment.
 
 ## Doctrine (do not drift)
-1. **Generation is exogenous.** Ideas come from running `engine/entropy_engine.py` (true-RNG collisions), never from your own "creative" suggestions — those are the crowded consensus.
+1. **Generation is exogenous; development must stay anchored.** New ideas start from running `engine/entropy_engine.py` (true-RNG collisions), never from free-floating "what's a good startup" ideation — that lands on the crowded consensus the randomness exists to escape. You *may* develop draws at volume — recombine (`--mode combine`), vary, invert, transpose — but every developed idea must trace back to an **exogenous draw** or a **real, citable pain** (see `DEVELOP.md`). Anchored, not invented.
 2. **Pre-screen; never crown.** When evaluating a pool you may only kill dealbreakers, cluster, and tag against `RUBRIC.md`. You may NOT rank by predicted success or name a winner. An LLM judging ideas regresses to LLM-plausible, re-crowding what randomness un-crowded.
 3. **The market is the only judge.** You can red-team, role-play a buyer, draft a landing page — but you cannot simulate demand. Treat your own enthusiasm as zero evidence.
 4. **Never deploy. Never spray landing pages.** A run's output is an updated `BACKLOG.md` plus a raw pool in `pools/`. Building and probing are human-initiated, one idea at a time.
@@ -22,7 +22,8 @@ The operator works from a phone and wants finished work landed, not parked on br
 
 ## Files
 - `STRATEGY.md` — central planning & strategy: current phase, standing decisions, and the append-only insight log. Read it first; update its insight log when a run learns something about the *system* (not just an idea).
-- `engine/entropy_engine.py` — generator. `python engine/entropy_engine.py --out pools/<name>.txt --ledger pools/seen.tsv`
+- `engine/entropy_engine.py` — generator. `python engine/entropy_engine.py --out pools/<name>.txt --ledger pools/seen.tsv` (add `--mode combine` to collide two worlds).
+- `DEVELOP.md` — the idea-development playbook: how to turn draws + real pains into more candidates at volume without regressing to consensus.
 - `engine/status.py` — dashboard: space burn-down + backlog composition. `python engine/status.py`
 - `RUBRIC.md` — the screen. `BACKLOG.md` — living state. `RUNBOOK.md` — human session + probe playbook.
 - `probes/` — drafted probe assets (copy only; the operator ships them). `TASK.md` — the prompt to paste into a scheduled/manual cloud run.

@@ -15,17 +15,19 @@ the system (not just an idea), append it to the **Insight log**.
 
 ## Current phase
 
-**PROBE, not GENERATE.** (set 2026-06-18)
+**PROBE F-01 + build the inbound bench (DEVELOP).** (updated 2026-06-18)
 
-The generator works and the backlog is stocked. The bottleneck is that **zero
-ideas have been tested against a real person.** Generating more candidates now
-is hoarding — it grows the pile without reducing the only uncertainty that
-matters (does anyone pay?). The next real progress is one cheap probe, shipped
-by the operator, returning a real signal.
+Two things run in parallel now:
+1. **Probe** — the only real progress is testing an idea against real people.
+   F-01 is teed up (`probes/F-01-freight-fraud.md`), inbound, pass bar set.
+2. **Develop** — the operator wants a deep bench, and the inbound constraint
+   (D5) is brutal, so we must *consider* many ideas to find few that survive.
+   Generation is exogenous + anchored development (`DEVELOP.md`); the screen
+   stays tight. Volume is fine; padding the backlog with crowded consensus is
+   not.
 
-Exit condition for this phase: at least one idea has a logged probe result in
-`BACKLOG.md` → then re-assess (promote on signal, kill on silence, and only
-*then* consider topping up the backlog).
+Still true: a deep bench is worthless until one idea is probed. Don't let
+generation become an excuse to avoid the probe.
 
 ## The one metric that matters right now
 
@@ -62,6 +64,13 @@ failure mode, not progress.
   an enumerable niche now only counts if it is *also* inbound-reachable (the
   customers search for the problem, or gather somewhere you can post once).
   Four backlog ideas (D-01, A-01, B-01, DL-01) were killed under this rule.
+- **D6 — Development is allowed, anchored, and never crowns.** Beyond raw draws,
+  the model may recombine (`--mode combine`), vary, invert, and transpose to
+  generate more candidates — but every one must trace to an exogenous draw or a
+  real, citable pain (`DEVELOP.md`), never free-floating ideation. During an
+  explicit operator-requested generation/development push, the TASK.md
+  assumed-idea cap is lifted; quality is gated by the inbound screen, not a
+  count. Still no crowning, no demand simulation.
 
 ## Probe pass bar (set; do not move)
 
@@ -75,6 +84,21 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-18 — F-01's shape is rare: it has all three legs.** Ran a 450-draw
+  development pass (300 single + 150 `--mode combine`) and developed survivors
+  with `DEVELOP.md` techniques. Yield under the inbound screen was ~1% (4 kept:
+  L-01, FB-01, V-01, W-01). The transpositions taught the real lesson: F-01
+  works because it has **public data + a bleeding *business* payer + inbound
+  search** all at once. Most transpositions lose a leg — BEC/vendor-fraud checks
+  fail "public data" (bank ownership isn't public); rental/contractor/job-scam
+  checks fail "payer" (the searcher is a broke consumer). **Screen for all three
+  legs, not two.** Survivors clustered into two reusable engines: a
+  "regulated-compliance navigator" (public rules people search — L-01, FB-01,
+  N-01, P-01) and "pre-purchase verification" (V-01, W-01, F-01).
+- **2026-06-18 — Combine mode is high-variance spice, not the main generator.**
+  150 two-world collisions produced no standalone survivor this pass (the two
+  worlds rarely share a real pain). Keep it for the occasional cross-niche
+  spark; lean on single-mode + anchored development for yield.
 - **2026-06-18 — Cold outreach is a hard dealbreaker; it reshapes the screen.**
   The operator will not do cold outreach or 1:1 selling (see D5). This isn't a
   tweak — it kills a whole class of otherwise-sensible ideas: enumerable niches
