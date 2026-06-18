@@ -6,10 +6,12 @@ A phone-only idea pipeline. Exogenous randomness generates candidates, an LLM pr
 ```
 idea-pipeline/
 ├── CLAUDE.md            # doctrine, auto-loaded by Claude Code
+├── STRATEGY.md          # central planning & strategy: phase, decisions, insight log
 ├── TASK.md              # the prompt for one pipeline run
 ├── RUBRIC.md            # the screen (filter + tags)
 ├── RUNBOOK.md           # human session guide + reality-probe playbook
 ├── BACKLOG.md           # living ranked state (committed every run)
+├── probes/              # drafted probe assets (copy only; operator ships them)
 ├── engine/
 │   ├── entropy_engine.py
 │   ├── status.py                # dashboard: python engine/status.py (space burn-down + backlog mix)

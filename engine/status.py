@@ -112,4 +112,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BrokenPipeError:
+        # Reader closed early (e.g. `| head`); exit quietly like a good CLI.
+        try:
+            sys.stdout.close()
+        except Exception:
+            pass
