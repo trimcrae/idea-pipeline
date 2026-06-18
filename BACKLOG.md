@@ -79,6 +79,15 @@ Each entry: id · concept · shape · tags · demand · catch · next probe · s
 - Next probe (inbound): a one-brand "is this listing legit?" checker page + one post in a watch-buying community; measure sign-ups (≥10).
 - Status: `backlog`
 
+**IM-01 — Visa-bulletin / priority-date + processing-time tracker for immigration practitioners**
+- Shape: pain + public data (inbound). Tags: `demand:assumed crowd:med build:med reach:searchable maint:auto`
+- Developed from draw #103 (immigration paralegals + monitoring/alert, "matters seasonally") and the immigration-paralegal pairs in the combine pool; part of the regulated-compliance-navigator cluster (with N-01, P-01, L-01, FB-01).
+- Concept: track a firm's cases against the monthly State Dept visa bulletin + USCIS processing times → alert when a priority date becomes current or a window/filing opportunity opens. The thing practitioners check obsessively by hand each month.
+- Demand: assumed. Missing a date-becomes-current window delays a client's case by months and is a liability/relationship hit; the bulletin moves monthly and unpredictably. Public data (visa bulletin, USCIS processing-time pages), so `maint:auto`.
+- Catch: consumer-facing predictors exist (VisaJourney, etc.) → `crowd:med`; the wedge is the *practitioner caseload* view (alert me about *my* cases), not another public forum. Solo/small immigration firms are the payer.
+- Next probe (inbound): a free "is your priority date current?" + email-alert page targeting the search term, plus one post in an immigration-practitioner community; measure sign-ups (≥10).
+- Status: `backlog`
+
 ## Killed
 Move dead ideas here with a one-line reason so the engine's survivors aren't re-litigated.
 
