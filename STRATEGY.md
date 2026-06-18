@@ -84,6 +84,15 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-18 — Per-pass yield is ~1 survivor; volume must come from cadence,
+  not bigger single passes.** A second 340-draw pass (240 single + 100 combine)
+  produced exactly one new inbound survivor (IM-01, immigration visa-bulletin
+  tracker) — everything else was noise, overlapped existing entries, or failed
+  the inbound/payer legs. Combine again yielded no standalone survivor. Takeaway:
+  the inbound + three-leg screen is correctly brutal, so "keep generating" is
+  best served by a **scheduled Routine running many small passes over time**
+  (the ledger guarantees no repeats), not by cranking N higher in one sitting.
+  This is the validated prompt now in `TASK.md` → Recurring routine prompt.
 - **2026-06-18 — F-01's shape is rare: it has all three legs.** Ran a 450-draw
   development pass (300 single + 150 `--mode combine`) and developed survivors
   with `DEVELOP.md` techniques. Yield under the inbound screen was ~1% (4 kept:
