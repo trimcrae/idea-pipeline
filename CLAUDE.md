@@ -20,6 +20,8 @@ Blunt, brief, peer-level. No flattery. Never appeal to the operator's "expertise
 The operator works from a phone and wants finished work landed, not parked on branches. So: when a change is complete and verified, open a PR for it and merge it to `main` yourself — don't wait to be asked. Squash-merge. Only hold off if the change is ambiguous, risky, or you have an open question for the operator.
 
 ## Files
-- `engine/entropy_engine.py` — generator. `python engine/entropy_engine.py --out pools/<name>.txt`
+- `STRATEGY.md` — central planning & strategy: current phase, standing decisions, and the append-only insight log. Read it first; update its insight log when a run learns something about the *system* (not just an idea).
+- `engine/entropy_engine.py` — generator. `python engine/entropy_engine.py --out pools/<name>.txt --ledger pools/seen.tsv`
+- `engine/status.py` — dashboard: space burn-down + backlog composition. `python engine/status.py`
 - `RUBRIC.md` — the screen. `BACKLOG.md` — living state. `RUNBOOK.md` — human session + probe playbook.
-- `TASK.md` — the prompt to paste into a scheduled/manual cloud run.
+- `probes/` — drafted probe assets (copy only; the operator ships them). `TASK.md` — the prompt to paste into a scheduled/manual cloud run.
