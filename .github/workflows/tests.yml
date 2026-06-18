@@ -1,0 +1,22 @@
+name: tests
+
+# Runs the no-dependency smoke tests on every push and PR so the phone-only
+# operator can trust a green check before merging from mobile.
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Smoke tests
+        run: python engine/test_entropy_engine.py
+      - name: Engine sanity (deterministic seed)
+        run: python engine/entropy_engine.py 1 > /dev/null
+      - name: Status renders
+        run: python engine/status.py

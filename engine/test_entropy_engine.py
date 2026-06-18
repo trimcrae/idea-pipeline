@@ -8,13 +8,14 @@ import os, sys, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ENGINE = os.path.join(HERE, "entropy_engine.py")
+STATUS = os.path.join(HERE, "status.py")
 
 
-def run(args=None, env=None, expect_ok=True):
+def run(args=None, env=None, expect_ok=True, script=ENGINE):
     e = dict(os.environ)
     if env:
         e.update(env)
-    p = subprocess.run([sys.executable, ENGINE] + (args or []),
+    p = subprocess.run([sys.executable, script] + (args or []),
                        capture_output=True, text=True, env=e)
     if expect_ok:
         assert p.returncode == 0, f"non-zero exit: {p.returncode}\n{p.stderr}"
@@ -87,6 +88,26 @@ def test_ledger_caps_when_exhausted(led="/tmp/_ep_test_led2/seen.tsv"):
     assert p.returncode == 0, "exhausted-ledger run must still exit cleanly"
     os.remove(led)
     os.rmdir(d)
+
+
+def test_engine_is_import_safe():
+    # Importing the engine must NOT generate a pool (tooling relies on this).
+    p = subprocess.run(
+        [sys.executable, "-c",
+         f"import sys; sys.path.insert(0, {HERE!r}); "
+         "import entropy_engine as e; "
+         "assert e.unique_space() == len(e.worlds)*len(e.forms)*len(e.twists); "
+         "print('imported')"],
+        capture_output=True, text=True)
+    assert p.returncode == 0, f"import failed:\n{p.stderr}"
+    assert p.stdout.strip() == "imported", f"import emitted unexpected output:\n{p.stdout}"
+
+
+def test_status_runs():
+    # The status view must render against the repo's real ledger + backlog.
+    p = run(script=STATUS)
+    assert "Idea pipeline status" in p.stdout, f"unexpected status output:\n{p.stdout}"
+    assert "Combination space" in p.stdout
 
 
 if __name__ == "__main__":
