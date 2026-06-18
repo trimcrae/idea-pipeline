@@ -12,15 +12,17 @@ Repeat whenever the backlog runs thin. The point of the loop is to never face a 
 
 **Check the dashboard first.** `python engine/status.py` prints how much of the combination space the ledger has burned through and the backlog's composition (how many ideas are untested vs. `demand:proven`). If untested-and-unproven ideas are piling up, the bottleneck is *probing*, not generation — probe or prune before adding more. This is the signal to tighten the screen or widen the engine's `worlds` list, not to crank out another pool.
 
-**The meta-layer lives in `STRATEGY.md`.** `BACKLOG.md` is the ideas; `STRATEGY.md` is the state of the loop — current phase, standing decisions, and the insight log. Drafted probe assets (landing-page copy, cold-outreach templates) live in `probes/` as copy only; you ship them, the model doesn't.
+**The meta-layer lives in `STRATEGY.md`.** `BACKLOG.md` is the ideas; `STRATEGY.md` is the state of the loop — current phase, standing decisions, and the insight log. Drafted probe assets (landing-page copy, community-post copy, ad copy — all inbound) live in `probes/` as copy only; you ship them, the model doesn't.
 
-## Reality-probe playbook (cheap, fast, real)
-Pick the lightest probe that returns a real demand signal:
-- **Landing page** describing the thing as if it exists, with a single "notify me / sign up" button. Count sign-ups.
-- **Cold outreach** — 10–20 emails or DMs to named potential customers (best for enumerable niches like dive shops, abatement, small dispatch). Count replies that say "yes, I'd use/pay."
-- **Community post** — one honest post in the subreddit/forum/Discord where the niche gathers. Count clicks + "I want this."
-- **Tiny ad** (only if you have a few dollars) — point a small spend at the landing page; measure click-through.
-A probe "passes" only on real action (sign-up, reply, click) — never on compliments.
+## Reality-probe playbook (cheap, fast, real — inbound only)
+The operator does **no cold outreach** (CLAUDE.md #7). Every probe must pull the
+customer in, not chase them. Pick the lightest one:
+- **Landing page** describing the thing as if it exists, with a single "notify me / sign up" button. Count sign-ups. (The base of every probe.)
+- **One broadcast post** — a single honest post in the subreddit/forum/Discord where the niche already gathers, pointing at the page. Post once; don't run a sales thread. Count clicks + sign-ups.
+- **Intent search / SEO** — a free single-purpose tool or page targeting what the niche already googles; let it rank/get found. Best for `reach:searchable` ideas.
+- **Tiny ad** (a few dollars) — point a small spend at the landing page on the niche's search/interest terms; measure click-through + sign-ups.
+- **Not allowed:** cold emails, DMs, or calls to named prospects; any probe whose result depends on the operator working a 1:1 conversation.
+A probe "passes" only on real self-serve action (sign-up, pre-order, click-through) — never on compliments. **Bar: ≥10 self-serve sign-ups from one low-effort push** (see `STRATEGY.md` → Probe pass bar).
 
 ## Do not
 - Auto-deploy multiple products.
