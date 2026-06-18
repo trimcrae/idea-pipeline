@@ -6,6 +6,7 @@ Usage:
   python entropy_engine.py 12345           # reproduce a specific seed
   python entropy_engine.py --out pool.txt   # also write the pool to a file
   python entropy_engine.py --ledger pools/seen.tsv   # never re-draw a past combo
+  python entropy_engine.py --mode combine   # collide TWO worlds (cross-niche transfer)
   N=300 python entropy_engine.py            # override pool size via env var
 The randomness is from os.urandom (true system entropy), not the model.
 
@@ -134,9 +135,23 @@ def draw(rng):
     return (rng.choice(worlds), rng.choice(forms), rng.choice(twists), rng.choice(wildcards))
 
 
-def unique_space():
-    """Total distinct (world, form, twist) combinations the engine can emit."""
-    return len(worlds) * len(forms) * len(twists)
+def draw_combine(rng):
+    """Collide TWO different worlds — a cross-niche transfer ('a tool that serves
+    both X and Y'). Worlds are sorted so (X,Y) and (Y,X) are the same idea."""
+    a = rng.choice(worlds)
+    b = rng.choice(worlds)
+    while b == a:
+        b = rng.choice(worlds)
+    lo, hi = sorted((a, b))
+    return (lo, hi, rng.choice(forms), rng.choice(twists), rng.choice(wildcards))
+
+
+def unique_space(mode="single"):
+    """Distinct combinations the engine can emit in a given mode."""
+    W, F, T = len(worlds), len(forms), len(twists)
+    if mode == "combine":
+        return (W * (W - 1) // 2) * F * T   # unordered world pairs
+    return W * F * T
 
 
 def main():
@@ -145,10 +160,11 @@ def main():
     seed = int(seed_arg) if seed_arg else int.from_bytes(os.urandom(8), "big")
     rng = random.Random(seed)
 
+    mode = (_flag("--mode") or "single").lower()   # "single" (default) or "combine"
     N = int(os.environ.get("N", "180"))
-    # A draw is unique on (world, form, twist); cap N at the space still available
-    # so an over-large N (or a near-exhausted ledger) can't spin the loop forever.
-    space = unique_space()
+    # A draw is unique on its key; cap N at the space still available so an
+    # over-large N (or a near-exhausted ledger) can't spin the loop forever.
+    space = unique_space(mode)
     ledger_path = _flag("--ledger")
     seen = load_ledger(ledger_path)          # past-run keys to exclude (empty if no ledger)
     remaining = space - len(seen)
@@ -158,13 +174,20 @@ def main():
         N = max(remaining, 0)
     new_keys = []; out = []
     while len(out) < N:
-        w,f,t,wc = draw(rng)
-        key=(w,f,t)
+        if mode == "combine":
+            a,b,f,t,wc = draw_combine(rng)
+            key = (f"{a} + {b}", f, t)       # ledger col 1 holds the world pair
+            line_body = f"{f} serving BOTH {a} AND {b} — {t}.  [{wc}]"
+        else:
+            w,f,t,wc = draw(rng)
+            key = (w, f, t)
+            line_body = f"{f} for {w} — {t}.  [{wc}]"
         if key in seen: continue
-        seen.add(key); new_keys.append(key); out.append((w,f,t,wc))
+        seen.add(key); new_keys.append(key); out.append(line_body)
 
-    header = f"seed={seed}  worlds={len(worlds)} forms={len(forms)} twists={len(twists)}  space={space:,}\n"
-    lines = [f"{i:>3}. {f} for {w} — {t}.  [{wc}]" for i,(w,f,t,wc) in enumerate(out,1)]
+    header = (f"seed={seed}  mode={mode}  worlds={len(worlds)} forms={len(forms)} "
+              f"twists={len(twists)}  space={space:,}\n")
+    lines = [f"{i:>3}. {body}" for i, body in enumerate(out, 1)]
     text = header + "\n".join(lines) + "\n"
     print(text, end="")
 
