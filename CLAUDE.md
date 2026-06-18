@@ -3,7 +3,7 @@
 Claude Code loads this file automatically. It governs every run.
 
 ## What this repo is
-An idea pipeline for a solo builder working **only from a phone**, ~$0 budget, no audience. The repo is the persistent memory; cloud sandboxes that run it are disposable. All state lives in `BACKLOG.md` and `pools/` and must be committed, because each cloud run starts from a clean environment.
+An idea pipeline for a solo builder working **only from a phone**, ~$0 budget, no audience, and **no cold outreach** (the operator will not cold-email, DM, call, or do 1:1 selling — see doctrine #7). The repo is the persistent memory; cloud sandboxes that run it are disposable. All state lives in `BACKLOG.md` and `pools/` and must be committed, because each cloud run starts from a clean environment.
 
 ## Doctrine (do not drift)
 1. **Generation is exogenous.** Ideas come from running `engine/entropy_engine.py` (true-RNG collisions), never from your own "creative" suggestions — those are the crowded consensus.
@@ -11,7 +11,8 @@ An idea pipeline for a solo builder working **only from a phone**, ~$0 budget, n
 3. **The market is the only judge.** You can red-team, role-play a buyer, draft a landing page — but you cannot simulate demand. Treat your own enthusiasm as zero evidence.
 4. **Never deploy. Never spray landing pages.** A run's output is an updated `BACKLOG.md` plus a raw pool in `pools/`. Building and probing are human-initiated, one idea at a time.
 5. **Honesty over enthusiasm.** Tag honest `demand:assumed` unless you can cite real evidence. Name the catch on everything. The build is never the moat; demand and distribution are.
-6. **Bias toward two shapes:** (a) urgent expensive pain with public data; (b) enumerable niches where liability or money forces payment.
+6. **Bias toward two shapes:** (a) urgent expensive pain with public data; (b) enumerable niches where liability or money forces payment — **but only if the niche is also inbound-reachable** (they search for the pain or gather where you can post once). An enumerable niche reachable *only* by cold-emailing it one shop at a time is dead on distribution here (see #7).
+7. **No cold outreach; distribution must be inbound.** The operator does near-zero human interaction to acquire customers: no cold email/DM/calls, no sales conversations. Viable distribution is inbound/self-serve — search/SEO, a landing page, a paid ad, a marketplace, or a single broadcast post. An idea whose only customer-acquisition path is outreach is a dealbreaker, however good the build. Distribution is the binding constraint; screen for it as hard as for demand.
 
 ## Tone
 Blunt, brief, peer-level. No flattery. Never appeal to the operator's "expertise," "network," or "credibility" — assume none.

@@ -50,9 +50,40 @@ failure mode, not progress.
   evidence (doctrine #2, #3).
 - **D4 — Nothing is deployed from a run.** Probe assets are drafted into
   `probes/` as copy only; the operator ships them (doctrine #4).
+- **D5 — No cold outreach. Distribution must be inbound. (Hard dealbreaker.)**
+  The operator will not cold-email, DM, or call prospects, will not run sales
+  conversations, and will not do sustained 1:1 customer contact. This is a
+  constraint, not a preference. Viable distribution is **inbound / self-serve**:
+  search/SEO, a landing page, a paid ad, a marketplace listing, or at most a
+  single broadcast post the operator doesn't have to babysit. **Consequence:**
+  an idea whose only path to its customers is cold outreach is dead on
+  distribution, however good the concept — even if the niche is perfectly
+  enumerable. This guts the "reach them by hand" reading of doctrine shape (b):
+  an enumerable niche now only counts if it is *also* inbound-reachable (the
+  customers search for the problem, or gather somewhere you can post once).
+  Four backlog ideas (D-01, A-01, B-01, DL-01) were killed under this rule.
+
+## Probe pass bar (set; do not move)
+
+A probe passes **only** on real, self-serve action — never on compliments or
+replies-in-principle. Default bar (the model owns this; doctrine #3, operator
+delegated): **≥10 self-serve sign-ups or paid pre-orders from a single
+low-effort inbound traffic push** (one organic post, an SEO-able free tool, or a
+~$20 ad), within about a week. Below that = no signal → kill or reshape, log it,
+move on. Set per-idea bars in the `probes/` kit *before* shipping so enthusiasm
+can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-18 — Cold outreach is a hard dealbreaker; it reshapes the screen.**
+  The operator will not do cold outreach or 1:1 selling (see D5). This isn't a
+  tweak — it kills a whole class of otherwise-sensible ideas: enumerable niches
+  (dive shops, abatement, bondsmen, dental labs) whose only realistic route to
+  the buyer is emailing them one by one. Four backlog ideas died on this. The
+  surviving shape is **inbound-reachable**: the customer already searches for
+  the pain or gathers somewhere you can post once. Net: distribution, not
+  build, is the binding constraint, and the operator's distribution surface is
+  narrow (inbound only) — so screen for it hard.
 - **2026-06-18 — The bottleneck is probing, not generation.** With the ledger in
   place, idea supply is effectively infinite and free. The scarce, decision-
   relevant resource is *real demand signal*, which only the operator can get.
@@ -69,20 +100,14 @@ failure mode, not progress.
 
 ## Next actions (operator-owned)
 
-1. **Pick one idea to probe.** Default: **F-01** — the only `demand:proven`
-   idea, and already marked top candidate. A probe kit is drafted at
-   `probes/F-01-freight-fraud.md` (copy only — nothing is live). Swap targets
-   if you have a reason; the model isn't crowning F-01, the *evidence* is.
-2. **Ship the probe.** You, not the model: stand up the one-button page or send
-   the cold DMs in the kit. The model can revise copy; it can't press send.
-3. **Log the result** in `BACKLOG.md` → Probe log (date · id · probe · result ·
-   decision), and append any *system*-level insight here.
+1. **Ship the F-01 inbound probe.** F-01 is the only `demand:proven` idea and is
+   inbound-reachable (brokers/dispatchers search "check carrier fraud / MC
+   lookup"). Kit: `probes/F-01-freight-fraud.md` — a one-button landing page
+   plus one organic post or a tiny ad. No cold outreach, no replies to babysit.
+   Pass bar is set (≥10 self-serve sign-ups). The model can revise copy; you
+   press publish.
+2. **Log the result** in `BACKLOG.md` → Probe log, and append any *system*-level
+   insight here.
 
-## Open questions for the operator
-
-- Is F-01 the right first probe, or do you want to probe an enumerable/forced-
-  payment idea (D-01 dive shops, A-01 abatement) where the customer list is
-  cold-emailable even though demand is only assumed?
-- What's your real bar for "this probe passed"? Suggest: ≥3 cold replies saying
-  "yes, I'd pay," or ≥10 landing-page sign-ups. Set it *before* shipping so
-  enthusiasm can't move the goalposts.
+The two earlier open questions are resolved: probe target = F-01 (cold-outreach
+alternatives D-01/A-01 are killed under D5), and the pass bar is set above.
