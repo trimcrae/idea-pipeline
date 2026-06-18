@@ -72,6 +72,17 @@ failure mode, not progress.
   assumed-idea cap is lifted; quality is gated by the inbound screen, not a
   count. Still no crowning, no demand simulation.
 
+- **D7 — Model policy: cheapest that screens honestly.** There is no automatic
+  per-task model router in Claude Code; the model is chosen per Routine (and per
+  subagent). The nightly Routine runs on **Sonnet** by default — fully capable of
+  rubric-driven screening, ~3× cheaper than Opus, so the same quota buys more
+  runs. Drop to **Haiku** for max volume at the cost of screening quality; reserve
+  **Opus** for genuinely hard one-off judgment (a routine rarely needs it). This
+  is separate from the operator's interactive/daytime model, which stays full
+  power — set it on the Routine, not in committed `settings.json`, so daytime chat
+  isn't downgraded. Mechanical sub-steps (engine runs, git) can be pinned to
+  `haiku` via subagents; the screening judgment uses the Routine's model.
+
 ## Probe pass bar (set; do not move)
 
 A probe passes **only** on real, self-serve action — never on compliments or

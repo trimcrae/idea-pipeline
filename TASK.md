@@ -23,11 +23,22 @@ Hard limits: do not build anything, do not deploy anything, do not create landin
 
 ## Recurring routine prompt (paste into a Claude Code Routine)
 
-This is the prompt to paste into a **Claude Code Routine** (claude.ai/code/routines)
-with a daily/weekly **Schedule** trigger, so generation keeps moving while the
-operator is away. It runs unattended in the cloud; the ledger guarantees each run
-explores new ground. (A cron job inside the sandbox would NOT work — the container
-is ephemeral. Use a Routine.)
+This is the prompt to paste into a **Claude Code Routine** (claude.ai/code/routines),
+so generation keeps moving while the operator is away. When creating the Routine:
+
+- **Schedule trigger:** daily, **late evening / overnight in your local time** — keeps
+  daytime quota free for normal chat; the run uses leftover overnight usage. Pick a
+  non-:00 minute (runs stagger a few minutes).
+- **Model selector:** **Sonnet** — the cost/quality sweet spot for rubric screening
+  (~3× cheaper than Opus, so more runs per quota). Use **Haiku** if you want maximum
+  volume and accept rougher screening; use Opus only if you want top-quality judgment.
+  (Claude Code has no automatic per-task model router — the model is whatever you pick
+  here for the whole run. Within a run you can still pin mechanical helper subagents to
+  `haiku`; only the screen/develop judgment needs the routine's model.)
+
+It runs unattended in the cloud; the ledger guarantees each run explores new ground.
+(A cron job inside the sandbox would NOT work — the container is ephemeral. Use a
+Routine.)
 
 > Autonomous recurring development pass for this idea-pipeline repo. No human is
 > present. Follow `CLAUDE.md` doctrine exactly. Do ONE focused pass, then stop.
