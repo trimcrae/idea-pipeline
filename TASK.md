@@ -1,6 +1,6 @@
 # TASK.md — One pipeline run
 
-Paste this into a Claude Code on the web session (or set it as a scheduled remote routine) pointed at this repo.
+Paste this into a Claude Code on the web session pointed at this repo — or, to run it unattended on a schedule, paste the **Recurring routine prompt** at the bottom of this file into a Claude Code Routine (claude.ai/code/routines) with a Schedule trigger.
 
 ---
 
@@ -18,3 +18,47 @@ Run one pass of the idea pipeline. Follow `CLAUDE.md` doctrine strictly.
 In the PR summary (blunt, ≤5 sentences): list the new ids and one-liners, and flag if the backlog is filling with weak `demand:assumed` ideas — if so, say the screen should tighten or the engine's `worlds` list should widen.
 
 Hard limits: do not build anything, do not deploy anything, do not create landing pages in this run. Output is backlog + audit trail only.
+
+---
+
+## Recurring routine prompt (paste into a Claude Code Routine)
+
+This is the prompt to paste into a **Claude Code Routine** (claude.ai/code/routines)
+with a daily/weekly **Schedule** trigger, so generation keeps moving while the
+operator is away. It runs unattended in the cloud; the ledger guarantees each run
+explores new ground. (A cron job inside the sandbox would NOT work — the container
+is ephemeral. Use a Routine.)
+
+> Autonomous recurring development pass for this idea-pipeline repo. No human is
+> present. Follow `CLAUDE.md` doctrine exactly. Do ONE focused pass, then stop.
+>
+> 1. Read `CLAUDE.md`, `STRATEGY.md`, `DEVELOP.md`, `RUBRIC.md`, and `BACKLOG.md`
+>    (Active + Killed). Run `python engine/status.py`.
+> 2. This invocation IS an explicit generation/development push — the assumed-idea
+>    cap is lifted; the inbound screen is the only gate.
+> 3. Generate, both with the ledger, and commit the pool files + updated ledger:
+>    - `N=240 python engine/entropy_engine.py --out pools/pool_$(date +%Y%m%d_%H%M)_single.txt --ledger pools/seen.tsv`
+>    - `N=100 python engine/entropy_engine.py --mode combine --out pools/pool_$(date +%Y%m%d_%H%M)_combine.txt --ledger pools/seen.tsv`
+> 4. Develop survivors with `DEVELOP.md` techniques (recombine / vary / invert /
+>    transpose / pick-and-shovel / JTBD). Every candidate must trace to a draw or
+>    a real, citable pain — never free-float.
+> 5. Screen hard against `RUBRIC.md`: the inbound-distribution kill (doctrine #7)
+>    and the three-leg test (public data + a real payer + inbound search). Kill
+>    dealbreakers. Do not rank, do not crown.
+> 6. Append every genuine inbound survivor to `BACKLOG.md` Active (existing format;
+>    honest tags; named catch; an inbound probe). `demand:assumed` unless you can
+>    cite real evidence. **If the pass yields zero inbound survivors, append
+>    nothing and say so — a zero-survivor pass is a success, not a failure.**
+> 7. Append any system-level insight to `STRATEGY.md`'s Insight log; keep Current
+>    phase accurate.
+> 8. Run `python engine/test_entropy_engine.py` and `python engine/status.py` —
+>    both must succeed.
+> 9. Commit `BACKLOG.md`, the new `pools/` files, `pools/seen.tsv`, and
+>    `STRATEGY.md`. Open a PR titled `scheduled dev pass <date>: +N candidates`
+>    and, if tests pass and the diff is only backlog/pool/strategy/audit changes,
+>    squash-merge it to `main` yourself (per `CLAUDE.md` git workflow).
+> 10. Hard limits: never deploy, never create live landing pages, never cold
+>    outreach, never crown, never rewrite engine logic in this run. Output is
+>    backlog + audit trail only.
+>
+> Stop after one pass. The next run picks up where this one left off.
