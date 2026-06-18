@@ -10,6 +10,8 @@
 
 Repeat whenever the backlog runs thin. The point of the loop is to never face a blank page, not to mint winners automatically.
 
+**Check the dashboard first.** `python engine/status.py` prints how much of the combination space the ledger has burned through and the backlog's composition (how many ideas are untested vs. `demand:proven`). If untested-and-unproven ideas are piling up, the bottleneck is *probing*, not generation — probe or prune before adding more. This is the signal to tighten the screen or widen the engine's `worlds` list, not to crank out another pool.
+
 ## Reality-probe playbook (cheap, fast, real)
 Pick the lightest probe that returns a real demand signal:
 - **Landing page** describing the thing as if it exists, with a single "notify me / sign up" button. Count sign-ups.

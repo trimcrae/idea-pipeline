@@ -20,11 +20,6 @@ not bias generation toward LLM-plausible ideas.
 """
 import random, os, sys
 
-# First positional arg that is a plain integer is treated as the seed.
-_seed_arg = next((a for a in sys.argv[1:] if a.lstrip("-").isdigit() and not a.startswith("--")), None)
-seed = int(_seed_arg) if _seed_arg else int.from_bytes(os.urandom(8), "big")
-rng = random.Random(seed)
-
 
 def _flag(name):
     """Return the value following --name on the command line, or None."""
@@ -135,43 +130,59 @@ wildcards = ["tide tables","expiration dates","seating charts","weather fronts",
  "color codes","frequencies","auction lots","migration patterns","tax deadlines","VIN numbers",
  "batch numbers","license classes","grading rubrics","blackout dates","lot numbers","watermarks"]
 
-def draw():
+def draw(rng):
     return (rng.choice(worlds), rng.choice(forms), rng.choice(twists), rng.choice(wildcards))
 
-N = int(os.environ.get("N", "180"))
-# A draw is unique on (world, form, twist); cap N at the space still available
-# so an over-large N (or a near-exhausted ledger) can't spin the loop forever.
-unique_space = len(worlds) * len(forms) * len(twists)
-ledger_path = _flag("--ledger")
-seen = load_ledger(ledger_path)          # past-run keys to exclude (empty if no ledger)
-remaining = unique_space - len(seen)
-if N > remaining:
-    print(f"[N={N} exceeds remaining unique space {remaining:,} "
-          f"(ledger holds {len(seen):,}); capping]", file=sys.stderr)
-    N = max(remaining, 0)
-new_keys = []; out = []
-while len(out) < N:
-    w,f,t,wc = draw()
-    key=(w,f,t)
-    if key in seen: continue
-    seen.add(key); new_keys.append(key); out.append((w,f,t,wc))
 
-header = f"seed={seed}  worlds={len(worlds)} forms={len(forms)} twists={len(twists)}  space={len(worlds)*len(forms)*len(twists):,}\n"
-lines = [f"{i:>3}. {f} for {w} — {t}.  [{wc}]" for i,(w,f,t,wc) in enumerate(out,1)]
-text = header + "\n".join(lines) + "\n"
-print(text, end="")
+def unique_space():
+    """Total distinct (world, form, twist) combinations the engine can emit."""
+    return len(worlds) * len(forms) * len(twists)
 
-# Optional: write the raw pool to a file for the audit trail (--out PATH)
-out_path = _flag("--out")
-if out_path:
-    parent = os.path.dirname(out_path)
-    if parent:
-        os.makedirs(parent, exist_ok=True)
-    with open(out_path, "w") as fh:
-        fh.write(text)
-    print(f"\n[wrote pool to {out_path}]")
 
-# Record this run's new keys so future runs never re-surface them (--ledger PATH).
-if ledger_path:
-    append_ledger(ledger_path, new_keys)
-    print(f"[ledger {ledger_path}: +{len(new_keys)} keys, {len(seen)} total]")
+def main():
+    # First positional arg that is a plain integer is treated as the seed.
+    seed_arg = next((a for a in sys.argv[1:] if a.lstrip("-").isdigit() and not a.startswith("--")), None)
+    seed = int(seed_arg) if seed_arg else int.from_bytes(os.urandom(8), "big")
+    rng = random.Random(seed)
+
+    N = int(os.environ.get("N", "180"))
+    # A draw is unique on (world, form, twist); cap N at the space still available
+    # so an over-large N (or a near-exhausted ledger) can't spin the loop forever.
+    space = unique_space()
+    ledger_path = _flag("--ledger")
+    seen = load_ledger(ledger_path)          # past-run keys to exclude (empty if no ledger)
+    remaining = space - len(seen)
+    if N > remaining:
+        print(f"[N={N} exceeds remaining unique space {remaining:,} "
+              f"(ledger holds {len(seen):,}); capping]", file=sys.stderr)
+        N = max(remaining, 0)
+    new_keys = []; out = []
+    while len(out) < N:
+        w,f,t,wc = draw(rng)
+        key=(w,f,t)
+        if key in seen: continue
+        seen.add(key); new_keys.append(key); out.append((w,f,t,wc))
+
+    header = f"seed={seed}  worlds={len(worlds)} forms={len(forms)} twists={len(twists)}  space={space:,}\n"
+    lines = [f"{i:>3}. {f} for {w} — {t}.  [{wc}]" for i,(w,f,t,wc) in enumerate(out,1)]
+    text = header + "\n".join(lines) + "\n"
+    print(text, end="")
+
+    # Optional: write the raw pool to a file for the audit trail (--out PATH)
+    out_path = _flag("--out")
+    if out_path:
+        parent = os.path.dirname(out_path)
+        if parent:
+            os.makedirs(parent, exist_ok=True)
+        with open(out_path, "w") as fh:
+            fh.write(text)
+        print(f"\n[wrote pool to {out_path}]")
+
+    # Record this run's new keys so future runs never re-surface them (--ledger PATH).
+    if ledger_path:
+        append_ledger(ledger_path, new_keys)
+        print(f"[ledger {ledger_path}: +{len(new_keys)} keys, {len(seen)} total]")
+
+
+if __name__ == "__main__":
+    main()

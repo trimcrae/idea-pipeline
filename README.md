@@ -12,6 +12,7 @@ idea-pipeline/
 ├── BACKLOG.md           # living ranked state (committed every run)
 ├── engine/
 │   ├── entropy_engine.py
+│   ├── status.py                # dashboard: python engine/status.py (space burn-down + backlog mix)
 │   └── test_entropy_engine.py   # smoke tests (no deps): python engine/test_entropy_engine.py
 └── pools/               # raw generated pools (audit trail)
     └── seen.tsv         # ledger of every (world,form,twist) ever drawn — cross-run dedup
