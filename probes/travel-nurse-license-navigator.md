@@ -3,8 +3,8 @@
 **Status: DRAFT. Nothing here is live.** Model drafts; operator ships (D3/D4).
 **Inbound only — no cold outreach** (doctrine #7). See `BACKLOG.md` →
 `travel-nurse-license-navigator`. Cluster sibling of
-`trade-license-renewal-navigator` / `paralegal-filing-validator` /
-`cottage-food-permit-navigator` / `visa-bulletin-tracker` — same engine, different niche.
+`trade-license-renewal-navigator` / `cottage-food-permit-navigator` /
+`visa-bulletin-tracker` — same engine, different niche.
 
 ## What the probe tests
 One question: **will a travel nurse give an email for a tool that tells them
@@ -40,8 +40,9 @@ A travel-nurse subreddit/Facebook group that allows it.
 > pain and the board sites are a maze. Thinking about one tool: home state + target
 > state → exactly what you need and how long it takes. Not built yet. Want it? [page]
 
-## Asset C — tiny ad (optional)
-Target "[state] nursing license travel / nurse compact states" intent.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Paid ads are out (#9/D11). Publish the navigator as a free page ranking on
+"[state] nursing license travel / nurse compact states" intent — organic, zero spend.
 
 ## Honest note / catch
 Big but **diffuse** audience (Vivian etc. exist as job boards). The slice is the

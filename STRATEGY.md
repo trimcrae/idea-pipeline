@@ -167,6 +167,22 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-19 — Re-screened the whole bench against #8/#9; the older entries
+  were never filtered and the probe kits were stale.** New rules (#8 advice, #9
+  $0) were added *after* 10 of 12 candidates existed, so "12 that passed the $0
+  filter" was false — only the 2 newest were screened at creation. Re-screened all
+  12 and made it explicit: every entry now carries an `Advice line (#8)` + `$0 (#9)`
+  bullet. Verdict: **8 clean $0** (public-data tools), **3 free-but-fragile**
+  (`card-grading-gate`, `estate-lowball-gate`, `watch-authenticity-check` — clean
+  comp/reference source is paid, free path = scrape sold-listings, ToS-gray and
+  breakable), **1 at real risk** (`used-asset-title-check` — NMVTIS has no free
+  API; free path unproven, must be confirmed before any build). Also found the #9
+  rule had never reached the **probe kits**: 9 of them still had a paid-"tiny ad"
+  Asset C — converted every one to an SEO-able free-page ($0) stand-in, and
+  scrubbed stale `paralegal-filing-validator` cluster mentions (killed under #8).
+  Lesson: when a doctrine rule lands, sweep *all* artifacts (backlog + probes),
+  not just the doctrine files — a filter that isn't applied to existing state is
+  just a claim.
 - **2026-06-19 — 750-draw generation push: 2 survivors, both from worlds the
   steering had just added; the #8/#9 kills bit visibly.** Ran 300+300 single +
   150 combine. Net 2 inbound survivors — `fleet-compliance-tracker` (DOT/FMCSA

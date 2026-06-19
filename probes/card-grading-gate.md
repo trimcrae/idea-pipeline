@@ -35,8 +35,9 @@ Facebook group that allows it).
 > card + raw condition, get expected graded value minus fees/turnaround, and a
 > go/no-go. Not built yet, nothing to buy. Link if you'd want it: [page]
 
-## Asset C — tiny ad (optional)
-Point a few dollars at "should I grade [card]" / "PSA worth it" search intent.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Paid ads are out (#9/D11). Publish the calculator as a free page ranking on
+"should I grade [card]" / "PSA worth it" intent — organic search, zero spend.
 
 ## Honest note / catch
 Needs graded-sale comps (scraping is fragile and ToS-gray); Card Ladder etc.

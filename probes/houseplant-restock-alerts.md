@@ -34,8 +34,9 @@ group that allows it).
 > free alert: pick a cultivar, get pinged the second any of ~5 shops restocks it.
 > Not built yet. If you'd want it for [cultivar], drop your email: [page]
 
-## Asset C — tiny ad (optional)
-Low priority — community post is the natural inbound channel here.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Paid ads are out (#9/D11), and not needed — the community post is the natural $0
+inbound channel here; optionally publish the free alert page so it also ranks organically.
 
 ## Honest note / catch
 Scrapers break when shops change their pages — that's agent-absorbable upkeep,

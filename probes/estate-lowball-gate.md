@@ -50,13 +50,14 @@ selling.
 > describe/photograph the collection, get an independent value range from recent
 > sold prices before you accept anything. Not built yet. [page]
 
-## Asset C — tiny ad (recommended here)
-Purest test: target "how much is my [coin] collection worth / inherited [coin]
-collection value / estate [coin] appraisal" intent; measure click → sign-up.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Purest test, and it must be free (#9/D11): publish the value-range tool as a page
+ranking on "how much is my [coin] collection worth / inherited [coin] collection
+value / estate [coin] appraisal" intent — organic search, zero spend; measure visit → sign-up.
 
 ## Honest note / catch
 **One-time use per customer (low LTV)** — there's no retention, so it lives or
-dies on cheap searchable acquisition; that's exactly what the ad-driven probe
+dies on cheap searchable acquisition; that's exactly what the SEO probe
 tests. Valuation borders on judgment (`maint:manual`); keep v1 to one category
 with clean sold-comp data and ship a *range*, not a false-precision number.
 
