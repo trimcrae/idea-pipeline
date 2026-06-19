@@ -41,10 +41,12 @@ generation become an excuse to avoid the probe.
 
 Run `python engine/status.py`.
 
-Snapshot 2026-06-19: 10 active ideas (was 11; `paralegal-filing-validator`
-killed under D10), 9 of 10 **not** `demand:proven`, **0 probed**, probe-kit-ready.
-The number to move is **probed count**, not active count or kit count. Active/kit
-count going up while probed count stays at 0 is the failure mode, not progress.
+Snapshot 2026-06-19: 12 active ideas (added `fleet-compliance-tracker` and
+`str-rule-navigator` in the 750-draw generation push), 11 of 12 **not**
+`demand:proven`, **0 probed**, all probe-kit-ready. The number to move is
+**probed count**, not active count or kit count. Active/kit count going up while
+probed count stays at 0 is the failure mode, not progress — the bench is now deep
+enough that the only thing that matters is shipping one probe.
 
 ## Standing decisions
 
@@ -165,6 +167,23 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-19 — 750-draw generation push: 2 survivors, both from worlds the
+  steering had just added; the #8/#9 kills bit visibly.** Ran 300+300 single +
+  150 combine. Net 2 inbound survivors — `fleet-compliance-tracker` (DOT/FMCSA
+  deadlines for tiny fleets) and `str-rule-navigator` (STR-host permit/tax rules),
+  both the compliance-navigator engine, and both drawn from `DOT-regulated fleet
+  operators` / `short-term-rental hosts` — worlds *added* in the D12 steering
+  change hours earlier. Honest read: yield (~2/750) is comparable to past passes,
+  NOT a proven base-rate lift from one push — but the survivors landing squarely
+  in the newly-added groups is the mechanism working as intended. The new rules
+  did real filtering: killed survivor-shaped draws for professional advice (#8) —
+  horse/breeding-dog pre-purchase *health* checks (veterinary determination),
+  sales-tax-nexus and customs-classification tools (tax/customs advice, also
+  crowded), whisky-cask "is it legit" (financial advice). Most other
+  survivor-shaped draws *duplicated* existing bench (verification-engine draws →
+  `used-asset-title-check`; estate/food-truck → `estate-lowball-gate` /
+  `cottage-food-permit-navigator`) — a sign the bench is saturating, not that
+  generation failed. Combine mode again produced no standalone survivor.
 - **2026-06-19 — Added a $0 hard rule (D11) and steered the generator's substrate
   (D12) to offset it.** The operator will not spend money to set this up — no paid
   ads, data, SaaS, or hosting beyond free tiers. That kills the "~$20 ad" probe

@@ -97,6 +97,24 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Next probe (inbound): a single-category landing page — "Don't let the estate buyer lowball Grandpa's [coin] collection — get an independent value range" — driven by search intent; measure sign-ups/pre-orders (≥10). Probe kit: `probes/estate-lowball-gate.md`.
 - Status: `backlog`
 
+**Small-fleet / owner-operator DOT & FMCSA compliance-deadline tracker** · `fleet-compliance-tracker`
+- Shape: pain + public data (inbound). Tags: `demand:assumed crowd:med build:med reach:searchable maint:auto`
+- Developed from draws #17/#35/#149/#153 (DOT-regulated fleet operators × constraint-checker / regulation-deadline) and owner-operator-trucker draws; the `trade-license-renewal-navigator` compliance-navigator engine transposed to the trucking niche `freight-fraud-check` already reaches.
+- Concept: enter your DOT/MC number (+ drivers) → one calendar of the recurring federal/state deadlines a 1–5 truck operation must not miss: MCS-150 biennial update, UCR annual, IFTA quarterly, IRP, CDL medical-card expiry, drug-&-alcohol program dates, annual vehicle inspection — with a reminder before each. What a big fleet gets from a TMS and the one-truck operator tracks on a wall calendar.
+- Demand: assumed (strong logic). A missed MCS-150 deactivates your operating authority; a missed IFTA/UCR is a fine; lapses cost money and downtime. Operators search "MCS-150 due / DOT compliance deadlines / UCR renewal." Public data (FMCSA SAFER/L&I, IFTA/IRP, state), so `maint:auto`.
+- Catch: the FMCSA portal and TMS suites touch this (`crowd:med`), but the 1–5 truck owner-operator has no TMS and finds the portals confusing — wedge is a dead-simple single-purpose deadline calendar + reminders for the bottom of the market (same wedge + same inbound community as `freight-fraud-check`). Info-only: surfaces the published deadline + the .gov link, never "you are compliant" (#8). $0: all public data (#9).
+- Next probe (inbound, $0): a free "when is your MCS-150 / UCR / IFTA due?" checker page seeded on the search term + one post in an owner-operator/dispatch community; measure self-serve sign-ups (≥10). Probe kit: `probes/fleet-compliance-tracker.md`.
+- Status: `backlog`
+
+**Short-term-rental host local-rule, permit & lodging-tax-deadline navigator** · `str-rule-navigator`
+- Shape: pain + public data (inbound). Tags: `demand:assumed crowd:med build:med reach:searchable maint:manual`
+- Developed from short-term-rental-host draws (× boring-compliance / regulation-deadline twists); the compliance-navigator engine transposed to the Airbnb/STR-host niche.
+- Concept: pick your city/county → what the local STR law requires before and while you list: a permit or registration number, transient-occupancy/lodging-tax registration + filing cadence, primary-residence or night caps, zoning/HOA limits, and the renewal/tax deadlines. Plain-language over the city ordinance, one metro at a time.
+- Demand: assumed (strong inbound logic). Cities are cracking down — operating unpermitted risks fines/delisting; hosts have revenue and search "[city] short-term rental rules / permit / registration / lodging tax" constantly. Public data (municipal ordinances, tax pages).
+- Catch: hyper-local and changes (`maint:manual`), so v1 picks one metro; the platforms show only a generic line and compliance vendors (Granicus/Deckard) serve the *cities*, not hosts (`crowd:med`) — wedge is the host-side, plain-language, deadline-reminder view for one city first. Info-only: "here's the ordinance + link," never "you're legal to operate" (#8). Low-ish price point, SEO-fed; $0 public data (#9).
+- Next probe (inbound, $0): a free one-city "do you need an STR permit here?" checker page ranked on the search term + one post in an STR/Airbnb-host community; measure sign-ups (≥10). Probe kit: `probes/str-rule-navigator.md`.
+- Status: `backlog`
+
 ## Killed
 Move dead ideas here with a one-line reason so the engine's survivors aren't re-litigated.
 
