@@ -118,6 +118,13 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-19 — Squash-merge leaves stale local history; reset to `main` after
+  each merge.** Two PRs this session (#11, #12) hit phantom merge conflicts because
+  the dev branch retained the pre-squash commits already collapsed into `main`,
+  forcing rebase-onto-main gymnastics. Rule (now in CLAUDE.md "Git workflow"):
+  after every squash-merge, `git reset --hard origin/main` and force-push so the
+  next change starts clean. Also reaffirmed: always commit+push completed work
+  immediately, never park a diff, never ask permission to push (D8).
 - **2026-06-19 — The whole bench is now probe-ready; switched ideas from codes
   to names.** Drafted a probe kit for every active idea (was only
   `freight-fraud-check`), so the operator can ship any one without further prep —
