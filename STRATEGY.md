@@ -323,6 +323,14 @@ can't move the goalposts after.
   (#3/#5). A click is not a sale. Real demand still needs the email key and the
   ≥10-sign-up bar; don't promote an idea to `signal` on traffic alone.
 
+- **2026-06-19 — "Never spray landing pages" retired (operator call).** Doctrine
+  #4 no longer forbids deploying many probe pages at once. The whole active bench
+  now has a live $0 landing page (`engine/build_pages.py` generates them; hub at
+  the site root, per-idea pages at `/<handle>/`, counters in `PROBE-PAGES.md`).
+  This does **not** weaken #2/#3/#5: a wall of undistributed pages reads ~0 and a
+  view/click still isn't demand. The pages are a cheap standing net for organic/SEO
+  traffic; each still needs its one post or a search ranking to become a real test.
+
 ## Next actions (operator-owned)
 
 1. **Ship one inbound probe.** Natural first pick: `freight-fraud-check` — the
