@@ -72,29 +72,26 @@ One landing page that is also the email capture and the sign-up counter, plus on
 post. No code, no host, no spend, no account you have to pay for.
 
 ### Stack (all free-tier, no third-party account, no spend)
-- **The page is already built and in this repo: `docs/index.html`.** It's a real,
-  mobile-first landing page with the copy below, an email field, and a working
+- **The page is already built and in this repo: `index.html` (repo root).** It's a
+  real, mobile-first landing page with the copy below, an email field, and a working
   submit handler. You do not build it — it exists. It deploys on **GitHub Pages**
-  (free, no third-party account, served straight from `/docs` on `main`).
+  (free, no third-party account, served from `main` / root).
 - **Capture: Web3Forms** (no account — you just confirm one email to get a key).
   Submissions land in your inbox; counting emails = your pass-bar metric.
 - **Distribution: one organic post** in a community owner-operators/dispatchers
   already read. No DMs, no thread-working.
 
 ### Step 1 — make the page live (the irreducible toggles)
-Hosting is automated: `.github/workflows/deploy-pages.yml` self-enables Pages and
-serves `docs/index.html` — no manual Pages source toggle. But two hard walls remain
-that no in-repo automation can cross, because each needs a real-world identity:
+Hosting is live: the repo is **public** and **GitHub Pages is enabled (main / root)**,
+so `index.html` serves at `https://trimcrae.github.io/idea-pipeline/` and re-deploys
+on every push to `main`. Both of those were one-time Settings toggles only the
+operator could flip (no API/tool in the Claude Code scope reaches repo visibility or
+Pages enablement). One wall remains, same kind of thing — it needs a real inbox:
 
-1. **Repo must be public.** GitHub Pages is free only on a public repo (Pages on a
-   private repo needs a paid plan → breaks #9/D11). Flip it once: **Settings →
-   General → Change visibility → Public.** This is a Settings action; there is no
-   API/tool in the Claude Code scope to do it. The instant it flips, the workflow
-   makes the page live at `https://trimcrae.github.io/idea-pipeline/`. **Cost:**
-   this exposes the whole repo (BACKLOG.md, STRATEGY.md) to the open web.
+1. ~~Repo public~~ ✓ done. ~~Pages enabled~~ ✓ done (main / root).
 2. **Capture needs a key from an inbox.** The page posts sign-ups to **Web3Forms**,
    which needs a free access key tied to an email. Get one at https://web3forms.com
-   (enter an email → key arrives), then set `ACCESS_KEY` in `docs/index.html`.
+   (enter an email → key arrives), then set `ACCESS_KEY` in `index.html`.
    Without it the page is live and SEO-findable but counts visits, not emails — so
    the ≥10-**sign-up** bar can't be read; only interest can. A model has no inbox to
    create this key.
