@@ -76,8 +76,9 @@ post. No code, no host, no spend, no account you have to pay for.
   real, mobile-first landing page with the copy below, an email field, and a working
   submit handler. You do not build it — it exists. It deploys on **GitHub Pages**
   (free, no third-party account, served from `main` / root).
-- **Capture: Web3Forms** (no account — you just confirm one email to get a key).
-  Submissions land in your inbox; counting emails = your pass-bar metric.
+- **Measurement now: hits.sh counters** (no account) — pageviews + CTA clicks.
+  **Capture later: Web3Forms** (confirm one email to get a key) turns on real
+  email sign-ups, which is the actual pass-bar metric. See Step 1.
 - **Distribution: one organic post** in a community owner-operators/dispatchers
   already read. No DMs, no thread-working.
 
@@ -89,15 +90,29 @@ operator could flip (no API/tool in the Claude Code scope reaches repo visibilit
 Pages enablement). One wall remains, same kind of thing — it needs a real inbox:
 
 1. ~~Repo public~~ ✓ done. ~~Pages enabled~~ ✓ done (main / root).
-2. **Capture needs a key from an inbox.** The page posts sign-ups to **Web3Forms**,
-   which needs a free access key tied to an email. Get one at https://web3forms.com
-   (enter an email → key arrives), then set `ACCESS_KEY` in `index.html`.
-   Without it the page is live and SEO-findable but counts visits, not emails — so
-   the ≥10-**sign-up** bar can't be read; only interest can. A model has no inbox to
-   create this key.
+2. **Email capture is optional and OFF for now** (no inbox to make a key yet).
+   In this mode the page measures interest with two no-account counters instead,
+   and the email field is hidden so no real signups are collected and lost.
+   To switch on real email capture later: get a free key at https://web3forms.com
+   (enter an email → key arrives), paste it into `ACCESS_KEY` in `index.html`.
+   The page auto-upgrades — the email field reappears and starts capturing.
 
-Both are real-world-identity steps (own a repo's visibility; own an inbox). They
-are the floor — everything buildable in code is already done.
+Everything buildable in code is done; the page is live and counting now.
+
+### What's measured right now (visits + clicks, no account)
+The page pings **hits.sh** (free, no signup) on two keys. Read either total any
+time by opening its URL in a browser:
+- **Pageviews:** `https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg`
+- **CTA clicks** (button presses — the stronger intent signal):
+  `https://hits.sh/trimcrae.github.io/idea-pipeline/cta.svg`
+
+**Honest read:** a *view* is near-zero evidence (someone glanced). A *click* on
+"notify me" is weak-but-real intent. Neither is demand (doctrine #3/#5) — they
+tell you whether the post/SEO drove traffic and whether the pitch made anyone
+reach for the button. The actual demand test still needs the email key later: do
+clickers leave a real address? Until then, treat this as a **distribution test**:
+did the channel move anyone at all? If a post drives ~0 views, distribution
+failed before demand was ever tested.
 
 ### Step 2 — post once, ~3 min
 Pick **one** venue where the niche already gathers and that allows a "would you
@@ -115,10 +130,18 @@ Paste (put `https://trimcrae.github.io/idea-pipeline/` where `[page]` is):
 Post once. Don't work the thread (answer genuine questions if you feel like it,
 but it's not required — you're watching sign-ups, not running a conversation).
 
-### Step 3 — wait ~a week, read the number
-Open Tally → the response count. **≥10 sign-ups = pass** (build it next). **<10 =
-no signal** → kill or reshape, log it, move on. Don't move the bar; don't count
-"looks useful" comments. The number is the verdict.
+### Step 3 — wait ~a week, read the numbers
+Open the two hits.sh URLs above. Read them as a funnel:
+- **Views ≈ 0** → distribution failed (the post/SEO moved no one). Reshape the
+  channel, not the idea. No read on demand yet.
+- **Views climb but clicks ≈ 0** → traffic came, the pitch didn't land. Weak.
+- **A real click-through rate** (clicks/views) → enough intent to justify turning
+  on the email key and running the *real* demand test: do clickers leave an
+  address? **That** is where the old **≥10 sign-ups = pass** bar applies — not to
+  views or clicks. Don't promote on clicks alone; a click is not a sale.
+
+Don't move the bar; don't count "looks useful" comments. The numbers are the
+verdict, in that order: traffic → click → (later) email.
 
 ### If the post gets removed (ToS) before it gets traffic
 That's the SEO route's cue (Asset C): the page itself is the free tool, ranked on
@@ -129,5 +152,6 @@ test. Fall back to SEO only if every community blocks the question.
 ## After the probe
 
 Log it in `BACKLOG.md` → Probe log: `date · freight-fraud-check · <probe> · <result> ·
-<decision>`. Promote to `signal` only on real sign-ups (≥ the bar above). Add
+<decision>`. Record views + clicks as a **distribution** read; promote to `signal`
+only on real email sign-ups (≥ the bar above), never on views or clicks alone. Add
 any system insight to `STRATEGY.md`.

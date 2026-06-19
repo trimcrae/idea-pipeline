@@ -309,6 +309,19 @@ can't move the goalposts after.
 - **2026-06-18 — Generation had no cross-run memory (fixed).** Each stateless
   cloud run re-drew and re-screened the same combinations. Added the
   `pools/seen.tsv` ledger so the funnel never re-litigates dead noise.
+- **2026-06-19 — A live $0 probe has exactly three operator-only floors; the
+  rest is automatable.** Standing up `freight-fraud-check` as a real page proved
+  the model can build the page, host it (GitHub Pages, main/root), and measure
+  it (hits.sh no-account counters) entirely in-repo — but three steps need a
+  real-world identity no tool can fake: (a) repo **visibility** flip, (b) **Pages
+  enablement** (the Actions token can't create the Pages site —
+  `Resource not accessible by integration`), (c) an **inbox** for an email-capture
+  key. Plan probes around those three toggles; everything else is code.
+- **2026-06-19 — Views/clicks are a distribution test, not a demand test.** With
+  no inbox, the live probe measures pageviews + CTA clicks (hits.sh). That tells
+  you whether the channel moved anyone (necessary) — it does NOT measure demand
+  (#3/#5). A click is not a sale. Real demand still needs the email key and the
+  ≥10-sign-up bar; don't promote an idea to `signal` on traffic alone.
 
 ## Next actions (operator-owned)
 
