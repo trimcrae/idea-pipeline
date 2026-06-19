@@ -41,12 +41,12 @@ generation become an excuse to avoid the probe.
 
 Run `python engine/status.py`.
 
-Snapshot 2026-06-19: 12 active ideas (added `fleet-compliance-tracker` and
-`str-rule-navigator` in the 750-draw generation push), 11 of 12 **not**
-`demand:proven`, **0 probed**, all probe-kit-ready. The number to move is
-**probed count**, not active count or kit count. Active/kit count going up while
-probed count stays at 0 is the failure mode, not progress — the bench is now deep
-enough that the only thing that matters is shipping one probe.
+Snapshot 2026-06-19: 11 active ideas (12 after the generation push, then
+`used-asset-title-check` killed under #9 once its free-data path was researched),
+10 of 11 **not** `demand:proven`, **0 probed**, all probe-kit-ready. The number to
+move is **probed count**, not active count or kit count. Active/kit count going up
+while probed count stays at 0 is the failure mode, not progress — the bench is
+deep enough that the only thing that matters is shipping one probe.
 
 ## Standing decisions
 
@@ -167,6 +167,23 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-19 — Researched `used-asset-title-check`'s free-data path (the one #9
+  AT-RISK flag) and killed it; the $0 rule has a sharp, non-obvious edge.** The
+  finding: a thing can be "built on public data" and still fail #9 if the *useful*
+  layer is paid and the *free* layer is already a free self-serve tool. NMVTIS
+  (the comprehensive title/lien/theft data) has no free API — paid providers only
+  — so the differentiated product needs forbidden spend. The free pieces (NICB
+  VINCheck, USCG vessel search, SoS UCC search) are each already free direct-to-
+  consumer, so wrapping them has no willingness-to-pay and weak defensibility, and
+  the strongest one (NICB VINCheck) is rate-limited + ToS-bound so you can't even
+  automate it. Squeezed both ways → killed (revivable only if a free automatable
+  feed appears or $0 relaxes). **Generalized screen rule:** for any "verification
+  over public data" idea, ask *before* maturing it — (1) is the high-value data
+  free *and automatable*, or is the free part already a self-serve consumer tool?
+  If the payable value requires a paid feed, it's a #9 kill, not a build detail.
+  This would have caught it at screen time; fold it into the verification-engine
+  checklist. (Net: the "1 at risk" from the bench re-screen is now resolved by
+  removal; bench is 11, and every survivor is genuinely $0 or free-but-fragile.)
 - **2026-06-19 — Re-screened the whole bench against #8/#9; the older entries
   were never filtered and the probe kits were stale.** New rules (#8 advice, #9
   $0) were added *after* 10 of 12 candidates existed, so "12 that passed the $0
