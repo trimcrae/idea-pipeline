@@ -81,21 +81,26 @@ post. No code, no host, no spend, no account you have to pay for.
 - **Distribution: one organic post** in a community owner-operators/dispatchers
   already read. No DMs, no thread-working.
 
-### Step 1 — make the page live + capturing, ~2 min (the only setup that needs you)
-The model can't create accounts (email verification) or post under your identity,
-so two ~60-second human actions remain. Both are unavoidable, not optional polish:
+### Step 1 — make the page live (the irreducible toggles)
+Hosting is automated: `.github/workflows/deploy-pages.yml` self-enables Pages and
+serves `docs/index.html` — no manual Pages source toggle. But two hard walls remain
+that no in-repo automation can cross, because each needs a real-world identity:
 
-1. **Wire capture:** open https://web3forms.com on your phone → enter your email →
-   a free access key arrives in seconds. Open `docs/index.html`, find
-   `const ACCESS_KEY = "REPLACE_WITH_WEB3FORMS_KEY"`, paste the key between the
-   quotes, save. (Editable right in GitHub's mobile web editor — pencil icon.)
-2. **Turn on the page:** repo **Settings → Pages → Source: Deploy from a branch →
-   `main` / `/docs` → Save.** ~1 min later the page is live at
-   `https://trimcrae.github.io/idea-pipeline/`. That URL is what you post.
+1. **Repo must be public.** GitHub Pages is free only on a public repo (Pages on a
+   private repo needs a paid plan → breaks #9/D11). Flip it once: **Settings →
+   General → Change visibility → Public.** This is a Settings action; there is no
+   API/tool in the Claude Code scope to do it. The instant it flips, the workflow
+   makes the page live at `https://trimcrae.github.io/idea-pipeline/`. **Cost:**
+   this exposes the whole repo (BACKLOG.md, STRATEGY.md) to the open web.
+2. **Capture needs a key from an inbox.** The page posts sign-ups to **Web3Forms**,
+   which needs a free access key tied to an email. Get one at https://web3forms.com
+   (enter an email → key arrives), then set `ACCESS_KEY` in `docs/index.html`.
+   Without it the page is live and SEO-findable but counts visits, not emails — so
+   the ≥10-**sign-up** bar can't be read; only interest can. A model has no inbox to
+   create this key.
 
-(Prefer zero code-editing? A Tally.so / Google Form notify-me page is the
-account-based alternative — but it needs a full signup. The repo page needs only
-the one key paste, no account.)
+Both are real-world-identity steps (own a repo's visibility; own an inbox). They
+are the floor — everything buildable in code is already done.
 
 ### Step 2 — post once, ~3 min
 Pick **one** venue where the niche already gathers and that allows a "would you
