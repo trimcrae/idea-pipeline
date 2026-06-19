@@ -10,6 +10,7 @@ This is a **filter and tagger**, not a success predictor. Use it to triage a raw
 - Needs meaningful upfront capital or inventory.
 - Sits squarely on top of a funded incumbent with no price/simplicity wedge underneath.
 - Legally or ethically fraught, or requires licenses the operator lacks.
+- **Renders licensed-professional advice (legal / medical / financial / tax).** If the core value is an individualized determination the customer relies on — is my filing valid, am I compliant/cleared, what should I do legally, what's it worth so I take the deal — it's the unauthorized practice of a licensed profession and an existential liability (CLAUDE.md #8 / D10). Allowed **only** as an *information / navigation tool* over public rules/data/comps where the customer decides and verifies, disclaimer-forward. An idea that collapses without giving the reliance-grade determination is dead.
 
 ## The five tests (a survivor should pass most, strongly)
 1. **Demand signal** — proven willingness to pay, OR acute/expensive pain. Prefer evidence (real data, surveys, visible spend) over assumption. Tag: `demand:proven` / `demand:assumed`.
