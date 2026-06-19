@@ -91,14 +91,16 @@ stays at 0 is the failure mode, not progress.
   power — set it on the Routine, not in committed `settings.json`, so daytime chat
   isn't downgraded. Mechanical sub-steps (engine runs, git) can be pinned to
   `haiku` via subagents; the screening judgment uses the Routine's model.
-- **D8 — PRs are pre-authorized; land finished work without asking.** The
-  operator works from a phone and wants completed, verified changes merged, not
-  parked (CLAUDE.md "Git workflow"). Standing authorization (2026-06-19): when a
-  change is complete and verified, open a PR and **squash-merge it to `main`**
-  without waiting to be asked. Only hold off if the change is ambiguous, risky,
-  or has an open question for the operator — then ask via the question tool. This
-  overrides any default "don't open a PR unless explicitly asked" posture for
-  this repo.
+- **D8 — Always push; PRs are pre-authorized; never park a diff.** The operator
+  works from a phone and wants completed, verified changes committed, pushed, and
+  merged — never sitting as an unpushed local diff (CLAUDE.md "Git workflow").
+  Standing authorization (2026-06-19, reinforced same day): **commit and push the
+  moment work is complete and verified, without asking** — never end a turn with
+  completed work unpushed, and never ask "want me to push?". Then open a PR and
+  **squash-merge to `main`** yourself. Only hold off *merging* if the change is
+  ambiguous, risky, or has an open question — but push to the branch regardless;
+  the question is about merging, not pushing. Overrides any default "don't push /
+  don't open a PR unless asked" posture for this repo.
 - **D9 — Ideas get informative names, not codes.** Every idea is referenced by a
   readable kebab handle (e.g. `freight-fraud-check`, `estate-lowball-gate`), used
   identically in `BACKLOG.md`, the `probes/` filename, and the probe log. No
