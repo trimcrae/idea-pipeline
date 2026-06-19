@@ -8,8 +8,8 @@ One question: **will a collector who found this themselves give an email for a
 pre-submission "is grading worth it" calculator?** Not compliments — action.
 
 ## Pass bar (SET — do not move)
-**≥10 self-serve sign-ups** from one community post and/or a ~$20 ad, ~one week.
-Below that = no signal → kill or reshape, log, move on.
+**≥10 self-serve sign-ups** from one $0 community post or SEO-able free tool (no
+paid ads, D11), ~one week. Below that = no signal → kill or reshape, log, move on.
 
 ## Asset A — landing page (one "notify me" button; no product behind it)
 > **Headline:** Should you grade that card — or is the fee bigger than the bump?

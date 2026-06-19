@@ -18,6 +18,18 @@ eyeball — important because each cloud run starts from a clean VM, so the
 only memory is what's committed to the repo. Excluding past draws is pure
 de-duplication; the randomness is still exogenous (os.urandom), so this does
 not bias generation toward LLM-plausible ideas.
+
+STEERING vs. randomness (doctrine #1, STRATEGY D12). The only exogenous-random
+step is the COLLISION — which (world, form, twist) os.urandom happens to pick.
+The vocabularies below are NOT random: they are a curated, deliberately weighted
+*substrate*, tilted toward the structure that empirically survives the screen —
+a payer with money/liability + PUBLIC (free) data + INBOUND search (the three
+legs; see STRATEGY insight 2026-06-18). Tilting the urn raises the survivor
+base-rate without predicting which idea wins: the collision stays unpredictable,
+and the explicit WILDCARD tier keeps weird, low-base-rate worlds in play so draws
+remain non-obvious and anti-consensus. This is substrate hygiene like the
+ledger, NOT crowning. Curate by *structure* (who pays, is the data free, do they
+search) — never toward a specific idea or market consensus.
 """
 import random, os, sys
 
@@ -52,48 +64,75 @@ def append_ledger(path, keys):
         for w, f, t in keys:
             fh.write(f"{w}\t{f}\t{t}\n")
 
-# WORLDS — heavily expanded. Mix of: passionate-spend hobbies, small-business /
-# supply-side, regulatory/professional edges, life-event logistics. Money and
-# supply side over-weighted because that's where willingness-to-pay concentrates.
+# WORLDS — a curated, deliberately weighted substrate (NOT random; see the
+# docstring's "STEERING vs. randomness"). Tilted toward the two structures that
+# empirically survive the screen — regulated/licensed operators who search their
+# own compliance pain, and verification-before-an-expensive-buy markets — both of
+# which tend to have the three legs (money/liability payer + free public data +
+# inbound search). Pruned the worlds that only ever produced dead ideas under the
+# rules: cold-outreach-only enumerable niches (dive shops, abatement crews,
+# bondsmen, dental labs — all killed) and passion-without-money hobbies with no
+# payer and no public data. A WILDCARD tier is kept on purpose (group F).
 worlds = [
- # passionate hobbyist spend
- "competitive bird photography","small-batch cheesemaking","vintage synth collectors",
- "tabletop miniature painters","rare houseplant traders","reef-tank aquarists",
- "model railroad builders","amateur astronomers","bonsai growers","pinball restorers",
+ # --- A. regulated / licensed small operators: public rules, they SEARCH the
+ #     compliance pain, money/liability forces payment (the proven
+ #     "compliance-navigator" engine). Bias factual deadlines/permits/registration
+ #     over judgment — information, not advice (doctrine #8).
+ "long-haul truckers","owner-operator truckers","freight dispatchers",
+ "import/export small brokers","customs brokers","freight forwarders",
+ "DOT-regulated fleet operators","commercial drone pilots","private pilots",
+ "home inspectors","septic installers","well drillers","arborists",
+ "pest-control techs","locksmiths","commercial fishers","wildland firefighters",
+ "court reporters","freelance paralegals","immigration paralegals","medical billers",
+ "mobile notaries","loan-signing notaries","process servers","wedding officiants",
+ "funeral home directors","cemetery operators","veterinary practice managers",
+ "short-term-rental hosts","food-truck operators","cottage bakers","small distilleries",
+ "cidermakers","small commercial beekeepers","tax preparers / enrolled agents",
+ "licensed childcare / daycare operators","solar installers","EV-charger installers",
+ "general contractors pulling permits","HOA / community-association managers",
+ "self-storage facility owners","laundromat owners","car-wash owners",
+ "vending-machine operators","ATM route operators","sober-living home operators",
+ # --- B. pre-purchase / pre-transaction VERIFICATION of an expensive thing:
+ #     buyer pays per-check on a big spend, the data is public-ish, they SEARCH
+ #     "how do I not get burned" (the proven "verification" engine).
+ "used heavy-equipment buyers","used farm-equipment buyers","used-RV buyers",
+ "used-boat buyers","powersports / ATV buyers","classic-car buyers",
+ "used-camera-gear buyers","horse buyers","breeding-dog buyers","domain-name buyers",
+ "used-restaurant-equipment buyers","whisky cask investors","watch flippers",
+ "watch modders","sneaker resellers","trading-card graders","comic-book graders",
+ "vintage synth collectors","vintage-guitar flippers","luxury-handbag resellers",
+ "Lego set investors","coin roll hunters","estate executors",
+ "people selling a deceased relative's collection","estate-sale companies",
+ "scrap metal haulers","livestock auction buyers",
+ # --- C. moneyed / supplied hobbies: proven spend, reachable inbound in their
+ #     own communities; the SUPPLIERS are a payer when the hobbyist isn't.
+ "rare houseplant traders","reef-tank aquarists","carnivorous plant growers",
+ "mushroom cultivators","home roasters","homebrewers","kombucha brewers",
  "mechanical keyboard builders","fountain pen collectors","vinyl record diggers",
- "competitive jigsaw puzzlers","disc golfers","metal detectorists","drone racers",
- "saltwater fly fishers","ultralight backpackers","home roasters","mushroom cultivators",
- "historical reenactors","cosplay armor makers","tarot deck collectors","watch modders",
- "competitive memory athletes","speedcubers","escape-room designers","airsoft milsim teams",
- "homebrew brewers","kombucha brewers","aquascapers","carnivorous plant growers",
- # small business / supply side
+ "tabletop miniature painters","model railroad builders","amateur astronomers",
+ "bonsai growers","pinball restorers","drone racers","saltwater fly fishers",
+ "metal detectorists","tarot deck collectors","competitive bird photography",
+ "cosplay armor makers","historical reenactors",
+ # --- D. small supply-side trades & services: a business pays; many carry
+ #     liability / licensing / public-data hooks.
  "specialty coffee roasters","independent bookstore owners","mobile dog groomers",
- "food-truck operators","estate-sale companies","small-farm CSA operators",
- "indie tattoo studios","luthiers / instrument repair","antique clock restorers",
- "knife sharpeners","upholstery shops","picture framers","sign painters",
- "small commercial beekeepers","microgreens growers","cottage bakers","cidermakers",
- "small distilleries","pottery studios","letterpress printers","taxidermists",
- "boat detailers","pool-service operators","window cleaners","chimney sweeps",
- "junk-removal operators","mobile notaries","process servers","bail bondsmen",
- "self-storage facility owners","laundromat owners","vending-machine operators",
- "ATM route operators","car-wash owners","sober-living home operators",
- # regulatory / professional edges
- "long-haul truckers","commercial drone pilots","ham radio operators",
- "private pilots","scuba dive operators","commercial fishers","beekeeping inspectors",
- "home inspectors","septic installers","well drillers","asbestos abatement crews",
- "wildland firefighters","arborists","pest-control techs","locksmiths",
- "court reporters","freelance paralegals","medical billers","dental lab techs",
- "veterinary practice managers","funeral home directors","cemetery operators",
- "wedding officiants","immigration paralegals","patent illustrators","actuary students",
- # life-event / logistics / under-tooled
- "estate executors","caregivers for aging parents","NICU parents","hospice families",
- "people selling a deceased relative's collection","competitive youth sports parents",
- "RV full-timers","van-lifers","liveaboard sailors","off-grid homesteaders",
- "expat retirees","cross-border commuters","traveling nurses","oil-rig rotation workers",
- "competitive eaters","whisky cask investors","watch flippers","sneaker resellers",
- "Lego set investors","trading-card graders","coin roll hunters","scrap metal haulers",
- "freight dispatchers","owner-operator truckers","import/export small brokers",
- "Etsy sellers in one craft","Amazon FBA resellers","livestock auction buyers",
+ "small-farm CSA operators","indie tattoo studios","luthiers / instrument repair",
+ "antique clock restorers","knife sharpeners","upholstery shops","picture framers",
+ "sign painters","microgreens growers","pottery studios","letterpress printers",
+ "taxidermists","boat detailers","pool-service operators","window cleaners",
+ "chimney sweeps","junk-removal operators",
+ # --- E. life-event / under-tooled logistics: acute, searchable pain; the payer
+ #     leg is the weak one here — screen it hard.
+ "caregivers for aging parents","hospice families","NICU parents",
+ "competitive youth sports parents","RV full-timers","van-lifers","liveaboard sailors",
+ "off-grid homesteaders","expat retirees","cross-border commuters","traveling nurses",
+ "oil-rig rotation workers","Etsy sellers in one craft","Amazon FBA resellers",
+ # --- F. WILDCARD / long-shot: deliberately weird, low-base-rate worlds kept IN
+ #     the urn so collisions stay non-obvious and anti-consensus (doctrine #1).
+ #     Do NOT prune these for "looking unpromising" — that's exactly the point.
+ "ham radio operators","competitive memory athletes","speedcubers",
+ "escape-room designers","ultralight backpackers","aquascapers","disc golfers",
+ "airsoft milsim teams",
 ]
 
 forms = [

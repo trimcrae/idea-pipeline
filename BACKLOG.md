@@ -21,6 +21,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: assumed-strong. Grading costs real money + months; people guess. Proven adjacent spend ($20–150/card).
 - Concept: describe card + raw condition → expected graded value minus fees/turnaround → clear go/no-go.
 - Catch: needs graded-sale comps (scraping = fragile, ToS-gray); Card Ladder etc. exist. Defensible slice = the narrow pre-submission decision, not another price DB.
+- $0 risk (#9/D11): Card Ladder and the comp DBs are paid — v1's comp source must be free (e.g. public eBay sold listings), or it's dead on cost.
 - Advice line (#8/D10): an informational estimate from public comps (KBB-style), not financial/appraisal advice — show the comps + range and let the collector decide; never "submit this, it's worth $X."
 - Next probe: post the calculator concept in a card-collecting forum/subreddit; measure clicks + "I'd use this." Probe kit: `probes/card-grading-gate.md`.
 - Status: `backlog`
@@ -63,6 +64,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Concept: enter a VIN/HIN/serial → flag salvage/lien/theft/odometer issues before buying a used trailer, RV, boat, ATV, or piece of equipment. The check car buyers take for granted, for the asset classes that lack a Carfax.
 - Demand: proven-pattern. Pre-purchase history checks are a proven paid behavior for cars (Carfax et al.); the pain (buying a stolen/lien-encumbered $10k+ asset) and the search intent transfer. Buyer pays per-check on a big purchase.
 - Catch: data coverage is patchy by asset class and state (NMVTIS covers some; boats/equipment are fragmented) — `maint:manual`, and v1 must pick the asset class with the best public coverage. Cars are `crowd:high`; the wedge is the *non-car* assets nobody serves.
+- $0 risk (#9/D11): NMVTIS title/theft data is only sold per-query via approved providers — paid. v1 must pick an asset class with a *free* public path (e.g. free state stolen-property/lien lookups) or it's dead on cost. Resolve the free-data path before building, not after.
 - Next probe (inbound): a landing page for one asset class ("check a used [trailer] before you buy"), driven by search-intent ad/SEO; measure sign-ups or pre-orders (≥10). Probe kit: `probes/used-asset-title-check.md`.
 - Status: `backlog`
 

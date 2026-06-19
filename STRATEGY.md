@@ -64,8 +64,9 @@ count going up while probed count stays at 0 is the failure mode, not progress.
   The operator will not cold-email, DM, or call prospects, will not run sales
   conversations, and will not do sustained 1:1 customer contact. This is a
   constraint, not a preference. Viable distribution is **inbound / self-serve**:
-  search/SEO, a landing page, a paid ad, a marketplace listing, or at most a
-  single broadcast post the operator doesn't have to babysit. **Consequence:**
+  search/SEO, a free landing page, a marketplace listing, or at most a single
+  broadcast post the operator doesn't have to babysit. (Paid ads are out under
+  the $0 rule, D11.) **Consequence:**
   an idea whose only path to its customers is cold outreach is dead on
   distribution, however good the concept — even if the niche is perfectly
   enumerable. This guts the "reach them by hand" reading of doctrine shape (b):
@@ -123,19 +124,60 @@ count going up while probed count stays at 0 is the failure mode, not progress.
   (D5). Killed `paralegal-filing-validator` under this rule: a court-filing
   *validator* sold on malpractice exposure is reliance-grade legal advice by
   design — its value collapses without crossing the line.
+- **D11 — $0 to set up, probe, and run. No spend, ever. (Hard dealbreaker.)**
+  The operator will not pay money to stand this up — no paid ads, no paid
+  data/API access, no paid SaaS, no hosting beyond a free tier, no domain if
+  avoidable. Every probe and v1 runs on **free tiers + free public data only**.
+  **Consequences:** (a) probe traffic is organic (SEO-able free tool or one
+  community post), never a paid ad — this removes the "~$20 ad" option from the
+  probe bar and "paid ad" from D5's distribution list; (b) an idea whose v1
+  *requires* a paid data feed, paid scraping infra, or paid hosting with no free
+  path is dead on cost, even if customers would later pay (the operator can't
+  front setup). The operator accepts a higher kill rate and offsets it with
+  **more generation** (steering + cadence, D12), not money. Screen build-cost as
+  hard as demand and distribution.
+- **D12 — Generation steering is substrate hygiene, not crowning.** The only
+  exogenous-random step in `entropy_engine.py` is the *collision* (which world ×
+  form × twist `os.urandom` picks). The vocabularies are a curated, weighted
+  *substrate* — and we deliberately tilt them toward the structure that
+  empirically survives the screen: a money/liability payer + free public data +
+  inbound search (the three legs), i.e. the two proven engines (the
+  compliance-navigator and pre-purchase-verification clusters). Tilting the urn
+  raises the survivor base-rate **without predicting which idea wins** — the
+  collision stays unpredictable and a deliberate **WILDCARD tier** keeps weird,
+  low-base-rate worlds in play so draws remain non-obvious and anti-consensus
+  (doctrine #1). This is hygiene like the ledger (which prunes *seen* combos);
+  here we prune *structurally-dead* worlds (cold-outreach-only niches, passion-
+  without-money hobbies) and widen into survivor-structural-siblings. Curate by
+  *structure* (who pays, is the data free, do they search) — **never** toward a
+  specific idea or market consensus. Re-tunable: edit the `worlds` groups in the
+  engine, don't add a model-judgment step to the draw.
 
 ## Probe pass bar (set; do not move)
 
 A probe passes **only** on real, self-serve action — never on compliments or
 replies-in-principle. Default bar (the model owns this; doctrine #3, operator
 delegated): **≥10 self-serve sign-ups or paid pre-orders from a single
-low-effort inbound traffic push** (one organic post, an SEO-able free tool, or a
-~$20 ad), within about a week. Below that = no signal → kill or reshape, log it,
+low-effort, $0 inbound traffic push** (one organic post or an SEO-able free
+tool — **no paid ads**, D11), within about a week. Below that = no signal → kill or reshape, log it,
 move on. Set per-idea bars in the `probes/` kit *before* shipping so enthusiasm
 can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-19 — Added a $0 hard rule (D11) and steered the generator's substrate
+  (D12) to offset it.** The operator will not spend money to set this up — no paid
+  ads, data, SaaS, or hosting beyond free tiers. That kills the "~$20 ad" probe
+  option (probes go organic-only) and any idea whose v1 needs a paid feed/infra
+  with no free path; the operator accepts the higher kill rate and pays for it in
+  *generation*, not dollars. To raise the survivor base-rate without losing
+  randomness, recognized that the engine's randomness is only the *collision* —
+  the `worlds`/`forms`/`twists` lists are already a curated substrate — so we
+  tilted `worlds` toward the two empirically-surviving structures (regulated
+  compliance-navigators + pre-purchase verification), pruned the worlds that only
+  ever produced dead ideas (cold-outreach-only niches, passion-without-money
+  hobbies), and kept an explicit WILDCARD tier so draws stay anti-consensus.
+  Worlds 122 → 137; space 101,504 → 113,984. Substrate hygiene, not crowning.
 - **2026-06-19 — Squash-merge leaves stale local history; reset to `main` after
   each merge.** Two PRs this session (#11, #12) hit phantom merge conflicts because
   the dev branch retained the pre-squash commits already collapsed into `main`,

@@ -20,8 +20,8 @@ the idea good." Not compliments. Self-serve action only.
 
 ## Pass bar (SET — do not move)
 
-**≥10 self-serve sign-ups from one low-effort inbound push** (a single community
-post and/or a ~$20 ad), within about a week. Below that = no signal → kill or
+**≥10 self-serve sign-ups from one low-effort, $0 inbound push** (a single
+community post or an SEO-able free tool — no paid ads, D11), within about a week. Below that = no signal → kill or
 reshape freight-fraud-check, log it, move on. No replies-in-principle, no "looks useful" — only
 sign-ups count.
 
