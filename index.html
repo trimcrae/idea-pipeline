@@ -54,24 +54,54 @@
   <p class="foot">Early — no product yet. I'm testing whether small shops want this before building it. Surfaces public risk <em>signals</em> from FMCSA data; you decide. No spam, one notification.</p>
 </div>
 
+<!-- No-JS pageview fallback: an off-screen pixel that still pings the counter. -->
+<noscript><img src="https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg" alt="" width="1" height="1" style="position:absolute;left:-9999px;top:-9999px"></noscript>
+
 <script>
-  // ── THE ONE THING TO FILL IN ───────────────────────────────────────────────
-  // Get a free Web3Forms access key (no account, just confirm an email):
-  //   https://web3forms.com  → enter your email → key arrives in seconds.
-  // Paste it between the quotes below and that's it — the page is live + capturing.
+  // ── COUNTERS (no account, $0) ──────────────────────────────────────────────
+  // hits.sh counts each request to a badge URL. We ping two separate keys:
+  //   • view → every page load        • cta → every button press (intent)
+  // Read the running totals any time by opening these URLs in a browser:
+  //   https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg
+  //   https://hits.sh/trimcrae.github.io/idea-pipeline/cta.svg
+  const VIEW_PING = "https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg";
+  const CTA_PING  = "https://hits.sh/trimcrae.github.io/idea-pipeline/cta.svg";
+  function ping(url) { try { new Image().src = url + "?_=" + Date.now(); } catch (_) {} }
+  ping(VIEW_PING); // pageview
+
+  // ── EMAIL CAPTURE (optional — fill in later) ───────────────────────────────
+  // Until a key is set, the page measures interest by CTA clicks only and the
+  // email field is hidden (so no real signups are silently lost). Paste a free
+  // Web3Forms key (https://web3forms.com → confirm an email) to switch on real
+  // email capture automatically — no other change needed.
   const ACCESS_KEY = "REPLACE_WITH_WEB3FORMS_KEY";
+  const CAPTURE_ON = !ACCESS_KEY.startsWith('REPLACE');
   // ───────────────────────────────────────────────────────────────────────────
 
-  const form = document.getElementById('signup');
-  const msg = document.getElementById('msg');
+  const form  = document.getElementById('signup');
+  const msg   = document.getElementById('msg');
+  const email = form.querySelector('input[type=email]');
+  const button = form.querySelector('button');
+
+  // No key yet → clicks-only mode: drop the email field so nothing is collected
+  // and discarded, and keep the button as the intent signal.
+  if (!CAPTURE_ON) {
+    email.required = false;
+    email.style.display = 'none';
+  }
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    msg.className = 'msg'; msg.textContent = 'Sending…';
-    if (ACCESS_KEY.startsWith('REPLACE')) {
-      msg.className = 'msg err';
-      msg.textContent = 'Form not wired yet — set ACCESS_KEY in the page source.';
+    ping(CTA_PING); // intent click — counted in both modes
+
+    if (!CAPTURE_ON) {
+      button.disabled = true;
+      msg.className = 'msg ok';
+      msg.textContent = "Noted — you're early. There's no product yet; email signup is coming soon.";
       return;
     }
+
+    msg.className = 'msg'; msg.textContent = 'Sending…';
     const data = Object.fromEntries(new FormData(form));
     data.access_key = ACCESS_KEY;
     try {
