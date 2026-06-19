@@ -30,7 +30,7 @@ pain into a specific niche usually survives this; generic "AI tool for X" doesn'
    family around a promising draw. Anchor: the original draw.
 3. **Proven-pain transposition (highest value).** Take an idea with *real
    evidence* and move its structure to an adjacent market that shares the same
-   structural pain AND is inbound-reachable. Example anchor: F-01 (freight fraud
+   structural pain AND is inbound-reachable. Example anchor: `freight-fraud-check` (freight fraud
    is proven, data is public, victims *search* "how to check"). The pattern =
    "public-data verification/risk check before an expensive transaction the
    worried party googles." Transposes to other searched-for 'is this a scam /
