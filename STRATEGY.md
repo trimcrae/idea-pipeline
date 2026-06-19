@@ -41,10 +41,10 @@ generation become an excuse to avoid the probe.
 
 Run `python engine/status.py`.
 
-Snapshot 2026-06-19: 11 active ideas, 9 of 11 **not** `demand:proven`, **0
-probed**, 11 of 11 now probe-kit-ready. The number to move is **probed count**,
-not active count or kit count. Active/kit count going up while probed count
-stays at 0 is the failure mode, not progress.
+Snapshot 2026-06-19: 10 active ideas (was 11; `paralegal-filing-validator`
+killed under D10), 9 of 10 **not** `demand:proven`, **0 probed**, probe-kit-ready.
+The number to move is **probed count**, not active count or kit count. Active/kit
+count going up while probed count stays at 0 is the failure mode, not progress.
 
 ## Standing decisions
 
@@ -105,6 +105,24 @@ stays at 0 is the failure mode, not progress.
   readable kebab handle (e.g. `freight-fraud-check`, `estate-lowball-gate`), used
   identically in `BACKLOG.md`, the `probes/` filename, and the probe log. No
   opaque `X-01` codes — a glance at the handle should tell you what the idea is.
+- **D10 — No licensed-professional advice. Sell information, not a
+  determination. (Hard dealbreaker.)** The product surfaces public rules,
+  deadlines, data, and comps and lets the *customer* decide and verify; it must
+  never render an individualized **legal, medical, financial, or tax**
+  determination the customer relies on ("your filing is valid," "you're
+  compliant," "this is what you're allowed to do," "it's worth $X, take the
+  deal"). That is the unauthorized practice of a licensed profession and an
+  existential liability for a $0 solo operator — wrong advice someone relies on
+  is a lawsuit. **Consequence:** the regulated-compliance navigators
+  (`travel-nurse-license-navigator`, `trade-license-renewal-navigator`,
+  `cottage-food-permit-navigator`, `visa-bulletin-tracker`) and the valuation
+  gates (`estate-lowball-gate`, `card-grading-gate`) survive **only** as
+  information/navigation tools — present the published rule / deadline / comp +
+  the source, disclaimer-forward — never as a reliance-grade verdict. An idea
+  whose core value *is* the professional judgment is dead, like cold outreach
+  (D5). Killed `paralegal-filing-validator` under this rule: a court-filing
+  *validator* sold on malpractice exposure is reliance-grade legal advice by
+  design — its value collapses without crossing the line.
 
 ## Probe pass bar (set; do not move)
 
@@ -125,6 +143,19 @@ can't move the goalposts after.
   after every squash-merge, `git reset --hard origin/main` and force-push so the
   next change starts clean. Also reaffirmed: always commit+push completed work
   immediately, never park a diff, never ask permission to push (D8).
+- **2026-06-19 — Added a hard "no licensed-professional advice" rule; it's a
+  sibling of the cold-outreach dealbreaker (D10).** Over half the bench was
+  regulated-compliance / valuation, which sits on the unauthorized-practice line
+  (legal/medical/financial/tax). Codified that the product may only be an
+  *information/navigation tool* over public rules and comps — the customer
+  decides and verifies — never a reliance-grade determination it carries
+  liability for. The distinction that saves the cluster: presenting *published
+  bright-line rules, deadlines, and comps* (information) vs *certifying a
+  specific case/filing/value the customer acts on* (advice/UPL). The navigators
+  present rules; the one idea whose whole value was certifying a filing
+  (`paralegal-filing-validator`, pitched on malpractice exposure) couldn't comply
+  and was killed. Like D5, this is a *distribution/liability* constraint, not an
+  idea-quality one — screen for it at the same altitude.
 - **2026-06-19 — The whole bench is now probe-ready; switched ideas from codes
   to names.** Drafted a probe kit for every active idea (was only
   `freight-fraud-check`), so the operator can ship any one without further prep —

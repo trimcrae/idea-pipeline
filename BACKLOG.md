@@ -21,12 +21,14 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: assumed-strong. Grading costs real money + months; people guess. Proven adjacent spend ($20–150/card).
 - Concept: describe card + raw condition → expected graded value minus fees/turnaround → clear go/no-go.
 - Catch: needs graded-sale comps (scraping = fragile, ToS-gray); Card Ladder etc. exist. Defensible slice = the narrow pre-submission decision, not another price DB.
+- Advice line (#8/D10): an informational estimate from public comps (KBB-style), not financial/appraisal advice — show the comps + range and let the collector decide; never "submit this, it's worth $X."
 - Next probe: post the calculator concept in a card-collecting forum/subreddit; measure clicks + "I'd use this." Probe kit: `probes/card-grading-gate.md`.
 - Status: `backlog`
 
 **Travel-nurse multi-state license navigator** · `travel-nurse-license-navigator`
 - Shape: pain + public data. Tags: `demand:assumed crowd:med build:med reach:diffuse maint:auto`
 - Catch: big but diffuse audience (hard to reach with no audience); Vivian etc. exist. Slice = the license/compact-requirements navigator, not another job board. Distribution is the weak leg — the probe specifically tests whether one community post converts.
+- Advice line (#8/D10): present the published board requirements + links and let the nurse verify; never certify "you're licensed/cleared to practice in state X."
 - Next probe: thread in a travel-nurse community describing the license tool. Probe kit: `probes/travel-nurse-license-navigator.md`.
 - Status: `backlog`
 
@@ -36,20 +38,13 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Next probe: free alert for one cultivar across 5 shops; post in a plant community; measure sign-ups. Probe kit: `probes/houseplant-restock-alerts.md`.
 - Status: `backlog`
 
-**Per-jurisdiction court-filing rules validator for freelance paralegals** · `paralegal-filing-validator`
-- Shape: pain + public data (one region first). Tags: `demand:assumed crowd:med build:med reach:searchable maint:manual`
-- Demand: assumed. A rejected filing or missed format/service rule costs a refile and can blow a deadline (malpractice exposure for the attorney). Paralegals currently keep private checklists.
-- Concept: pick a filing type + court → checklist/validator of format, service, and deadline rules for that one jurisdiction, kept current.
-- Catch: rules vary by court and change, so staying current is real upkeep (maint:manual); start with one region. Audience is searchable but not tightly enumerable.
-- Next probe: post the one-jurisdiction validator concept in a paralegal community/subreddit; count clicks + "I'd use this." Probe kit: `probes/paralegal-filing-validator.md`.
-- Status: `backlog`
-
 **Regulated-trade license/CE renewal + requirement navigator (pest-control first)** · `trade-license-renewal-navigator`
 - Shape: pain + public data (inbound). Tags: `demand:assumed crowd:med build:med reach:searchable maint:manual`
-- Developed from draws #183 (pest-control + regulation deadline) and #190 (home-inspector deadline reminder); part of the "regulated-license navigator" cluster with `travel-nurse-license-navigator` and `paralegal-filing-validator` — same buildable engine, different niche.
+- Developed from draws #183 (pest-control + regulation deadline) and #190 (home-inspector deadline reminder); part of the "regulated-license navigator" cluster with `travel-nurse-license-navigator` — same buildable engine, different niche.
 - Concept: pick a trade + state → the renewal deadline, CE hours required, and the specific rules (e.g. which pesticide labels/uses are legal here), kept current. The thing the tech currently digs out of a state .gov PDF.
 - Demand: assumed. License = livelihood; lapse/violation = fine or lost income. They actively search "[state] [trade] license renewal CE requirements" — inbound, no outreach needed.
 - Catch: rules change and are per-state (real upkeep, `maint:manual`); some state boards publish this already (`crowd:med`) — wedge is aggregation + plain-language + reminders across states, one trade at a time.
+- Advice line (#8/D10): aggregate the published deadlines/CE hours/rules + source links and let the licensee verify; never certify "you're compliant / legally allowed to do X." Deadlines and CE counts are facts; legality of a specific practice is not the product's call.
 - Next probe (inbound): a free single-state CE/renewal checker page for one trade, seeded to rank on the search term + one post in a trade forum; measure self-serve sign-ups (≥10). Probe kit: `probes/trade-license-renewal-navigator.md`.
 - Status: `backlog`
 
@@ -59,6 +54,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Concept: pick state (+ county) and product → what's allowed under cottage-food/mobile-vendor law, the permit/inspection steps, and the limits (revenue caps, labeling). Plain-language over the health-dept rulebook.
 - Demand: assumed. Selling without compliance = shutdown/fines; the laws are notoriously confusing and state-specific, and new sellers search them constantly.
 - Catch: laws change and vary by county (`maint:manual`); blogs/Facebook groups cover this loosely (`crowd:med`) — wedge is a current, structured, per-state answer instead of scattered threads. Tiny-business payer = low price point.
+- Advice line (#8/D10): summarize what the published statute says + link it and point to the health dept; never issue a reliance-grade "yes, you're legally allowed to sell this." The wording is "here's the rule," not "you're cleared."
 - Next probe (inbound): a free one-state "can I sell this / what permit" checker, ranked on the search term + one post in a cottage-food community; measure sign-ups (≥10). Probe kit: `probes/cottage-food-permit-navigator.md`.
 - Status: `backlog`
 
@@ -81,10 +77,11 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 
 **Visa-bulletin / priority-date + processing-time tracker for immigration practitioners** · `visa-bulletin-tracker`
 - Shape: pain + public data (inbound). Tags: `demand:assumed crowd:med build:med reach:searchable maint:auto`
-- Developed from draw #103 (immigration paralegals + monitoring/alert, "matters seasonally") and the immigration-paralegal pairs in the combine pool; part of the regulated-compliance-navigator cluster (with `travel-nurse-license-navigator`, `paralegal-filing-validator`, `trade-license-renewal-navigator`, `cottage-food-permit-navigator`).
+- Developed from draw #103 (immigration paralegals + monitoring/alert, "matters seasonally") and the immigration-paralegal pairs in the combine pool; part of the regulated-compliance-navigator cluster (with `travel-nurse-license-navigator`, `trade-license-renewal-navigator`, `cottage-food-permit-navigator`).
 - Concept: track a firm's cases against the monthly State Dept visa bulletin + USCIS processing times → alert when a priority date becomes current or a window/filing opportunity opens. The thing practitioners check obsessively by hand each month.
 - Demand: assumed. Missing a date-becomes-current window delays a client's case by months and is a liability/relationship hit; the bulletin moves monthly and unpredictably. Public data (visa bulletin, USCIS processing-time pages), so `maint:auto`.
 - Catch: consumer-facing predictors exist (VisaJourney, etc.) → `crowd:med`; the wedge is the *practitioner caseload* view (alert me about *my* cases), not another public forum. Solo/small immigration firms are the payer.
+- Advice line (#8/D10): clean fit — this is monitoring/alerting over public data (the bulletin moved, your date is current), not legal advice. Keep it factual ("X happened"); the practitioner makes the legal call. Don't drift into "file now" recommendations.
 - Next probe (inbound): a free "is your priority date current?" + email-alert page targeting the search term, plus one post in an immigration-practitioner community; measure sign-ups (≥10). Probe kit: `probes/visa-bulletin-tracker.md`.
 - Status: `backlog`
 
@@ -94,6 +91,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Concept: heir/executor enters or photographs a collection (coins, stamps, records, tools, jewelry) → gets a defensible independent value *range* from recent sold-comps before accepting an estate-buyer's or auctioneer's offer. A "should I take this offer" gate, not a formal appraisal.
 - Demand: assumed, but strong inbound logic — people actively search "how much is my late parent's [X] collection worth" and "how to value estate contents for probate"; probate often *requires* a valuation (money forces it); the market is trust-poor (heirs fear the estate-sale company is lowballing — that distrust is the wedge, since the incumbent is the party they don't trust).
 - Catch: one-time use per customer (low LTV — must be cheap/SEO-fed, no retention), valuation borders on judgment (`maint:manual`), and v1 must pick the *one* category with the cleanest public sold-comp data (likely coins or records) rather than "any collection."
+- Advice line (#8/D10): show the sold-comps and a range from them (the evidence), explicitly not a formal appraisal or financial advice — the heir decides whether to take the offer. The "borders on judgment" catch is exactly the line to not cross: surface comps, don't certify a number.
 - Next probe (inbound): a single-category landing page — "Don't let the estate buyer lowball Grandpa's [coin] collection — get an independent value range" — driven by search intent; measure sign-ups/pre-orders (≥10). Probe kit: `probes/estate-lowball-gate.md`.
 - Status: `backlog`
 
@@ -107,6 +105,8 @@ Move dead ideas here with a one-line reason so the engine's survivors aren't re-
 **Bond-deadline/forfeiture validator for bail bondsmen** · `bail-bond-deadline-validator` — killed 2026-06-18: bondsmen won't find this inbound; only route is cold outreach. Also county-by-county data upkeep. Dealbreaker under #7.
 
 **FDA recall watcher for dental labs** · `dental-lab-recall-watcher` — killed 2026-06-18: weakest demand of the set and reachable only by cold-emailing labs; no inbound search/community pull. Dealbreaker under #7.
+
+**Per-jurisdiction court-filing rules validator for freelance paralegals** · `paralegal-filing-validator` — killed 2026-06-19: a filing *validator* sold on malpractice/refile exposure is a reliance-grade legal determination by design — its whole value is the customer acting on "your filing is valid." That's the unauthorized practice of law and an existential liability; it collapses if reduced to a non-reliance checklist. Dealbreaker under #8 / D10. Revive only as a pure public-rules reference no one is told to rely on (and then the edge is gone).
 
 ## Probe log
 (date · idea handle · probe · result · decision)
