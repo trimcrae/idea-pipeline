@@ -1,16 +1,16 @@
-# Probe kit — F-01: Carrier fraud-risk checker for small freight brokers/dispatchers
+# Probe kit — freight-fraud-check: Carrier fraud-risk checker for small freight brokers/dispatchers
 
 **Status: DRAFT. Nothing here is live.** This is the test asset the model
 drafts; the operator ships it (doctrine #4, STRATEGY.md D3/D4). **Inbound only —
 no cold outreach** (doctrine #7). Do not deploy until you've set the pass bar
 (it's set below) and decided to run it.
 
-Why F-01 first: it's the only `demand:proven` idea in the backlog (freight
+Why freight-fraud-check first: it's the only `demand:proven` idea in the backlog (freight
 fraud up ~1,500% since 2021; survey respondents losing >$200k in six months;
 vetting is manual today) **and** it's inbound-reachable — brokers and
 dispatchers actively search "check carrier fraud," "MC number lookup,"
 "double brokering" — so you can be found instead of chasing anyone. See
-`BACKLOG.md` → F-01.
+`BACKLOG.md` → freight-fraud-check.
 
 ## What the probe is testing
 
@@ -22,7 +22,7 @@ the idea good." Not compliments. Self-serve action only.
 
 **≥10 self-serve sign-ups from one low-effort inbound push** (a single community
 post and/or a ~$20 ad), within about a week. Below that = no signal → kill or
-reshape F-01, log it, move on. No replies-in-principle, no "looks useful" — only
+reshape freight-fraud-check, log it, move on. No replies-in-principle, no "looks useful" — only
 sign-ups count.
 
 ## Asset A — landing page (single "notify me" button; no product behind it)
@@ -66,6 +66,6 @@ test: zero human interaction, pay only for intent.
 
 ## After the probe
 
-Log it in `BACKLOG.md` → Probe log: `date · F-01 · <probe> · <result> ·
+Log it in `BACKLOG.md` → Probe log: `date · freight-fraud-check · <probe> · <result> ·
 <decision>`. Promote to `signal` only on real sign-ups (≥ the bar above). Add
 any system insight to `STRATEGY.md`.

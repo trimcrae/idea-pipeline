@@ -11,15 +11,23 @@ meta-layer above `BACKLOG.md`:
 Read this at the start of every run. When a run surfaces something true about
 the system (not just an idea), append it to the **Insight log**.
 
+Ideas are referenced by an informative **handle** (kebab-case, e.g.
+`freight-fraud-check`), not an opaque code. The handle is the stable key shared
+by `BACKLOG.md`, the probe kit filename, and the probe log.
+
 ---
 
 ## Current phase
 
-**PROBE F-01 + build the inbound bench (DEVELOP).** (updated 2026-06-18)
+**PROBE + the bench is probe-ready (DEVELOP).** (updated 2026-06-19)
 
 Two things run in parallel now:
 1. **Probe** — the only real progress is testing an idea against real people.
-   F-01 is teed up (`probes/F-01-freight-fraud.md`), inbound, pass bar set.
+   `freight-fraud-check` is the natural first probe (the only `demand:proven`
+   entry), kit at `probes/freight-fraud-check.md`, inbound, pass bar set. As of
+   2026-06-19 **every** active idea has a drafted probe kit in `probes/`, so the
+   operator can pick any one and ship in minutes — maturity is no longer the
+   blocker; choosing-and-shipping is.
 2. **Develop** — the operator wants a deep bench, and the inbound constraint
    (D5) is brutal, so we must *consider* many ideas to find few that survive.
    Generation is exogenous + anchored development (`DEVELOP.md`); the screen
@@ -33,10 +41,10 @@ generation become an excuse to avoid the probe.
 
 Run `python engine/status.py`.
 
-Snapshot 2026-06-18: 101,504-combo space, 0.18% burned · 9 active ideas, 8 of 9
-**not** `demand:proven`, **0 probed**. The number to move is **probed count**,
-not active count. Active count going up while probed count stays at 0 is the
-failure mode, not progress.
+Snapshot 2026-06-19: 11 active ideas, 9 of 11 **not** `demand:proven`, **0
+probed**, 11 of 11 now probe-kit-ready. The number to move is **probed count**,
+not active count or kit count. Active/kit count going up while probed count
+stays at 0 is the failure mode, not progress.
 
 ## Standing decisions
 
@@ -63,7 +71,9 @@ failure mode, not progress.
   enumerable. This guts the "reach them by hand" reading of doctrine shape (b):
   an enumerable niche now only counts if it is *also* inbound-reachable (the
   customers search for the problem, or gather somewhere you can post once).
-  Four backlog ideas (D-01, A-01, B-01, DL-01) were killed under this rule.
+  Four backlog ideas (`dive-cylinder-expiry-tracker`, `abatement-notice-watcher`,
+  `bail-bond-deadline-validator`, `dental-lab-recall-watcher`) were killed under
+  this rule.
 - **D6 — Development is allowed, anchored, and never crowns.** Beyond raw draws,
   the model may recombine (`--mode combine`), vary, invert, and transpose to
   generate more candidates — but every one must trace to an exogenous draw or a
@@ -71,7 +81,6 @@ failure mode, not progress.
   explicit operator-requested generation/development push, the TASK.md
   assumed-idea cap is lifted; quality is gated by the inbound screen, not a
   count. Still no crowning, no demand simulation.
-
 - **D7 — Model policy: cheapest that screens honestly.** There is no automatic
   per-task model router in Claude Code; the model is chosen per Routine (and per
   subagent). The nightly Routine runs on **Sonnet** by default — fully capable of
@@ -82,6 +91,18 @@ failure mode, not progress.
   power — set it on the Routine, not in committed `settings.json`, so daytime chat
   isn't downgraded. Mechanical sub-steps (engine runs, git) can be pinned to
   `haiku` via subagents; the screening judgment uses the Routine's model.
+- **D8 — PRs are pre-authorized; land finished work without asking.** The
+  operator works from a phone and wants completed, verified changes merged, not
+  parked (CLAUDE.md "Git workflow"). Standing authorization (2026-06-19): when a
+  change is complete and verified, open a PR and **squash-merge it to `main`**
+  without waiting to be asked. Only hold off if the change is ambiguous, risky,
+  or has an open question for the operator — then ask via the question tool. This
+  overrides any default "don't open a PR unless explicitly asked" posture for
+  this repo.
+- **D9 — Ideas get informative names, not codes.** Every idea is referenced by a
+  readable kebab handle (e.g. `freight-fraud-check`, `estate-lowball-gate`), used
+  identically in `BACKLOG.md`, the `probes/` filename, and the probe log. No
+  opaque `X-01` codes — a glance at the handle should tell you what the idea is.
 
 ## Probe pass bar (set; do not move)
 
@@ -95,26 +116,39 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-06-19 — The whole bench is now probe-ready; switched ideas from codes
+  to names.** Drafted a probe kit for every active idea (was only
+  `freight-fraud-check`), so the operator can ship any one without further prep —
+  this is the most maturity the pipeline can reach *without the operator picking
+  an idea to build* (D3 bars the model from picking). Also retired the opaque
+  `X-01` codes for informative handles (D9): the codes carried no information and
+  made the backlog harder to scan from a phone. Net: maturity is no longer the
+  bottleneck; the single operator decision of *which* probe to ship is.
 - **2026-06-18 — Per-pass yield is ~1 survivor; volume must come from cadence,
   not bigger single passes.** A second 340-draw pass (240 single + 100 combine)
-  produced exactly one new inbound survivor (IM-01, immigration visa-bulletin
-  tracker) — everything else was noise, overlapped existing entries, or failed
-  the inbound/payer legs. Combine again yielded no standalone survivor. Takeaway:
-  the inbound + three-leg screen is correctly brutal, so "keep generating" is
-  best served by a **scheduled Routine running many small passes over time**
-  (the ledger guarantees no repeats), not by cranking N higher in one sitting.
-  This is the validated prompt now in `TASK.md` → Recurring routine prompt.
-- **2026-06-18 — F-01's shape is rare: it has all three legs.** Ran a 450-draw
-  development pass (300 single + 150 `--mode combine`) and developed survivors
-  with `DEVELOP.md` techniques. Yield under the inbound screen was ~1% (4 kept:
-  L-01, FB-01, V-01, W-01). The transpositions taught the real lesson: F-01
-  works because it has **public data + a bleeding *business* payer + inbound
-  search** all at once. Most transpositions lose a leg — BEC/vendor-fraud checks
-  fail "public data" (bank ownership isn't public); rental/contractor/job-scam
-  checks fail "payer" (the searcher is a broke consumer). **Screen for all three
-  legs, not two.** Survivors clustered into two reusable engines: a
-  "regulated-compliance navigator" (public rules people search — L-01, FB-01,
-  N-01, P-01) and "pre-purchase verification" (V-01, W-01, F-01).
+  produced exactly one new inbound survivor (`visa-bulletin-tracker`) — everything
+  else was noise, overlapped existing entries, or failed the inbound/payer legs.
+  Combine again yielded no standalone survivor. Takeaway: the inbound + three-leg
+  screen is correctly brutal, so "keep generating" is best served by a
+  **scheduled Routine running many small passes over time** (the ledger guarantees
+  no repeats), not by cranking N higher in one sitting. This is the validated
+  prompt now in `TASK.md` → Recurring routine prompt. (Confirmed again 2026-06-19:
+  a 360-draw pass yielded exactly one survivor, `estate-lowball-gate`.)
+- **2026-06-18 — `freight-fraud-check`'s shape is rare: it has all three legs.**
+  Ran a 450-draw development pass (300 single + 150 `--mode combine`) and
+  developed survivors with `DEVELOP.md` techniques. Yield under the inbound screen
+  was ~1% (4 kept: `trade-license-renewal-navigator`, `cottage-food-permit-navigator`,
+  `used-asset-title-check`, `watch-authenticity-check`). The transpositions taught
+  the real lesson: it works because it has **public data + a bleeding *business*
+  payer + inbound search** all at once. Most transpositions lose a leg —
+  BEC/vendor-fraud checks fail "public data" (bank ownership isn't public);
+  rental/contractor/job-scam checks fail "payer" (the searcher is a broke
+  consumer). **Screen for all three legs, not two.** Survivors clustered into two
+  reusable engines: a "regulated-compliance navigator" (public rules people
+  search — `trade-license-renewal-navigator`, `cottage-food-permit-navigator`,
+  `travel-nurse-license-navigator`, `paralegal-filing-validator`, `visa-bulletin-tracker`)
+  and "pre-purchase verification" (`used-asset-title-check`, `watch-authenticity-check`,
+  `freight-fraud-check`, and the seller-side mirror `estate-lowball-gate`).
 - **2026-06-18 — Combine mode is high-variance spice, not the main generator.**
   150 two-world collisions produced no standalone survivor this pass (the two
   worlds rarely share a real pain). Keep it for the occasional cross-niche
@@ -132,8 +166,8 @@ can't move the goalposts after.
   place, idea supply is effectively infinite and free. The scarce, decision-
   relevant resource is *real demand signal*, which only the operator can get.
   The whole system should be tuned to push toward one probe, not more pools.
-- **2026-06-18 — The backlog regresses toward `demand:assumed`.** 8 of 9 active
-  ideas are unproven; only F-01 (freight fraud) cites real evidence. This is
+- **2026-06-18 — The backlog regresses toward `demand:assumed`.** Only
+  `freight-fraud-check` cites real evidence; the rest are unproven. This is
   expected — the screen forbids the model from inventing demand — but it means
   the backlog's value is concentrated in the few evidence-backed entries. Treat
   proven-demand ideas as the default probe targets; treat assumed ones as raw
@@ -144,14 +178,16 @@ can't move the goalposts after.
 
 ## Next actions (operator-owned)
 
-1. **Ship the F-01 inbound probe.** F-01 is the only `demand:proven` idea and is
-   inbound-reachable (brokers/dispatchers search "check carrier fraud / MC
-   lookup"). Kit: `probes/F-01-freight-fraud.md` — a one-button landing page
-   plus one organic post or a tiny ad. No cold outreach, no replies to babysit.
-   Pass bar is set (≥10 self-serve sign-ups). The model can revise copy; you
-   press publish.
+1. **Ship one inbound probe.** Natural first pick: `freight-fraud-check` — the
+   only `demand:proven` idea and inbound-reachable (brokers/dispatchers search
+   "check carrier fraud / MC lookup"). Kit: `probes/freight-fraud-check.md`. But
+   every active idea now has a ready kit in `probes/`, so you can ship whichever
+   you want to learn from first. No cold outreach, no replies to babysit; pass
+   bar is set (≥10 self-serve sign-ups). The model can revise copy; you press
+   publish.
 2. **Log the result** in `BACKLOG.md` → Probe log, and append any *system*-level
    insight here.
 
-The two earlier open questions are resolved: probe target = F-01 (cold-outreach
-alternatives D-01/A-01 are killed under D5), and the pass bar is set above.
+The earlier open questions are resolved: probe target leans `freight-fraud-check`
+(cold-outreach-only alternatives are killed under D5), the pass bar is set above,
+and the whole bench is probe-ready.
