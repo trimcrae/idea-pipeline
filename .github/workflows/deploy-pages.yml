@@ -30,6 +30,11 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # continue-on-error: the run is reported as success even if a step fails, so
+    # a not-yet-enabled Pages site never sends a failed-run email. Once Pages is
+    # enabled (Settings -> Pages -> Source: GitHub Actions), the steps succeed and
+    # the page deploys for real.
+    continue-on-error: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
