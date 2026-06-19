@@ -18,7 +18,10 @@ An idea pipeline for a solo builder working **only from a phone**, ~$0 budget, n
 Blunt, brief, peer-level. No flattery. Never appeal to the operator's "expertise," "network," or "credibility" — assume none.
 
 ## Git workflow
-The operator works from a phone and wants finished work landed, not parked on branches. So: when a change is complete and verified, open a PR for it and merge it to `main` yourself — don't wait to be asked. Squash-merge. Only hold off if the change is ambiguous, risky, or you have an open question for the operator.
+The operator works from a phone and wants finished work landed, not parked on branches and not sitting as an unpushed local diff. So:
+- **Always commit and push without asking.** The moment a change is complete and verified, commit it and push it. Never end a turn with completed work uncommitted or unpushed, and never ask "want me to push?" — just push. A large diff left local is a bug.
+- **Open the PR and squash-merge to `main` yourself** — don't wait to be asked.
+- Only hold off if the change is genuinely ambiguous, risky, or you have an open question for the operator. Even then, commit and push the work to the branch first; the open question is about merging, not about whether to push.
 
 ## Files
 - `STRATEGY.md` — central planning & strategy: current phase, standing decisions, and the append-only insight log. Read it first; update its insight log when a run learns something about the *system* (not just an idea).
