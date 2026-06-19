@@ -71,28 +71,31 @@ Everything above is the *what*. This is the *do it now from your phone* version.
 One landing page that is also the email capture and the sign-up counter, plus one
 post. No code, no host, no spend, no account you have to pay for.
 
-### Stack (all free-tier, phone-buildable, no spend)
-- **Page + capture + counter: Tally.so free plan.** Unlimited forms, unlimited
-  responses, build and edit from a phone browser, gives you a hosted page URL
-  (`tally.so/r/...`). The response count *is* your pass-bar metric — no analytics
-  to wire up. Sign up free, no card.
-- **Fallback if Tally annoys you: Google Forms.** Rock-solid $0, phone-native,
-  responses land in a Google Sheet. Less landing-page-like, but it works.
+### Stack (all free-tier, no third-party account, no spend)
+- **The page is already built and in this repo: `docs/index.html`.** It's a real,
+  mobile-first landing page with the copy below, an email field, and a working
+  submit handler. You do not build it — it exists. It deploys on **GitHub Pages**
+  (free, no third-party account, served straight from `/docs` on `main`).
+- **Capture: Web3Forms** (no account — you just confirm one email to get a key).
+  Submissions land in your inbox; counting emails = your pass-bar metric.
 - **Distribution: one organic post** in a community owner-operators/dispatchers
   already read. No DMs, no thread-working.
 
-### Step 1 — build the page (Tally), ~5 min
-New form → make it a single page. Paste these blocks in order:
+### Step 1 — make the page live + capturing, ~2 min (the only setup that needs you)
+The model can't create accounts (email verification) or post under your identity,
+so two ~60-second human actions remain. Both are unavoidable, not optional polish:
 
-- **Title:** `Check a carrier for fraud before you book the load.`
-- **Text block (sub):** `Paste an MC number or a broker email, get an instant risk flag — authority age, lapsed insurance, lookalike-domain clones, and one-phone-across-many-authorities clustering. Built for one-truck operators and small dispatch shops, not enterprise brokerages.`
-- **Text block (the one thing):** `The 30-second check you do today by hand across SAFER, a phone call, and a gut feeling — in one click.`
-- **Email field** (required), label: `Email — get notified when it's live`
-- **Submit button label:** `Notify me`
-- **Thank-you message:** `You're on the list. Early — no product yet. I'm checking if small shops want this before building it.`
-- **Honest footer (text block at bottom):** `Early. No product yet — testing whether small shops want this before building it.`
+1. **Wire capture:** open https://web3forms.com on your phone → enter your email →
+   a free access key arrives in seconds. Open `docs/index.html`, find
+   `const ACCESS_KEY = "REPLACE_WITH_WEB3FORMS_KEY"`, paste the key between the
+   quotes, save. (Editable right in GitHub's mobile web editor — pencil icon.)
+2. **Turn on the page:** repo **Settings → Pages → Source: Deploy from a branch →
+   `main` / `/docs` → Save.** ~1 min later the page is live at
+   `https://trimcrae.github.io/idea-pipeline/`. That URL is what you post.
 
-Publish → copy the page URL.
+(Prefer zero code-editing? A Tally.so / Google Form notify-me page is the
+account-based alternative — but it needs a full signup. The repo page needs only
+the one key paste, no account.)
 
 ### Step 2 — post once, ~3 min
 Pick **one** venue where the niche already gathers and that allows a "would you
@@ -101,7 +104,7 @@ not a link-drop, to stay inside ToS):
 - Reddit: `r/freightbrokers`, `r/Truckers`, `r/dispatcher`, `r/owneroperators`
 - or a dispatch / owner-operator Facebook group that permits it.
 
-Paste (put the Tally URL where `[page]` is):
+Paste (put `https://trimcrae.github.io/idea-pipeline/` where `[page]` is):
 
 > **Title:** A one-click "is this carrier/broker a fraud risk?" check — would you use it?
 >
