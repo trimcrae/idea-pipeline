@@ -13,7 +13,9 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: PROVEN. Freight fraud up ~1,500% since 2021; a 2025 survey had 22% of respondents losing >$200k to fraud in six months; ~85% report direct double-brokering losses. Vetting is currently manual (Carrier411 + phone calls). Data is public (FMCSA SAFER/QCMobile).
 - Concept: paste an MC number or broker email → instant risk flag (authority age, lapsed insurance, lookalike-domain clone, one-phone-to-many-authorities clustering).
 - Catch: NOT greenfield at the top — Highway, Carrier411, Truckstop serve bigger brokerages. Wedge = the bottom of the market (one-truck operators, tiny dispatch shops) on price + one-click simplicity.
-- Next probe (inbound only): one-button landing page for the check, driven by a single organic post in an owner-operator/dispatch community and/or a tiny ad on "carrier vetting / MC lookup" intent. Measure self-serve sign-ups (bar: ≥10). No cold outreach. Probe kit: `probes/freight-fraud-check.md`.
+- Advice line (#8): outside professional advice — surfaces public risk *signals* (authority age, insurance lapse, lookalike domains), not a verdict that a carrier "is fraudulent"; the user decides.
+- $0 (#9): clean — FMCSA SAFER/QCMobile is a free public API.
+- Next probe (inbound only): one-button landing page for the check, driven by a single organic post in an owner-operator/dispatch community plus an SEO-able free check page on "carrier vetting / MC lookup" intent (no paid ads, #9). Measure self-serve sign-ups (bar: ≥10). No cold outreach. Probe kit: `probes/freight-fraud-check.md`.
 - Status: `backlog` (top candidate — only `demand:proven` entry)
 
 **Card-grading "is it worth it?" gate** · `card-grading-gate`
@@ -30,12 +32,15 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Shape: pain + public data. Tags: `demand:assumed crowd:med build:med reach:diffuse maint:auto`
 - Catch: big but diffuse audience (hard to reach with no audience); Vivian etc. exist. Slice = the license/compact-requirements navigator, not another job board. Distribution is the weak leg — the probe specifically tests whether one community post converts.
 - Advice line (#8/D10): present the published board requirements + links and let the nurse verify; never certify "you're licensed/cleared to practice in state X."
+- $0 (#9): clean — state nursing boards / NURSYS / compact data are public.
 - Next probe: thread in a travel-nurse community describing the license tool. Probe kit: `probes/travel-nurse-license-navigator.md`.
 - Status: `backlog`
 
 **Rare-houseplant restock alerts** · `houseplant-restock-alerts`
 - Shape: proven-pattern (restock alerting) × uncrowded niche. Tags: `demand:proven-pattern crowd:low build:med reach:searchable maint:auto`
 - Catch: scrapers break when shops change pages (agent-absorbable upkeep). Need to seed the watch-list of shops.
+- Advice line (#8): outside professional domains — retail restock alerts, no determination of any kind.
+- $0 (#9): clean — scrapes free public shop pages; fragile, but no paid feed/infra.
 - Next probe: free alert for one cultivar across 5 shops; post in a plant community; measure sign-ups. Probe kit: `probes/houseplant-restock-alerts.md`.
 - Status: `backlog`
 
@@ -46,6 +51,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: assumed. License = livelihood; lapse/violation = fine or lost income. They actively search "[state] [trade] license renewal CE requirements" — inbound, no outreach needed.
 - Catch: rules change and are per-state (real upkeep, `maint:manual`); some state boards publish this already (`crowd:med`) — wedge is aggregation + plain-language + reminders across states, one trade at a time.
 - Advice line (#8/D10): aggregate the published deadlines/CE hours/rules + source links and let the licensee verify; never certify "you're compliant / legally allowed to do X." Deadlines and CE counts are facts; legality of a specific practice is not the product's call.
+- $0 (#9): clean — state .gov license/CE pages are public.
 - Next probe (inbound): a free single-state CE/renewal checker page for one trade, seeded to rank on the search term + one post in a trade forum; measure self-serve sign-ups (≥10). Probe kit: `probes/trade-license-renewal-navigator.md`.
 - Status: `backlog`
 
@@ -56,6 +62,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: assumed. Selling without compliance = shutdown/fines; the laws are notoriously confusing and state-specific, and new sellers search them constantly.
 - Catch: laws change and vary by county (`maint:manual`); blogs/Facebook groups cover this loosely (`crowd:med`) — wedge is a current, structured, per-state answer instead of scattered threads. Tiny-business payer = low price point.
 - Advice line (#8/D10): summarize what the published statute says + link it and point to the health dept; never issue a reliance-grade "yes, you're legally allowed to sell this." The wording is "here's the rule," not "you're cleared."
+- $0 (#9): clean — state cottage-food statutes / health-dept pages are public.
 - Next probe (inbound): a free one-state "can I sell this / what permit" checker, ranked on the search term + one post in a cottage-food community; measure sign-ups (≥10). Probe kit: `probes/cottage-food-permit-navigator.md`.
 - Status: `backlog`
 
@@ -64,8 +71,9 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Concept: enter a VIN/HIN/serial → flag salvage/lien/theft/odometer issues before buying a used trailer, RV, boat, ATV, or piece of equipment. The check car buyers take for granted, for the asset classes that lack a Carfax.
 - Demand: proven-pattern. Pre-purchase history checks are a proven paid behavior for cars (Carfax et al.); the pain (buying a stolen/lien-encumbered $10k+ asset) and the search intent transfer. Buyer pays per-check on a big purchase.
 - Catch: data coverage is patchy by asset class and state (NMVTIS covers some; boats/equipment are fragmented) — `maint:manual`, and v1 must pick the asset class with the best public coverage. Cars are `crowd:high`; the wedge is the *non-car* assets nobody serves.
-- $0 risk (#9/D11): NMVTIS title/theft data is only sold per-query via approved providers — paid. v1 must pick an asset class with a *free* public path (e.g. free state stolen-property/lien lookups) or it's dead on cost. Resolve the free-data path before building, not after.
-- Next probe (inbound): a landing page for one asset class ("check a used [trailer] before you buy"), driven by search-intent ad/SEO; measure sign-ups or pre-orders (≥10). Probe kit: `probes/used-asset-title-check.md`.
+- Advice line (#8): outside professional advice — reports public-records status (lien/title/theft), not a guarantee of clear title; the buyer verifies. Not a legal determination.
+- $0 (#9): **AT RISK — the bench's one real cost flag.** NMVTIS title/theft data has no free API (sold per-query via approved providers). A free path *may* exist per asset class (NICB VINCheck is free for theft/total-loss; USCG vessel DB for boats; state UCC lien lookups), but it's unproven and patchy. This is the one idea whose $0 viability must be confirmed *before* any build — pick the asset class with a genuinely free public path or it's dead on cost.
+- Next probe (inbound): a landing page for one asset class ("check a used [trailer] before you buy"), driven by search-intent SEO (no paid ads, #9); measure sign-ups or pre-orders (≥10). Probe kit: `probes/used-asset-title-check.md`.
 - Status: `backlog`
 
 **Pre-purchase authenticity / serial-sanity check for used luxury watches** · `watch-authenticity-check`
@@ -74,6 +82,8 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Concept: enter brand + reference + serial (+ photos) → consistency checks against known reference data and common fake/franken tells; a go/slow-down gate, not an appraisal.
 - Demand: assumed. Fakes and franken-watches are rife; buyers routinely ask "how do I spot a fake [brand]" before paying real money — strong inbound search intent on a high-ticket purchase.
 - Catch: authoritative reference data is semi-public/community-held and brand-specific (`maint:manual`); forums and some apps partially serve this (`crowd:med`). Wedge = the 60-second pre-wire sanity gate for one brand first.
+- Advice line (#8): outside professional advice — a consistency / known-fake-tells *signal*, explicitly not an appraisal or an authentication guarantee; the buyer decides.
+- $0 (#9): free but fragile — reference data is community-held (hand-gathered, no paid feed); no paid source required, but upkeep is manual.
 - Next probe (inbound): a one-brand "is this listing legit?" checker page + one post in a watch-buying community; measure sign-ups (≥10). Probe kit: `probes/watch-authenticity-check.md`.
 - Status: `backlog`
 
@@ -84,6 +94,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: assumed. Missing a date-becomes-current window delays a client's case by months and is a liability/relationship hit; the bulletin moves monthly and unpredictably. Public data (visa bulletin, USCIS processing-time pages), so `maint:auto`.
 - Catch: consumer-facing predictors exist (VisaJourney, etc.) → `crowd:med`; the wedge is the *practitioner caseload* view (alert me about *my* cases), not another public forum. Solo/small immigration firms are the payer.
 - Advice line (#8/D10): clean fit — this is monitoring/alerting over public data (the bulletin moved, your date is current), not legal advice. Keep it factual ("X happened"); the practitioner makes the legal call. Don't drift into "file now" recommendations.
+- $0 (#9): clean — State Dept visa bulletin + USCIS processing-time pages are public.
 - Next probe (inbound): a free "is your priority date current?" + email-alert page targeting the search term, plus one post in an immigration-practitioner community; measure sign-ups (≥10). Probe kit: `probes/visa-bulletin-tracker.md`.
 - Status: `backlog`
 
@@ -94,6 +105,7 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Demand: assumed, but strong inbound logic — people actively search "how much is my late parent's [X] collection worth" and "how to value estate contents for probate"; probate often *requires* a valuation (money forces it); the market is trust-poor (heirs fear the estate-sale company is lowballing — that distrust is the wedge, since the incumbent is the party they don't trust).
 - Catch: one-time use per customer (low LTV — must be cheap/SEO-fed, no retention), valuation borders on judgment (`maint:manual`), and v1 must pick the *one* category with the cleanest public sold-comp data (likely coins or records) rather than "any collection."
 - Advice line (#8/D10): show the sold-comps and a range from them (the evidence), explicitly not a formal appraisal or financial advice — the heir decides whether to take the offer. The "borders on judgment" catch is exactly the line to not cross: surface comps, don't certify a number.
+- $0 (#9): free but fragile — comps come from scraping public sold listings (eBay / auction results); free, but ToS-gray and breakable. No paid comp DB.
 - Next probe (inbound): a single-category landing page — "Don't let the estate buyer lowball Grandpa's [coin] collection — get an independent value range" — driven by search intent; measure sign-ups/pre-orders (≥10). Probe kit: `probes/estate-lowball-gate.md`.
 - Status: `backlog`
 
@@ -102,7 +114,9 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Developed from draws #17/#35/#149/#153 (DOT-regulated fleet operators × constraint-checker / regulation-deadline) and owner-operator-trucker draws; the `trade-license-renewal-navigator` compliance-navigator engine transposed to the trucking niche `freight-fraud-check` already reaches.
 - Concept: enter your DOT/MC number (+ drivers) → one calendar of the recurring federal/state deadlines a 1–5 truck operation must not miss: MCS-150 biennial update, UCR annual, IFTA quarterly, IRP, CDL medical-card expiry, drug-&-alcohol program dates, annual vehicle inspection — with a reminder before each. What a big fleet gets from a TMS and the one-truck operator tracks on a wall calendar.
 - Demand: assumed (strong logic). A missed MCS-150 deactivates your operating authority; a missed IFTA/UCR is a fine; lapses cost money and downtime. Operators search "MCS-150 due / DOT compliance deadlines / UCR renewal." Public data (FMCSA SAFER/L&I, IFTA/IRP, state), so `maint:auto`.
-- Catch: the FMCSA portal and TMS suites touch this (`crowd:med`), but the 1–5 truck owner-operator has no TMS and finds the portals confusing — wedge is a dead-simple single-purpose deadline calendar + reminders for the bottom of the market (same wedge + same inbound community as `freight-fraud-check`). Info-only: surfaces the published deadline + the .gov link, never "you are compliant" (#8). $0: all public data (#9).
+- Catch: the FMCSA portal and TMS suites touch this (`crowd:med`), but the 1–5 truck owner-operator has no TMS and finds the portals confusing — wedge is a dead-simple single-purpose deadline calendar + reminders for the bottom of the market (same wedge + same inbound community as `freight-fraud-check`).
+- Advice line (#8): surfaces the published deadline + the .gov link; never "you are compliant." Deadlines are facts, not a determination.
+- $0 (#9): clean — FMCSA / IFTA / state data is public.
 - Next probe (inbound, $0): a free "when is your MCS-150 / UCR / IFTA due?" checker page seeded on the search term + one post in an owner-operator/dispatch community; measure self-serve sign-ups (≥10). Probe kit: `probes/fleet-compliance-tracker.md`.
 - Status: `backlog`
 
@@ -111,7 +125,9 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Developed from short-term-rental-host draws (× boring-compliance / regulation-deadline twists); the compliance-navigator engine transposed to the Airbnb/STR-host niche.
 - Concept: pick your city/county → what the local STR law requires before and while you list: a permit or registration number, transient-occupancy/lodging-tax registration + filing cadence, primary-residence or night caps, zoning/HOA limits, and the renewal/tax deadlines. Plain-language over the city ordinance, one metro at a time.
 - Demand: assumed (strong inbound logic). Cities are cracking down — operating unpermitted risks fines/delisting; hosts have revenue and search "[city] short-term rental rules / permit / registration / lodging tax" constantly. Public data (municipal ordinances, tax pages).
-- Catch: hyper-local and changes (`maint:manual`), so v1 picks one metro; the platforms show only a generic line and compliance vendors (Granicus/Deckard) serve the *cities*, not hosts (`crowd:med`) — wedge is the host-side, plain-language, deadline-reminder view for one city first. Info-only: "here's the ordinance + link," never "you're legal to operate" (#8). Low-ish price point, SEO-fed; $0 public data (#9).
+- Catch: hyper-local and changes (`maint:manual`), so v1 picks one metro; the platforms show only a generic line and compliance vendors (Granicus/Deckard) serve the *cities*, not hosts (`crowd:med`) — wedge is the host-side, plain-language, deadline-reminder view for one city first. Low-ish price point, SEO-fed.
+- Advice line (#8): summarizes the published ordinance + links the source; never "you're legal to operate." The host verifies.
+- $0 (#9): clean — municipal ordinances + tax pages are public.
 - Next probe (inbound, $0): a free one-city "do you need an STR permit here?" checker page ranked on the search term + one post in an STR/Airbnb-host community; measure sign-ups (≥10). Probe kit: `probes/str-rule-navigator.md`.
 - Status: `backlog`
 

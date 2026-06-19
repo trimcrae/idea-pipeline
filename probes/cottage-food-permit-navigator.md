@@ -3,8 +3,7 @@
 **Status: DRAFT. Nothing here is live.** Model drafts; operator ships (D3/D4).
 **Inbound only — no cold outreach** (doctrine #7). See `BACKLOG.md` →
 `cottage-food-permit-navigator`. Cluster sibling of `trade-license-renewal-navigator`
-/ `travel-nurse-license-navigator` / `paralegal-filing-validator` /
-`visa-bulletin-tracker` — same engine, different niche.
+/ `travel-nurse-license-navigator` / `visa-bulletin-tracker` — same engine, different niche.
 
 ## What the probe tests
 One question: **will a would-be tiny food seller give an email for a one-state
@@ -44,9 +43,10 @@ A cottage-food / home-bakery / food-truck community for [State] that allows it.
 > checker: product + county → what's allowed, permits, limits. Not built yet.
 > Want it for [State]? [page]
 
-## Asset C — tiny ad (recommended)
-Target "[State] cottage food law / sell baked goods from home [State] permit"
-intent — high, constant search volume from new sellers.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Paid ads are out (#9/D11). Publish the one-state checker as a free page ranking on
+"[State] cottage food law / sell baked goods from home [State] permit" intent —
+high, constant search volume from new sellers, zero spend.
 
 ## Honest note / catch
 Laws change and vary by county (`maint:manual`); blogs/FB groups cover this

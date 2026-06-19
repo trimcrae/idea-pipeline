@@ -14,8 +14,8 @@ Reference data is brand-specific; ship one brand first (the placeholder below is
 the highest fake rate.
 
 ## Pass bar (SET — do not move)
-**≥10 self-serve sign-ups** from one watch-community post and/or a small ad,
-~one week. Below that = no signal → reshape, log, move.
+**≥10 self-serve sign-ups** from one $0 watch-community post or an SEO-able free
+checker page (no paid ads, #9/D11), ~one week. Below that = no signal → reshape, log, move.
 
 ## Asset A — landing page (one button; no product behind it)
 > **Headline:** About to wire $3k for a used [Rolex]? Run a 60-second sanity
@@ -41,8 +41,9 @@ Where watch buyers gather (a watch-buying subreddit or forum that allows it).
 > end. Thinking about a quick gate: enter reference/serial/photos, get back
 > consistency flags before you wire money. Not built yet. Want it? [page]
 
-## Asset C — tiny ad (optional)
-Target "spot a fake [brand] / [brand] serial check" intent; measure click → sign-up.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Paid ads are out (#9/D11). Publish the one-brand checker as a free page ranking on
+"spot a fake [brand] / [brand] serial check" intent — organic search, zero spend; measure visit → sign-up.
 
 ## Honest note / catch
 Authoritative reference data is semi-public/community-held and brand-specific

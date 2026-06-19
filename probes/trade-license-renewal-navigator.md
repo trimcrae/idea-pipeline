@@ -2,7 +2,7 @@
 
 **Status: DRAFT. Nothing here is live.** Model drafts; operator ships (D3/D4).
 **Inbound only — no cold outreach** (doctrine #7). See `BACKLOG.md` → trade-license-renewal-navigator.
-Part of the regulated-compliance-navigator cluster (travel-nurse-license-navigator, paralegal-filing-validator, cottage-food-permit-navigator, visa-bulletin-tracker) —
+Part of the regulated-compliance-navigator cluster (travel-nurse-license-navigator, cottage-food-permit-navigator, visa-bulletin-tracker, fleet-compliance-tracker, str-rule-navigator) —
 one buildable engine, different niche; this kit's structure is reusable.
 
 ## What the probe tests
@@ -42,13 +42,14 @@ A [pest-control] trade forum/subreddit/FB group that allows it.
 > deadline. Thinking about one page: your deadline, required CE, what counts, and
 > a reminder. Not built yet. If you're licensed in [State], want it? [page]
 
-## Asset C — tiny ad (recommended)
-Target "[state] [trade] license renewal / CE requirements" — high-intent, cheap.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Paid ads are out (#9/D11). Publish the single-state checker as a free page ranking
+on "[state] [trade] license renewal / CE requirements" — high-intent, organic, zero spend.
 
 ## Honest note / catch
 Rules change and are per-state (`maint:manual`); some boards publish this already
 (`crowd:med`). The wedge is aggregation + plain-language + reminders, **one trade
-at a time**. If it passes, the same engine ports to travel-nurse-license-navigator/paralegal-filing-validator/cottage-food-permit-navigator/visa-bulletin-tracker.
+at a time**. If it passes, the same engine ports to travel-nurse-license-navigator/cottage-food-permit-navigator/visa-bulletin-tracker/fleet-compliance-tracker/str-rule-navigator.
 
 ## After the probe
 Log in `BACKLOG.md` → Probe log: `date · trade-license-renewal-navigator · <probe> · <result> · <decision>`.

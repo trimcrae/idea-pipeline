@@ -15,8 +15,8 @@ titled trailers/RVs/powersports; boats/equipment are more fragmented). The page
 below uses **[trailer]** as the placeholder — swap to whichever class you ship.
 
 ## Pass bar (SET — do not move)
-**≥10 self-serve sign-ups or pre-orders** from search-intent traffic (a small ad
-and/or one community post), ~one week. Below that = no signal → reshape, log, move.
+**≥10 self-serve sign-ups or pre-orders** from $0 search-intent traffic (an
+SEO-able free check page and/or one community post — no paid ads, #9/D11), ~one week. Below that = no signal → reshape, log, move.
 
 ## Asset A — landing page (one button; no product behind it)
 > **Headline:** Buying a used [trailer]? Check it for liens, theft, and salvage
@@ -42,9 +42,10 @@ Where used-[trailer] buyers gather (a marketplace/owner subreddit or FB group).
 > is a five-figure mistake. Thinking about a paste-the-VIN check. Not built yet.
 > If it existed, would you run it before buying? [page]
 
-## Asset C — tiny ad (recommended here)
-This idea is purest as a search-intent test: target "[trailer] VIN check / lien
-check / is it stolen" and measure click → sign-up.
+## Asset C — SEO-able free page (the $0 stand-in for an ad, #9)
+Purest as a search-intent test, and it must be $0 (#9/D11): publish the free
+one-class checker as a page ranking on "[trailer] VIN check / lien check / is it
+stolen" — organic search, zero spend; measure visit → sign-up.
 
 ## Honest note / catch
 Coverage is patchy by class and state — v1 lives or dies on picking the class
