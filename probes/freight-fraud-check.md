@@ -65,6 +65,62 @@ as a free page targeting the terms the niche already googles ("carrier vetting,"
 intent traffic, zero spend. Measure visit → sign-up. Same "pay only for intent"
 logic as an ad, but the currency is SEO, not dollars.
 
+## SHIP IT — phone, $0, ~10 minutes (the model drafted this; you press publish)
+
+Everything above is the *what*. This is the *do it now from your phone* version.
+One landing page that is also the email capture and the sign-up counter, plus one
+post. No code, no host, no spend, no account you have to pay for.
+
+### Stack (all free-tier, phone-buildable, no spend)
+- **Page + capture + counter: Tally.so free plan.** Unlimited forms, unlimited
+  responses, build and edit from a phone browser, gives you a hosted page URL
+  (`tally.so/r/...`). The response count *is* your pass-bar metric — no analytics
+  to wire up. Sign up free, no card.
+- **Fallback if Tally annoys you: Google Forms.** Rock-solid $0, phone-native,
+  responses land in a Google Sheet. Less landing-page-like, but it works.
+- **Distribution: one organic post** in a community owner-operators/dispatchers
+  already read. No DMs, no thread-working.
+
+### Step 1 — build the page (Tally), ~5 min
+New form → make it a single page. Paste these blocks in order:
+
+- **Title:** `Check a carrier for fraud before you book the load.`
+- **Text block (sub):** `Paste an MC number or a broker email, get an instant risk flag — authority age, lapsed insurance, lookalike-domain clones, and one-phone-across-many-authorities clustering. Built for one-truck operators and small dispatch shops, not enterprise brokerages.`
+- **Text block (the one thing):** `The 30-second check you do today by hand across SAFER, a phone call, and a gut feeling — in one click.`
+- **Email field** (required), label: `Email — get notified when it's live`
+- **Submit button label:** `Notify me`
+- **Thank-you message:** `You're on the list. Early — no product yet. I'm checking if small shops want this before building it.`
+- **Honest footer (text block at bottom):** `Early. No product yet — testing whether small shops want this before building it.`
+
+Publish → copy the page URL.
+
+### Step 2 — post once, ~3 min
+Pick **one** venue where the niche already gathers and that allows a "would you
+use this" question (check the sub's self-promo rule first; frame as a question,
+not a link-drop, to stay inside ToS):
+- Reddit: `r/freightbrokers`, `r/Truckers`, `r/dispatcher`, `r/owneroperators`
+- or a dispatch / owner-operator Facebook group that permits it.
+
+Paste (put the Tally URL where `[page]` is):
+
+> **Title:** A one-click "is this carrier/broker a fraud risk?" check — would you use it?
+>
+> **Body:** Small shops eat double-brokering and identity-cloned-carrier hits that the big brokerages have $$$ tools for. I'm checking if a dead-simple version is worth building: paste an MC# or broker email, get back authority age, insurance lapse, lookalike-domain clones, phone-number clustering. Not built yet, nothing to buy. If it existed, would you use it? Link if you want to be notified: [page]
+
+Post once. Don't work the thread (answer genuine questions if you feel like it,
+but it's not required — you're watching sign-ups, not running a conversation).
+
+### Step 3 — wait ~a week, read the number
+Open Tally → the response count. **≥10 sign-ups = pass** (build it next). **<10 =
+no signal** → kill or reshape, log it, move on. Don't move the bar; don't count
+"looks useful" comments. The number is the verdict.
+
+### If the post gets removed (ToS) before it gets traffic
+That's the SEO route's cue (Asset C): the page itself is the free tool, ranked on
+"carrier vetting / MC lookup / double brokering check" — slower, but no
+gatekeeper. For a *first* probe, try the single post first; it's the 10-minute
+test. Fall back to SEO only if every community blocks the question.
+
 ## After the probe
 
 Log it in `BACKLOG.md` → Probe log: `date · freight-fraud-check · <probe> · <result> ·
