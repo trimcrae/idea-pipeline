@@ -88,6 +88,15 @@ Each entry: id · concept · shape · tags · demand · catch · next probe · s
 - Next probe (inbound): a free "is your priority date current?" + email-alert page targeting the search term, plus one post in an immigration-practitioner community; measure sign-ups (≥10).
 - Status: `backlog`
 
+**ES-01 — "Am I being lowballed?" independent value-range gate for estate executors & heirs liquidating a collection**
+- Shape: verification-before-irreversible-decision + forced payment (inbound) — the seller-side mirror of F-01/V-01/W-01. Tags: `demand:assumed crowd:med build:med reach:searchable maint:manual`
+- Developed from the estate-executor / "selling a deceased relative's collection" niche, which the 2026-06-19 pool surfaced seven times across both modes (single #58, #102, #111, #131, #150, #154, #167; combine #166). Repeated independent draws on one niche = signal worth catching.
+- Concept: heir/executor enters or photographs a collection (coins, stamps, records, tools, jewelry) → gets a defensible independent value *range* from recent sold-comps before accepting an estate-buyer's or auctioneer's offer. A "should I take this offer" gate, not a formal appraisal.
+- Demand: assumed, but strong inbound logic — people actively search "how much is my late parent's [X] collection worth" and "how to value estate contents for probate"; probate often *requires* a valuation (money forces it); the market is trust-poor (heirs fear the estate-sale company is lowballing — that distrust is the wedge, since the incumbent is the party they don't trust).
+- Catch: one-time use per customer (low LTV — must be cheap/SEO-fed, no retention), valuation borders on judgment (`maint:manual`), and v1 must pick the *one* category with the cleanest public sold-comp data (likely coins or records) rather than "any collection."
+- Next probe (inbound): a single-category landing page — "Don't let the estate buyer lowball Grandpa's [coin] collection — get an independent value range" — driven by search intent; measure sign-ups/pre-orders (≥10).
+- Status: `backlog`
+
 ## Killed
 Move dead ideas here with a one-line reason so the engine's survivors aren't re-litigated.
 
