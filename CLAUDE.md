@@ -22,6 +22,7 @@ The operator works from a phone and wants finished work landed, not parked on br
 - **Always commit and push without asking.** The moment a change is complete and verified, commit it and push it. Never end a turn with completed work uncommitted or unpushed, and never ask "want me to push?" — just push. A large diff left local is a bug.
 - **Open the PR and squash-merge to `main` yourself** — don't wait to be asked.
 - Only hold off if the change is genuinely ambiguous, risky, or you have an open question for the operator. Even then, commit and push the work to the branch first; the open question is about merging, not about whether to push.
+- **Reset the dev branch to `main` after every squash-merge.** Squash-merging collapses the branch's commits into one new commit on `main`, but the local branch keeps the *originals* — stack the next change on top and the next PR hits phantom merge conflicts. So immediately after a merge: `git fetch origin main && git reset --hard origin/main`, then force-push the branch, so the next change starts clean from `main`. (Learned the hard way 2026-06-19: two PRs needed rebase gymnastics because the branch carried pre-squash history.)
 
 ## Files
 - `STRATEGY.md` — central planning & strategy: current phase, standing decisions, and the append-only insight log. Read it first; update its insight log when a run learns something about the *system* (not just an idea).
