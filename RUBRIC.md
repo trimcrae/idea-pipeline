@@ -8,6 +8,7 @@ This is a **filter and tagger**, not a success predictor. Use it to triage a raw
 - **Reachable only by cold outreach.** If the customer won't find it inbound — they don't search for the pain and don't gather anywhere you can post once, so the only route is cold-emailing/DMing/calling them — it's dead on distribution. The operator does no cold outreach (CLAUDE.md #7). An enumerable customer list is *not* enough on its own.
 - Needs ongoing human support per customer (operator can't staff that).
 - Needs meaningful upfront capital or inventory.
+- **Costs the operator money to set up, probe, or run.** $0 is a hard rule (CLAUDE.md #9 / D11): no paid ads, no paid data/API access, no paid SaaS, no hosting beyond a free tier. If the v1 or its probe *requires* spend with no free path — a paid data feed, paid scraping infra, a paid ad to get traffic — it's dead on cost, even if customers would later pay. Free public data + free tiers + organic/SEO/community distribution only.
 - Sits squarely on top of a funded incumbent with no price/simplicity wedge underneath.
 - Legally or ethically fraught, or requires licenses the operator lacks.
 - **Renders licensed-professional advice (legal / medical / financial / tax).** If the core value is an individualized determination the customer relies on — is my filing valid, am I compliant/cleared, what should I do legally, what's it worth so I take the deal — it's the unauthorized practice of a licensed profession and an existential liability (CLAUDE.md #8 / D10). Allowed **only** as an *information / navigation tool* over public rules/data/comps where the customer decides and verifies, disclaimer-forward. An idea that collapses without giving the reliance-grade determination is dead.
@@ -15,7 +16,7 @@ This is a **filter and tagger**, not a success predictor. Use it to triage a raw
 ## The five tests (a survivor should pass most, strongly)
 1. **Demand signal** — proven willingness to pay, OR acute/expensive pain. Prefer evidence (real data, surveys, visible spend) over assumption. Tag: `demand:proven` / `demand:assumed`.
 2. **Uncrowded** — would 1,000 people prompting an LLM land here? If yes, drop it. Tag: `crowd:low/med/high`.
-3. **Solo-buildable** — one person + an LLM can ship a v1; thin layer over public data or a single clear function. Tag: `build:easy/med/hard`.
+3. **Solo-buildable at $0** — one person + an LLM can ship a v1 on free tiers + free public data, no paid feeds/infra (CLAUDE.md #9). A thin layer over public data or a single clear function. Tag: `build:easy/med/hard`.
 4. **Inbound-reachable without an audience** — the customer finds *it*, the operator never chases *them*. Best: they actively search for the pain (SEO-able) or self-serve via a free tool / marketplace. Acceptable: one broadcast post where the niche already gathers. Not acceptable: reachable only by cold outreach, even if the list is enumerable. Tag: `reach:searchable/community/diffuse` (drop `enumerable` as a virtue — an enumerable list you can only cold-email is a liability, not an asset, under CLAUDE.md #7).
 5. **Maintenance an agent can absorb** — upkeep is re-pulling data / re-running rules, not bespoke human judgment. Tag: `maint:auto/manual`.
 
