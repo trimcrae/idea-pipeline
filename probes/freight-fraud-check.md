@@ -57,12 +57,13 @@ linking the landing page. Not a DM campaign — one post, then watch sign-ups.
 > yet, nothing to buy. If it existed for ~$X/mo, would you use it? Link if you
 > want to be notified: [page]
 
-## Asset C — tiny ad (optional, a few dollars)
+## Asset C — an SEO-able free mini-tool (the $0 stand-in for an ad)
 
-Point a small search/interest-targeted spend at the landing page on terms the
-niche already googles ("carrier vetting," "MC number lookup," "double
-brokering check"). Measure click-through → sign-up. This is the purest inbound
-test: zero human interaction, pay only for intent.
+Paid ads are out ($0 rule, #9/D11). Instead, publish the one-click check itself
+as a free page targeting the terms the niche already googles ("carrier vetting,"
+"MC number lookup," "double brokering check") so it can be *found* — organic
+intent traffic, zero spend. Measure visit → sign-up. Same "pay only for intent"
+logic as an ad, but the currency is SEO, not dollars.
 
 ## After the probe
 

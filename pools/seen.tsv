@@ -1328,3 +1328,753 @@ cidermakers + knife sharpeners	a unit/format translator	is intentionally read-on
 knife sharpeners + locksmiths	a compatibility matrix	uses a constraint everyone else ignores
 beekeeping inspectors + commercial drone pilots	a one-email-in / one-email-out bot	does the boring compliance nobody wants
 antique clock restorers + competitive memory athletes	a 'what's this worth' appraiser	targets the 5 minutes RIGHT BEFORE the activity
+domain-name buyers	a deadline/season reminder	tracks a thing that only matters seasonally
+specialty coffee roasters	a fee/cost auditor	monetizes the data exhaust, not the tool
+locksmiths	a tiny public dataset	is intentionally read-only / no accounts
+small-farm CSA operators	a lightweight CRM for one workflow	works fully offline
+window cleaners	a restock alerter	surfaces what's secretly out of stock everywhere
+whisky cask investors	a price/condition tracker	watches prices across closed/auction markets
+bonsai growers	a naming/ID/serial decoder	uses a constraint everyone else ignores
+tabletop miniature painters	a fee/cost auditor	surfaces what's secretly out of stock everywhere
+sneaker resellers	a single-purpose calculator	monetizes the data exhaust, not the tool
+off-grid homesteaders	a swap/match board	does the boring compliance nobody wants
+used-boat buyers	an aggregator	monetizes the data exhaust, not the tool
+livestock auction buyers	a naming/ID/serial decoder	tracks a thing that only matters seasonally
+rare houseplant traders	a comparison explorer	does the reverse of what every existing tool does
+EV-charger installers	a deadline/season reminder	uses a constraint everyone else ignores
+whisky cask investors	a constraint-checker / validator	is intentionally read-only / no accounts
+escape-room designers	a 'what's this worth' appraiser	works fully offline
+DOT-regulated fleet operators	a constraint-checker / validator	exploits a rule/regulation deadline
+competitive youth sports parents	a comparison explorer	surfaces what's secretly out of stock everywhere
+vending-machine operators	a unit/format translator	is built for one specific region first
+off-grid homesteaders	a unit/format translator	aggregates what's scattered across 20 forums
+kombucha brewers	a 'is it worth it' estimator	is a verification layer for a trust-poor market
+drone racers	an anomaly flagger	targets the 5 minutes RIGHT BEFORE the activity
+loan-signing notaries	a checklist generator	combines two unrelated data sources
+sneaker resellers	a lightweight CRM for one workflow	is built for one specific region first
+historical reenactors	a template / preset pack	uses a constraint everyone else ignores
+window cleaners	a 'find the nearest X' map	monetizes the data exhaust, not the tool
+competitive memory athletes	a fee/cost auditor	is the 'should I even bother' gate
+trading-card graders	a template / preset pack	works fully offline
+expat retirees	a single-purpose calculator	focuses on end-of-life / disposal / resale
+process servers	a counterfeit/fake detector	aggregates what's scattered across 20 forums
+used-RV buyers	a 'is it worth it' estimator	watches prices across closed/auction markets
+veterinary practice managers	a constraint-checker / validator	combines two unrelated data sources
+traveling nurses	a counterfeit/fake detector	is built for one specific region first
+watch flippers	a constraint-checker / validator	watches prices across closed/auction markets
+DOT-regulated fleet operators	a route/sequence optimizer	is built for one specific region first
+NICU parents	an availability tracker	is intentionally read-only / no accounts
+horse buyers	a compatibility matrix	targets the 5 minutes RIGHT BEFORE the activity
+competitive memory athletes	an aggregator	watches prices across closed/auction markets
+junk-removal operators	a converter	is a verification layer for a trust-poor market
+long-haul truckers	a curated auto-updating directory	surfaces what's secretly out of stock everywhere
+sober-living home operators	a printable generator	operates entirely over SMS/email
+airsoft milsim teams	an anomaly flagger	does the boring compliance nobody wants
+pest-control techs	a route/sequence optimizer	exploits a rule/regulation deadline
+laundromat owners	a price/condition tracker	uses a constraint everyone else ignores
+process servers	a printable generator	works fully offline
+small commercial beekeepers	a printable generator	is for the spouse/parent/heir of the enthusiast
+laundromat owners	a price/condition tracker	focuses on end-of-life / disposal / resale
+picture framers	a naming/ID/serial decoder	translates pro jargon for newcomers
+comic-book graders	a checklist generator	exploits a rule/regulation deadline
+vinyl record diggers	a search engine for one narrow thing	works fully offline
+picture framers	a single-purpose calculator	serves the SUPPLIERS, not the hobbyists
+hospice families	a route/sequence optimizer	combines two unrelated data sources
+food-truck operators	a restock alerter	does the boring compliance nobody wants
+bonsai growers	a 'is it worth it' estimator	aggregates what's scattered across 20 forums
+food-truck operators	a 'find the nearest X' map	does the reverse of what every existing tool does
+vintage synth collectors	a compatibility matrix	does the boring compliance nobody wants
+court reporters	a deadline/season reminder	tracks a thing that only matters seasonally
+solar installers	a single-purpose calculator	combines two unrelated data sources
+breeding-dog buyers	a route/sequence optimizer	serves the SUPPLIERS, not the hobbyists
+self-storage facility owners	a swap/match board	focuses on end-of-life / disposal / resale
+caregivers for aging parents	a unit/format translator	uses a constraint everyone else ignores
+HOA / community-association managers	a unit/format translator	uses a constraint everyone else ignores
+wedding officiants	a single-purpose calculator	aggregates what's scattered across 20 forums
+vintage synth collectors	a route/sequence optimizer	is the 'should I even bother' gate
+septic installers	a constraint-checker / validator	translates pro jargon for newcomers
+long-haul truckers	a converter	focuses on end-of-life / disposal / resale
+freelance paralegals	a quote/estimate generator	does the reverse of what every existing tool does
+tax preparers / enrolled agents	a quote/estimate generator	uses a constraint everyone else ignores
+short-term-rental hosts	a browser extension	does the boring compliance nobody wants
+caregivers for aging parents	a monitoring + alert service	monetizes the data exhaust, not the tool
+EV-charger installers	an anomaly flagger	only does the one step everything else skips
+amateur astronomers	an aggregator	monetizes the data exhaust, not the tool
+scrap metal haulers	a lightweight CRM for one workflow	translates pro jargon for newcomers
+solar installers	a comparison explorer	is for the spouse/parent/heir of the enthusiast
+Lego set investors	a curated auto-updating directory	translates pro jargon for newcomers
+court reporters	a constraint-checker / validator	exploits a rule/regulation deadline
+medical billers	a restock alerter	is the 'should I even bother' gate
+kombucha brewers	a browser extension	targets the moment something breaks / fails
+well drillers	a constraint-checker / validator	works from a single photo as input
+home inspectors	a counterfeit/fake detector	targets the 5 minutes RIGHT BEFORE the activity
+drone racers	a tiny public dataset	surfaces what's secretly out of stock everywhere
+customs brokers	a 'what's this worth' appraiser	serves the SUPPLIERS, not the hobbyists
+knife sharpeners	a price/condition tracker	translates pro jargon for newcomers
+arborists	a unit/format translator	catches the expensive mistake before it's made
+veterinary practice managers	an aggregator	uses a constraint everyone else ignores
+cross-border commuters	an availability tracker	does the boring compliance nobody wants
+disc golfers	a deadline/season reminder	surfaces what's secretly out of stock everywhere
+mobile dog groomers	a lightweight CRM for one workflow	is for the spouse/parent/heir of the enthusiast
+powersports / ATV buyers	a naming/ID/serial decoder	watches prices across closed/auction markets
+tabletop miniature painters	an aggregator	only does the one step everything else skips
+microgreens growers	a one-email-in / one-email-out bot	operates entirely over SMS/email
+luthiers / instrument repair	a converter	is built for one specific region first
+long-haul truckers	an anomaly flagger	catches the expensive mistake before it's made
+pest-control techs	a one-email-in / one-email-out bot	targets the moment something breaks / fails
+watch flippers	a checklist generator	works fully offline
+historical reenactors	a 'what's this worth' appraiser	targets the 5 minutes RIGHT BEFORE the activity
+used-camera-gear buyers	a route/sequence optimizer	does the boring compliance nobody wants
+expat retirees	a 'is it worth it' estimator	for people who actively hate the incumbent tool
+locksmiths	an availability tracker	translates pro jargon for newcomers
+commercial fishers	a search engine for one narrow thing	uses a constraint everyone else ignores
+wildland firefighters	a browser extension	combines two unrelated data sources
+loan-signing notaries	a search engine for one narrow thing	combines two unrelated data sources
+pool-service operators	a route/sequence optimizer	translates pro jargon for newcomers
+homebrewers	a fee/cost auditor	catches the expensive mistake before it's made
+reef-tank aquarists	a one-email-in / one-email-out bot	combines two unrelated data sources
+Amazon FBA resellers	an anomaly flagger	uses a constraint everyone else ignores
+competitive memory athletes	a lightweight CRM for one workflow	works fully offline
+pool-service operators	a 'what's this worth' appraiser	focuses on end-of-life / disposal / resale
+classic-car buyers	a tiny public dataset	works fully offline
+short-term-rental hosts	a naming/ID/serial decoder	aggregates what's scattered across 20 forums
+home roasters	an anomaly flagger	is built for one specific region first
+used-restaurant-equipment buyers	a checklist generator	works from a single photo as input
+specialty coffee roasters	a 'find the nearest X' map	monetizes the data exhaust, not the tool
+window cleaners	a search engine for one narrow thing	aggregates what's scattered across 20 forums
+EV-charger installers	a price/condition tracker	tracks a thing that only matters seasonally
+mushroom cultivators	a route/sequence optimizer	surfaces what's secretly out of stock everywhere
+competitive memory athletes	a printable generator	surfaces what's secretly out of stock everywhere
+pinball restorers	a 'is it worth it' estimator	is the 'should I even bother' gate
+reef-tank aquarists	a 'find the nearest X' map	watches prices across closed/auction markets
+chimney sweeps	a fee/cost auditor	exploits a rule/regulation deadline
+vintage synth collectors	a route/sequence optimizer	for people who actively hate the incumbent tool
+competitive youth sports parents	a swap/match board	is intentionally read-only / no accounts
+pool-service operators	a browser extension	monetizes the data exhaust, not the tool
+mushroom cultivators	a single-purpose calculator	does the boring compliance nobody wants
+vending-machine operators	a restock alerter	is for the spouse/parent/heir of the enthusiast
+coin roll hunters	a template / preset pack	aggregates what's scattered across 20 forums
+reef-tank aquarists	an aggregator	uses a constraint everyone else ignores
+vintage synth collectors	a compatibility matrix	is a verification layer for a trust-poor market
+pest-control techs	a route/sequence optimizer	catches the expensive mistake before it's made
+pool-service operators	a checklist generator	aggregates what's scattered across 20 forums
+upholstery shops	a curated auto-updating directory	is the 'should I even bother' gate
+EV-charger installers	a single-purpose calculator	works fully offline
+window cleaners	a 'what's this worth' appraiser	is for the spouse/parent/heir of the enthusiast
+cross-border commuters	an availability tracker	catches the expensive mistake before it's made
+drone racers	a fee/cost auditor	works from a single photo as input
+drone racers	a checklist generator	works fully offline
+Lego set investors	a counterfeit/fake detector	uses a constraint everyone else ignores
+antique clock restorers	a 'is it worth it' estimator	surfaces what's secretly out of stock everywhere
+used heavy-equipment buyers	a tiny public dataset	tracks a thing that only matters seasonally
+used-camera-gear buyers	an anomaly flagger	aggregates what's scattered across 20 forums
+arborists	a search engine for one narrow thing	only does the one step everything else skips
+vending-machine operators	a tiny public dataset	is a verification layer for a trust-poor market
+junk-removal operators	an availability tracker	uses a constraint everyone else ignores
+vintage synth collectors	a fee/cost auditor	does the boring compliance nobody wants
+owner-operator truckers	a route/sequence optimizer	is for the spouse/parent/heir of the enthusiast
+EV-charger installers	a curated auto-updating directory	translates pro jargon for newcomers
+picture framers	a browser extension	serves the SUPPLIERS, not the hobbyists
+picture framers	a single-purpose calculator	is intentionally read-only / no accounts
+DOT-regulated fleet operators	a quote/estimate generator	works from a single photo as input
+antique clock restorers	a 'find the nearest X' map	surfaces what's secretly out of stock everywhere
+self-storage facility owners	a price/condition tracker	tracks a thing that only matters seasonally
+freelance paralegals	a constraint-checker / validator	for people who actively hate the incumbent tool
+DOT-regulated fleet operators	a 'what's this worth' appraiser	does the boring compliance nobody wants
+vintage synth collectors	a naming/ID/serial decoder	is the 'should I even bother' gate
+reef-tank aquarists	a 'what's this worth' appraiser	does the boring compliance nobody wants
+competitive bird photography	a printable generator	is for the spouse/parent/heir of the enthusiast
+breeding-dog buyers	a single-purpose calculator	works from a single photo as input
+expat retirees	a price/condition tracker	is for the spouse/parent/heir of the enthusiast
+DOT-regulated fleet operators	a constraint-checker / validator	is the 'should I even bother' gate
+saltwater fly fishers	a compatibility matrix	is the 'should I even bother' gate
+carnivorous plant growers	a 'what's this worth' appraiser	works from a single photo as input
+knife sharpeners	a lightweight CRM for one workflow	works from a single photo as input
+boat detailers	a constraint-checker / validator	does the reverse of what every existing tool does
+loan-signing notaries	a template / preset pack	does the reverse of what every existing tool does
+mobile notaries	a 'find the nearest X' map	works from a single photo as input
+amateur astronomers	a compatibility matrix	serves the SUPPLIERS, not the hobbyists
+immigration paralegals	a curated auto-updating directory	does the boring compliance nobody wants
+expat retirees	a curated auto-updating directory	aggregates what's scattered across 20 forums
+freight forwarders	a naming/ID/serial decoder	works fully offline
+aquascapers	an anomaly flagger	aggregates what's scattered across 20 forums
+chimney sweeps	a restock alerter	aggregates what's scattered across 20 forums
+veterinary practice managers	a template / preset pack	operates entirely over SMS/email
+window cleaners	an aggregator	does the boring compliance nobody wants
+private pilots	a swap/match board	works from a single photo as input
+cemetery operators	a converter	is a verification layer for a trust-poor market
+loan-signing notaries	a checklist generator	translates pro jargon for newcomers
+domain-name buyers	a 'what's this worth' appraiser	watches prices across closed/auction markets
+trading-card graders	a comparison explorer	uses a constraint everyone else ignores
+HOA / community-association managers	a fee/cost auditor	uses a constraint everyone else ignores
+tarot deck collectors	a recall/notice watcher	aggregates what's scattered across 20 forums
+bonsai growers	a printable generator	aggregates what's scattered across 20 forums
+competitive bird photography	a naming/ID/serial decoder	focuses on end-of-life / disposal / resale
+traveling nurses	a constraint-checker / validator	works fully offline
+small distilleries	a restock alerter	surfaces what's secretly out of stock everywhere
+picture framers	a search engine for one narrow thing	is a verification layer for a trust-poor market
+used heavy-equipment buyers	a browser extension	monetizes the data exhaust, not the tool
+short-term-rental hosts	a monitoring + alert service	exploits a rule/regulation deadline
+locksmiths	a search engine for one narrow thing	aggregates what's scattered across 20 forums
+cross-border commuters	an anomaly flagger	is intentionally read-only / no accounts
+fountain pen collectors	a 'is it worth it' estimator	is for the spouse/parent/heir of the enthusiast
+oil-rig rotation workers	a comparison explorer	is a verification layer for a trust-poor market
+competitive bird photography	a price/condition tracker	is the 'should I even bother' gate
+tax preparers / enrolled agents	a monitoring + alert service	aggregates what's scattered across 20 forums
+rare houseplant traders	a naming/ID/serial decoder	tracks a thing that only matters seasonally
+estate executors	a price/condition tracker	works fully offline
+long-haul truckers	a 'is it worth it' estimator	serves the SUPPLIERS, not the hobbyists
+reef-tank aquarists	a one-email-in / one-email-out bot	does the boring compliance nobody wants
+medical billers	an availability tracker	works fully offline
+expat retirees	a price/condition tracker	does the boring compliance nobody wants
+wedding officiants	a printable generator	catches the expensive mistake before it's made
+cottage bakers	a constraint-checker / validator	catches the expensive mistake before it's made
+Etsy sellers in one craft	a browser extension	watches prices across closed/auction markets
+escape-room designers	a counterfeit/fake detector	combines two unrelated data sources
+car-wash owners	a unit/format translator	for people who actively hate the incumbent tool
+sober-living home operators	a restock alerter	works from a single photo as input
+carnivorous plant growers	a fee/cost auditor	combines two unrelated data sources
+freight dispatchers	an anomaly flagger	is for the spouse/parent/heir of the enthusiast
+speedcubers	a recall/notice watcher	works fully offline
+small commercial beekeepers	a counterfeit/fake detector	is built for one specific region first
+boat detailers	a checklist generator	works fully offline
+horse buyers	a converter	targets the moment something breaks / fails
+classic-car buyers	a price/condition tracker	combines two unrelated data sources
+saltwater fly fishers	a curated auto-updating directory	for people who actively hate the incumbent tool
+luthiers / instrument repair	a swap/match board	targets the 5 minutes RIGHT BEFORE the activity
+short-term-rental hosts	a monitoring + alert service	targets the 5 minutes RIGHT BEFORE the activity
+estate-sale companies	a counterfeit/fake detector	focuses on end-of-life / disposal / resale
+funeral home directors	an anomaly flagger	targets the moment something breaks / fails
+disc golfers	a restock alerter	serves the SUPPLIERS, not the hobbyists
+vinyl record diggers	a quote/estimate generator	for people who actively hate the incumbent tool
+ultralight backpackers	a one-email-in / one-email-out bot	uses a constraint everyone else ignores
+food-truck operators	a search engine for one narrow thing	targets the 5 minutes RIGHT BEFORE the activity
+sign painters	a printable generator	operates entirely over SMS/email
+disc golfers	a converter	uses a constraint everyone else ignores
+general contractors pulling permits	a price/condition tracker	exploits a rule/regulation deadline
+licensed childcare / daycare operators	an availability tracker	uses a constraint everyone else ignores
+customs brokers	a converter	only does the one step everything else skips
+caregivers for aging parents	a restock alerter	surfaces what's secretly out of stock everywhere
+Etsy sellers in one craft	a curated auto-updating directory	combines two unrelated data sources
+caregivers for aging parents	a counterfeit/fake detector	is the 'should I even bother' gate
+microgreens growers	a constraint-checker / validator	translates pro jargon for newcomers
+off-grid homesteaders	a single-purpose calculator	operates entirely over SMS/email
+short-term-rental hosts	a route/sequence optimizer	for people who actively hate the incumbent tool
+self-storage facility owners	a route/sequence optimizer	does the reverse of what every existing tool does
+short-term-rental hosts	a tiny public dataset	does the boring compliance nobody wants
+watch modders	a counterfeit/fake detector	operates entirely over SMS/email
+vintage synth collectors	an aggregator	targets the moment something breaks / fails
+used-boat buyers	a comparison explorer	aggregates what's scattered across 20 forums
+used-RV buyers	a 'is it worth it' estimator	is for the spouse/parent/heir of the enthusiast
+freelance paralegals	a constraint-checker / validator	is the 'should I even bother' gate
+amateur astronomers	a printable generator	works fully offline
+process servers	a route/sequence optimizer	targets the moment something breaks / fails
+boat detailers	a one-email-in / one-email-out bot	does the boring compliance nobody wants
+domain-name buyers	a 'is it worth it' estimator	does the boring compliance nobody wants
+well drillers	a template / preset pack	is intentionally read-only / no accounts
+long-haul truckers	a quote/estimate generator	surfaces what's secretly out of stock everywhere
+freelance paralegals	a fee/cost auditor	only does the one step everything else skips
+van-lifers	a restock alerter	watches prices across closed/auction markets
+escape-room designers	a search engine for one narrow thing	focuses on end-of-life / disposal / resale
+mobile notaries	a 'find the nearest X' map	surfaces what's secretly out of stock everywhere
+window cleaners	a template / preset pack	tracks a thing that only matters seasonally
+long-haul truckers	a restock alerter	serves the SUPPLIERS, not the hobbyists
+veterinary practice managers	a swap/match board	exploits a rule/regulation deadline
+competitive memory athletes	a route/sequence optimizer	combines two unrelated data sources
+pest-control techs	a route/sequence optimizer	is built for one specific region first
+coin roll hunters	a counterfeit/fake detector	is intentionally read-only / no accounts
+amateur astronomers	a template / preset pack	for people who actively hate the incumbent tool
+estate-sale companies	a monitoring + alert service	operates entirely over SMS/email
+cidermakers	a checklist generator	targets the 5 minutes RIGHT BEFORE the activity
+liveaboard sailors	a 'find the nearest X' map	works from a single photo as input
+freight forwarders	a restock alerter	is for the spouse/parent/heir of the enthusiast
+home roasters	a curated auto-updating directory	aggregates what's scattered across 20 forums
+vintage synth collectors	a converter	combines two unrelated data sources
+comic-book graders	a single-purpose calculator	uses a constraint everyone else ignores
+scrap metal haulers	a fee/cost auditor	serves the SUPPLIERS, not the hobbyists
+cross-border commuters	a compatibility matrix	exploits a rule/regulation deadline
+watch flippers	an aggregator	works from a single photo as input
+general contractors pulling permits	a route/sequence optimizer	monetizes the data exhaust, not the tool
+comic-book graders	a swap/match board	uses a constraint everyone else ignores
+laundromat owners	a converter	works fully offline
+EV-charger installers	a counterfeit/fake detector	is built for one specific region first
+independent bookstore owners	a tiny public dataset	only does the one step everything else skips
+sober-living home operators	an aggregator	uses a constraint everyone else ignores
+homebrewers	a template / preset pack	for people who actively hate the incumbent tool
+powersports / ATV buyers	a 'find the nearest X' map	surfaces what's secretly out of stock everywhere
+independent bookstore owners	a quote/estimate generator	only does the one step everything else skips
+home roasters	an availability tracker	is a verification layer for a trust-poor market
+knife sharpeners	a quote/estimate generator	tracks a thing that only matters seasonally
+ultralight backpackers	a curated auto-updating directory	works fully offline
+antique clock restorers	an aggregator	serves the SUPPLIERS, not the hobbyists
+customs brokers	a search engine for one narrow thing	only does the one step everything else skips
+used-camera-gear buyers	a checklist generator	monetizes the data exhaust, not the tool
+HOA / community-association managers	a single-purpose calculator	focuses on end-of-life / disposal / resale
+sober-living home operators	a price/condition tracker	is for the spouse/parent/heir of the enthusiast
+horse buyers	a browser extension	exploits a rule/regulation deadline
+pool-service operators	a tiny public dataset	works fully offline
+solar installers	a template / preset pack	works fully offline
+small commercial beekeepers	a single-purpose calculator	is for the spouse/parent/heir of the enthusiast
+used farm-equipment buyers	a route/sequence optimizer	is the 'should I even bother' gate
+estate-sale companies	a single-purpose calculator	watches prices across closed/auction markets
+cemetery operators	a unit/format translator	surfaces what's secretly out of stock everywhere
+cottage bakers	a compatibility matrix	exploits a rule/regulation deadline
+coin roll hunters	a search engine for one narrow thing	monetizes the data exhaust, not the tool
+process servers	a naming/ID/serial decoder	monetizes the data exhaust, not the tool
+mushroom cultivators	a restock alerter	is built for one specific region first
+sneaker resellers	a compatibility matrix	targets the 5 minutes RIGHT BEFORE the activity
+ham radio operators	a compatibility matrix	translates pro jargon for newcomers
+fountain pen collectors	a restock alerter	surfaces what's secretly out of stock everywhere
+chimney sweeps	a search engine for one narrow thing	serves the SUPPLIERS, not the hobbyists
+vending-machine operators	a template / preset pack	works fully offline
+vinyl record diggers	a single-purpose calculator	is a verification layer for a trust-poor market
+sober-living home operators	a 'is it worth it' estimator	aggregates what's scattered across 20 forums
+kombucha brewers	an availability tracker	serves the SUPPLIERS, not the hobbyists
+estate executors	a route/sequence optimizer	only does the one step everything else skips
+owner-operator truckers	a search engine for one narrow thing	aggregates what's scattered across 20 forums
+reef-tank aquarists	a compatibility matrix	is a verification layer for a trust-poor market
+people selling a deceased relative's collection	a 'find the nearest X' map	works fully offline
+used-camera-gear buyers	a constraint-checker / validator	does the boring compliance nobody wants
+sneaker resellers	a search engine for one narrow thing	does the reverse of what every existing tool does
+DOT-regulated fleet operators	a checklist generator	is for the spouse/parent/heir of the enthusiast
+mushroom cultivators	a constraint-checker / validator	focuses on end-of-life / disposal / resale
+pool-service operators	an aggregator	works from a single photo as input
+disc golfers	an anomaly flagger	operates entirely over SMS/email
+process servers	a 'is it worth it' estimator	does the boring compliance nobody wants
+microgreens growers	a 'is it worth it' estimator	uses a constraint everyone else ignores
+historical reenactors	a single-purpose calculator	works fully offline
+letterpress printers	a search engine for one narrow thing	serves the SUPPLIERS, not the hobbyists
+wildland firefighters	a unit/format translator	serves the SUPPLIERS, not the hobbyists
+used-restaurant-equipment buyers	a route/sequence optimizer	watches prices across closed/auction markets
+cottage bakers	a quote/estimate generator	is for the spouse/parent/heir of the enthusiast
+immigration paralegals	a quote/estimate generator	focuses on end-of-life / disposal / resale
+septic installers	a recall/notice watcher	works from a single photo as input
+trading-card graders	a counterfeit/fake detector	is intentionally read-only / no accounts
+cosplay armor makers	a search engine for one narrow thing	focuses on end-of-life / disposal / resale
+livestock auction buyers	a single-purpose calculator	monetizes the data exhaust, not the tool
+cottage bakers	a deadline/season reminder	works fully offline
+vending-machine operators	a counterfeit/fake detector	operates entirely over SMS/email
+well drillers	an availability tracker	targets the 5 minutes RIGHT BEFORE the activity
+commercial drone pilots	a 'what's this worth' appraiser	works from a single photo as input
+short-term-rental hosts	a comparison explorer	targets the moment something breaks / fails
+pottery studios	a route/sequence optimizer	focuses on end-of-life / disposal / resale
+sneaker resellers	a template / preset pack	aggregates what's scattered across 20 forums
+self-storage facility owners	a route/sequence optimizer	only does the one step everything else skips
+expat retirees	a restock alerter	translates pro jargon for newcomers
+immigration paralegals	a browser extension	does the boring compliance nobody wants
+breeding-dog buyers	a quote/estimate generator	watches prices across closed/auction markets
+used heavy-equipment buyers	a 'find the nearest X' map	translates pro jargon for newcomers
+Etsy sellers in one craft	a restock alerter	tracks a thing that only matters seasonally
+specialty coffee roasters	a one-email-in / one-email-out bot	aggregates what's scattered across 20 forums
+tax preparers / enrolled agents	a restock alerter	combines two unrelated data sources
+traveling nurses	a route/sequence optimizer	is for the spouse/parent/heir of the enthusiast
+comic-book graders	a constraint-checker / validator	operates entirely over SMS/email
+carnivorous plant growers	a restock alerter	uses a constraint everyone else ignores
+owner-operator truckers	a one-email-in / one-email-out bot	targets the 5 minutes RIGHT BEFORE the activity
+classic-car buyers	a search engine for one narrow thing	is the 'should I even bother' gate
+pool-service operators	an aggregator	monetizes the data exhaust, not the tool
+vintage-guitar flippers	a counterfeit/fake detector	focuses on end-of-life / disposal / resale
+sober-living home operators	a unit/format translator	is the 'should I even bother' gate
+Amazon FBA resellers	a price/condition tracker	does the boring compliance nobody wants
+model railroad builders	a single-purpose calculator	watches prices across closed/auction markets
+septic installers	a naming/ID/serial decoder	surfaces what's secretly out of stock everywhere
+speedcubers	an availability tracker	uses a constraint everyone else ignores
+used-restaurant-equipment buyers	a single-purpose calculator	is the 'should I even bother' gate
+customs brokers	an anomaly flagger	does the reverse of what every existing tool does
+model railroad builders	a checklist generator	is built for one specific region first
+ham radio operators	a monitoring + alert service	catches the expensive mistake before it's made
+traveling nurses	a lightweight CRM for one workflow	is intentionally read-only / no accounts
+independent bookstore owners	a template / preset pack	works from a single photo as input
+knife sharpeners	a converter	monetizes the data exhaust, not the tool
+HOA / community-association managers	a recall/notice watcher	monetizes the data exhaust, not the tool
+knife sharpeners	a deadline/season reminder	targets the moment something breaks / fails
+self-storage facility owners	a lightweight CRM for one workflow	for people who actively hate the incumbent tool
+well drillers	a fee/cost auditor	aggregates what's scattered across 20 forums
+tarot deck collectors	a quote/estimate generator	surfaces what's secretly out of stock everywhere
+freight forwarders	a counterfeit/fake detector	watches prices across closed/auction markets
+tax preparers / enrolled agents	a 'what's this worth' appraiser	is the 'should I even bother' gate
+well drillers	a one-email-in / one-email-out bot	does the reverse of what every existing tool does
+Lego set investors	a price/condition tracker	aggregates what's scattered across 20 forums
+traveling nurses	an anomaly flagger	targets the moment something breaks / fails
+disc golfers	a price/condition tracker	serves the SUPPLIERS, not the hobbyists
+historical reenactors	a browser extension	works from a single photo as input
+freelance paralegals	an anomaly flagger	is a verification layer for a trust-poor market
+Lego set investors	a search engine for one narrow thing	only does the one step everything else skips
+freight dispatchers	a checklist generator	focuses on end-of-life / disposal / resale
+used-boat buyers	an aggregator	exploits a rule/regulation deadline
+cidermakers	a template / preset pack	combines two unrelated data sources
+ultralight backpackers	a printable generator	works fully offline
+cottage bakers	a 'find the nearest X' map	aggregates what's scattered across 20 forums
+airsoft milsim teams	a 'find the nearest X' map	operates entirely over SMS/email
+veterinary practice managers	a fee/cost auditor	works fully offline
+freight dispatchers	a 'what's this worth' appraiser	aggregates what's scattered across 20 forums
+horse buyers	a search engine for one narrow thing	combines two unrelated data sources
+used-RV buyers	a naming/ID/serial decoder	only does the one step everything else skips
+caregivers for aging parents	an availability tracker	monetizes the data exhaust, not the tool
+freight forwarders	a fee/cost auditor	is a verification layer for a trust-poor market
+home roasters	a compatibility matrix	works fully offline
+used-restaurant-equipment buyers	a deadline/season reminder	combines two unrelated data sources
+RV full-timers	a curated auto-updating directory	targets the 5 minutes RIGHT BEFORE the activity
+van-lifers	a curated auto-updating directory	is intentionally read-only / no accounts
+microgreens growers	a search engine for one narrow thing	only does the one step everything else skips
+used heavy-equipment buyers	a printable generator	watches prices across closed/auction markets
+sober-living home operators	a tiny public dataset	combines two unrelated data sources
+homebrewers	a comparison explorer	only does the one step everything else skips
+expat retirees	a compatibility matrix	focuses on end-of-life / disposal / resale
+competitive youth sports parents	a route/sequence optimizer	works from a single photo as input
+liveaboard sailors	a naming/ID/serial decoder	watches prices across closed/auction markets
+estate-sale companies	a naming/ID/serial decoder	tracks a thing that only matters seasonally
+Amazon FBA resellers	a printable generator	catches the expensive mistake before it's made
+chimney sweeps	a one-email-in / one-email-out bot	works from a single photo as input
+ATM route operators	a constraint-checker / validator	tracks a thing that only matters seasonally
+small distilleries	a deadline/season reminder	tracks a thing that only matters seasonally
+used-RV buyers	a compatibility matrix	watches prices across closed/auction markets
+long-haul truckers	a printable generator	watches prices across closed/auction markets
+historical reenactors	a search engine for one narrow thing	catches the expensive mistake before it's made
+Lego set investors	a swap/match board	combines two unrelated data sources
+competitive youth sports parents	a curated auto-updating directory	exploits a rule/regulation deadline
+escape-room designers	a 'find the nearest X' map	is built for one specific region first
+caregivers for aging parents	a naming/ID/serial decoder	is for the spouse/parent/heir of the enthusiast
+private pilots	a checklist generator	focuses on end-of-life / disposal / resale
+window cleaners	an anomaly flagger	is for the spouse/parent/heir of the enthusiast
+ATM route operators	a restock alerter	does the reverse of what every existing tool does
+tarot deck collectors	a restock alerter	focuses on end-of-life / disposal / resale
+solar installers	a template / preset pack	is a verification layer for a trust-poor market
+veterinary practice managers	a comparison explorer	for people who actively hate the incumbent tool
+long-haul truckers	a unit/format translator	does the boring compliance nobody wants
+RV full-timers	a price/condition tracker	works fully offline
+septic installers	a one-email-in / one-email-out bot	is a verification layer for a trust-poor market
+medical billers	a curated auto-updating directory	is a verification layer for a trust-poor market
+used farm-equipment buyers	a template / preset pack	is intentionally read-only / no accounts
+watch flippers	a checklist generator	translates pro jargon for newcomers
+reef-tank aquarists	a printable generator	uses a constraint everyone else ignores
+general contractors pulling permits	a single-purpose calculator	monetizes the data exhaust, not the tool
+mobile notaries	a one-email-in / one-email-out bot	is intentionally read-only / no accounts
+vending-machine operators	a recall/notice watcher	is built for one specific region first
+customs brokers	a browser extension	surfaces what's secretly out of stock everywhere
+historical reenactors	a counterfeit/fake detector	focuses on end-of-life / disposal / resale
+owner-operator truckers	a lightweight CRM for one workflow	exploits a rule/regulation deadline
+cidermakers	a quote/estimate generator	is a verification layer for a trust-poor market
+import/export small brokers	an anomaly flagger	surfaces what's secretly out of stock everywhere
+competitive youth sports parents	a one-email-in / one-email-out bot	serves the SUPPLIERS, not the hobbyists
+disc golfers	an aggregator	is intentionally read-only / no accounts
+freight dispatchers	a one-email-in / one-email-out bot	for people who actively hate the incumbent tool
+general contractors pulling permits	a 'find the nearest X' map	for people who actively hate the incumbent tool
+customs brokers	a route/sequence optimizer	does the boring compliance nobody wants
+disc golfers	an aggregator	translates pro jargon for newcomers
+liveaboard sailors	a counterfeit/fake detector	surfaces what's secretly out of stock everywhere
+used farm-equipment buyers	a 'is it worth it' estimator	monetizes the data exhaust, not the tool
+coin roll hunters	a swap/match board	tracks a thing that only matters seasonally
+vintage-guitar flippers	a converter	tracks a thing that only matters seasonally
+luthiers / instrument repair	a unit/format translator	focuses on end-of-life / disposal / resale
+commercial drone pilots	a swap/match board	serves the SUPPLIERS, not the hobbyists
+whisky cask investors	a lightweight CRM for one workflow	works from a single photo as input
+used farm-equipment buyers	a unit/format translator	operates entirely over SMS/email
+vintage-guitar flippers	a route/sequence optimizer	targets the moment something breaks / fails
+whisky cask investors	a single-purpose calculator	is for the spouse/parent/heir of the enthusiast
+aquascapers	a compatibility matrix	for people who actively hate the incumbent tool
+indie tattoo studios	a curated auto-updating directory	catches the expensive mistake before it's made
+medical billers	an availability tracker	translates pro jargon for newcomers
+self-storage facility owners	a printable generator	focuses on end-of-life / disposal / resale
+small commercial beekeepers	a template / preset pack	for people who actively hate the incumbent tool
+reef-tank aquarists	a route/sequence optimizer	catches the expensive mistake before it's made
+private pilots	a browser extension	does the reverse of what every existing tool does
+indie tattoo studios	a 'is it worth it' estimator	catches the expensive mistake before it's made
+competitive youth sports parents	a one-email-in / one-email-out bot	aggregates what's scattered across 20 forums
+pool-service operators	a checklist generator	operates entirely over SMS/email
+expat retirees	a lightweight CRM for one workflow	focuses on end-of-life / disposal / resale
+vending-machine operators	a 'what's this worth' appraiser	tracks a thing that only matters seasonally
+watch flippers	an aggregator	focuses on end-of-life / disposal / resale
+medical billers	a constraint-checker / validator	uses a constraint everyone else ignores
+competitive memory athletes	a printable generator	targets the 5 minutes RIGHT BEFORE the activity
+well drillers	a swap/match board	monetizes the data exhaust, not the tool
+cemetery operators	a comparison explorer	serves the SUPPLIERS, not the hobbyists
+drone racers	a tiny public dataset	monetizes the data exhaust, not the tool
+home roasters	a checklist generator	is built for one specific region first
+fountain pen collectors	a price/condition tracker	is built for one specific region first
+cottage bakers	a counterfeit/fake detector	watches prices across closed/auction markets
+used-RV buyers	a printable generator	targets the moment something breaks / fails
+classic-car buyers	an availability tracker	combines two unrelated data sources
+aquascapers	an anomaly flagger	for people who actively hate the incumbent tool
+sneaker resellers	a browser extension	monetizes the data exhaust, not the tool
+EV-charger installers	a route/sequence optimizer	is intentionally read-only / no accounts
+commercial drone pilots	an availability tracker	watches prices across closed/auction markets
+comic-book graders	a deadline/season reminder	is built for one specific region first
+letterpress printers	a counterfeit/fake detector	does the boring compliance nobody wants
+import/export small brokers	a naming/ID/serial decoder	operates entirely over SMS/email
+ham radio operators	a template / preset pack	watches prices across closed/auction markets
+car-wash owners	a naming/ID/serial decoder	is for the spouse/parent/heir of the enthusiast
+horse buyers	a quote/estimate generator	is the 'should I even bother' gate
+taxidermists	a browser extension	for people who actively hate the incumbent tool
+funeral home directors	a monitoring + alert service	only does the one step everything else skips
+drone racers	a fee/cost auditor	exploits a rule/regulation deadline
+vintage-guitar flippers	a printable generator	targets the 5 minutes RIGHT BEFORE the activity
+locksmiths	a compatibility matrix	for people who actively hate the incumbent tool
+comic-book graders	a comparison explorer	targets the moment something breaks / fails
+cemetery operators	a constraint-checker / validator	catches the expensive mistake before it's made
+drone racers	a 'what's this worth' appraiser	translates pro jargon for newcomers
+commercial drone pilots	a curated auto-updating directory	focuses on end-of-life / disposal / resale
+indie tattoo studios	a one-email-in / one-email-out bot	uses a constraint everyone else ignores
+septic installers	a monitoring + alert service	is the 'should I even bother' gate
+sign painters	a price/condition tracker	catches the expensive mistake before it's made
+microgreens growers	a checklist generator	monetizes the data exhaust, not the tool
+wedding officiants	a monitoring + alert service	works from a single photo as input
+knife sharpeners	a browser extension	tracks a thing that only matters seasonally
+mushroom cultivators	a unit/format translator	targets the moment something breaks / fails
+car-wash owners	a printable generator	only does the one step everything else skips
+car-wash owners	a monitoring + alert service	tracks a thing that only matters seasonally
+independent bookstore owners	a restock alerter	targets the 5 minutes RIGHT BEFORE the activity
+luxury-handbag resellers	a swap/match board	catches the expensive mistake before it's made
+pest-control techs	a deadline/season reminder	catches the expensive mistake before it's made
+saltwater fly fishers	a naming/ID/serial decoder	surfaces what's secretly out of stock everywhere
+mechanical keyboard builders	a curated auto-updating directory	works fully offline
+antique clock restorers	a constraint-checker / validator	watches prices across closed/auction markets
+vintage-guitar flippers	a 'find the nearest X' map	is a verification layer for a trust-poor market
+metal detectorists	a browser extension	works fully offline
+reef-tank aquarists	a fee/cost auditor	exploits a rule/regulation deadline
+traveling nurses	a 'what's this worth' appraiser	targets the 5 minutes RIGHT BEFORE the activity
+RV full-timers	a printable generator	works fully offline
+kombucha brewers	a price/condition tracker	aggregates what's scattered across 20 forums
+luxury-handbag resellers	a naming/ID/serial decoder	combines two unrelated data sources
+oil-rig rotation workers	a recall/notice watcher	does the reverse of what every existing tool does
+mushroom cultivators	a constraint-checker / validator	works fully offline
+classic-car buyers	a checklist generator	operates entirely over SMS/email
+small commercial beekeepers	a unit/format translator	is the 'should I even bother' gate
+pool-service operators	a monitoring + alert service	for people who actively hate the incumbent tool
+owner-operator truckers	a lightweight CRM for one workflow	does the reverse of what every existing tool does
+picture framers	a 'find the nearest X' map	does the reverse of what every existing tool does
+freelance paralegals	an availability tracker	is intentionally read-only / no accounts
+breeding-dog buyers	a tiny public dataset	catches the expensive mistake before it's made
+estate executors	a route/sequence optimizer	translates pro jargon for newcomers
+off-grid homesteaders	a checklist generator	exploits a rule/regulation deadline
+sign painters	a one-email-in / one-email-out bot	tracks a thing that only matters seasonally
+upholstery shops	a counterfeit/fake detector	targets the 5 minutes RIGHT BEFORE the activity
+commercial fishers	an availability tracker	does the boring compliance nobody wants
+breeding-dog buyers	a lightweight CRM for one workflow	works fully offline
+historical reenactors	an aggregator	surfaces what's secretly out of stock everywhere
+cottage bakers	a converter	surfaces what's secretly out of stock everywhere
+livestock auction buyers	a route/sequence optimizer	tracks a thing that only matters seasonally
+mushroom cultivators	a fee/cost auditor	operates entirely over SMS/email
+pinball restorers	a naming/ID/serial decoder	tracks a thing that only matters seasonally
+used heavy-equipment buyers	a lightweight CRM for one workflow	combines two unrelated data sources
+independent bookstore owners	a 'what's this worth' appraiser	translates pro jargon for newcomers
+freight dispatchers	an aggregator	only does the one step everything else skips
+pinball restorers	a compatibility matrix	combines two unrelated data sources
+speedcubers	an anomaly flagger	watches prices across closed/auction markets
+ultralight backpackers	a fee/cost auditor	uses a constraint everyone else ignores
+microgreens growers	a unit/format translator	works from a single photo as input
+airsoft milsim teams	a 'find the nearest X' map	is intentionally read-only / no accounts
+loan-signing notaries	a 'is it worth it' estimator	monetizes the data exhaust, not the tool
+estate executors	a browser extension	is for the spouse/parent/heir of the enthusiast
+Lego set investors	a curated auto-updating directory	monetizes the data exhaust, not the tool
+hospice families	a constraint-checker / validator	is a verification layer for a trust-poor market
+airsoft milsim teams	a unit/format translator	only does the one step everything else skips
+owner-operator truckers	a naming/ID/serial decoder	monetizes the data exhaust, not the tool
+immigration paralegals	a checklist generator	targets the 5 minutes RIGHT BEFORE the activity
+hospice families	a curated auto-updating directory	catches the expensive mistake before it's made
+powersports / ATV buyers	a restock alerter	targets the 5 minutes RIGHT BEFORE the activity
+airsoft milsim teams	a deadline/season reminder	uses a constraint everyone else ignores
+boat detailers	a comparison explorer	aggregates what's scattered across 20 forums
+vinyl record diggers	a lightweight CRM for one workflow	surfaces what's secretly out of stock everywhere
+ham radio operators	a browser extension	tracks a thing that only matters seasonally
+funeral home directors	a one-email-in / one-email-out bot	is built for one specific region first
+airsoft milsim teams	a price/condition tracker	is a verification layer for a trust-poor market
+vintage-guitar flippers	a 'is it worth it' estimator	targets the moment something breaks / fails
+private pilots	a deadline/season reminder	watches prices across closed/auction markets
+antique clock restorers	a monitoring + alert service	monetizes the data exhaust, not the tool
+off-grid homesteaders	a lightweight CRM for one workflow	uses a constraint everyone else ignores
+cosplay armor makers	a compatibility matrix	is a verification layer for a trust-poor market
+loan-signing notaries	a template / preset pack	is for the spouse/parent/heir of the enthusiast
+veterinary practice managers	a fee/cost auditor	is built for one specific region first
+speedcubers	a 'what's this worth' appraiser	for people who actively hate the incumbent tool
+septic installers	a search engine for one narrow thing	works from a single photo as input
+mobile notaries	a template / preset pack	is built for one specific region first
+general contractors pulling permits	a 'is it worth it' estimator	operates entirely over SMS/email
+liveaboard sailors	a single-purpose calculator	combines two unrelated data sources
+well drillers	a template / preset pack	monetizes the data exhaust, not the tool
+wildland firefighters	a curated auto-updating directory	focuses on end-of-life / disposal / resale
+traveling nurses	a monitoring + alert service	is built for one specific region first
+tarot deck collectors	a 'find the nearest X' map	is for the spouse/parent/heir of the enthusiast
+wedding officiants	a price/condition tracker	for people who actively hate the incumbent tool
+watch modders	a route/sequence optimizer	is for the spouse/parent/heir of the enthusiast
+people selling a deceased relative's collection	a browser extension	surfaces what's secretly out of stock everywhere
+whisky cask investors	a fee/cost auditor	works from a single photo as input
+short-term-rental hosts	an availability tracker	translates pro jargon for newcomers
+tarot deck collectors	a 'find the nearest X' map	works fully offline
+vinyl record diggers	a 'find the nearest X' map	is a verification layer for a trust-poor market
+medical billers	a price/condition tracker	focuses on end-of-life / disposal / resale
+whisky cask investors	a 'what's this worth' appraiser	focuses on end-of-life / disposal / resale
+home inspectors	a 'find the nearest X' map	works fully offline
+whisky cask investors	a route/sequence optimizer	is a verification layer for a trust-poor market
+general contractors pulling permits	a unit/format translator	uses a constraint everyone else ignores
+freight dispatchers	a unit/format translator	only does the one step everything else skips
+sober-living home operators	a tiny public dataset	surfaces what's secretly out of stock everywhere
+mobile dog groomers	a curated auto-updating directory	does the reverse of what every existing tool does
+estate executors	an anomaly flagger	focuses on end-of-life / disposal / resale
+wedding officiants	a fee/cost auditor	watches prices across closed/auction markets
+chimney sweeps	a fee/cost auditor	for people who actively hate the incumbent tool
+upholstery shops	a checklist generator	is a verification layer for a trust-poor market
+independent bookstore owners	a 'what's this worth' appraiser	tracks a thing that only matters seasonally
+Amazon FBA resellers	a 'find the nearest X' map	only does the one step everything else skips
+loan-signing notaries	a comparison explorer	is the 'should I even bother' gate
+aquascapers	a template / preset pack	uses a constraint everyone else ignores
+ATM route operators	a 'what's this worth' appraiser	focuses on end-of-life / disposal / resale
+scrap metal haulers	a constraint-checker / validator	targets the moment something breaks / fails
+immigration paralegals	a swap/match board	serves the SUPPLIERS, not the hobbyists
+solar installers	a recall/notice watcher	is for the spouse/parent/heir of the enthusiast
+metal detectorists	a single-purpose calculator	is a verification layer for a trust-poor market
+private pilots	a price/condition tracker	uses a constraint everyone else ignores
+powersports / ATV buyers	a 'is it worth it' estimator	surfaces what's secretly out of stock everywhere
+disc golfers	a tiny public dataset	tracks a thing that only matters seasonally
+powersports / ATV buyers	a restock alerter	is the 'should I even bother' gate
+HOA / community-association managers	a deadline/season reminder	is for the spouse/parent/heir of the enthusiast
+homebrewers + licensed childcare / daycare operators	a 'find the nearest X' map	uses a constraint everyone else ignores
+car-wash owners + historical reenactors	a one-email-in / one-email-out bot	exploits a rule/regulation deadline
+NICU parents + microgreens growers	a comparison explorer	is intentionally read-only / no accounts
+competitive youth sports parents + import/export small brokers	a browser extension	is a verification layer for a trust-poor market
+caregivers for aging parents + oil-rig rotation workers	a one-email-in / one-email-out bot	combines two unrelated data sources
+homebrewers + off-grid homesteaders	a 'find the nearest X' map	is built for one specific region first
+sign painters + trading-card graders	a search engine for one narrow thing	works fully offline
+classic-car buyers + independent bookstore owners	a template / preset pack	aggregates what's scattered across 20 forums
+antique clock restorers + livestock auction buyers	an availability tracker	is a verification layer for a trust-poor market
+aquascapers + horse buyers	a browser extension	does the boring compliance nobody wants
+chimney sweeps + court reporters	a printable generator	works fully offline
+Lego set investors + tabletop miniature painters	a browser extension	catches the expensive mistake before it's made
+commercial fishers + specialty coffee roasters	an aggregator	for people who actively hate the incumbent tool
+taxidermists + wedding officiants	a search engine for one narrow thing	watches prices across closed/auction markets
+metal detectorists + wedding officiants	a fee/cost auditor	is the 'should I even bother' gate
+van-lifers + watch flippers	a printable generator	aggregates what's scattered across 20 forums
+process servers + used-restaurant-equipment buyers	a 'is it worth it' estimator	is built for one specific region first
+model railroad builders + scrap metal haulers	a checklist generator	works fully offline
+historical reenactors + saltwater fly fishers	a price/condition tracker	only does the one step everything else skips
+disc golfers + indie tattoo studios	a 'what's this worth' appraiser	combines two unrelated data sources
+competitive memory athletes + whisky cask investors	a constraint-checker / validator	exploits a rule/regulation deadline
+Amazon FBA resellers + laundromat owners	a swap/match board	serves the SUPPLIERS, not the hobbyists
+HOA / community-association managers + disc golfers	a 'what's this worth' appraiser	operates entirely over SMS/email
+breeding-dog buyers + watch modders	a comparison explorer	is the 'should I even bother' gate
+cosplay armor makers + used-boat buyers	a monitoring + alert service	is built for one specific region first
+Lego set investors + competitive bird photography	an availability tracker	aggregates what's scattered across 20 forums
+HOA / community-association managers + long-haul truckers	a monitoring + alert service	does the boring compliance nobody wants
+cross-border commuters + funeral home directors	an anomaly flagger	works from a single photo as input
+domain-name buyers + food-truck operators	an anomaly flagger	focuses on end-of-life / disposal / resale
+arborists + kombucha brewers	a checklist generator	targets the 5 minutes RIGHT BEFORE the activity
+breeding-dog buyers + pool-service operators	a compatibility matrix	targets the moment something breaks / fails
+mobile notaries + oil-rig rotation workers	an anomaly flagger	only does the one step everything else skips
+EV-charger installers + import/export small brokers	a 'what's this worth' appraiser	focuses on end-of-life / disposal / resale
+Amazon FBA resellers + comic-book graders	a printable generator	surfaces what's secretly out of stock everywhere
+breeding-dog buyers + long-haul truckers	a converter	does the reverse of what every existing tool does
+freight forwarders + kombucha brewers	a template / preset pack	serves the SUPPLIERS, not the hobbyists
+sober-living home operators + window cleaners	a printable generator	works fully offline
+classic-car buyers + disc golfers	a price/condition tracker	does the reverse of what every existing tool does
+small-farm CSA operators + tarot deck collectors	a quote/estimate generator	only does the one step everything else skips
+cottage bakers + watch flippers	a search engine for one narrow thing	combines two unrelated data sources
+estate executors + general contractors pulling permits	a curated auto-updating directory	is built for one specific region first
+indie tattoo studios + tabletop miniature painters	a 'what's this worth' appraiser	translates pro jargon for newcomers
+indie tattoo studios + watch flippers	a one-email-in / one-email-out bot	focuses on end-of-life / disposal / resale
+classic-car buyers + kombucha brewers	a search engine for one narrow thing	focuses on end-of-life / disposal / resale
+Amazon FBA resellers + pinball restorers	a checklist generator	aggregates what's scattered across 20 forums
+self-storage facility owners + traveling nurses	a unit/format translator	only does the one step everything else skips
+metal detectorists + pest-control techs	a recall/notice watcher	only does the one step everything else skips
+laundromat owners + livestock auction buyers	a template / preset pack	uses a constraint everyone else ignores
+off-grid homesteaders + picture framers	a recall/notice watcher	does the reverse of what every existing tool does
+DOT-regulated fleet operators + pest-control techs	a search engine for one narrow thing	monetizes the data exhaust, not the tool
+Lego set investors + vending-machine operators	a converter	exploits a rule/regulation deadline
+solar installers + tax preparers / enrolled agents	a single-purpose calculator	works from a single photo as input
+private pilots + used-RV buyers	a counterfeit/fake detector	does the boring compliance nobody wants
+aquascapers + private pilots	a swap/match board	exploits a rule/regulation deadline
+fountain pen collectors + people selling a deceased relative's collection	a browser extension	monetizes the data exhaust, not the tool
+short-term-rental hosts + tabletop miniature painters	a comparison explorer	catches the expensive mistake before it's made
+ATM route operators + escape-room designers	a swap/match board	serves the SUPPLIERS, not the hobbyists
+Etsy sellers in one craft + bonsai growers	a monitoring + alert service	is the 'should I even bother' gate
+antique clock restorers + used-restaurant-equipment buyers	a recall/notice watcher	is the 'should I even bother' gate
+comic-book graders + people selling a deceased relative's collection	a monitoring + alert service	combines two unrelated data sources
+ATM route operators + Amazon FBA resellers	an aggregator	serves the SUPPLIERS, not the hobbyists
+funeral home directors + used-RV buyers	an anomaly flagger	aggregates what's scattered across 20 forums
+pinball restorers + small commercial beekeepers	a printable generator	only does the one step everything else skips
+scrap metal haulers + wedding officiants	a unit/format translator	works fully offline
+caregivers for aging parents + cemetery operators	a lightweight CRM for one workflow	works fully offline
+commercial drone pilots + long-haul truckers	a naming/ID/serial decoder	is built for one specific region first
+commercial fishers + food-truck operators	a unit/format translator	combines two unrelated data sources
+competitive youth sports parents + luthiers / instrument repair	a 'what's this worth' appraiser	tracks a thing that only matters seasonally
+freight dispatchers + laundromat owners	a single-purpose calculator	watches prices across closed/auction markets
+tarot deck collectors + used farm-equipment buyers	a converter	focuses on end-of-life / disposal / resale
+homebrewers + pottery studios	an aggregator	is the 'should I even bother' gate
+arborists + classic-car buyers	a tiny public dataset	exploits a rule/regulation deadline
+small distilleries + upholstery shops	a lightweight CRM for one workflow	is for the spouse/parent/heir of the enthusiast
+sign painters + trading-card graders	a single-purpose calculator	works from a single photo as input
+Lego set investors + long-haul truckers	a counterfeit/fake detector	surfaces what's secretly out of stock everywhere
+coin roll hunters + competitive youth sports parents	an availability tracker	works from a single photo as input
+classic-car buyers + off-grid homesteaders	a 'what's this worth' appraiser	is built for one specific region first
+Etsy sellers in one craft + RV full-timers	a 'find the nearest X' map	watches prices across closed/auction markets
+horse buyers + sober-living home operators	a recall/notice watcher	aggregates what's scattered across 20 forums
+licensed childcare / daycare operators + used-RV buyers	a restock alerter	for people who actively hate the incumbent tool
+domain-name buyers + process servers	a price/condition tracker	operates entirely over SMS/email
+bonsai growers + speedcubers	a deadline/season reminder	targets the 5 minutes RIGHT BEFORE the activity
+mobile notaries + sign painters	a lightweight CRM for one workflow	targets the moment something breaks / fails
+cottage bakers + sneaker resellers	a unit/format translator	watches prices across closed/auction markets
+cidermakers + pest-control techs	a counterfeit/fake detector	is a verification layer for a trust-poor market
+indie tattoo studios + van-lifers	a search engine for one narrow thing	catches the expensive mistake before it's made
+competitive youth sports parents + licensed childcare / daycare operators	a 'find the nearest X' map	is the 'should I even bother' gate
+freight dispatchers + ultralight backpackers	a search engine for one narrow thing	is for the spouse/parent/heir of the enthusiast
+locksmiths + luxury-handbag resellers	a curated auto-updating directory	translates pro jargon for newcomers
+indie tattoo studios + trading-card graders	a fee/cost auditor	targets the moment something breaks / fails
+competitive bird photography + ultralight backpackers	a 'what's this worth' appraiser	is built for one specific region first
+locksmiths + vintage synth collectors	a fee/cost auditor	uses a constraint everyone else ignores
+coin roll hunters + indie tattoo studios	a monitoring + alert service	targets the 5 minutes RIGHT BEFORE the activity
+carnivorous plant growers + veterinary practice managers	a route/sequence optimizer	targets the moment something breaks / fails
+livestock auction buyers + well drillers	a converter	targets the moment something breaks / fails
+DOT-regulated fleet operators + estate executors	a fee/cost auditor	does the boring compliance nobody wants
+commercial fishers + veterinary practice managers	a browser extension	watches prices across closed/auction markets
+competitive memory athletes + sneaker resellers	a fee/cost auditor	is for the spouse/parent/heir of the enthusiast
+scrap metal haulers + vintage-guitar flippers	a 'is it worth it' estimator	targets the 5 minutes RIGHT BEFORE the activity
+Etsy sellers in one craft + used-boat buyers	a quote/estimate generator	is a verification layer for a trust-poor market
+antique clock restorers + used-restaurant-equipment buyers	a fee/cost auditor	catches the expensive mistake before it's made
+food-truck operators + used farm-equipment buyers	a recall/notice watcher	is intentionally read-only / no accounts
+home inspectors + small commercial beekeepers	a lightweight CRM for one workflow	does the boring compliance nobody wants
+Amazon FBA resellers + customs brokers	a 'find the nearest X' map	is built for one specific region first
+amateur astronomers + horse buyers	an aggregator	uses a constraint everyone else ignores
+Amazon FBA resellers + vinyl record diggers	a route/sequence optimizer	is a verification layer for a trust-poor market
+disc golfers + independent bookstore owners	a curated auto-updating directory	monetizes the data exhaust, not the tool
+process servers + reef-tank aquarists	a browser extension	catches the expensive mistake before it's made
+cidermakers + picture framers	a single-purpose calculator	serves the SUPPLIERS, not the hobbyists
+NICU parents + scrap metal haulers	a 'what's this worth' appraiser	surfaces what's secretly out of stock everywhere
+commercial fishers + used-restaurant-equipment buyers	a 'what's this worth' appraiser	focuses on end-of-life / disposal / resale
+carnivorous plant growers + customs brokers	a swap/match board	does the reverse of what every existing tool does
+vending-machine operators + veterinary practice managers	a naming/ID/serial decoder	combines two unrelated data sources
+competitive bird photography + immigration paralegals	a tiny public dataset	operates entirely over SMS/email
+ham radio operators + pool-service operators	an availability tracker	targets the 5 minutes RIGHT BEFORE the activity
+domain-name buyers + mechanical keyboard builders	a swap/match board	is the 'should I even bother' gate
+powersports / ATV buyers + septic installers	an anomaly flagger	combines two unrelated data sources
+taxidermists + van-lifers	a 'is it worth it' estimator	works fully offline
+septic installers + wildland firefighters	a constraint-checker / validator	aggregates what's scattered across 20 forums
+pinball restorers + used-boat buyers	a checklist generator	combines two unrelated data sources
+cemetery operators + junk-removal operators	a one-email-in / one-email-out bot	translates pro jargon for newcomers
+cross-border commuters + locksmiths	a browser extension	only does the one step everything else skips
+HOA / community-association managers + metal detectorists	a unit/format translator	focuses on end-of-life / disposal / resale
+licensed childcare / daycare operators + tax preparers / enrolled agents	a comparison explorer	catches the expensive mistake before it's made
+reef-tank aquarists + well drillers	a tiny public dataset	watches prices across closed/auction markets
+commercial fishers + loan-signing notaries	a deadline/season reminder	surfaces what's secretly out of stock everywhere
+caregivers for aging parents + long-haul truckers	a recall/notice watcher	does the reverse of what every existing tool does
+luthiers / instrument repair + oil-rig rotation workers	a recall/notice watcher	is for the spouse/parent/heir of the enthusiast
+customs brokers + mushroom cultivators	a template / preset pack	works from a single photo as input
+immigration paralegals + vintage synth collectors	an aggregator	monetizes the data exhaust, not the tool
+powersports / ATV buyers + rare houseplant traders	a counterfeit/fake detector	aggregates what's scattered across 20 forums
+junk-removal operators + van-lifers	a 'what's this worth' appraiser	catches the expensive mistake before it's made
+freight dispatchers + used farm-equipment buyers	a curated auto-updating directory	serves the SUPPLIERS, not the hobbyists
+drone racers + mobile dog groomers	a search engine for one narrow thing	catches the expensive mistake before it's made
+specialty coffee roasters + traveling nurses	a template / preset pack	aggregates what's scattered across 20 forums
+car-wash owners + microgreens growers	a deadline/season reminder	works fully offline
+homebrewers + vinyl record diggers	a naming/ID/serial decoder	tracks a thing that only matters seasonally
+mobile notaries + tax preparers / enrolled agents	a recall/notice watcher	does the reverse of what every existing tool does
+DOT-regulated fleet operators + locksmiths	a 'find the nearest X' map	targets the 5 minutes RIGHT BEFORE the activity
+kombucha brewers + metal detectorists	a unit/format translator	focuses on end-of-life / disposal / resale
+freelance paralegals + oil-rig rotation workers	a 'find the nearest X' map	only does the one step everything else skips
+car-wash owners + locksmiths	a 'what's this worth' appraiser	works from a single photo as input
+junk-removal operators + small commercial beekeepers	a compatibility matrix	does the reverse of what every existing tool does
+RV full-timers + boat detailers	a printable generator	does the reverse of what every existing tool does
+private pilots + used-camera-gear buyers	a converter	operates entirely over SMS/email
+antique clock restorers + whisky cask investors	a template / preset pack	translates pro jargon for newcomers
+import/export small brokers + vinyl record diggers	a comparison explorer	does the boring compliance nobody wants
+estate-sale companies + whisky cask investors	a template / preset pack	targets the 5 minutes RIGHT BEFORE the activity
+commercial drone pilots + process servers	a naming/ID/serial decoder	exploits a rule/regulation deadline
+cross-border commuters + freight dispatchers	a search engine for one narrow thing	targets the moment something breaks / fails
