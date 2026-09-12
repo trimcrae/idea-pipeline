@@ -14,6 +14,7 @@ import urllib.parse
 import urllib.request
 
 PAGE = 50000  # SODA 2.1 max page size
+PACE_SECONDS = float(os.environ.get("SOCRATA_PACE_SECONDS", "1.0"))  # gap between requests
 UA = "idea-pipeline-feeds/1.0 (+https://github.com/trimcrae/idea-pipeline)"
 
 
@@ -29,6 +30,8 @@ def _get(url, timeout=120, retries=4):
     last = None
     for attempt in range(retries):
         try:
+            if PACE_SECONDS:
+                time.sleep(PACE_SECONDS)
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8"))

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /feeds/get/
+Sitemap: https://trimcrae.github.io/idea-pipeline/sitemap.xml
