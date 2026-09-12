@@ -65,6 +65,10 @@ jobs:
         run: python engine/feeds/stripe_links.py
       - name: Build pages
         run: python engine/build_pages.py > /dev/null && python engine/status.py
+      - name: Traffic snapshot (main only — each counter read is itself a hit)
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        run: python engine/feeds/traffic.py
       - name: Dry-run summary (dev branches only — nothing is committed or published)
         if: github.ref != 'refs/heads/main'
         run: |

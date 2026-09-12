@@ -436,12 +436,16 @@ def product_page(feed, payments):
                    "availability": "https://schema.org/InStock", "category": "subscription"},
     }
     extra_head = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>\n'
-    body = HEAD.format(title=esc(feed["title"]) + " — weekly CSV", desc=esc(feed["short"]), canonical=canonical,
+    terms = feed.get("search_terms") or []
+    page_title = (terms[0][:1].upper() + terms[0][1:] + " — " + feed["title"]) if terms else feed["title"] + " — weekly CSV"
+    desc = feed["short"] + (" Also: " + ", ".join(terms[1:4]) + "." if len(terms) > 1 else "")
+    body = HEAD.format(title=esc(page_title[:120]), desc=esc(desc[:300]), canonical=canonical,
                        extra_head=extra_head, rel=rel, wide="wide", site=SITE_NAME)
     body += f"""
   <p class="kicker">Weekly feed &middot; {esc(registry_category_label(feed))}{beta}</p>
   <h1>{esc(feed["title"])}</h1>
   <p class="sub">{esc(feed["short"])}</p>
+  {('<p class="small">Searched for as: ' + esc(", ".join(terms)) + '.</p>') if terms else ''}
   {statbox}
   {facts}
   <h2>Sample from the latest file</h2>

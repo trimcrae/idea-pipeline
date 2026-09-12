@@ -151,4 +151,5 @@ Move dead ideas here with a one-line reason so the engine's survivors aren't re-
 (date · idea handle · probe · result · decision)
 
 - 2026-09-12 · `public-records-feeds` · 15 live weekly feeds with free-beta full downloads counted per feed (`PROBE-PAGES.md`); Stripe subscriptions once the operator pastes the key · result: pending — first Monday build 2026-09-14; first read after 8 live weeks (≈2026-11-09) · decision: keep; 3 FMCSA licensing feeds parked (source lags months); kill feeds with 0 downloads at the 8-week read.
-- 2026-09-12 · the 11 June probe pages · lived 12 weeks with no post and no distribution · result: no read (counters unreachable from the sandbox; operator never posted) · decision: kept as `/experiments/` (noindex); superseded as a strategy by real feeds.
+- 2026-09-12 · the 11 June probe pages · lived 12 weeks with no post and no distribution · result: hub counter read 31 hits total (read from a runner) — effectively no real traffic · decision: kept as `/experiments/` (noindex); superseded as a strategy by real feeds.
+- 2026-09-12 · `public-records-feeds` · operator decision: stay free, measure visitors weekly (`TRAFFIC.md`), act on silence per STRATEGY D17 · result: baseline snapshot pending Monday 2026-09-14 · decision: traffic gate armed; payments deferred until the bar is met.

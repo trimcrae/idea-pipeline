@@ -1,10 +1,8 @@
 [
-  {"note": "hits.sh JSON read (does it exist / count?)", "url": "https://hits.sh/trimcrae.github.io/idea-pipeline/view.json", "times": 2},
-  {"note": "hits.sh SVG badge read, twice (does a read increment?)", "url": "https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg", "times": 2},
-  {"note": "hits.sh JSON read again after the SVG reads", "url": "https://hits.sh/trimcrae.github.io/idea-pipeline/view.json", "times": 1},
-  {"note": "hits.sh svg with view=total style", "url": "https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg?view=total", "times": 1},
-  {"note": "hits.sh feed page counter (feeds/us-new-trucking-carriers view)", "url": "https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/us-new-trucking-carriers/view.json", "times": 1},
-  {"note": "live site hub (is Pages serving the new build?)", "url": "https://trimcrae.github.io/idea-pipeline/", "times": 1},
-  {"note": "live feed page", "url": "https://trimcrae.github.io/idea-pipeline/feeds/us-new-trucking-carriers/", "times": 1},
-  {"note": "raw data branch manifest (CORS header check)", "url": "https://raw.githubusercontent.com/trimcrae/idea-pipeline/feeds-data/us-new-trucking-carriers/manifest.json", "times": 1}
+  {"note": "TEMPLATE — replace with the dataset you are researching; never put hits.sh counter URLs here (every read is a hit)",
+   "domain": "data.cityofchicago.org", "dataset": "4ijn-s7e5",
+   "queries": [
+     {"$select": "count(*) as n", "$where": "inspection_date >= '2026-09-01T00:00:00'"},
+     {"$order": "inspection_date DESC", "$limit": 1}
+   ]}
 ]

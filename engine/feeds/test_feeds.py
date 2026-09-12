@@ -161,6 +161,18 @@ def test_registry_shape():
         for c in f.get("contact", {}):
             assert c in exported, (f["id"], c)
         assert f.get("disclaimer", "x") and f["price"] in (19, 29)
+        if f in registry.FEEDS:
+            assert f.get("search_terms"), (f["id"], "search_terms")
+
+
+def test_traffic_counters_and_svg_parse():
+    import traffic
+    labels = [l for l, _ in traffic.counters()]
+    assert "hub · view" in labels and any(l.endswith("file-saved") for l in labels)
+    assert len(labels) == 2 + 5 * len(registry.FEEDS)
+    assert traffic.parse_badge('<svg role="img" aria-label="hits: 1,234"><title>hits: 1,234</title></svg>') == 1234
+    assert traffic.parse_badge('<svg><text x="1">view</text><text x="2">31</text></svg>') == 31
+    assert traffic.parse_badge("<svg></svg>") is None
 
 
 if __name__ == "__main__":
