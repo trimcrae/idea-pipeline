@@ -16,9 +16,25 @@ def get(url, timeout=90):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
+def fetch_text(url, timeout=60):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+        return r.status, dict(r.headers), r.read().decode("utf-8", "replace")
+
+
 def main():
     queries = json.load(open(os.path.join(HERE, "probe_queries.json")))
     for q in queries:
+        if "url" in q:  # raw HTTP probe (any host the runner can reach)
+            print("=" * 100)
+            print(f"## {q.get('note', '')} :: {q['url']}")
+            for _ in range(q.get("times", 1)):
+                try:
+                    st, hdr, body = fetch_text(q["url"])
+                    print(f"  HTTP {st} {hdr.get('Content-Type', '')} | {body[:600].replace(chr(10), ' ')}")
+                except Exception as e:  # noqa: BLE001
+                    print("  error:", str(e)[:200])
+            sys.stdout.flush()
+            continue
         domain, ds = q["domain"], q["dataset"]
         print("=" * 100)
         print(f"## {q.get('note', '')} :: https://{domain}/resource/{ds}.json")

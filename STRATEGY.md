@@ -43,11 +43,12 @@ community post, so the loop must close without them. What closes it:
 
 ## The one metric that matters right now
 
-**Paying subscribers** (Stripe dashboard). Until payments are switched on:
-**full-file downloads per feed per week** (`PROBE-PAGES.md` → the `download`
-counters on `/feeds/get/<id>/`). Views and sample downloads are distribution
-signals, not demand. Also watch the `feeds` workflow: a red Monday is a dead
-product page until it's fixed.
+**Real visitors, then files saved** — read from `TRAFFIC.md` (regenerated every
+Monday from the hits.sh counters; D17 defines the bar). Payments are on hold by
+the operator's call until visitors show up; when they do, the metric becomes
+paying subscribers. Views and sample downloads are distribution signals, not
+demand; a saved CSV is. Baseline 2026-09-12: the June hub counter stood at 31
+hits after twelve weeks with no distribution — that is the "nobody" level to beat.
 
 Snapshot 2026-09-12 (first live build): 15 of 18 feeds returned real rows —
 `us-new-trucking-carriers` 2,071 · `new-york-new-business-entities` 4,191 ·
@@ -205,6 +206,28 @@ file if the trucking census feed shows demand. Live catalogue: **15 feeds**.
   a real demand read (a sales team saving a lead file), not a click on "notify
   me". Feeds with zero downloads after 8 live weeks get killed from the registry;
   feeds with downloads get a price. When payments switch on, the same pages sell.
+- **D17 — Traffic gate: free stays free until real visitors show up; the system
+  acts on silence (operator call, 2026-09-12).** The operator chose not to open a
+  Stripe account yet: keep every feed free, measure whether anyone real comes,
+  and act if nobody does. Measurement is automated — the Monday build reads every
+  hits.sh counter into `feeds/traffic.json` and `TRAFFIC.md` (each badge read is
+  itself a hit; the monitor subtracts its own reads). **Real visitors** = weekly
+  feed-page views (all `feeds/<id>` view deltas, monitor reads excluded) of
+  **≥ 20/week**, or **any** file actually saved from a download page. **Below the
+  bar for 4 consecutive snapshots** the Routine works this ladder, one rung per
+  pass, and logs it here: (1) confirm the sitemap/IndexNow ping succeeded and the
+  pages are indexable (no `noindex`, canonical correct); (2) re-point `<title>`,
+  description and H1 at the highest-plausibility `search_terms`, and add a short
+  FAQ answer that uses each phrase verbatim; (3) add up to 2 feeds/week in
+  *narrower* niches (city-level, one license type) where the long-tail query has
+  no competing page; (4) put more unique, non-contact text on the weekly digest
+  pages (counts by county/type, week-over-week change); (5) state in the Routine's
+  summary that the two remaining levers are the operator's: Search Console
+  (`OPERATOR.md` §2) and one broadcast post where the buyers gather (doctrine #7
+  allows exactly one). After **12 weeks** below the bar with the ladder exhausted,
+  say so plainly and propose reshaping or killing the line — no vanity metrics.
+  When the bar is met, the summary says so and points at `OPERATOR.md` §1 (the
+  Stripe key); nothing else changes.
 
 ## Probe pass bar (set; do not move)
 
@@ -218,6 +241,16 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-09-12 — The operator won't open a Stripe account yet; the loop must
+  measure traffic and act on silence without them.** Probed hits.sh from a
+  runner: there is no JSON read endpoint (`.json` returns the marketing page), the
+  badge SVG carries the count in `aria-label="hits: N"`, and **every badge read
+  increments the counter** (31 → 32 → 33 across three reads). So monitoring must
+  be rare (weekly, `main` only), self-accounting (`monitor_reads` subtracted), and
+  never run on dry runs. Baseline: the June hub badge read 31 after twelve weeks —
+  effectively zero real traffic, which is the honest starting point for the D17
+  gate. Also confirmed from the runner: Pages is serving the new build and the
+  data branch is readable over raw.githubusercontent.com.
 - **2026-09-12 — Bot commits on an open PR's branch email the owner on every
   push; the operator does not want any email.** The first version of the
   `feeds` workflow committed its build results to whatever branch triggered it,

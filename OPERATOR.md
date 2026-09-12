@@ -5,6 +5,11 @@ Everything else is automated. Each item below is a one-time, phone-sized task
 runs in **free-beta mode**: every feed publishes its full weekly CSV for free
 and the pages count downloads — a real demand probe, but no revenue.
 
+> **Status 2026-09-12: payments are on hold by your call.** Everything stays free
+> until real visitors show up; the weekly build measures traffic into
+> `TRAFFIC.md` and the Routine acts if nobody comes (STRATEGY.md D17). When the
+> Routine's summary says the traffic bar is met, §1 below is the next step.
+
 ## 1. Turn on payments (≈10 minutes, once) — the only mandatory toggle
 
 1. Create a Stripe account at https://dashboard.stripe.com/register (identity +
@@ -45,9 +50,9 @@ builder sends it automatically.
 
 ## What to look at, when you look
 
-- **Downloads / clicks:** `PROBE-PAGES.md` lists a hits.sh counter URL per page.
-  In beta, `download` on a feed page ≈ intent; `download` on `/feeds/get/<id>/` =
-  a file actually saved.
+- **Traffic:** `TRAFFIC.md` on `main`, regenerated every Monday — views per page,
+  files saved, week-over-week change. (`PROBE-PAGES.md` lists the raw counter
+  URLs, but opening one adds a hit, so prefer the file.)
 - **Money:** the Stripe dashboard. That's the only demand signal that counts.
 - **Health:** `feeds/build.json` on `main` — `built_at` older than 8 days or a
   non-empty `failed` list means a portal changed; the weekly Routine fixes the

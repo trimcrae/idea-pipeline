@@ -79,10 +79,16 @@ Routine.)
 >    Probe the dataset first (columns, date field, weekly count ≥ ~20), then add
 >    the entry, run `python engine/feeds/test_feeds.py`, push, and read the
 >    `feeds` run log. Zero viable candidates is a fine outcome — say so.
-> 4. **Read the market, never crown.** From `PROBE-PAGES.md` counters (if
->    reachable) or the Stripe dashboard notes the operator leaves: note downloads
->    / subscriptions per feed in `BACKLOG.md`'s probe log. Kill any feed with 0
->    downloads after 8 live weeks (remove it from the registry; log why).
+> 4. **Read the market, never crown — and act on silence (D17).** Read
+>    `TRAFFIC.md` / `feeds/traffic.json` (written by Monday's build; never open
+>    the counter URLs yourself — each read is a hit). Note weekly feed-page views
+>    and files saved in `BACKLOG.md`'s probe log. If the D17 bar (≥ 20 feed-page
+>    views/week, or any file saved) has been missed for 4 consecutive snapshots,
+>    work the next rung of the D17 ladder this pass (indexability check →
+>    search-term titles/FAQ → narrower feeds → richer digests → tell the operator
+>    the two levers only they hold) and log which rung in STRATEGY.md. If the bar
+>    is met, say so in the summary and point to `OPERATOR.md` §1. Kill any feed
+>    with 0 downloads after 8 live weeks (remove it from the registry; log why).
 > 5. **Generation stays on, at low volume, as substrate:** every 3rd pass run
 >    `N=120 python engine/entropy_engine.py --out pools/pool_$(date +%Y%m%d_%H%M).txt --ledger pools/seen.tsv`,
 >    skim for registry-shaped worlds (a licensing/permit/inspection body that

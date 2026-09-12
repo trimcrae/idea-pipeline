@@ -77,6 +77,7 @@ FEEDS = [
     # ------------------------------------------------------------------ trucking
     {
         "id": "us-new-trucking-carriers",
+        "search_terms": ['new trucking company leads', 'new DOT number list', 'new MC authority leads', 'FMCSA new registrations weekly'],
         "category": "trucking",
         "title": "New trucking companies registered with FMCSA this week",
         "short": "Every new USDOT registration from the past 7 days — company, address, phone, email, fleet size — as a clean weekly CSV.",
@@ -107,6 +108,7 @@ FEEDS = [
     # ------------------------------------------------------------- restaurants
     {
         "id": "nyc-restaurant-pest-violations",
+        "search_terms": ['NYC restaurant pest violation list', 'restaurant health inspection leads NYC', 'pest control leads restaurants'],
         "category": "restaurants",
         "title": "NYC restaurants cited for rats, mice, roaches or flies this week",
         "short": "Every NYC food establishment written up for a vermin violation in the past 7 days — name, address, phone, cuisine, the exact violation — weekly CSV.",
@@ -129,6 +131,7 @@ FEEDS = [
     },
     {
         "id": "nyc-new-restaurants",
+        "search_terms": ['new restaurant openings NYC list', 'restaurant opening leads NYC', 'pre-permit inspections NYC'],
         "category": "restaurants",
         "title": "New restaurants getting their first NYC health inspection this week",
         "short": "Every NYC food establishment that had a pre-permit (opening) inspection in the past 7 days — name, address, phone, cuisine — weekly CSV.",
@@ -149,6 +152,7 @@ FEEDS = [
     },
     {
         "id": "chicago-restaurant-pest-violations",
+        "search_terms": ['Chicago restaurant rodent violations list', 'pest control leads Chicago restaurants'],
         "category": "restaurants",
         "title": "Chicago food establishments cited for rodents or insects this week",
         "short": "Every Chicago food inspection in the past 7 days that cited the pest violation (rodents, insects, animals present) — name, address, result, the inspector's note — weekly CSV.",
@@ -169,6 +173,7 @@ FEEDS = [
     # ------------------------------------------------------------------ liquor
     {
         "id": "ny-new-liquor-license-applications",
+        "search_terms": ['new liquor license applications New York', 'NY SLA pending applications list', 'bar and restaurant opening leads NY'],
         "category": "liquor",
         "title": "New liquor license applications filed in New York this week",
         "short": "Every application the NY State Liquor Authority received in the past 7 days — trade name, legal name, premises address, county, license class — weekly CSV.",
@@ -188,6 +193,7 @@ FEEDS = [
     },
     {
         "id": "ny-newly-issued-liquor-licenses",
+        "search_terms": ['newly issued liquor licenses New York', 'new bars and restaurants NY weekly'],
         "category": "liquor",
         "title": "Liquor licenses newly issued in New York this week",
         "short": "Every non-temporary license the NY State Liquor Authority issued for the first time in the past 7 days — trade name, legal name, premises address, county, class — weekly CSV.",
@@ -207,6 +213,7 @@ FEEDS = [
     },
     {
         "id": "texas-new-liquor-license-applications",
+        "search_terms": ['TABC pending applications list', 'new liquor license applications Texas', 'Texas bar opening leads'],
         "category": "liquor",
         "title": "New TABC liquor license applications filed in Texas this week",
         "short": "Every original license application the Texas Alcoholic Beverage Commission received in the past 7 days — trade name, owner, address, county, license type, phone — weekly CSV.",
@@ -226,6 +233,7 @@ FEEDS = [
     },
     {
         "id": "texas-newly-issued-liquor-licenses",
+        "search_terms": ['new TABC licenses issued', 'new Texas liquor licenses this week'],
         "category": "liquor",
         "title": "TABC liquor licenses newly issued in Texas this week",
         "short": "Every license TABC originally issued in the past 7 days — trade name, owner, address, county, license type and tier, phone — weekly CSV.",
@@ -246,6 +254,7 @@ FEEDS = [
     # ------------------------------------------------------- business registries
     {
         "id": "chicago-new-business-licenses",
+        "search_terms": ['new Chicago business licenses list', 'new business leads Chicago'],
         "category": "business",
         "title": "New business licenses issued in Chicago this week",
         "short": "Every newly issued (not renewed) City of Chicago business license that started in the past 7 days — business name, DBA, address, license type, business activity, neighborhood — weekly CSV.",
@@ -265,6 +274,7 @@ FEEDS = [
     },
     {
         "id": "connecticut-new-business-registrations",
+        "search_terms": ['new business registrations Connecticut', 'new Connecticut LLC list', 'new business leads CT'],
         "category": "business",
         "title": "New businesses registered in Connecticut this week",
         "short": "Every business the Connecticut Secretary of the State registered in the past 7 days — name, entity type, business email, billing address, NAICS, formation state — weekly CSV.",
@@ -286,6 +296,7 @@ FEEDS = [
     },
     {
         "id": "new-york-new-business-entities",
+        "search_terms": ['new LLCs New York this week', 'NY new corporation filings list', 'new business leads New York'],
         "category": "business",
         "title": "New corporations and LLCs filed in New York this week",
         "short": "Every entity whose initial filing with the NY Department of State landed in the past 7 days — name, entity type, county, jurisdiction, service-of-process address — weekly CSV.",
@@ -305,6 +316,7 @@ FEEDS = [
     },
     {
         "id": "colorado-new-business-entities",
+        "search_terms": ['new Colorado business entities', 'new LLC list Colorado', 'new business leads Colorado'],
         "category": "business",
         "title": "New business entities formed in Colorado this week",
         "short": "Every entity formed with the Colorado Secretary of State in the past 7 days — name, entity type, status, principal address, registered-agent organization — weekly CSV.",
@@ -325,6 +337,7 @@ FEEDS = [
     # ------------------------------------------------------- permits & rentals
     {
         "id": "nyc-new-building-permits",
+        "search_terms": ['NYC building permits issued this week', 'DOB NOW permits list', 'construction leads NYC'],
         "category": "permits",
         "title": "New building permits issued in NYC this week",
         "short": "Every initial (not renewal) DOB NOW work permit issued in the past 7 days — work type, job description, estimated cost, address, borough, owner business, contractor business — weekly CSV.",
@@ -350,6 +363,7 @@ FEEDS = [
     },
     {
         "id": "new-orleans-str-permit-applications",
+        "search_terms": ['New Orleans short-term rental permits', 'new STR permit applications New Orleans'],
         "category": "rentals",
         "title": "New short-term rental permit applications in New Orleans this week",
         "short": "Every STR permit application the City of New Orleans received in the past 7 days — property address, permit type, status, bedroom and guest limits — weekly CSV.",
@@ -369,6 +383,7 @@ FEEDS = [
     },
     {
         "id": "chicago-new-str-registrations",
+        "search_terms": ['Chicago shared housing registrations', 'new short-term rental registrations Chicago'],
         "category": "rentals",
         "title": "Short-term rental registrations approved in Chicago this week",
         "short": "Every shared-housing (Airbnb-style) registration the City of Chicago approved in the past 7 days — unit address, registration number, ward, expiration — weekly CSV.",
