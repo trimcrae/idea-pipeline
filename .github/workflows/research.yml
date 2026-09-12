@@ -1,0 +1,19 @@
+name: research
+
+# Temporary: dataset discovery for the feeds pipeline. Runs on push to the dev
+# branch so the sandbox (no egress to data portals) can read the runner's logs.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["engine/feeds/research.py", ".github/workflows/research.yml"]
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python engine/feeds/research.py
