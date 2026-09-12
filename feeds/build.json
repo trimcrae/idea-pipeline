@@ -1,11 +1,8 @@
 {
- "built_at": "2026-09-12T13:15:48+00:00",
+ "built_at": "2026-09-12T13:21:07+00:00",
  "week_end": "2026-09-12",
  "feeds": [
   "us-new-trucking-carriers",
-  "us-new-mc-authority-grants",
-  "us-mc-authority-revocations",
-  "us-trucking-insurance-cancellations",
   "nyc-restaurant-pest-violations",
   "nyc-new-restaurants",
   "chicago-restaurant-pest-violations",
