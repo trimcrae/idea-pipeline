@@ -21,6 +21,7 @@ import io
 import json
 import os
 import re
+import shutil
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -315,6 +316,15 @@ def main(argv=None):
             failures.append(feed["id"])
             if a.fail_fast:
                 raise
+    # A feed removed from the registry (killed or parked) disappears from the
+    # data branch too — nothing sells or leaks that the catalogue no longer lists.
+    if not a.only and os.path.isdir(a.data_out):
+        live = {f["id"] for f in registry.FEEDS}
+        for name in os.listdir(a.data_out):
+            full = os.path.join(a.data_out, name)
+            if os.path.isdir(full) and name not in live and not name.startswith("."):
+                shutil.rmtree(full)
+                print(f"pruned stale data dir {name}")
     summary = {"built_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
                "week_end": week_end.isoformat(), "feeds": [r["id"] for r in results], "failed": failures,
                "published": bool(secret)}

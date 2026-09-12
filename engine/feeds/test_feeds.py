@@ -124,6 +124,21 @@ def test_text_date_in_lists_and_enrich():
     assert "dot_number+in+%28%274567%27%29" in calls[-1], calls[-1]  # zero-padded key normalised
 
 
+def test_main_prunes_stale_data_dirs():
+    tmp = tempfile.mkdtemp()
+    try:
+        site, data = os.path.join(tmp, "site"), os.path.join(tmp, "data")
+        os.makedirs(os.path.join(data, "some-killed-feed"))
+        open(os.path.join(data, "some-killed-feed", "latest.csv"), "w").write("x")
+        rc = build.main(["--fixture", os.path.join(HERE, "fixtures"), "--week-end", "2026-09-12",
+                         "--site-root", site, "--data-out", data])
+        assert rc == 0
+        assert not os.path.exists(os.path.join(data, "some-killed-feed"))
+        assert os.path.exists(os.path.join(data, "us-new-trucking-carriers", "latest.csv"))
+    finally:
+        shutil.rmtree(tmp)
+
+
 def test_secret_derivation():
     assert crypto.secret_from_env({}) is None
     assert crypto.secret_from_env({"FEED_SECRET": "x"}) == "x"
