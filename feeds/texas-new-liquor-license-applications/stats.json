@@ -1,0 +1,85 @@
+{
+ "id": "texas-new-liquor-license-applications",
+ "week_start": "2026-09-05",
+ "week_end": "2026-09-11",
+ "rows": 210,
+ "columns": [
+  "application_id",
+  "submitted",
+  "status",
+  "license_type",
+  "trade_name",
+  "owner",
+  "address",
+  "city",
+  "zip",
+  "county",
+  "phone"
+ ],
+ "group_by": "county",
+ "groups": [
+  [
+   "Harris",
+   47
+  ],
+  [
+   "Travis",
+   20
+  ],
+  [
+   "Tarrant",
+   14
+  ],
+  [
+   "Dallas",
+   12
+  ],
+  [
+   "Bexar",
+   10
+  ],
+  [
+   "(blank)",
+   9
+  ],
+  [
+   "Fort Bend",
+   8
+  ],
+  [
+   "Denton",
+   5
+  ],
+  [
+   "Williamson",
+   5
+  ],
+  [
+   "Bell",
+   4
+  ],
+  [
+   "Collin",
+   4
+  ],
+  [
+   "Wharton",
+   4
+  ],
+  [
+   "Bastrop",
+   3
+  ],
+  [
+   "Calhoun",
+   3
+  ],
+  [
+   "Cameron",
+   3
+  ]
+ ],
+ "generated_at": "2026-09-12T13:15:31+00:00",
+ "sample_rows": 25,
+ "published": false
+}

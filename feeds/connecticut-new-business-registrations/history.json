@@ -1,0 +1,29 @@
+[
+ {
+  "week_start": "2026-09-05",
+  "week_end": "2026-09-11",
+  "rows": 997,
+  "groups": [
+   [
+    "LLC",
+    903
+   ],
+   [
+    "Stock",
+    57
+   ],
+   [
+    "Non-Stock",
+    35
+   ],
+   [
+    "LLP",
+    1
+   ],
+   [
+    "Limited Partnership",
+    1
+   ]
+  ]
+ }
+]

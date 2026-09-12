@@ -1,0 +1,84 @@
+{
+ "id": "ny-new-liquor-license-applications",
+ "week_start": "2026-09-05",
+ "week_end": "2026-09-11",
+ "rows": 76,
+ "columns": [
+  "application_id",
+  "received",
+  "status",
+  "license_class",
+  "legal_name",
+  "trade_name",
+  "premises_address",
+  "city",
+  "zip",
+  "county"
+ ],
+ "group_by": "county",
+ "groups": [
+  [
+   "Queens",
+   13
+  ],
+  [
+   "New York",
+   11
+  ],
+  [
+   "Kings",
+   9
+  ],
+  [
+   "Nassau",
+   7
+  ],
+  [
+   "Suffolk",
+   4
+  ],
+  [
+   "Bronx",
+   3
+  ],
+  [
+   "Dutchess",
+   3
+  ],
+  [
+   "Monroe",
+   3
+  ],
+  [
+   "Orange",
+   3
+  ],
+  [
+   "Westchester",
+   3
+  ],
+  [
+   "Niagara",
+   2
+  ],
+  [
+   "Rensselaer",
+   2
+  ],
+  [
+   "Warren",
+   2
+  ],
+  [
+   "Broome",
+   1
+  ],
+  [
+   "Chemung",
+   1
+  ]
+ ],
+ "generated_at": "2026-09-12T13:15:28+00:00",
+ "sample_rows": 25,
+ "published": false
+}

@@ -12,29 +12,26 @@
 <body>
 <div class="wrap wide">
 <nav class="top"><a href="../../">Fresh Filings</a> &middot; weekly public-records feeds</nav>
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>New building permits issued in NYC this week — weekly CSV</title>
-<meta name="description" content="Every initial (not renewal) DOB permit issued in the past 7 days — job type, work type, address, borough, owner business, contractor business and phone — weekly CSV.">
-<link rel="canonical" href="https://trimcrae.github.io/idea-pipeline/feeds/nyc-new-building-permits/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "New building permits issued in NYC this week", "description": "Every initial (not renewal) DOB permit issued in the past 7 days \u2014 job type, work type, address, borough, owner business, contractor business and phone \u2014 weekly CSV.", "url": "https://trimcrae.github.io/idea-pipeline/feeds/nyc-new-building-permits/", "brand": {"@type": "Brand", "name": "Fresh Filings"}, "offers": {"@type": "Offer", "price": "19", "priceCurrency": "USD", "url": "https://trimcrae.github.io/idea-pipeline/feeds/nyc-new-building-permits/", "availability": "https://schema.org/InStock", "category": "subscription"}}</script>
-<link rel="stylesheet" href="../../assets/style.css">
-</head>
-<body>
-<div class="wrap wide">
-<nav class="top"><a href="../../">Fresh Filings</a> &middot; weekly public-records feeds</nav>
 
-  <p class="kicker">Weekly feed &middot; Building permits</p>
+  <p class="kicker">Weekly feed &middot; Building permits<span class="pill">free beta</span></p>
   <h1>New building permits issued in NYC this week</h1>
   <p class="sub">Every initial (not renewal) DOB permit issued in the past 7 days — job type, work type, address, borough, owner business, contractor business and phone — weekly CSV.</p>
+  <div class="stat"><div><div class="n">7</div><div class="l">rows, Sep 5–11, 2026</div></div><div><div class="n">18</div><div class="l">columns</div></div><div><div class="n">Mon</div><div class="l">new file every week</div></div></div>
   <div class="facts"><div class="fact"><b>Who buys this</b>Building-material suppliers, dumpster and scaffold rental, equipment rental, insurance, and trades selling to general contractors with a job starting now.</div><div class="fact"><b>Why it works</b>An issued permit means work starts within weeks; the DOB publishes the permit, the owner and the permittee the next day.</div></div>
-  <p class="small">The first weekly build has not run yet — sample rows and counts appear here after it does.</p>
-  <div class="price"><span class="amt">$19</span> <span class="per">per month &middot; cancel anytime</span><a class="btn" href="../../feeds/get/?f=nyc-new-building-permits" data-cta="download">Download this week's full CSV — free during beta</a><p class="small">Paid subscriptions ($19/month) open soon; until then the full file is free. No sign-up.</p></div>
+  <h2>Sample from the latest file</h2>
+  <div class="tbl"><table><thead><tr><th>job</th><th>permit_seq</th><th>issued</th><th>job_type</th><th>permit_type</th><th>work_type</th><th>house</th><th>street</th><th>borough</th></tr></thead><tbody><tr><td>520316792</td><td>01</td><td>2026-09-08</td><td>NB</td><td>EQ</td><td>EQ</td><td>85 GAR</td><td>TRENTON COURT</td><td>STATEN ISLAND</td></tr><tr><td>420666657</td><td>01</td><td>2026-09-10</td><td>NB</td><td>FO</td><td></td><td>441</td><td>BEACH 130 STREET</td><td>QUEENS</td></tr><tr><td>322124090</td><td>01</td><td>2026-09-09</td><td>A1</td><td>AL</td><td></td><td>145</td><td>CLIFTON PLACE</td><td>BROOKLYN</td></tr><tr><td>321925707</td><td>01</td><td>2026-09-09</td><td>NB</td><td>PL</td><td>PL</td><td>31</td><td>SUMPTER ST</td><td>BROOKLYN</td></tr><tr><td>240351481</td><td>01</td><td>2026-09-08</td><td>A2</td><td>EW</td><td>OT</td><td>4530</td><td>BRONX BLVD</td><td>BRONX</td></tr><tr><td>141029768</td><td>01</td><td>2026-09-09</td><td>A3</td><td>AL</td><td>OT</td><td>636</td><td>AVENUE OF THE AMERICAS</td><td>MANHATTAN</td></tr><tr><td>124057590</td><td>01</td><td>2026-09-10</td><td>A1</td><td>AL</td><td></td><td>29</td><td>HOWARD STREET</td><td>MANHATTAN</td></tr></tbody></table></div><p class="small">Contact columns are masked in the sample; the paid file is complete. <span class="small">(+9 more columns in the file)</span></p>
+  <p><a class="btn secondary" href="sample.csv" data-cta="sample" download>Download the free sample (25 rows)</a></p>
+  <div class="price"><span class="amt">$19</span> <span class="per">per month &middot; cancel anytime</span>
+    <ul><li>New CSV every Monday with the previous 7 days (7 rows this week)</li><li>Every column, unmasked; last 8 weeks kept</li><li>Straight from the public record — no scraping, no guessing</li></ul>
+    <a class="btn" href="../../feeds/get/?f=nyc-new-building-permits" data-cta="download">Download this week's full CSV — free during beta</a><p class="small">Paid subscriptions ($19/month) open soon; until then the full file is free. No sign-up.</p>
+  </div>
+  <h2>This week by borough</h2><ul class="groups"><li><span>BROOKLYN</span><b>2</b></li><li><span>MANHATTAN</span><b>2</b></li><li><span>BRONX</span><b>1</b></li><li><span>QUEENS</span><b>1</b></li><li><span>STATEN ISLAND</span><b>1</b></li></ul>
+  <h2>What's in the file</h2>
+  <p class="cols">job, permit_seq, issued, job_type, permit_type, work_type, house, street, borough, zip, building_type, residential, owner_business, owner_type, contractor_business, contractor_license_type, contractor_phone, permit_key</p>
+  <p class="small">Rows are public records as published by the agency; a record is not a finding about anyone.</p>
   <h2>Questions</h2>
   <details><summary>How is the file delivered?</summary><p class="small">A download page, refreshed every Monday morning (UTC) with the previous 7 days. The last 8 weeks stay available. CSV, UTF-8, one header row.</p></details><details><summary>Can I cancel?</summary><p class="small">Any time, from the link in your Stripe receipt. No minimum term.</p></details><details><summary>Where does the data come from?</summary><p class="small">NYC Department of Buildings — Permit Issuance (NYC Open Data, updated daily). It is pulled from the agency's public open-data portal every week, filtered to the rows that are new, and normalised into one flat table. Source: <a href="https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a" rel="nofollow">https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a</a></p></details>
+  <h2>Past weeks</h2><ul class="hub"><li><a href="weeks/2026-09-11.html"><b>Sep 5–11, 2026</b><span>7 rows</span></a></li></ul><p class="small"><a href="weeks/">All weeks</a></p>
 
 <p class="foot">Compiled from public government open-data portals and republished as-is, with no warranty of accuracy, completeness or timeliness. A public record is information, not a determination about anyone. You are responsible for how you use it — including telemarketing, do-not-call, anti-spam and privacy laws where you and your contacts are. Not affiliated with any government agency. Cancel any subscription at any time. <a href="../../">All feeds</a> &middot; <a href="../../experiments/">Experiments</a></p>
 </div>

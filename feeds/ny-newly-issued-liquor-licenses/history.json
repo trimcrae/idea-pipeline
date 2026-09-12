@@ -1,0 +1,41 @@
+[
+ {
+  "week_start": "2026-09-05",
+  "week_end": "2026-09-11",
+  "rows": 451,
+  "groups": [
+   [
+    "New York",
+    79
+   ],
+   [
+    "Kings",
+    52
+   ],
+   [
+    "Queens",
+    34
+   ],
+   [
+    "Suffolk",
+    31
+   ],
+   [
+    "Erie",
+    22
+   ],
+   [
+    "Nassau",
+    19
+   ],
+   [
+    "Monroe",
+    17
+   ],
+   [
+    "Westchester",
+    16
+   ]
+  ]
+ }
+]

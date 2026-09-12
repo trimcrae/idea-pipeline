@@ -1,0 +1,41 @@
+[
+ {
+  "week_start": "2026-09-05",
+  "week_end": "2026-09-11",
+  "rows": 80,
+  "groups": [
+   [
+    "Harris",
+    14
+   ],
+   [
+    "(blank)",
+    6
+   ],
+   [
+    "Dallas",
+    6
+   ],
+   [
+    "Travis",
+    5
+   ],
+   [
+    "El Paso",
+    4
+   ],
+   [
+    "Williamson",
+    4
+   ],
+   [
+    "Bexar",
+    3
+   ],
+   [
+    "Collin",
+    3
+   ]
+  ]
+ }
+]

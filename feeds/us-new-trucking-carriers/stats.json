@@ -1,0 +1,91 @@
+{
+ "id": "us-new-trucking-carriers",
+ "week_start": "2026-09-05",
+ "week_end": "2026-09-11",
+ "rows": 2071,
+ "columns": [
+  "usdot",
+  "legal_name",
+  "dba_name",
+  "registered",
+  "status",
+  "operation",
+  "class",
+  "street",
+  "city",
+  "state",
+  "zip",
+  "phone",
+  "email",
+  "power_units",
+  "drivers",
+  "entity_type",
+  "mcs150_date"
+ ],
+ "group_by": "state",
+ "groups": [
+  [
+   "TX",
+   254
+  ],
+  [
+   "CA",
+   211
+  ],
+  [
+   "FL",
+   186
+  ],
+  [
+   "GA",
+   97
+  ],
+  [
+   "PA",
+   89
+  ],
+  [
+   "NY",
+   86
+  ],
+  [
+   "OH",
+   80
+  ],
+  [
+   "NC",
+   76
+  ],
+  [
+   "NJ",
+   69
+  ],
+  [
+   "MN",
+   66
+  ],
+  [
+   "IL",
+   65
+  ],
+  [
+   "MI",
+   49
+  ],
+  [
+   "MD",
+   47
+  ],
+  [
+   "VA",
+   40
+  ],
+  [
+   "AZ",
+   38
+  ]
+ ],
+ "generated_at": "2026-09-12T13:15:13+00:00",
+ "sample_rows": 25,
+ "published": false
+}
