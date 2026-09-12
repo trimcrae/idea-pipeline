@@ -23,8 +23,14 @@ Hard limits for a *generation* run: do not touch `engine/feeds/` or the site; ou
 
 ## Recurring routine prompt (paste into a Claude Code Routine)
 
+**Status 2026-09-12:** a Routine named *"idea-pipeline: weekly feeds maintenance +
+growth (SELL phase)"* was created from a Claude Code session with this prompt
+(Mondays 08:17 UTC, fresh session per run, push notification on). Edit it at
+claude.ai/code/routines if the cadence should change; keep its prompt in sync
+with the text below.
+
 This is the prompt to paste into a **Claude Code Routine** (claude.ai/code/routines),
-so generation keeps moving while the operator is away. When creating the Routine:
+so the product keeps running while the operator is away. When creating the Routine:
 
 - **Schedule trigger:** daily, **late evening / overnight in your local time** — keeps
   daytime quota free for normal chat; the run uses leftover overnight usage. Pick a
@@ -42,17 +48,25 @@ Routine.)
 
 > Autonomous recurring pass for this idea-pipeline repo (SELL phase, doctrine
 > #10). No human is present. Follow `CLAUDE.md` exactly. Do ONE focused pass,
-> then stop. Work on the dev branch, open a PR, squash-merge it yourself when
-> tests pass, then reset the branch to `main` (CLAUDE.md git workflow).
+> then stop. Work on the dev branch (reset to `origin/main` first); when tests
+> pass, open a PR and squash-merge it — or, if this session has no GitHub PR
+> tools, land it with git alone (`git checkout main && git merge --squash <branch>
+> && git commit && git push origin main`); then reset the dev branch to `main`.
+> (A weekly Routine with this prompt exists: Mondays 08:17 UTC, after the build.)
 >
 > 1. Read `CLAUDE.md`, `STRATEGY.md`, `OPERATOR.md`, `RUBRIC.md`, `BACKLOG.md`,
 >    `engine/feeds/registry.py`, and `feeds/build.json`. Run `python engine/status.py`.
-> 2. **Keep the product alive first.** Check the latest `feeds` workflow run on
->    GitHub Actions (the GitHub tools can list runs and read job logs). If it is
->    red, or a feed shows 0 rows two weeks running, or `feeds/build.json` lists a
->    failure: diagnose it with the probe job (edit `engine/feeds/probe_queries.json`,
->    push, read the log), fix the registry entry, and re-run the workflow. The
->    sandbox cannot reach the portals itself — Actions runners can.
+> 2. **Keep the product alive first — from repo files, so it works without
+>    GitHub tools.** `feeds/build.json` has `built_at` and `failed`; each
+>    `feeds/<id>/stats.json` has `rows`; `feeds/<id>/history.json` the weekly
+>    trend. The `feeds` workflow runs Mondays 06:17 UTC and commits to `main`. If
+>    `built_at` is older than 8 days, `failed` is non-empty, or a feed shows 0
+>    rows two weeks running: diagnose with the probe job (edit
+>    `engine/feeds/probe_queries.json`, push, read the job log if GitHub tools
+>    exist), fix the registry entry, and trigger a build by pushing any change
+>    under `engine/feeds/` on the dev branch (the workflow runs on such pushes and
+>    commits its results to the branch — pull before continuing). The sandbox
+>    cannot reach the portals itself — Actions runners can.
 > 3. **Grow the catalogue by at most 2 feeds per pass.** A feed is (a public
 >    registry that publishes new entrants daily, on a free keyless portal) × (a
 >    vendor class that provably buys such lists). Anchor it to a drawn world or a
