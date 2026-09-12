@@ -1,0 +1,39 @@
+[
+  {"note": "FMCSA AuthHist date formats + dispositions", "domain": "data.transportation.gov", "dataset": "9mw4-x3tu", "meta": false,
+   "queries": [
+     {"$select": "count(*) as n", "$where": "disp_served_date like '%/2026'"},
+     {"$select": "count(*) as n", "$where": "disp_served_date like '09/%/2026'"},
+     {"$select": "count(*) as n", "$where": "disp_decided_date like '09/%/2026'"},
+     {"$select": "count(*) as n", "$where": "orig_served_date like '09/%/2026'"},
+     {"$select": "disp_action_desc, count(*) as n", "$group": "disp_action_desc", "$order": "n DESC", "$limit": 15},
+     {"$where": "disp_served_date like '09/0%/2026'", "$limit": 3},
+     {"$where": "orig_served_date like '09/0%/2026'", "$limit": 3},
+     {"$order": ":id DESC", "$limit": 3}
+   ]},
+  {"note": "FMCSA ActPendInsur date formats + cancellations", "domain": "data.transportation.gov", "dataset": "qh9u-swkp", "meta": false,
+   "queries": [
+     {"$select": "count(*) as n", "$where": "trans_date like '09/%/2026'"},
+     {"$select": "count(*) as n", "$where": "cancl_effective_date like '%/2026'"},
+     {"$select": "count(*) as n", "$where": "cancl_effective_date like '10/%/2026'"},
+     {"$where": "cancl_effective_date like '10/%/2026'", "$limit": 3},
+     {"$where": "trans_date like '09/0%/2026'", "$limit": 3},
+     {"$order": ":id DESC", "$limit": 3}
+   ]},
+  {"note": "FMCSA L&I carrier: recent docket format", "domain": "data.transportation.gov", "dataset": "6eyk-hxee", "meta": false,
+   "queries": [
+     {"$where": "docket_number like 'MC17%'", "$limit": 2},
+     {"$select": "count(*) as n"}
+   ]},
+  {"note": "NYC DOB NOW approved permits (guess id rbx6-tga4)", "domain": "data.cityofnewyork.us", "dataset": "rbx6-tga4",
+   "queries": [
+     {"$select": "count(*) as n", "$where": "issued_date >= '2026-09-05T00:00:00'"},
+     {"$select": "count(*) as n", "$where": "approved_date >= '2026-09-05T00:00:00'"},
+     {"$order": "issued_date DESC", "$limit": 2}
+   ]},
+  {"note": "NYC DOB legacy permits: which date format is recent", "domain": "data.cityofnewyork.us", "dataset": "ipu4-2q9a", "meta": false,
+   "queries": [
+     {"$select": "count(*) as n", "$where": "issuance_date like '2026-09-%'"},
+     {"$select": "count(*) as n", "$where": "issuance_date like '09/%/2026'"},
+     {"$select": "filing_status, count(*) as n", "$where": "issuance_date like '2026-09-%' OR issuance_date like '09/%/2026'", "$group": "filing_status"}
+   ]}
+]

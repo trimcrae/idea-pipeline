@@ -1,0 +1,53 @@
+# OPERATOR.md — the toggles only you can flip
+
+Everything else is automated. Each item below is a one-time, phone-sized task
+(no human interaction with customers, no spend). Until you do them the site
+runs in **free-beta mode**: every feed publishes its full weekly CSV for free
+and the pages count downloads — a real demand probe, but no revenue.
+
+## 1. Turn on payments (≈10 minutes, once) — the only mandatory toggle
+
+1. Create a Stripe account at https://dashboard.stripe.com/register (identity +
+   bank details; Stripe is free to open, 2.9% + 30¢ per charge).
+2. In Stripe: **Developers → API keys → Create restricted key**. Name it
+   `feeds-bot`. Give **Write** on *Products*, *Prices* and *Payment Links*
+   (Stripe adds the reads those need). Copy the `rk_live_…` key.
+3. In GitHub: **repo → Settings → Secrets and variables → Actions → New
+   repository secret** → name `STRIPE_SECRET_KEY`, value = the key.
+4. In GitHub: **Actions → feeds → Run workflow**. That run creates one Product,
+   one monthly Price and one Payment Link per feed, writes the links into
+   `config/payments.json`, switches every page from "free beta" to
+   "Subscribe — $N/month", and starts publishing the full files encrypted
+   (the key travels only in Stripe's post-payment redirect).
+5. Optional but recommended: **Stripe → Settings → Billing → Customer portal →
+   Activate link**, then paste the `https://billing.stripe.com/p/login/…` URL
+   into `config/payments.json` as `"portal_url"` (or tell the model to). Buyers
+   can then cancel themselves; nobody has to answer email.
+
+Rotating the key later changes the per-feed encryption keys: existing
+subscribers would need a new link. Don't rotate casually.
+
+## 2. Get indexed by Google (≈3 minutes, once)
+
+Bing/Yandex are pinged automatically (IndexNow). Google needs a Search Console
+property: https://search.google.com/search-console → add property
+`https://trimcrae.github.io/idea-pipeline/` (URL-prefix) → verify with the
+"HTML tag" method: paste the tag into `engine/build_pages.py`'s `HEAD` template
+(or hand it to the model) → then submit `sitemap.xml`. Nothing else to do; the
+sitemap is regenerated every week.
+
+## 3. Optional: a Socrata app token (≈2 minutes)
+
+Public portals throttle keyless clients. If a weekly build logs `HTTP 429`,
+register a free app token at https://evergreen.data.socrata.com/signup (any
+Socrata login works) and add it as the GitHub secret `SOCRATA_APP_TOKEN`. The
+builder sends it automatically.
+
+## What to look at, when you look
+
+- **Downloads / clicks:** `PROBE-PAGES.md` lists a hits.sh counter URL per page.
+  In beta, `download` on a feed page ≈ intent; `download` on `/feeds/get/<id>/` =
+  a file actually saved.
+- **Money:** the Stripe dashboard. That's the only demand signal that counts.
+- **Health:** the `feeds` workflow on GitHub Actions. A red run means a portal
+  changed; the model fixes the registry entry on its next pass.

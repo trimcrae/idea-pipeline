@@ -1,0 +1,18 @@
+name: probe
+
+# Dataset probe for adding/repairing feeds: edit engine/feeds/probe_queries.json,
+# push, read the job log. The dev sandbox cannot reach the portals itself.
+on:
+  push:
+    paths: ["engine/feeds/probe_queries.json", "engine/feeds/probe.py", ".github/workflows/probe.yml"]
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python engine/feeds/probe.py

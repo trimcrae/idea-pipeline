@@ -67,7 +67,7 @@ jobs:
         run: |
           git config user.name feeds-bot
           git config user.email feeds-bot@users.noreply.github.com
-          git add -A -- . ':!out'
+          git add -A
           git commit -qm "feeds: weekly build $(date -u +%F)" || { echo "nothing to commit"; exit 0; }
           git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
           git push -q origin "HEAD:${GITHUB_REF_NAME}"
