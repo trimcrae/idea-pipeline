@@ -134,7 +134,7 @@ def test_secret_derivation():
 
 def test_registry_shape():
     ids = set()
-    for f in registry.FEEDS:
+    for f in registry.FEEDS + registry.PARKED:
         assert f["id"] not in ids; ids.add(f["id"])
         for k in ("title", "short", "buyers", "price", "source", "columns", "attribution", "source_url"):
             assert k in f, (f["id"], k)

@@ -57,9 +57,13 @@ Snapshot 2026-09-12 (first live build): 15 of 18 feeds returned real rows —
 `chicago-new-business-licenses` 82 · `texas-newly-issued-liquor-licenses` 80 ·
 `ny-new-liquor-license-applications` 76 · `new-orleans-str-permit-applications`
 46 · `nyc-new-restaurants` 30 · `chicago-restaurant-pest-violations` 23 ·
-`nyc-new-building-permits` 7 (legacy dataset — being re-pointed). The three FMCSA
-licensing feeds (authority grants, revocations, insurance cancellations) returned
-0 on the first pass — date-format mismatch under repair, not a dead source.
+`nyc-new-building-permits` 7 on the legacy DOB dataset — re-pointed the same day
+to DOB NOW (2,449 permits issued that week, ~1,000+ after the initial-only
+filter). Three FMCSA licensing feeds (authority grants, revocations, insurance
+cancellations) returned 0: the probe showed FMCSA's "All With History" files are
+periodic snapshots whose newest rows lag months — **parked** in
+`registry.PARKED`, revivable as a week-over-week diff of the daily L&I Carrier
+file if the trucking census feed shows demand. Live catalogue: **15 feeds**.
 
 ## Standing decisions
 
@@ -242,11 +246,13 @@ can't move the goalposts after.
   the first try; the failures were date-format quirks, not dead sources.** Socrata
   portals are consistent enough that one registry schema covered NYC, Chicago,
   New York State, Texas, Colorado, Connecticut, New Orleans and US DOT. The
-  three FMCSA licensing files store dates as `MM/DD/YYYY` text (IN-list of day
-  literals, not a range) and NYC's legacy DOB dataset is a remnant (DOB NOW holds
-  current permits). Cost of a new feed once the schema is known: ~30 lines in
-  `registry.py` and one probe run. That is the "more generation" of #9, now with
-  a product on the other end.
+  three FMCSA licensing files store dates as `MM/DD/YYYY` text and, worse, are
+  periodic snapshots that lag months — "updated daily" on a portal means the
+  *file* was re-posted, not that its rows are current. Always probe the newest
+  rows' dates, not the dataset's updated-at. NYC's legacy DOB dataset is a
+  remnant (DOB NOW holds current permits). Cost of a new feed once the schema is
+  known: ~30 lines in `registry.py` and one probe run. That is the "more
+  generation" of #9, now with a product on the other end.
 - **2026-06-19 — Researched `used-asset-title-check`'s free-data path (the one #9
   AT-RISK flag) and killed it; the $0 rule has a sharp, non-obvious edge.** The
   finding: a thing can be "built on public data" and still fail #9 if the *useful*
@@ -420,6 +426,9 @@ can't move the goalposts after.
 3. Glance at `PROBE-PAGES.md` counters or the Stripe dashboard whenever you
    like. No action needed on a green Monday.
 
-Model-owned, recurring (`TASK.md`): keep the Monday build green, repair the
-FMCSA licensing feeds and the NYC permits feed, add new feeds through the
-probe → registry → screen path, kill feeds with no downloads after 8 weeks.
+Model-owned, recurring (`TASK.md`): keep the Monday build green, add new feeds
+through the probe → registry → screen path (candidates already probed: a diff
+feed over FMCSA's daily L&I carrier file for authority grants/revocations;
+Chicago "License" inspections = new food businesses; King County inspections if
+their ~10-day lag is handled with a wider window), kill feeds with no downloads
+after 8 weeks.
