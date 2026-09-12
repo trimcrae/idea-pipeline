@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: feeds-${{ github.ref }}
@@ -73,3 +74,11 @@ jobs:
           git push -q origin "HEAD:${GITHUB_REF_NAME}"
       - name: IndexNow ping
         run: python engine/feeds/indexnow.py
+      - name: Request a Pages build (commits by GITHUB_TOKEN may not trigger one)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          curl -sS -o /dev/null -w "pages build request: HTTP %{http_code}\n" -X POST \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
