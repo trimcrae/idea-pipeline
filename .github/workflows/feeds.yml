@@ -1,0 +1,84 @@
+name: feeds
+
+# Weekly build of the public-records feeds: pull the past 7 days from each
+# open-data portal, publish samples/stats/pages to this branch (served by
+# GitHub Pages from main) and the full files to the orphan `feeds-data` branch.
+on:
+  schedule:
+    - cron: "17 6 * * 1"     # Mondays 06:17 UTC
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]  # dev branches: exercise the whole pipeline on push
+    paths: [".github/workflows/feeds.yml", "engine/feeds/**", "engine/build_pages.py"]
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: feeds-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q cryptography
+      - name: Restore the previous data branch (manifests, retention)
+        run: |
+          mkdir -p out/feeds-data
+          if git fetch -q origin feeds-data 2>/dev/null; then
+            git archive FETCH_HEAD | tar -x -C out/feeds-data
+            echo "restored $(find out/feeds-data -type f | wc -l) files"
+          else
+            echo "no data branch yet"
+          fi
+      - name: Offline tests
+        run: |
+          python engine/feeds/test_feeds.py
+          python engine/feeds/test_stripe_links.py
+          python engine/test_entropy_engine.py
+      - name: Build feeds (live portals)
+        env:
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+          FEED_SECRET: ${{ secrets.FEED_SECRET }}
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+        run: python engine/feeds/build.py --data-out out/feeds-data
+      - name: Sync Stripe payment links (no-op without a key)
+        env:
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+          FEED_SECRET: ${{ secrets.FEED_SECRET }}
+        run: python engine/feeds/stripe_links.py
+      - name: Build pages
+        run: python engine/build_pages.py > /dev/null && python engine/status.py
+      - name: Publish the data branch
+        run: |
+          cd out/feeds-data
+          git init -q -b feeds-data
+          git -c user.name=feeds-bot -c user.email=feeds-bot@users.noreply.github.com add -A
+          git -c user.name=feeds-bot -c user.email=feeds-bot@users.noreply.github.com commit -qm "feeds data $(date -u +%F)" || exit 0
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" feeds-data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit the site
+        run: |
+          git config user.name feeds-bot
+          git config user.email feeds-bot@users.noreply.github.com
+          git add -A
+          git commit -qm "feeds: weekly build $(date -u +%F)" || { echo "nothing to commit"; exit 0; }
+          git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
+      - name: IndexNow ping
+        run: python engine/feeds/indexnow.py
+      - name: Request a Pages build (commits by GITHUB_TOKEN may not trigger one)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          curl -sS -o /dev/null -w "pages build request: HTTP %{http_code}\n" -X POST \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

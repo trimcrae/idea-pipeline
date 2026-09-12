@@ -1,0 +1,87 @@
+{
+ "id": "chicago-new-business-licenses",
+ "week_start": "2026-09-05",
+ "week_end": "2026-09-11",
+ "rows": 82,
+ "columns": [
+  "license_id",
+  "license_start",
+  "license_type",
+  "business_activity",
+  "legal_name",
+  "dba_name",
+  "address",
+  "city",
+  "state",
+  "zip",
+  "community_area",
+  "neighborhood",
+  "status"
+ ],
+ "group_by": "license_type",
+ "groups": [
+  [
+   "Towing - Tow Truck",
+   24
+  ],
+  [
+   "Limited Business License",
+   21
+  ],
+  [
+   "Retail Food Establishment",
+   6
+  ],
+  [
+   "Consumption on Premises - Incidental Activity",
+   4
+  ],
+  [
+   "Peddler License",
+   4
+  ],
+  [
+   "Pop-Up Retail User",
+   3
+  ],
+  [
+   "Regulated Business License",
+   3
+  ],
+  [
+   "Children's Services Facility License",
+   2
+  ],
+  [
+   "Pharmaceutical Representative",
+   2
+  ],
+  [
+   "Raffles",
+   2
+  ],
+  [
+   "Special Event Food",
+   2
+  ],
+  [
+   "Commercial Garage",
+   1
+  ],
+  [
+   "Food - Shared Kitchen - Supplemental",
+   1
+  ],
+  [
+   "Manufacturing Establishments",
+   1
+  ],
+  [
+   "Outdoor Patio",
+   1
+  ]
+ ],
+ "generated_at": "2026-09-12T13:24:44+00:00",
+ "sample_rows": 25,
+ "published": false
+}

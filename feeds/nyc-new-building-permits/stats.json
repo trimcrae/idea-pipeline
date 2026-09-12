@@ -1,0 +1,54 @@
+{
+ "id": "nyc-new-building-permits",
+ "week_start": "2026-09-05",
+ "week_end": "2026-09-11",
+ "rows": 1313,
+ "columns": [
+  "permit",
+  "job_filing",
+  "filing_reason",
+  "issued",
+  "approved",
+  "expires",
+  "work_type",
+  "job_description",
+  "estimated_cost",
+  "house",
+  "street",
+  "borough",
+  "zip",
+  "contractor_license_type",
+  "contractor_business",
+  "contractor_address",
+  "owner_business",
+  "owner_city",
+  "owner_state",
+  "status"
+ ],
+ "group_by": "borough",
+ "groups": [
+  [
+   "Manhattan",
+   510
+  ],
+  [
+   "Brooklyn",
+   325
+  ],
+  [
+   "Queens",
+   280
+  ],
+  [
+   "Bronx",
+   103
+  ],
+  [
+   "Staten Island",
+   95
+  ]
+ ],
+ "generated_at": "2026-09-12T13:24:54+00:00",
+ "sample_rows": 25,
+ "published": false
+}

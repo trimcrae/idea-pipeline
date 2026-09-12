@@ -24,10 +24,20 @@ customer in, not chase them. Pick the lightest one:
 - **Not allowed:** cold emails, DMs, or calls to named prospects; any probe whose result depends on the operator working a 1:1 conversation.
 A probe "passes" only on real self-serve action (sign-up, pre-order, click-through) — never on compliments. **Bar: ≥10 self-serve sign-ups from one low-effort push** (see `STRATEGY.md` → Probe pass bar).
 
+## The product line (since 2026-09-12)
+The weekly public-records feeds are the pipeline's live product: `engine/feeds/`
+builds them, `.github/workflows/feeds.yml` runs every Monday, the site is
+https://trimcrae.github.io/idea-pipeline/. The operator's only jobs are in
+`OPERATOR.md` (paste a Stripe key; optionally Search Console). The model's
+recurring jobs are the SELL-phase prompt in `TASK.md`: keep the build green,
+add feeds through the probe → registry → screen path, kill feeds nobody
+downloads. Full files for subscribers live on the `feeds-data` branch and are
+decrypted in the buyer's browser with the key from Stripe's redirect.
+
 ## Do not
-- Auto-deploy multiple products.
 - Treat the model's enthusiasm as evidence.
-- Skip the probe and go straight to building.
+- Skip the probe and go straight to building — a feed's probe is its free beta.
+- Add data about private individuals to any feed (D15).
 
 ## Where you work
 - **Generation + screening:** automated via `TASK.md` in Claude Code on the web (cloud, phone-driven). Reads this repo, writes survivors back to `BACKLOG.md`, opens a PR.

@@ -1,0 +1,4 @@
+[
+ {"camis":"50000001","dba":"PIZZA PLANET","cuisine_description":"Pizza","building":"100","street":"BROADWAY","boro":"Manhattan","zipcode":"10001","phone":"2125550100","inspection_date":"2026-09-09T00:00:00.000","inspection_type":"Cycle Inspection / Initial Inspection","violation_code":"04L","violation_description":"Evidence of mice or live mice in establishment's food or non-food areas.","critical_flag":"Critical","action":"Violations were cited in the following area(s).","score":"27","grade":""},
+ {"camis":"50000002","dba":"TACO TOWN","cuisine_description":"Mexican","building":"5","street":"5 AVENUE","boro":"Brooklyn","zipcode":"11201","phone":"7185550100","inspection_date":"2026-09-08T00:00:00.000","inspection_type":"Cycle Inspection / Re-inspection","violation_code":"04M","violation_description":"Live roaches in facility's food or non-food area.","critical_flag":"Critical","action":"Violations were cited in the following area(s).","score":"14","grade":"B"}
+]

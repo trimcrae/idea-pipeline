@@ -1,12 +1,29 @@
 # Probe pages — live counters
 
-Each idea has a $0 landing page that tracks **pageviews** and **CTA clicks** via
-hits.sh (no account). Open a counter URL in a browser to read its running total.
-Email capture is off until a Web3Forms key is set in `assets/probe.js`.
+Every page pings **hits.sh** (no account) for pageviews and CTA clicks. Open a counter URL to read it.
+Feed pages count `view`, `subscribe`/`download` (main button) and `sample`; the download page counts `view` and `download` per feed.
 
-Hub: https://trimcrae.github.io/idea-pipeline/ (lists them all)
+Hub: https://trimcrae.github.io/idea-pipeline/ — views: https://hits.sh/trimcrae.github.io/idea-pipeline/view.svg
 
-| Idea | Page | Views | Clicks |
+| Feed | Page | Views | Main CTA |
+| --- | --- | --- | --- |
+| New trucking companies registered with FMCSA this week | https://trimcrae.github.io/idea-pipeline/feeds/us-new-trucking-carriers/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/us-new-trucking-carriers/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/us-new-trucking-carriers/download.svg |
+| NYC restaurants cited for rats, mice, roaches or flies this week | https://trimcrae.github.io/idea-pipeline/feeds/nyc-restaurant-pest-violations/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/nyc-restaurant-pest-violations/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/nyc-restaurant-pest-violations/download.svg |
+| New restaurants getting their first NYC health inspection this week | https://trimcrae.github.io/idea-pipeline/feeds/nyc-new-restaurants/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/nyc-new-restaurants/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/nyc-new-restaurants/download.svg |
+| Chicago food establishments cited for rodents or insects this week | https://trimcrae.github.io/idea-pipeline/feeds/chicago-restaurant-pest-violations/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/chicago-restaurant-pest-violations/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/chicago-restaurant-pest-violations/download.svg |
+| New liquor license applications filed in New York this week | https://trimcrae.github.io/idea-pipeline/feeds/ny-new-liquor-license-applications/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/ny-new-liquor-license-applications/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/ny-new-liquor-license-applications/download.svg |
+| Liquor licenses newly issued in New York this week | https://trimcrae.github.io/idea-pipeline/feeds/ny-newly-issued-liquor-licenses/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/ny-newly-issued-liquor-licenses/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/ny-newly-issued-liquor-licenses/download.svg |
+| New TABC liquor license applications filed in Texas this week | https://trimcrae.github.io/idea-pipeline/feeds/texas-new-liquor-license-applications/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/texas-new-liquor-license-applications/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/texas-new-liquor-license-applications/download.svg |
+| TABC liquor licenses newly issued in Texas this week | https://trimcrae.github.io/idea-pipeline/feeds/texas-newly-issued-liquor-licenses/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/texas-newly-issued-liquor-licenses/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/texas-newly-issued-liquor-licenses/download.svg |
+| New business licenses issued in Chicago this week | https://trimcrae.github.io/idea-pipeline/feeds/chicago-new-business-licenses/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/chicago-new-business-licenses/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/chicago-new-business-licenses/download.svg |
+| New businesses registered in Connecticut this week | https://trimcrae.github.io/idea-pipeline/feeds/connecticut-new-business-registrations/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/connecticut-new-business-registrations/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/connecticut-new-business-registrations/download.svg |
+| New corporations and LLCs filed in New York this week | https://trimcrae.github.io/idea-pipeline/feeds/new-york-new-business-entities/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/new-york-new-business-entities/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/new-york-new-business-entities/download.svg |
+| New business entities formed in Colorado this week | https://trimcrae.github.io/idea-pipeline/feeds/colorado-new-business-entities/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/colorado-new-business-entities/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/colorado-new-business-entities/download.svg |
+| New building permits issued in NYC this week | https://trimcrae.github.io/idea-pipeline/feeds/nyc-new-building-permits/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/nyc-new-building-permits/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/nyc-new-building-permits/download.svg |
+| New short-term rental permit applications in New Orleans this week | https://trimcrae.github.io/idea-pipeline/feeds/new-orleans-str-permit-applications/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/new-orleans-str-permit-applications/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/new-orleans-str-permit-applications/download.svg |
+| Short-term rental registrations approved in Chicago this week | https://trimcrae.github.io/idea-pipeline/feeds/chicago-new-str-registrations/ | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/chicago-new-str-registrations/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/feeds/chicago-new-str-registrations/download.svg |
+
+| Idea probe | Page | Views | Clicks |
 | --- | --- | --- | --- |
 | Check a carrier for fraud before you book the load | https://trimcrae.github.io/idea-pipeline/freight-fraud-check/ | https://hits.sh/trimcrae.github.io/idea-pipeline/freight-fraud-check/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/freight-fraud-check/cta.svg |
 | Is grading this card worth the fees and the wait? | https://trimcrae.github.io/idea-pipeline/card-grading-gate/ | https://hits.sh/trimcrae.github.io/idea-pipeline/card-grading-gate/view.svg | https://hits.sh/trimcrae.github.io/idea-pipeline/card-grading-gate/cta.svg |

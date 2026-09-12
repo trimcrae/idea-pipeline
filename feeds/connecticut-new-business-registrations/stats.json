@@ -1,0 +1,47 @@
+{
+ "id": "connecticut-new-business-registrations",
+ "week_start": "2026-09-05",
+ "week_end": "2026-09-11",
+ "rows": 997,
+ "columns": [
+  "account_number",
+  "name",
+  "entity_type",
+  "status",
+  "registered",
+  "domestic_or_foreign",
+  "formation_place",
+  "naics",
+  "street",
+  "city",
+  "state",
+  "zip",
+  "email"
+ ],
+ "group_by": "entity_type",
+ "groups": [
+  [
+   "LLC",
+   903
+  ],
+  [
+   "Stock",
+   57
+  ],
+  [
+   "Non-Stock",
+   35
+  ],
+  [
+   "LLP",
+   1
+  ],
+  [
+   "Limited Partnership",
+   1
+  ]
+ ],
+ "generated_at": "2026-09-12T13:24:46+00:00",
+ "sample_rows": 25,
+ "published": false
+}

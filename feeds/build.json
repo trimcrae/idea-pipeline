@@ -1,0 +1,23 @@
+{
+ "built_at": "2026-09-12T13:24:58+00:00",
+ "week_end": "2026-09-12",
+ "feeds": [
+  "us-new-trucking-carriers",
+  "nyc-restaurant-pest-violations",
+  "nyc-new-restaurants",
+  "chicago-restaurant-pest-violations",
+  "ny-new-liquor-license-applications",
+  "ny-newly-issued-liquor-licenses",
+  "texas-new-liquor-license-applications",
+  "texas-newly-issued-liquor-licenses",
+  "chicago-new-business-licenses",
+  "connecticut-new-business-registrations",
+  "new-york-new-business-entities",
+  "colorado-new-business-entities",
+  "nyc-new-building-permits",
+  "new-orleans-str-permit-applications",
+  "chicago-new-str-registrations"
+ ],
+ "failed": [],
+ "published": false
+}

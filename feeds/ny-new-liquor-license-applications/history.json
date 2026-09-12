@@ -1,0 +1,41 @@
+[
+ {
+  "week_start": "2026-09-05",
+  "week_end": "2026-09-11",
+  "rows": 76,
+  "groups": [
+   [
+    "Queens",
+    13
+   ],
+   [
+    "New York",
+    11
+   ],
+   [
+    "Kings",
+    9
+   ],
+   [
+    "Nassau",
+    7
+   ],
+   [
+    "Suffolk",
+    4
+   ],
+   [
+    "Bronx",
+    3
+   ],
+   [
+    "Dutchess",
+    3
+   ],
+   [
+    "Monroe",
+    3
+   ]
+  ]
+ }
+]
