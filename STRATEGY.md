@@ -218,6 +218,16 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-09-12 — Bot commits on an open PR's branch email the owner on every
+  push; the operator does not want any email.** The first version of the
+  `feeds` workflow committed its build results to whatever branch triggered it,
+  so five pushes during PR #26 produced five notification emails. Fixed: the
+  workflow only commits and publishes on `main`; dev-branch runs are dry runs
+  (summary + artifact). Also made every network step `continue-on-error` so a
+  flaky portal can't turn a scheduled run red (red runs email too); real
+  breakage is read from `feeds/build.json` by the Routine. Rule for this repo:
+  **automation must be silent to the operator — no PR pushes by bots, no
+  comments, no issues, no red runs for transient causes.**
 - **2026-09-12 — The bench's strongest idea got crowded in three months; the
   durable $0 wedge is the change feed, not the lookup tool.** `freight-fraud-check`
   (carrier lookup + risk flags) was the only `demand:proven` entry in June. By
