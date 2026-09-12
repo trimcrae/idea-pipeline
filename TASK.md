@@ -63,10 +63,13 @@ Routine.)
 >    `built_at` is older than 8 days, `failed` is non-empty, or a feed shows 0
 >    rows two weeks running: diagnose with the probe job (edit
 >    `engine/feeds/probe_queries.json`, push, read the job log if GitHub tools
->    exist), fix the registry entry, and trigger a build by pushing any change
->    under `engine/feeds/` on the dev branch (the workflow runs on such pushes and
->    commits its results to the branch — pull before continuing). The sandbox
->    cannot reach the portals itself — Actions runners can.
+>    exist), fix the registry entry, and verify by pushing the change under
+>    `engine/feeds/` on the dev branch: the workflow runs as a **dry run** there
+>    (build + tests + a printed summary + an artifact; it never commits to or
+>    publishes from a dev branch — bot pushes on a PR branch email the operator,
+>    who does not want that). Real publishing happens only on `main` (Monday
+>    cron or a manual dispatch after the merge). The sandbox cannot reach the
+>    portals itself — Actions runners can.
 > 3. **Grow the catalogue by at most 2 feeds per pass.** A feed is (a public
 >    registry that publishes new entrants daily, on a free keyless portal) × (a
 >    vendor class that provably buys such lists). Anchor it to a drawn world or a

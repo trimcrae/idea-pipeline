@@ -49,5 +49,16 @@ builder sends it automatically.
   In beta, `download` on a feed page ≈ intent; `download` on `/feeds/get/<id>/` =
   a file actually saved.
 - **Money:** the Stripe dashboard. That's the only demand signal that counts.
-- **Health:** the `feeds` workflow on GitHub Actions. A red run means a portal
-  changed; the model fixes the registry entry on its next pass.
+- **Health:** `feeds/build.json` on `main` — `built_at` older than 8 days or a
+  non-empty `failed` list means a portal changed; the weekly Routine fixes the
+  registry entry on its next pass. Runs are designed to stay green on flaky
+  portals, so you are not emailed about them.
+
+## Notifications (you asked for no emails)
+
+- The `feeds` workflow never commits to a dev branch (bot pushes on an open PR
+  are what emailed you on 2026-09-12); it publishes only on `main`, and its
+  network steps can't turn a run red. If GitHub still emails you about a failed
+  workflow, switch it off once at github.com/settings/notifications → Actions.
+- The weekly Claude Routine sends a push notification only, no email. Change or
+  disable it at claude.ai/code/routines.
