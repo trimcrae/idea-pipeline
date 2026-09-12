@@ -5,7 +5,7 @@ Edit engine/feeds/probe_queries.json and push — the `probe` workflow runs this
 on a runner (the dev sandbox has no egress to the portals) and the answers are
 in the job log. Used when adding or repairing a registry entry.
 """
-import json, os, sys, urllib.parse, urllib.request
+import json, os, sys, urllib.error, urllib.parse, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 UA = {"User-Agent": "idea-pipeline-probe/1.0"}
@@ -16,9 +16,16 @@ def get(url, timeout=90):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
-def fetch_text(url, timeout=60):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-        return r.status, dict(r.headers), r.read().decode("utf-8", "replace")
+def fetch_text(url, timeout=60, method="GET", body=None, headers=None):
+    hdrs = dict(UA)
+    hdrs.update(headers or {})
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(url, data=data, method=method, headers=hdrs)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.status, dict(r.headers), r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return e.code, dict(e.headers), e.read().decode("utf-8", "replace")
 
 
 def main():
@@ -29,7 +36,7 @@ def main():
             print(f"## {q.get('note', '')} :: {q['url']}")
             for _ in range(q.get("times", 1)):
                 try:
-                    st, hdr, body = fetch_text(q["url"])
+                    st, hdr, body = fetch_text(q["url"], method=q.get("method", "GET"), body=q.get("body"), headers=q.get("headers"))
                     print(f"  HTTP {st} {hdr.get('Content-Type', '')} | {body[:600].replace(chr(10), ' ')}")
                 except Exception as e:  # noqa: BLE001
                     print("  error:", str(e)[:200])
