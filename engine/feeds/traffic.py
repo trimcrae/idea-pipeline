@@ -66,6 +66,15 @@ def read_count(base):
         return None, f"error:{type(e).__name__}"
 
 
+def prev_net(prev_snapshot, reads_now):
+    """Net (monitor-excluded) counts of the previous snapshot. Older snapshots
+    without a stored `net` are reconstructed: the monitor had made one read fewer
+    per key at that time."""
+    if "net" in prev_snapshot:
+        return prev_snapshot["net"]
+    return {k: v - max(reads_now.get(k, 0) - 1, 0) for k, v in prev_snapshot["counts"].items()}
+
+
 def load_json(path, default):
     try:
         with open(path) as fh:
@@ -86,7 +95,9 @@ def main():
             methods[label] = how
             if how == "svg":  # a badge read is itself a hit
                 state["monitor_reads"][label] = state["monitor_reads"].get(label, 0) + 1
-    snap = {"date": today, "counts": counts}
+    reads = state["monitor_reads"]
+    net = {k: v - reads.get(k, 0) for k, v in counts.items()}  # real traffic
+    snap = {"date": today, "counts": counts, "net": net}
     state["snapshots"] = [s for s in state["snapshots"] if s["date"] != today] + [snap]
     state["snapshots"] = state["snapshots"][-KEEP:]
     state["methods"] = methods
@@ -94,8 +105,7 @@ def main():
     with open(path, "w") as fh:
         json.dump(state, fh, indent=1, sort_keys=True)
 
-    prev = state["snapshots"][-2]["counts"] if len(state["snapshots"]) > 1 else {}
-    reads = state["monitor_reads"]
+    prev = prev_net(state["snapshots"][-2], reads) if len(state["snapshots"]) > 1 else {}
     lines = ["# TRAFFIC.md — weekly counter snapshot (generated; do not edit)\n",
              f"Snapshot {today}. Counts are cumulative hits.sh totals with this monitor's own badge reads",
              "subtracted; Δ is the change since the previous snapshot. A *view* is a page load with JS;",
@@ -105,17 +115,25 @@ def main():
     for label, base in counters():
         if label not in counts:
             continue
-        total = counts[label] - reads.get(label, 0)
-        delta = counts[label] - prev[label] if label in prev else counts[label]
+        total = net[label]
+        delta = total - prev[label] if label in prev else total
         lines.append(f"| {label} | {total} | {delta:+d} |")
-    site_views = sum(v - reads.get(k, 0) for k, v in counts.items() if k.endswith("· view"))
-    saved = sum(v - reads.get(k, 0) for k, v in counts.items() if k.endswith("file-saved"))
-    lines += ["", f"**Site views (all pages): {site_views} · files saved: {saved}**", "",
-              "Traffic gate (STRATEGY.md D17): real visitors = feed-page views excluding this monitor;",
-              "the Routine acts when four consecutive weekly snapshots stay under the bar."]
+    site_views = sum(v for k, v in net.items() if k.endswith("· view"))
+    saved = sum(v for k, v in net.items() if k.endswith("file-saved"))
+    feed_views = sum(v for k, v in net.items() if k.endswith("· view") and k not in ("hub · view", "experiments · view"))
+    prev_feed_views = sum(v for k, v in prev.items() if k.endswith("· view") and k not in ("hub · view", "experiments · view"))
+    gate = {"date": today, "feed_page_views_week": feed_views - prev_feed_views if prev else feed_views,
+            "files_saved_total": saved, "bar_met": (feed_views - prev_feed_views if prev else feed_views) >= 20 or saved > 0}
+    state["gate"] = [g for g in state.get("gate", []) if g["date"] != today] + [gate]
+    state["gate"] = state["gate"][-KEEP:]
+    with open(path, "w") as fh:
+        json.dump(state, fh, indent=1, sort_keys=True)
+    lines += ["", f"**Site views (all pages): {site_views} · files saved: {saved} · feed-page views this week: {gate['feed_page_views_week']} · D17 bar met: {'yes' if gate['bar_met'] else 'no'}**", "",
+              "Traffic gate (STRATEGY.md D17): bar = ≥ 20 feed-page views in the week, or any file saved.",
+              "The Routine acts when four consecutive weekly snapshots miss it (`gate` in feeds/traffic.json)."]
     with open(os.path.join(ROOT, "TRAFFIC.md"), "w") as fh:
         fh.write("\n".join(lines) + "\n")
-    print(json.dumps({"date": today, "counters_read": len(counts), "site_views": site_views, "files_saved": saved}))
+    print(json.dumps({"date": today, "counters_read": len(counts), "site_views": site_views, "files_saved": saved, "gate": gate}))
     return 0
 
 

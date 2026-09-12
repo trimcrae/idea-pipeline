@@ -173,6 +173,10 @@ def test_traffic_counters_and_svg_parse():
     assert traffic.parse_badge('<svg role="img" aria-label="hits: 1,234"><title>hits: 1,234</title></svg>') == 1234
     assert traffic.parse_badge('<svg><text x="1">view</text><text x="2">31</text></svg>') == 31
     assert traffic.parse_badge("<svg></svg>") is None
+    # a previous snapshot without stored net values is reconstructed one monitor read back
+    reads = {"a · view": 2, "b · view": 2}
+    assert traffic.prev_net({"counts": {"a · view": 5, "b · view": 1}}, reads) == {"a · view": 4, "b · view": 0}
+    assert traffic.prev_net({"counts": {"a · view": 5}, "net": {"a · view": 3}}, reads) == {"a · view": 3}
 
 
 if __name__ == "__main__":
