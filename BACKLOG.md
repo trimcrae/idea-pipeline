@@ -8,6 +8,16 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 
 ## Active
 
+**Weekly public-records feeds for the vendors who sell to newly registered businesses** · `public-records-feeds`
+- Shape: pain + public data × forced-payment niche (inbound) — pick-and-shovel on the bench's own worlds (trucking, food service, bars, STR hosts, new businesses). Tags: `demand:proven-pattern crowd:med build:easy reach:searchable maint:auto`
+- Demand: proven-pattern — lead vendors already sell FMCSA new-authority lists, "new business" lists and restaurant-opening data (Apify actors, restaurantdata.com, state list brokers); the pattern pays, the specific niches are `demand:assumed` until a download or a subscription says otherwise.
+- Concept: one generic pipeline (`engine/feeds/`) pulls the past 7 days from a public open-data portal, normalises it, and publishes a masked sample + stats + a weekly digest page (SEO) and the full CSV (free beta now; encrypted for Stripe subscribers once the key exists). 18 feeds live at https://trimcrae.github.io/idea-pipeline/ — FMCSA registrations/authority/insurance, NYC + Chicago restaurant pest citations and openings, NY + Texas liquor-license applications and issuances, Chicago/CT/NY/CO new businesses, NYC permits, New Orleans + Chicago STR permits.
+- Catch: the trucking-lead niche is crowded (price is the wedge: $29 vs $50–200); state new-business lists are a commodity; small feeds (Chicago pest 23/wk, NOLA STR 46/wk) may be too thin to pay for; a leaked subscriber link keeps working (accepted, D14); buyers do outreach with it — we don't (D15: businesses only, no individuals).
+- Advice line (#8): pure public records, republished as-is with a disclaimer; nothing is a determination about anyone.
+- $0 (#9): clean — Socrata portals are free and keyless; GitHub Actions + Pages + raw branch hosting; Stripe has no fixed fee.
+- Probe (running): free-beta full downloads per feed (`PROBE-PAGES.md`), then Stripe subscriptions. Kill any feed with 0 downloads after 8 live weeks.
+- Status: `probing` (live since 2026-09-12; payments pending the operator's Stripe key — `OPERATOR.md`)
+
 **Carrier fraud-risk check for small freight brokers/dispatchers** · `freight-fraud-check`
 - Shape: pain + public data. Tags: `demand:proven crowd:med build:med reach:searchable maint:auto`
 - Demand: PROVEN. Freight fraud up ~1,500% since 2021; a 2025 survey had 22% of respondents losing >$200k to fraud in six months; ~85% report direct double-brokering losses. Vetting is currently manual (Carrier411 + phone calls). Data is public (FMCSA SAFER/QCMobile).
@@ -16,7 +26,8 @@ Each entry: name · concept · shape · tags · demand · catch · next probe ·
 - Advice line (#8): outside professional advice — surfaces public risk *signals* (authority age, insurance lapse, lookalike domains), not a verdict that a carrier "is fraudulent"; the user decides.
 - $0 (#9): clean — FMCSA SAFER/QCMobile is a free public API.
 - Next probe (inbound only): one-button landing page for the check, driven by a single organic post in an owner-operator/dispatch community plus an SEO-able free check page on "carrier vetting / MC lookup" intent (no paid ads, #9). Measure self-serve sign-ups (bar: ≥10). No cold outreach. Probe kit: `probes/freight-fraud-check.md`.
-- Status: `backlog` (top candidate — only `demand:proven` entry)
+- 2026-09-12 update: the free-lookup slice is now `crowd:high` — at least five AI-built free FMCSA lookup/chameleon-detection sites launched since June. The demand-proven *data* behind it now ships as the four trucking feeds in `public-records-feeds` (registrations, authority grants, revocations, insurance cancellations — the last two double as a broker's risk watchlist). Keep this entry only as the "risk-flag UI" idea; do not build it as a standalone tool.
+- Status: `backlog` (superseded in practice by `public-records-feeds`; probe page kept at `/experiments/`)
 
 **Card-grading "is it worth it?" gate** · `card-grading-gate`
 - Shape: enumerable-ish + forced payment (moneyed hobby). Tags: `demand:assumed crowd:med build:med reach:searchable maint:manual`
@@ -138,3 +149,6 @@ Move dead ideas here with a one-line reason so the engine's survivors aren't re-
 
 ## Probe log
 (date · idea handle · probe · result · decision)
+
+- 2026-09-12 · `public-records-feeds` · 18 live weekly feeds with free-beta full downloads counted per feed (`PROBE-PAGES.md`); Stripe subscriptions once the operator pastes the key · result: pending — first Monday build 2026-09-14; first read after 8 live weeks (≈2026-11-09) · decision: keep; repair the 3 FMCSA licensing feeds + NYC permits; kill feeds with 0 downloads at the 8-week read.
+- 2026-09-12 · the 11 June probe pages · lived 12 weeks with no post and no distribution · result: no read (counters unreachable from the sandbox; operator never posted) · decision: kept as `/experiments/` (noindex); superseded as a strategy by real feeds.

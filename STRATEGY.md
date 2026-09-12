@@ -19,34 +19,47 @@ by `BACKLOG.md`, the probe kit filename, and the probe log.
 
 ## Current phase
 
-**PROBE + the bench is probe-ready (DEVELOP).** (updated 2026-06-19)
+**SELL — real products, market-judged, autonomous.** (updated 2026-09-12)
 
-Two things run in parallel now:
-1. **Probe** — the only real progress is testing an idea against real people.
-   `freight-fraud-check` is the natural first probe (the only `demand:proven`
-   entry), kit at `probes/freight-fraud-check.md`, inbound, pass bar set. As of
-   2026-06-19 **every** active idea has a drafted probe kit in `probes/`, so the
-   operator can pick any one and ship in minutes — maturity is no longer the
-   blocker; choosing-and-shipping is.
-2. **Develop** — the operator wants a deep bench, and the inbound constraint
-   (D5) is brutal, so we must *consider* many ideas to find few that survive.
-   Generation is exogenous + anchored development (`DEVELOP.md`); the screen
-   stays tight. Volume is fine; padding the backlog with crowded consensus is
-   not.
+The operator's 2026-09-12 directive: find ways to make money *completely
+autonomously* and start. Three months of PROBE produced 11 "notify me" pages,
+zero posts, zero probes, zero traffic — the operator will not do even the one
+community post, so the loop must close without them. What closes it:
 
-Still true: a deep bench is worthless until one idea is probed. Don't let
-generation become an excuse to avoid the probe.
+1. **The product line is live:** *weekly public-records feeds* (doctrine #10) —
+   18 feeds in `engine/feeds/registry.py`, built every Monday by
+   `.github/workflows/feeds.yml` from free open-data portals, served at
+   https://trimcrae.github.io/idea-pipeline/ with a masked free sample, aggregate
+   stats and a weekly digest page per feed (SEO surface), and the full CSV on the
+   `feeds-data` branch. Until the operator adds a Stripe key (`OPERATOR.md`) the
+   full files are free ("free beta") and downloads are counted; after it, the
+   same pages sell subscriptions and the files are encrypted for subscribers.
+2. **The routine's job changed:** keep the weekly build green, repair feeds
+   when a portal changes, add new (registry × vendor) feeds through the same
+   anchored screen, and grow the indexable surface. Idea generation continues
+   at low volume as the substrate for new feeds — not as an end in itself.
+3. **Still true:** the model never crowns. Downloads, then Stripe subscriptions,
+   are the only demand signal. A feed nobody downloads in 8 weeks is a kill.
 
 ## The one metric that matters right now
 
-Run `python engine/status.py`.
+**Paying subscribers** (Stripe dashboard). Until payments are switched on:
+**full-file downloads per feed per week** (`PROBE-PAGES.md` → the `download`
+counters on `/feeds/get/<id>/`). Views and sample downloads are distribution
+signals, not demand. Also watch the `feeds` workflow: a red Monday is a dead
+product page until it's fixed.
 
-Snapshot 2026-06-19: 11 active ideas (12 after the generation push, then
-`used-asset-title-check` killed under #9 once its free-data path was researched),
-10 of 11 **not** `demand:proven`, **0 probed**, all probe-kit-ready. The number to
-move is **probed count**, not active count or kit count. Active/kit count going up
-while probed count stays at 0 is the failure mode, not progress — the bench is
-deep enough that the only thing that matters is shipping one probe.
+Snapshot 2026-09-12 (first live build): 15 of 18 feeds returned real rows —
+`us-new-trucking-carriers` 2,071 · `new-york-new-business-entities` 4,191 ·
+`colorado-new-business-entities` 3,361 · `connecticut-new-business-registrations`
+997 · `ny-newly-issued-liquor-licenses` 451 · `texas-new-liquor-license-applications`
+210 · `chicago-new-str-registrations` 116 · `nyc-restaurant-pest-violations` 96 ·
+`chicago-new-business-licenses` 82 · `texas-newly-issued-liquor-licenses` 80 ·
+`ny-new-liquor-license-applications` 76 · `new-orleans-str-permit-applications`
+46 · `nyc-new-restaurants` 30 · `chicago-restaurant-pest-violations` 23 ·
+`nyc-new-building-permits` 7 (legacy dataset — being re-pointed). The three FMCSA
+licensing feeds (authority grants, revocations, insurance cancellations) returned
+0 on the first pass — date-format mismatch under repair, not a dead source.
 
 ## Standing decisions
 
@@ -56,12 +69,14 @@ deep enough that the only thing that matters is shipping one probe.
 - **D2 — Assumed-idea cap.** When Active holds ≥8 untested, not-`proven` ideas,
   a run appends at most 1 (see `TASK.md`). The constraint is probing, not
   generation.
-- **D3 — The model never crowns and never probes.** It screens (kill/cluster/
-  tag), drafts probe assets, and red-teams. Picking which idea to probe and
-  shipping the probe are the operator's, always. Model enthusiasm = zero
-  evidence (doctrine #2, #3).
-- **D4 — Nothing is deployed from a run.** Probe assets are drafted into
-  `probes/` as copy only; the operator ships them (doctrine #4).
+- **D3 — The model never crowns.** *(Amended 2026-09-12.)* It still may not
+  rank ideas by predicted success or declare a winner — but it now **builds and
+  ships** real feeds itself (the operator asked for full autonomy), and lets
+  downloads and subscriptions decide. Model enthusiasm = zero evidence (#2, #3).
+- **D4 — Retired 2026-09-12** (was: nothing is deployed from a run). Runs now
+  deploy: the weekly `feeds` workflow commits the site to `main` and the data to
+  `feeds-data`. What replaced the safety it provided: everything deployed is a
+  working feed over public records, or an experiment labelled as such.
 - **D5 — No cold outreach. Distribution must be inbound. (Hard dealbreaker.)**
   The operator will not cold-email, DM, or call prospects, will not run sales
   conversations, and will not do sustained 1:1 customer contact. This is a
@@ -155,6 +170,38 @@ deep enough that the only thing that matters is shipping one probe.
   specific idea or market consensus. Re-tunable: edit the `worlds` groups in the
   engine, don't add a model-judgment step to the draw.
 
+- **D13 — The product is the public-records change feed (doctrine #10).** A
+  feed = (a public registry that publishes new entrants daily) × (a vendor class
+  that sells to those entrants). It passes every standing rule at once: free data
+  (#9), inbound via search + a free sample (#7), information not advice (#8),
+  zero support. It is the pick-and-shovel move (`DEVELOP.md` #5) applied to the
+  bench's own worlds — trucking, food service, STR hosts, new businesses. New
+  feeds must still be anchored (a drawn world, or a vendor market that provably
+  buys such lists) and screened by `RUBRIC.md`; the registry is the shortlist,
+  the market is the judge.
+- **D14 — One secret turns on money.** The site sells through Stripe Payment
+  Links created idempotently by `engine/feeds/stripe_links.py`; per-feed file
+  encryption keys are derived from the same `STRIPE_SECRET_KEY`, so the
+  operator's entire floor is: create a Stripe account, paste one restricted key
+  into a GitHub secret, run the workflow (`OPERATOR.md`). Nothing committed to
+  either branch contains a key; buyers get theirs in Stripe's post-payment
+  redirect and decrypt in the browser. Known limits (accepted): a leaked link
+  keeps working after cancellation; no email is ever sent; cancellation is via
+  Stripe's portal link. The upgrade path if revenue justifies it is a
+  Cloudflare Worker that checks the subscription — still $0.
+- **D15 — Businesses and licensed premises only; never private individuals.**
+  Public-records feeds describe companies, establishments and permitted
+  properties. Columns that name or contact a private person (STR host names and
+  phones, individual licensees, registered-agent persons) are left out even when
+  the portal publishes them. Individual-licensee registries (nurses, real-estate
+  agents, electricians) are not feed material. This is the ethics line that keeps
+  #7's "no outreach" spirit intact while selling to businesses that do outreach.
+- **D16 — Free beta is the probe.** Until payments exist the full weekly files
+  are published in the clear and `download` clicks are counted per feed. This is
+  a real demand read (a sales team saving a lead file), not a click on "notify
+  me". Feeds with zero downloads after 8 live weeks get killed from the registry;
+  feeds with downloads get a price. When payments switch on, the same pages sell.
+
 ## Probe pass bar (set; do not move)
 
 A probe passes **only** on real, self-serve action — never on compliments or
@@ -167,6 +214,39 @@ can't move the goalposts after.
 
 ## Insight log (append-only; newest first)
 
+- **2026-09-12 — The bench's strongest idea got crowded in three months; the
+  durable $0 wedge is the change feed, not the lookup tool.** `freight-fraud-check`
+  (carrier lookup + risk flags) was the only `demand:proven` entry in June. By
+  September at least five free AI-built FMCSA lookup sites rank for it
+  (USDOTwatch, HaulReport, DOTscreener, CarrierBook, Native Base). Lesson for the
+  screen: **any free tool that is a thin UI over a public API is now consensus**
+  — 1,000 people prompting an LLM land there within a quarter. What they don't
+  build is the boring, recurring, B2B *data product*: the weekly diff of a public
+  registry, delivered as a file to the vendors who sell to the registrants. Same
+  data, same $0 cost, but a payer with a budget (a sales team), a recurring
+  price, and a page that gets *fresher* every week (SEO). Doctrine #10 / D13.
+- **2026-09-12 — The sandbox can't reach the data; GitHub Actions can.** This
+  session's egress proxy blocks every open-data portal, the live site, and the
+  hit counters. The runner has open internet, so research and verification run
+  as workflows whose logs are read back (`.github/workflows/probe.yml` +
+  `engine/feeds/probe_queries.json`). Treat Actions as the pipeline's hands and
+  eyes; the sandbox only writes code and docs.
+- **2026-09-12 — The operator floor collapsed to one secret.** June's insight
+  listed three irreducible toggles (visibility, Pages, an inbox). Deriving the
+  per-feed encryption keys from the Stripe key means money + gating need exactly
+  one paste (`STRIPE_SECRET_KEY`); Search Console is optional; no inbox is needed
+  because nothing is ever emailed (Stripe's redirect carries the access link).
+  Design principle: **every operator toggle must be a single paste, and the
+  system must run in a useful degraded mode without it** (here: free beta).
+- **2026-09-12 — First live build: 15 of 18 feeds returned real weekly rows on
+  the first try; the failures were date-format quirks, not dead sources.** Socrata
+  portals are consistent enough that one registry schema covered NYC, Chicago,
+  New York State, Texas, Colorado, Connecticut, New Orleans and US DOT. The
+  three FMCSA licensing files store dates as `MM/DD/YYYY` text (IN-list of day
+  literals, not a range) and NYC's legacy DOB dataset is a remnant (DOB NOW holds
+  current permits). Cost of a new feed once the schema is known: ~30 lines in
+  `registry.py` and one probe run. That is the "more generation" of #9, now with
+  a product on the other end.
 - **2026-06-19 — Researched `used-asset-title-check`'s free-data path (the one #9
   AT-RISK flag) and killed it; the $0 rule has a sharp, non-obvious edge.** The
   finding: a thing can be "built on public data" and still fail #9 if the *useful*
@@ -331,18 +411,15 @@ can't move the goalposts after.
   view/click still isn't demand. The pages are a cheap standing net for organic/SEO
   traffic; each still needs its one post or a search ranking to become a real test.
 
-## Next actions (operator-owned)
+## Next actions (operator-owned — everything else is automated)
 
-1. **Ship one inbound probe.** Natural first pick: `freight-fraud-check` — the
-   only `demand:proven` idea and inbound-reachable (brokers/dispatchers search
-   "check carrier fraud / MC lookup"). Kit: `probes/freight-fraud-check.md`. But
-   every active idea now has a ready kit in `probes/`, so you can ship whichever
-   you want to learn from first. No cold outreach, no replies to babysit; pass
-   bar is set (≥10 self-serve sign-ups). The model can revise copy; you press
-   publish.
-2. **Log the result** in `BACKLOG.md` → Probe log, and append any *system*-level
-   insight here.
+1. **Paste one Stripe key** (`OPERATOR.md` §1, ~10 minutes). Until then the
+   feeds are a free beta and only downloads are measured.
+2. **Optional:** Search Console for Google indexing (`OPERATOR.md` §2), a
+   Socrata app token if a build logs `429` (§3).
+3. Glance at `PROBE-PAGES.md` counters or the Stripe dashboard whenever you
+   like. No action needed on a green Monday.
 
-The earlier open questions are resolved: probe target leans `freight-fraud-check`
-(cold-outreach-only alternatives are killed under D5), the pass bar is set above,
-and the whole bench is probe-ready.
+Model-owned, recurring (`TASK.md`): keep the Monday build green, repair the
+FMCSA licensing feeds and the NYC permits feed, add new feeds through the
+probe → registry → screen path, kill feeds with no downloads after 8 weeks.

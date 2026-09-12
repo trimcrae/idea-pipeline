@@ -17,7 +17,7 @@ Run one pass of the idea pipeline. Follow `CLAUDE.md` doctrine strictly.
 
 In the PR summary (blunt, ≤5 sentences): list the new ids and one-liners, and flag if the backlog is filling with weak `demand:assumed` ideas — if so, say the screen should tighten or the engine's `worlds` list should widen.
 
-Hard limits: do not build anything, do not deploy anything, do not create landing pages in this run. Output is backlog + audit trail only.
+Hard limits for a *generation* run: do not touch `engine/feeds/` or the site; output is backlog + audit trail only. (The product line has its own recurring prompt below.)
 
 ---
 
@@ -40,39 +40,45 @@ It runs unattended in the cloud; the ledger guarantees each run explores new gro
 (A cron job inside the sandbox would NOT work — the container is ephemeral. Use a
 Routine.)
 
-> Autonomous recurring development pass for this idea-pipeline repo. No human is
-> present. Follow `CLAUDE.md` doctrine exactly. Do ONE focused pass, then stop.
+> Autonomous recurring pass for this idea-pipeline repo (SELL phase, doctrine
+> #10). No human is present. Follow `CLAUDE.md` exactly. Do ONE focused pass,
+> then stop. Work on the dev branch, open a PR, squash-merge it yourself when
+> tests pass, then reset the branch to `main` (CLAUDE.md git workflow).
 >
-> 1. Read `CLAUDE.md`, `STRATEGY.md`, `DEVELOP.md`, `RUBRIC.md`, and `BACKLOG.md`
->    (Active + Killed). Run `python engine/status.py`.
-> 2. This invocation IS an explicit generation/development push — the assumed-idea
->    cap is lifted; the inbound screen is the only gate.
-> 3. Generate, both with the ledger, and commit the pool files + updated ledger:
->    - `N=240 python engine/entropy_engine.py --out pools/pool_$(date +%Y%m%d_%H%M)_single.txt --ledger pools/seen.tsv`
->    - `N=100 python engine/entropy_engine.py --mode combine --out pools/pool_$(date +%Y%m%d_%H%M)_combine.txt --ledger pools/seen.tsv`
-> 4. Develop survivors with `DEVELOP.md` techniques (recombine / vary / invert /
->    transpose / pick-and-shovel / JTBD). Every candidate must trace to a draw or
->    a real, citable pain — never free-float.
-> 5. Screen hard against `RUBRIC.md`: the inbound-distribution kill (#7), the
->    no-licensed-professional-advice kill (#8: information, not a reliance-grade
->    legal/medical/financial/tax determination), the $0 build-cost kill (#9: v1
->    runs on FREE public data + free tiers, no paid feed/infra/ads), and the
->    three-leg test (free public data + a real payer + inbound search). Kill
->    dealbreakers. Do not rank, do not crown.
-> 6. Append every genuine inbound survivor to `BACKLOG.md` Active (existing format;
->    honest tags; named catch; an inbound probe). `demand:assumed` unless you can
->    cite real evidence. **If the pass yields zero inbound survivors, append
->    nothing and say so — a zero-survivor pass is a success, not a failure.**
-> 7. Append any system-level insight to `STRATEGY.md`'s Insight log; keep Current
->    phase accurate.
-> 8. Run `python engine/test_entropy_engine.py` and `python engine/status.py` —
->    both must succeed.
-> 9. Commit `BACKLOG.md`, the new `pools/` files, `pools/seen.tsv`, and
->    `STRATEGY.md`. Open a PR titled `scheduled dev pass <date>: +N candidates`
->    and, if tests pass and the diff is only backlog/pool/strategy/audit changes,
->    squash-merge it to `main` yourself (per `CLAUDE.md` git workflow).
-> 10. Hard limits: never deploy, never create live landing pages, never cold
->    outreach, never crown, never rewrite engine logic in this run. Output is
->    backlog + audit trail only.
+> 1. Read `CLAUDE.md`, `STRATEGY.md`, `OPERATOR.md`, `RUBRIC.md`, `BACKLOG.md`,
+>    `engine/feeds/registry.py`, and `feeds/build.json`. Run `python engine/status.py`.
+> 2. **Keep the product alive first.** Check the latest `feeds` workflow run on
+>    GitHub Actions (the GitHub tools can list runs and read job logs). If it is
+>    red, or a feed shows 0 rows two weeks running, or `feeds/build.json` lists a
+>    failure: diagnose it with the probe job (edit `engine/feeds/probe_queries.json`,
+>    push, read the log), fix the registry entry, and re-run the workflow. The
+>    sandbox cannot reach the portals itself — Actions runners can.
+> 3. **Grow the catalogue by at most 2 feeds per pass.** A feed is (a public
+>    registry that publishes new entrants daily, on a free keyless portal) × (a
+>    vendor class that provably buys such lists). Anchor it to a drawn world or a
+>    citable vendor market; screen it with `RUBRIC.md` (#7 inbound, #8 information
+>    not advice, #9 $0, three legs) and D15 (**businesses and licensed premises
+>    only — never private individuals; drop personal-name/contact columns**).
+>    Probe the dataset first (columns, date field, weekly count ≥ ~20), then add
+>    the entry, run `python engine/feeds/test_feeds.py`, push, and read the
+>    `feeds` run log. Zero viable candidates is a fine outcome — say so.
+> 4. **Read the market, never crown.** From `PROBE-PAGES.md` counters (if
+>    reachable) or the Stripe dashboard notes the operator leaves: note downloads
+>    / subscriptions per feed in `BACKLOG.md`'s probe log. Kill any feed with 0
+>    downloads after 8 live weeks (remove it from the registry; log why).
+> 5. **Generation stays on, at low volume, as substrate:** every 3rd pass run
+>    `N=120 python engine/entropy_engine.py --out pools/pool_$(date +%Y%m%d_%H%M).txt --ledger pools/seen.tsv`,
+>    skim for registry-shaped worlds (a licensing/permit/inspection body that
+>    publishes data), and treat survivors as feed candidates for step 3. Commit
+>    the pool + ledger.
+> 6. Append any system-level insight to `STRATEGY.md`'s log; keep Current phase
+>    accurate; keep `OPERATOR.md` truthful about what is and isn't switched on.
+> 7. Run `python engine/feeds/test_feeds.py`, `python engine/feeds/test_stripe_links.py`,
+>    `python engine/test_entropy_engine.py`, `python engine/build_pages.py`,
+>    `python engine/status.py` — all must succeed before the PR.
+> 8. Hard limits: never spend money; never add data about private individuals;
+>    never cold-outreach anyone; never crown; never rotate or print secrets;
+>    never rewrite `engine/feeds/feedcrypto.py` or the payment-link logic
+>    without a test proving the old links still resolve.
 >
 > Stop after one pass. The next run picks up where this one left off.
