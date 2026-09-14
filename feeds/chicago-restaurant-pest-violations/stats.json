@@ -1,7 +1,7 @@
 {
  "id": "chicago-restaurant-pest-violations",
- "week_start": "2026-09-05",
- "week_end": "2026-09-11",
+ "week_start": "2026-09-07",
+ "week_end": "2026-09-13",
  "rows": 23,
  "columns": [
   "license",
@@ -31,7 +31,7 @@
    1
   ]
  ],
- "generated_at": "2026-09-12T14:07:33+00:00",
+ "generated_at": "2026-09-14T12:57:38+00:00",
  "sample_rows": 23,
  "published": false
 }

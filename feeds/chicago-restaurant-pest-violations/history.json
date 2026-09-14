@@ -17,5 +17,24 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "rows": 23,
+  "groups": [
+   [
+    "Restaurant",
+    16
+   ],
+   [
+    "School",
+    6
+   ],
+   [
+    "Grocery Store",
+    1
+   ]
+  ]
  }
 ]

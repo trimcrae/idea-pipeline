@@ -1,8 +1,8 @@
 {
  "id": "texas-newly-issued-liquor-licenses",
- "week_start": "2026-09-05",
- "week_end": "2026-09-11",
- "rows": 80,
+ "week_start": "2026-09-07",
+ "week_end": "2026-09-13",
+ "rows": 78,
  "columns": [
   "license_id",
   "issued",
@@ -72,15 +72,15 @@
    2
   ],
   [
-   "Hays",
+   "Hidalgo",
    2
   ],
   [
-   "Hidalgo",
+   "McLennan",
    2
   ]
  ],
- "generated_at": "2026-09-12T14:07:38+00:00",
+ "generated_at": "2026-09-14T12:57:44+00:00",
  "sample_rows": 25,
  "published": false
 }

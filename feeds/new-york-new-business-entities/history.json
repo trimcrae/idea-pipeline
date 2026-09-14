@@ -37,5 +37,44 @@
     174
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "rows": 4084,
+  "groups": [
+   [
+    "Kings",
+    578
+   ],
+   [
+    "Albany",
+    573
+   ],
+   [
+    "New York",
+    479
+   ],
+   [
+    "Queens",
+    418
+   ],
+   [
+    "Nassau",
+    359
+   ],
+   [
+    "Suffolk",
+    346
+   ],
+   [
+    "Westchester",
+    182
+   ],
+   [
+    "Bronx",
+    176
+   ]
+  ]
  }
 ]

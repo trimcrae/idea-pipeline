@@ -25,5 +25,32 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "rows": 90,
+  "groups": [
+   [
+    "Manhattan",
+    45
+   ],
+   [
+    "Queens",
+    23
+   ],
+   [
+    "Brooklyn",
+    13
+   ],
+   [
+    "Bronx",
+    8
+   ],
+   [
+    "Staten Island",
+    1
+   ]
+  ]
  }
 ]
