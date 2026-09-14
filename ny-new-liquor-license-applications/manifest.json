@@ -1,0 +1,39 @@
+{
+ "id": "ny-new-liquor-license-applications",
+ "title": "New liquor license applications filed in New York this week",
+ "columns": [
+  "application_id",
+  "received",
+  "status",
+  "license_class",
+  "legal_name",
+  "trade_name",
+  "premises_address",
+  "city",
+  "zip",
+  "county"
+ ],
+ "generated_at": "2026-09-14T12:57:40+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 76,
+   "bytes": 9859,
+   "encrypted": false,
+   "sha256": "18f9adf9be47e4fb36b89c4283b1edb0a912aa46ed0947573ea8e2b2dfb50390"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 76,
+   "bytes": 9859,
+   "encrypted": false,
+   "sha256": "18f9adf9be47e4fb36b89c4283b1edb0a912aa46ed0947573ea8e2b2dfb50390"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "new-york-new-business-entities",
+ "title": "New corporations and LLCs filed in New York this week",
+ "columns": [
+  "dos_id",
+  "name",
+  "filed",
+  "entity_type",
+  "county",
+  "jurisdiction",
+  "process_name",
+  "process_address",
+  "process_address_2",
+  "process_city",
+  "process_state",
+  "process_zip"
+ ],
+ "generated_at": "2026-09-14T12:57:49+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 4191,
+   "bytes": 645364,
+   "encrypted": false,
+   "sha256": "70e440c928e647dd7931f8ecbe2b7ce16737187557f251d63b6d323f8769ba8f"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 4084,
+   "bytes": 629180,
+   "encrypted": false,
+   "sha256": "b376890d59ab9ed3bd7a9c05b676982067dc7c46e425bd6df4b76f8f3cb29ccd"
+  }
+ ]
+}

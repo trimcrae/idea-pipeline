@@ -1,0 +1,45 @@
+{
+ "id": "nyc-restaurant-pest-violations",
+ "title": "NYC restaurants cited for rats, mice, roaches or flies this week",
+ "columns": [
+  "camis",
+  "restaurant",
+  "cuisine",
+  "building",
+  "street",
+  "borough",
+  "zip",
+  "phone",
+  "inspected",
+  "inspection_type",
+  "violation_code",
+  "violation",
+  "critical",
+  "action",
+  "score",
+  "grade"
+ ],
+ "generated_at": "2026-09-14T12:57:35+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 96,
+   "bytes": 34459,
+   "encrypted": false,
+   "sha256": "763129bb9972d34d8887cbba86ac74f084b251d8fef71dd60cdaad223ee32dda"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 90,
+   "bytes": 31961,
+   "encrypted": false,
+   "sha256": "44aa283faf0d95dc5008622505b9f17606243f5a571cfbce0b8ecbb0b4e6e9e5"
+  }
+ ]
+}

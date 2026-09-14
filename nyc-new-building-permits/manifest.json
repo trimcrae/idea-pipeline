@@ -1,0 +1,49 @@
+{
+ "id": "nyc-new-building-permits",
+ "title": "New building permits issued in NYC this week",
+ "columns": [
+  "permit",
+  "job_filing",
+  "filing_reason",
+  "issued",
+  "approved",
+  "expires",
+  "work_type",
+  "job_description",
+  "estimated_cost",
+  "house",
+  "street",
+  "borough",
+  "zip",
+  "contractor_license_type",
+  "contractor_business",
+  "contractor_address",
+  "owner_business",
+  "owner_city",
+  "owner_state",
+  "status"
+ ],
+ "generated_at": "2026-09-14T12:57:55+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 1313,
+   "bytes": 444383,
+   "encrypted": false,
+   "sha256": "868526106f2b6ef948093372e2a81b85263b1b073caadca676fe31392310fd40"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 1666,
+   "bytes": 566016,
+   "encrypted": false,
+   "sha256": "678c2d88bf0211ef968070f96870793cdf32adc859e33bdbccc19ecb2e6bede1"
+  }
+ ]
+}

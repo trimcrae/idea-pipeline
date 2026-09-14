@@ -1,0 +1,40 @@
+{
+ "id": "ny-newly-issued-liquor-licenses",
+ "title": "Liquor licenses newly issued in New York this week",
+ "columns": [
+  "license_id",
+  "issued",
+  "effective",
+  "expires",
+  "license_class",
+  "legal_name",
+  "trade_name",
+  "premises_address",
+  "city",
+  "zip",
+  "county"
+ ],
+ "generated_at": "2026-09-14T12:57:41+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 451,
+   "bytes": 63718,
+   "encrypted": false,
+   "sha256": "23d997f1a6ba910ade6547e6e72222f9be16dcdcf4b1e79b682377780f163c11"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 459,
+   "bytes": 64993,
+   "encrypted": false,
+   "sha256": "8f9c445863db699d9f7fab3298a1715bf6da01d5cd4654e6e991bf43b0e02d04"
+  }
+ ]
+}

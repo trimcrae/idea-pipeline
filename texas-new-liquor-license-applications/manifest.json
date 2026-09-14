@@ -1,0 +1,40 @@
+{
+ "id": "texas-new-liquor-license-applications",
+ "title": "New TABC liquor license applications filed in Texas this week",
+ "columns": [
+  "application_id",
+  "submitted",
+  "status",
+  "license_type",
+  "trade_name",
+  "owner",
+  "address",
+  "city",
+  "zip",
+  "county",
+  "phone"
+ ],
+ "generated_at": "2026-09-14T12:57:43+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 210,
+   "bytes": 25987,
+   "encrypted": false,
+   "sha256": "348c291779c1a4163f94c32e847d03b80e93d8c456bf97349eb6461211546b0f"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 206,
+   "bytes": 25203,
+   "encrypted": false,
+   "sha256": "a561337b8e37e247670b1105703a39eb49929750eef73ddbbb03b9ff07f21253"
+  }
+ ]
+}

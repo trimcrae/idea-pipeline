@@ -1,0 +1,41 @@
+{
+ "id": "texas-newly-issued-liquor-licenses",
+ "title": "TABC liquor licenses newly issued in Texas this week",
+ "columns": [
+  "license_id",
+  "issued",
+  "license_type",
+  "tier",
+  "status",
+  "trade_name",
+  "owner",
+  "address",
+  "city",
+  "zip",
+  "county",
+  "phone"
+ ],
+ "generated_at": "2026-09-14T12:57:44+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 80,
+   "bytes": 9863,
+   "encrypted": false,
+   "sha256": "263fd7741953494bc4435400386ce0421913ea017f929ba290e3c98ec061c3c1"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 78,
+   "bytes": 9581,
+   "encrypted": false,
+   "sha256": "f5768bed308aea8822d6e9bd6fca1f66424b9130d9bc1d98a7d7533b8ed0d8a6"
+  }
+ ]
+}

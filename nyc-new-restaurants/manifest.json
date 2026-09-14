@@ -1,0 +1,40 @@
+{
+ "id": "nyc-new-restaurants",
+ "title": "New restaurants getting their first NYC health inspection this week",
+ "columns": [
+  "camis",
+  "restaurant",
+  "cuisine",
+  "building",
+  "street",
+  "borough",
+  "zip",
+  "phone",
+  "inspected",
+  "inspection_type",
+  "action"
+ ],
+ "generated_at": "2026-09-14T12:57:37+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 30,
+   "bytes": 5794,
+   "encrypted": false,
+   "sha256": "45afbe443669845eead9d088b09a56a742d28e57744ca3de4e7c84415dac6eb1"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 28,
+   "bytes": 5449,
+   "encrypted": false,
+   "sha256": "4f9066ff92f2281bd814bd9ebd3c170f968a0f3a27ab18723bdcc982215be1f5"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "chicago-restaurant-pest-violations",
+ "title": "Chicago food establishments cited for rodents or insects this week",
+ "columns": [
+  "license",
+  "establishment",
+  "aka",
+  "facility_type",
+  "risk",
+  "address",
+  "zip",
+  "inspected",
+  "inspection_type",
+  "result",
+  "pest_violation"
+ ],
+ "generated_at": "2026-09-14T12:57:38+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 23,
+   "bytes": 12209,
+   "encrypted": false,
+   "sha256": "8d5169c7f69e2b797abf6dfb3507c60ed2bbeddfbcb2707156b667ef9e9736dd"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 23,
+   "bytes": 12209,
+   "encrypted": false,
+   "sha256": "8d5169c7f69e2b797abf6dfb3507c60ed2bbeddfbcb2707156b667ef9e9736dd"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "connecticut-new-business-registrations",
+ "title": "New businesses registered in Connecticut this week",
+ "columns": [
+  "account_number",
+  "name",
+  "entity_type",
+  "status",
+  "registered",
+  "domestic_or_foreign",
+  "formation_place",
+  "naics",
+  "street",
+  "city",
+  "state",
+  "zip",
+  "email"
+ ],
+ "generated_at": "2026-09-14T12:57:46+00:00",
+ "encrypted": false,
+ "latest": "2026-09-13.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 997,
+   "bytes": 182984,
+   "encrypted": false,
+   "sha256": "9d642599823a4ebc2450aaac08c66feccca4f3a1d9997c73c3bf907d43b74a24"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 939,
+   "bytes": 172401,
+   "encrypted": false,
+   "sha256": "687f736785de41f3e49e7dadd95dab371f98943e4be8658e5d96508c99cd5604"
+  }
+ ]
+}
