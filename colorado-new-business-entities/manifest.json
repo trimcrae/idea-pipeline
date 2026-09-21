@@ -1,0 +1,51 @@
+{
+ "id": "colorado-new-business-entities",
+ "title": "New business entities formed in Colorado this week",
+ "columns": [
+  "entity_id",
+  "name",
+  "formed",
+  "entity_type",
+  "status",
+  "jurisdiction",
+  "street",
+  "street_2",
+  "city",
+  "state",
+  "zip",
+  "agent_organization",
+  "agent_city"
+ ],
+ "generated_at": "2026-09-21T12:57:18+00:00",
+ "encrypted": false,
+ "latest": "2026-09-20.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 3361,
+   "bytes": 434454,
+   "encrypted": false,
+   "sha256": "c51fc5ecd903b49542c7bf9a79ac72b796fb3e2fbc088d25c1be6064de2e27f3"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 3462,
+   "bytes": 446313,
+   "encrypted": false,
+   "sha256": "c0381c5ce6c4b1e92f2cc157edf635f7169079dbc2cd41941193057faddd165f"
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "file": "2026-09-20.csv",
+   "rows": 3387,
+   "bytes": 436314,
+   "encrypted": false,
+   "sha256": "983e5ea36f7688921c1f8b9a651ca594f80f11439c7f5e6ba172edb02528e003"
+  }
+ ]
+}

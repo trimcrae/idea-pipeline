@@ -1,0 +1,51 @@
+{
+ "id": "chicago-new-business-licenses",
+ "title": "New business licenses issued in Chicago this week",
+ "columns": [
+  "license_id",
+  "license_start",
+  "license_type",
+  "business_activity",
+  "legal_name",
+  "dba_name",
+  "address",
+  "city",
+  "state",
+  "zip",
+  "community_area",
+  "neighborhood",
+  "status"
+ ],
+ "generated_at": "2026-09-21T12:57:11+00:00",
+ "encrypted": false,
+ "latest": "2026-09-20.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 82,
+   "bytes": 17051,
+   "encrypted": false,
+   "sha256": "7dcecd4042fde81d4af6e4adc9a97dbd066406901ba0873b48b566066db63863"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 82,
+   "bytes": 17051,
+   "encrypted": false,
+   "sha256": "7dcecd4042fde81d4af6e4adc9a97dbd066406901ba0873b48b566066db63863"
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "file": "2026-09-20.csv",
+   "rows": 134,
+   "bytes": 29613,
+   "encrypted": false,
+   "sha256": "6db36a8283a812f65d97da6f0b4f4c4dbcb545686bfafa967b3fadcae8edd5d4"
+  }
+ ]
+}

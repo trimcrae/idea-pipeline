@@ -1,0 +1,43 @@
+{
+ "id": "chicago-new-str-registrations",
+ "title": "Short-term rental registrations approved in Chicago this week",
+ "columns": [
+  "registration",
+  "approved",
+  "address",
+  "ward",
+  "expires"
+ ],
+ "generated_at": "2026-09-21T12:57:24+00:00",
+ "encrypted": false,
+ "latest": "2026-09-20.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 116,
+   "bytes": 11351,
+   "encrypted": false,
+   "sha256": "f1eec7f0d12a4926bcc34286117be4f679cb823eff130f9c53e6fe30647a15df"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 118,
+   "bytes": 11548,
+   "encrypted": false,
+   "sha256": "6dfe61cb98a0a58d1537365953cff1397f04199fada15393ce3e5020be2cb50f"
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "file": "2026-09-20.csv",
+   "rows": 434,
+   "bytes": 42352,
+   "encrypted": false,
+   "sha256": "22bc18e833cf4aaafd3c9f45dbe391d5dae526e471131be3968f442e359d47dd"
+  }
+ ]
+}

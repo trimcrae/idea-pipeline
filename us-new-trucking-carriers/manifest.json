@@ -1,0 +1,55 @@
+{
+ "id": "us-new-trucking-carriers",
+ "title": "New trucking companies registered with FMCSA this week",
+ "columns": [
+  "usdot",
+  "legal_name",
+  "dba_name",
+  "registered",
+  "status",
+  "operation",
+  "class",
+  "street",
+  "city",
+  "state",
+  "zip",
+  "phone",
+  "email",
+  "power_units",
+  "drivers",
+  "entity_type",
+  "mcs150_date"
+ ],
+ "generated_at": "2026-09-21T12:56:58+00:00",
+ "encrypted": false,
+ "latest": "2026-09-20.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 2071,
+   "bytes": 319839,
+   "encrypted": false,
+   "sha256": "d1e83eb87cb15940f62ebc96ad8d264bca3f6448d210d9775da7868f499f3754"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 2437,
+   "bytes": 376021,
+   "encrypted": false,
+   "sha256": "5d8526b38e23d20d75c9a3a88ae9647067c7c81c6d561ec6ed80da3cb2c1a3c3"
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "file": "2026-09-20.csv",
+   "rows": 2848,
+   "bytes": 440205,
+   "encrypted": false,
+   "sha256": "a126fce5668a18fa8803ff5342ce077be9c6d5ad4424cfebd00075055875d058"
+  }
+ ]
+}
