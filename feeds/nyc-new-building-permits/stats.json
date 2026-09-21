@@ -1,8 +1,8 @@
 {
  "id": "nyc-new-building-permits",
- "week_start": "2026-09-07",
- "week_end": "2026-09-13",
- "rows": 1666,
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "rows": 1984,
  "columns": [
   "permit",
   "job_filing",
@@ -29,26 +29,26 @@
  "groups": [
   [
    "Manhattan",
-   648
+   782
   ],
   [
    "Brooklyn",
-   393
+   502
   ],
   [
    "Queens",
-   361
+   394
   ],
   [
    "Bronx",
-   139
+   174
   ],
   [
    "Staten Island",
-   125
+   132
   ]
  ],
- "generated_at": "2026-09-14T12:57:55+00:00",
+ "generated_at": "2026-09-21T12:57:21+00:00",
  "sample_rows": 25,
  "published": false
 }

@@ -20,5 +20,20 @@
     49
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "rows": 85,
+  "groups": [
+   [
+    "Non-Commercial Short Term Rental",
+    54
+   ],
+   [
+    "Short Term Rental Commercial Owner",
+    31
+   ]
+  ]
  }
 ]

@@ -1,8 +1,8 @@
 {
  "id": "chicago-new-business-licenses",
- "week_start": "2026-09-07",
- "week_end": "2026-09-13",
- "rows": 82,
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "rows": 134,
  "columns": [
   "license_id",
   "license_start",
@@ -21,19 +21,35 @@
  "group_by": "license_type",
  "groups": [
   [
-   "Towing - Tow Truck",
-   24
-  ],
-  [
    "Limited Business License",
-   21
+   36
   ],
   [
    "Retail Food Establishment",
+   18
+  ],
+  [
+   "Pop-Up Retail User",
+   15
+  ],
+  [
+   "Special Event Liquor",
+   13
+  ],
+  [
+   "Regulated Business License",
+   8
+  ],
+  [
+   "Pharmaceutical Representative",
    6
   ],
   [
-   "Consumption on Premises - Incidental Activity",
+   "Special Event Food",
+   6
+  ],
+  [
+   "Children's Services Facility License",
    4
   ],
   [
@@ -41,47 +57,31 @@
    4
   ],
   [
-   "Pop-Up Retail User",
+   "Shared Kitchen User (Long Term)",
+   4
+  ],
+  [
+   "Consumption on Premises - Incidental Activity",
    3
   ],
   [
-   "Regulated Business License",
+   "Motor Vehicle Services License",
    3
   ],
   [
-   "Children's Services Facility License",
+   "Tobacco",
+   3
+  ],
+  [
+   "Filling Station",
    2
   ],
   [
-   "Pharmaceutical Representative",
-   2
-  ],
-  [
-   "Raffles",
-   2
-  ],
-  [
-   "Special Event Food",
-   2
-  ],
-  [
-   "Commercial Garage",
-   1
-  ],
-  [
-   "Food - Shared Kitchen - Supplemental",
-   1
-  ],
-  [
-   "Manufacturing Establishments",
-   1
-  ],
-  [
-   "Outdoor Patio",
+   "Caterer's Liquor License",
    1
   ]
  ],
- "generated_at": "2026-09-14T12:57:45+00:00",
+ "generated_at": "2026-09-21T12:57:11+00:00",
  "sample_rows": 25,
  "published": false
 }

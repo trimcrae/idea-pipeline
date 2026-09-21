@@ -36,5 +36,32 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "rows": 36,
+  "groups": [
+   [
+    "School",
+    22
+   ],
+   [
+    "Restaurant",
+    9
+   ],
+   [
+    "Grocery Store",
+    3
+   ],
+   [
+    "Children's Services Facility",
+    1
+   ],
+   [
+    "Mobile Food Preparer",
+    1
+   ]
+  ]
  }
 ]

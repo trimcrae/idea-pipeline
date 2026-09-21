@@ -1,8 +1,8 @@
 {
  "id": "chicago-restaurant-pest-violations",
- "week_start": "2026-09-07",
- "week_end": "2026-09-13",
- "rows": 23,
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "rows": 36,
  "columns": [
   "license",
   "establishment",
@@ -19,19 +19,27 @@
  "group_by": "facility_type",
  "groups": [
   [
-   "Restaurant",
-   16
+   "School",
+   22
   ],
   [
-   "School",
-   6
+   "Restaurant",
+   9
   ],
   [
    "Grocery Store",
+   3
+  ],
+  [
+   "Children's Services Facility",
+   1
+  ],
+  [
+   "Mobile Food Preparer",
    1
   ]
  ],
- "generated_at": "2026-09-14T12:57:38+00:00",
- "sample_rows": 23,
+ "generated_at": "2026-09-21T12:57:03+00:00",
+ "sample_rows": 25,
  "published": false
 }

@@ -52,5 +52,32 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "rows": 1131,
+  "groups": [
+   [
+    "LLC",
+    1041
+   ],
+   [
+    "Stock",
+    64
+   ],
+   [
+    "Non-Stock",
+    20
+   ],
+   [
+    "LLP",
+    4
+   ],
+   [
+    "Limited Partnership",
+    2
+   ]
+  ]
  }
 ]

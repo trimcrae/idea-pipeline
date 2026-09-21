@@ -1,8 +1,8 @@
 {
  "id": "nyc-restaurant-pest-violations",
- "week_start": "2026-09-07",
- "week_end": "2026-09-13",
- "rows": 90,
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "rows": 113,
  "columns": [
   "camis",
   "restaurant",
@@ -29,22 +29,18 @@
   ],
   [
    "Queens",
-   23
+   33
   ],
   [
    "Brooklyn",
-   13
+   26
   ],
   [
    "Bronx",
-   8
-  ],
-  [
-   "Staten Island",
-   1
+   9
   ]
  ],
- "generated_at": "2026-09-14T12:57:35+00:00",
+ "generated_at": "2026-09-21T12:57:00+00:00",
  "sample_rows": 25,
  "published": false
 }

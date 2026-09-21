@@ -1,8 +1,8 @@
 {
  "id": "ny-newly-issued-liquor-licenses",
- "week_start": "2026-09-07",
- "week_end": "2026-09-13",
- "rows": 459,
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "rows": 603,
  "columns": [
   "license_id",
   "issued",
@@ -20,66 +20,66 @@
  "groups": [
   [
    "New York",
-   87
-  ],
-  [
-   "Kings",
-   51
+   129
   ],
   [
    "Queens",
-   35
+   49
   ],
   [
    "Suffolk",
-   31
+   44
   ],
   [
-   "Nassau",
-   23
-  ],
-  [
-   "Erie",
-   21
+   "Kings",
+   42
   ],
   [
    "Westchester",
-   18
+   21
   ],
   [
    "Monroe",
-   15
-  ],
-  [
-   "Orange",
-   15
-  ],
-  [
-   "Ulster",
-   11
-  ],
-  [
-   "Bronx",
-   8
+   20
   ],
   [
    "Onondaga",
-   8
+   20
+  ],
+  [
+   "Nassau",
+   19
+  ],
+  [
+   "Erie",
+   17
+  ],
+  [
+   "Dutchess",
+   15
   ],
   [
    "Albany",
-   7
+   14
   ],
   [
-   "Niagara",
-   7
+   "Orange",
+   13
   ],
   [
-   "Oneida",
-   7
+   "Richmond",
+   13
+  ],
+  [
+   "Rockland",
+   13
+  ],
+  [
+   "Saratoga",
+   13
   ]
  ],
- "generated_at": "2026-09-14T12:57:41+00:00",
+ "generated_at": "2026-09-21T12:57:06+00:00",
  "sample_rows": 25,
  "published": false
 }

@@ -76,5 +76,44 @@
     2
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "rows": 134,
+  "groups": [
+   [
+    "Limited Business License",
+    36
+   ],
+   [
+    "Retail Food Establishment",
+    18
+   ],
+   [
+    "Pop-Up Retail User",
+    15
+   ],
+   [
+    "Special Event Liquor",
+    13
+   ],
+   [
+    "Regulated Business License",
+    8
+   ],
+   [
+    "Pharmaceutical Representative",
+    6
+   ],
+   [
+    "Special Event Food",
+    6
+   ],
+   [
+    "Children's Services Facility License",
+    4
+   ]
+  ]
  }
 ]
