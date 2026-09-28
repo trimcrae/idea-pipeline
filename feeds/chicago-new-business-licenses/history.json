@@ -115,5 +115,44 @@
     4
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "rows": 135,
+  "groups": [
+   [
+    "Limited Business License",
+    44
+   ],
+   [
+    "Regulated Business License",
+    22
+   ],
+   [
+    "Pop-Up Retail User",
+    12
+   ],
+   [
+    "Peddler License",
+    8
+   ],
+   [
+    "Retail Food Establishment",
+    8
+   ],
+   [
+    "Special Event Food",
+    7
+   ],
+   [
+    "Consumption on Premises - Incidental Activity",
+    6
+   ],
+   [
+    "Pharmaceutical Representative",
+    5
+   ]
+  ]
  }
 ]

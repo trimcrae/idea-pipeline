@@ -63,5 +63,36 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "rows": 42,
+  "groups": [
+   [
+    "Restaurant",
+    19
+   ],
+   [
+    "School",
+    15
+   ],
+   [
+    "Grocery Store",
+    4
+   ],
+   [
+    "Children's Services Facility",
+    2
+   ],
+   [
+    "(blank)",
+    1
+   ],
+   [
+    "Bakery",
+    1
+   ]
+  ]
  }
 ]

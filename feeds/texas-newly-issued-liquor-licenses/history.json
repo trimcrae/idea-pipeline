@@ -115,5 +115,44 @@
     9
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "rows": 210,
+  "groups": [
+   [
+    "Harris",
+    32
+   ],
+   [
+    "Dallas",
+    19
+   ],
+   [
+    "Bexar",
+    14
+   ],
+   [
+    "(blank)",
+    11
+   ],
+   [
+    "Collin",
+    11
+   ],
+   [
+    "Travis",
+    11
+   ],
+   [
+    "Tarrant",
+    9
+   ],
+   [
+    "Williamson",
+    8
+   ]
+  ]
  }
 ]

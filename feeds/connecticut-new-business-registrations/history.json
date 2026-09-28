@@ -79,5 +79,36 @@
     2
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "rows": 1061,
+  "groups": [
+   [
+    "LLC",
+    960
+   ],
+   [
+    "Stock",
+    67
+   ],
+   [
+    "Non-Stock",
+    31
+   ],
+   [
+    "General Partnerships",
+    1
+   ],
+   [
+    "LLP",
+    1
+   ],
+   [
+    "Limited Partnership",
+    1
+   ]
+  ]
  }
 ]
