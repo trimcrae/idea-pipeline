@@ -154,5 +154,44 @@
     57
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-28",
+  "week_end": "2026-10-04",
+  "rows": 3332,
+  "groups": [
+   [
+    "Denver",
+    758
+   ],
+   [
+    "Colorado Springs",
+    246
+   ],
+   [
+    "Aurora",
+    151
+   ],
+   [
+    "DENVER",
+    108
+   ],
+   [
+    "Littleton",
+    88
+   ],
+   [
+    "Fort Collins",
+    78
+   ],
+   [
+    "Boulder",
+    72
+   ],
+   [
+    "Lakewood",
+    71
+   ]
+  ]
  }
 ]

@@ -1,8 +1,8 @@
 {
  "id": "chicago-new-business-licenses",
- "week_start": "2026-09-21",
- "week_end": "2026-09-27",
- "rows": 135,
+ "week_start": "2026-09-28",
+ "week_end": "2026-10-04",
+ "rows": 142,
  "columns": [
   "license_id",
   "license_start",
@@ -22,18 +22,22 @@
  "groups": [
   [
    "Limited Business License",
-   44
+   34
+  ],
+  [
+   "Special Event Food",
+   23
   ],
   [
    "Regulated Business License",
-   22
+   21
   ],
   [
    "Pop-Up Retail User",
-   12
+   20
   ],
   [
-   "Peddler License",
+   "Pharmaceutical Representative",
    8
   ],
   [
@@ -41,35 +45,23 @@
    8
   ],
   [
-   "Special Event Food",
-   7
-  ],
-  [
-   "Consumption on Premises - Incidental Activity",
-   6
-  ],
-  [
-   "Pharmaceutical Representative",
+   "Peddler License",
    5
+  ],
+  [
+   "Shared Kitchen User (Long Term)",
+   4
+  ],
+  [
+   "Special Event Liquor",
+   3
   ],
   [
    "Tobacco",
    3
   ],
   [
-   "Children's Services Facility License",
-   2
-  ],
-  [
-   "Manufacturing Establishments",
-   2
-  ],
-  [
-   "Motor Vehicle Services License",
-   2
-  ],
-  [
-   "Outdoor Patio",
+   "Animal Care License",
    2
   ],
   [
@@ -77,11 +69,19 @@
    2
   ],
   [
-   "Special Event Liquor",
+   "Shared Housing Unit Operator",
    2
+  ],
+  [
+   "Children's Services Facility License",
+   1
+  ],
+  [
+   "Commercial Garage",
+   1
   ]
  ],
- "generated_at": "2026-09-28T14:06:13+00:00",
+ "generated_at": "2026-10-05T14:51:40+00:00",
  "sample_rows": 25,
  "published": false
 }

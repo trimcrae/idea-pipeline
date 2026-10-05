@@ -1,6 +1,6 @@
 # TRAFFIC.md — weekly counter snapshot (generated; do not edit)
 
-Snapshot 2026-09-28. Counts are cumulative hits.sh totals with this monitor's own badge reads
+Snapshot 2026-10-05. Counts are cumulative hits.sh totals with this monitor's own badge reads
 subtracted; Δ is the change since the previous snapshot. A *view* is a page load with JS;
 *download-click* is the main button on a feed page; *file-saved* is a CSV actually saved from
 the download page — the number that means demand.

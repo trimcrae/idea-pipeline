@@ -94,5 +94,40 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-28",
+  "week_end": "2026-10-04",
+  "rows": 32,
+  "groups": [
+   [
+    "Restaurant",
+    17
+   ],
+   [
+    "School",
+    6
+   ],
+   [
+    "Grocery Store",
+    5
+   ],
+   [
+    "Children's Services Facility",
+    1
+   ],
+   [
+    "Daycare Above and Under 2 Years",
+    1
+   ],
+   [
+    "GAS STATION/RESTAURANT",
+    1
+   ],
+   [
+    "Mobile Food Preparer",
+    1
+   ]
+  ]
  }
 ]

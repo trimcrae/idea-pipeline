@@ -154,5 +154,44 @@
     5
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-28",
+  "week_end": "2026-10-04",
+  "rows": 142,
+  "groups": [
+   [
+    "Limited Business License",
+    34
+   ],
+   [
+    "Special Event Food",
+    23
+   ],
+   [
+    "Regulated Business License",
+    21
+   ],
+   [
+    "Pop-Up Retail User",
+    20
+   ],
+   [
+    "Pharmaceutical Representative",
+    8
+   ],
+   [
+    "Retail Food Establishment",
+    8
+   ],
+   [
+    "Peddler License",
+    5
+   ],
+   [
+    "Shared Kitchen User (Long Term)",
+    4
+   ]
+  ]
  }
 ]

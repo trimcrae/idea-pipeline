@@ -1,8 +1,8 @@
 {
  "id": "texas-new-liquor-license-applications",
- "week_start": "2026-09-21",
- "week_end": "2026-09-27",
- "rows": 279,
+ "week_start": "2026-09-28",
+ "week_end": "2026-10-04",
+ "rows": 247,
  "columns": [
   "application_id",
   "submitted",
@@ -20,42 +20,38 @@
  "groups": [
   [
    "Harris",
-   29
-  ],
-  [
-   "Tarrant",
-   19
+   40
   ],
   [
    "Bexar",
-   17
+   23
   ],
   [
    "Dallas",
-   16
-  ],
-  [
-   "Travis",
-   14
-  ],
-  [
-   "Fort Bend",
-   10
-  ],
-  [
-   "El Paso",
-   9
-  ],
-  [
-   "Cameron",
-   8
+   20
   ],
   [
    "Collin",
+   12
+  ],
+  [
+   "Travis",
+   11
+  ],
+  [
+   "Tarrant",
+   9
+  ],
+  [
+   "Hidalgo",
    8
   ],
   [
-   "Bell",
+   "Webb",
+   8
+  ],
+  [
+   "Fort Bend",
    7
   ],
   [
@@ -63,23 +59,27 @@
    7
   ],
   [
-   "Williamson",
-   6
-  ],
-  [
    "(blank)",
    5
   ],
   [
-   "Brazoria",
+   "Guadalupe",
+   5
+  ],
+  [
+   "Williamson",
    5
   ],
   [
    "Comal",
-   5
+   4
+  ],
+  [
+   "Denton",
+   4
   ]
  ],
- "generated_at": "2026-09-28T14:06:10+00:00",
+ "generated_at": "2026-10-05T14:51:36+00:00",
  "sample_rows": 25,
  "published": false
 }

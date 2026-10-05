@@ -154,5 +154,44 @@
     3
    ]
   ]
+ },
+ {
+  "week_start": "2026-09-28",
+  "week_end": "2026-10-04",
+  "rows": 104,
+  "groups": [
+   [
+    "Queens",
+    19
+   ],
+   [
+    "New York",
+    17
+   ],
+   [
+    "Kings",
+    12
+   ],
+   [
+    "Suffolk",
+    8
+   ],
+   [
+    "Nassau",
+    6
+   ],
+   [
+    "Westchester",
+    6
+   ],
+   [
+    "Erie",
+    5
+   ],
+   [
+    "Bronx",
+    3
+   ]
+  ]
  }
 ]
