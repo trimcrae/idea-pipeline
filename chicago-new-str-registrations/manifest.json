@@ -1,0 +1,61 @@
+{
+ "id": "chicago-new-str-registrations",
+ "title": "Short-term rental registrations approved in Chicago this week",
+ "columns": [
+  "registration",
+  "approved",
+  "address",
+  "ward",
+  "expires"
+ ],
+ "generated_at": "2026-10-05T14:51:55+00:00",
+ "encrypted": false,
+ "latest": "2026-10-04.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 116,
+   "bytes": 11351,
+   "encrypted": false,
+   "sha256": "f1eec7f0d12a4926bcc34286117be4f679cb823eff130f9c53e6fe30647a15df"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 118,
+   "bytes": 11548,
+   "encrypted": false,
+   "sha256": "6dfe61cb98a0a58d1537365953cff1397f04199fada15393ce3e5020be2cb50f"
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "file": "2026-09-20.csv",
+   "rows": 434,
+   "bytes": 42352,
+   "encrypted": false,
+   "sha256": "22bc18e833cf4aaafd3c9f45dbe391d5dae526e471131be3968f442e359d47dd"
+  },
+  {
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "file": "2026-09-27.csv",
+   "rows": 112,
+   "bytes": 11015,
+   "encrypted": false,
+   "sha256": "155edf7678c4cf0cf4d2722f0b6444b3a332e314effba53d17f6cf6d16bca9dc"
+  },
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "file": "2026-10-04.csv",
+   "rows": 80,
+   "bytes": 7773,
+   "encrypted": false,
+   "sha256": "51efbe930d30b8072427e8257b1d36723dd63c92b33f1696d0476883fe852001"
+  }
+ ]
+}

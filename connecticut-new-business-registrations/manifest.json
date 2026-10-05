@@ -1,0 +1,69 @@
+{
+ "id": "connecticut-new-business-registrations",
+ "title": "New businesses registered in Connecticut this week",
+ "columns": [
+  "account_number",
+  "name",
+  "entity_type",
+  "status",
+  "registered",
+  "domestic_or_foreign",
+  "formation_place",
+  "naics",
+  "street",
+  "city",
+  "state",
+  "zip",
+  "email"
+ ],
+ "generated_at": "2026-10-05T14:51:42+00:00",
+ "encrypted": false,
+ "latest": "2026-10-04.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-05",
+   "week_end": "2026-09-11",
+   "file": "2026-09-11.csv",
+   "rows": 997,
+   "bytes": 182984,
+   "encrypted": false,
+   "sha256": "9d642599823a4ebc2450aaac08c66feccca4f3a1d9997c73c3bf907d43b74a24"
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "file": "2026-09-13.csv",
+   "rows": 939,
+   "bytes": 172401,
+   "encrypted": false,
+   "sha256": "687f736785de41f3e49e7dadd95dab371f98943e4be8658e5d96508c99cd5604"
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "file": "2026-09-20.csv",
+   "rows": 1131,
+   "bytes": 206835,
+   "encrypted": false,
+   "sha256": "8820f1bb976cc35242209c80edb3433013fce780892f06d3104026de812a2c68"
+  },
+  {
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "file": "2026-09-27.csv",
+   "rows": 1061,
+   "bytes": 194078,
+   "encrypted": false,
+   "sha256": "3ec2d9b27c7fa5b9a6f781591aa61a7da693d2fc9320ed2bc84eb74797fc10b1"
+  },
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "file": "2026-10-04.csv",
+   "rows": 1074,
+   "bytes": 196970,
+   "encrypted": false,
+   "sha256": "c660a39aec8f3aabacd5a78526d96ba8f4fdf47474cd09e7956a889204d79b23"
+  }
+ ]
+}
