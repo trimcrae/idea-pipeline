@@ -193,5 +193,44 @@
     3
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-05",
+  "week_end": "2026-10-11",
+  "rows": 65,
+  "groups": [
+   [
+    "Kings",
+    12
+   ],
+   [
+    "New York",
+    11
+   ],
+   [
+    "Nassau",
+    7
+   ],
+   [
+    "Queens",
+    7
+   ],
+   [
+    "Suffolk",
+    3
+   ],
+   [
+    "Albany",
+    2
+   ],
+   [
+    "Bronx",
+    2
+   ],
+   [
+    "Broome",
+    2
+   ]
+  ]
  }
 ]

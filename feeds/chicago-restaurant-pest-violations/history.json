@@ -129,5 +129,40 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-05",
+  "week_end": "2026-10-11",
+  "rows": 33,
+  "groups": [
+   [
+    "Restaurant",
+    22
+   ],
+   [
+    "Grocery Store",
+    3
+   ],
+   [
+    "Children's Services Facility",
+    2
+   ],
+   [
+    "Liquor",
+    2
+   ],
+   [
+    "Mobile Food Preparer",
+    2
+   ],
+   [
+    "Bakery",
+    1
+   ],
+   [
+    "Daycare Above and Under 2 Years",
+    1
+   ]
+  ]
  }
 ]

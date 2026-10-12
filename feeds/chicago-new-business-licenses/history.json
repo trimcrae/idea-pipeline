@@ -193,5 +193,44 @@
     4
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-05",
+  "week_end": "2026-10-11",
+  "rows": 148,
+  "groups": [
+   [
+    "Limited Business License",
+    28
+   ],
+   [
+    "Pop-Up Retail User",
+    25
+   ],
+   [
+    "Special Event Food",
+    23
+   ],
+   [
+    "Regulated Business License",
+    16
+   ],
+   [
+    "Retail Food Establishment",
+    15
+   ],
+   [
+    "Peddler License",
+    8
+   ],
+   [
+    "Valet Parking Operator",
+    6
+   ],
+   [
+    "Shared Kitchen User (Long Term)",
+    5
+   ]
+  ]
  }
 ]
