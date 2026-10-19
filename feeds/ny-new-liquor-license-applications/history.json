@@ -232,5 +232,44 @@
     2
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "rows": 89,
+  "groups": [
+   [
+    "Kings",
+    21
+   ],
+   [
+    "New York",
+    15
+   ],
+   [
+    "Dutchess",
+    6
+   ],
+   [
+    "Queens",
+    6
+   ],
+   [
+    "Bronx",
+    5
+   ],
+   [
+    "Nassau",
+    5
+   ],
+   [
+    "Orange",
+    4
+   ],
+   [
+    "Onondaga",
+    3
+   ]
+  ]
  }
 ]

@@ -164,5 +164,32 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "rows": 24,
+  "groups": [
+   [
+    "Restaurant",
+    14
+   ],
+   [
+    "Grocery Store",
+    6
+   ],
+   [
+    "Children's Services Facility",
+    2
+   ],
+   [
+    "(blank)",
+    1
+   ],
+   [
+    "Daycare Above and Under 2 Years",
+    1
+   ]
+  ]
  }
 ]

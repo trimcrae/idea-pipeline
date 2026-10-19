@@ -232,5 +232,44 @@
     5
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "rows": 129,
+  "groups": [
+   [
+    "Retail Food Establishment",
+    32
+   ],
+   [
+    "Limited Business License",
+    25
+   ],
+   [
+    "Pop-Up Retail User",
+    23
+   ],
+   [
+    "Regulated Business License",
+    11
+   ],
+   [
+    "Shared Housing Unit Operator",
+    5
+   ],
+   [
+    "Towing - Tow Truck",
+    5
+   ],
+   [
+    "Peddler License",
+    4
+   ],
+   [
+    "Public Place of Amusement",
+    4
+   ]
+  ]
  }
 ]

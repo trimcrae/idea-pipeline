@@ -232,5 +232,44 @@
     17
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "rows": 500,
+  "groups": [
+   [
+    "New York",
+    90
+   ],
+   [
+    "Kings",
+    45
+   ],
+   [
+    "Queens",
+    39
+   ],
+   [
+    "Broome",
+    34
+   ],
+   [
+    "Monroe",
+    21
+   ],
+   [
+    "Nassau",
+    19
+   ],
+   [
+    "Onondaga",
+    19
+   ],
+   [
+    "Otsego",
+    14
+   ]
+  ]
  }
 ]

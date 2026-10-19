@@ -1,8 +1,8 @@
 {
  "id": "nyc-new-restaurants",
- "week_start": "2026-10-05",
- "week_end": "2026-10-11",
- "rows": 61,
+ "week_start": "2026-10-12",
+ "week_end": "2026-10-18",
+ "rows": 35,
  "columns": [
   "camis",
   "restaurant",
@@ -20,26 +20,26 @@
  "groups": [
   [
    "Manhattan",
-   27
-  ],
-  [
-   "Brooklyn",
    16
   ],
   [
+   "Brooklyn",
+   7
+  ],
+  [
    "Queens",
-   12
+   7
   ],
   [
    "Bronx",
-   4
+   3
   ],
   [
    "Staten Island",
    2
   ]
  ],
- "generated_at": "2026-10-12T15:38:07+00:00",
+ "generated_at": "2026-10-19T13:29:42+00:00",
  "sample_rows": 25,
  "published": false
 }

@@ -1,8 +1,8 @@
 {
  "id": "new-york-new-business-entities",
- "week_start": "2026-10-05",
- "week_end": "2026-10-11",
- "rows": 4758,
+ "week_start": "2026-10-12",
+ "week_end": "2026-10-18",
+ "rows": 4574,
  "columns": [
   "dos_id",
   "name",
@@ -21,66 +21,66 @@
  "groups": [
   [
    "Albany",
-   667
+   659
   ],
   [
    "Kings",
-   666
+   598
   ],
   [
    "New York",
-   569
-  ],
-  [
-   "Queens",
-   529
-  ],
-  [
-   "Nassau",
-   414
+   523
   ],
   [
    "Suffolk",
-   366
+   508
   ],
   [
-   "Westchester",
-   234
+   "Queens",
+   433
+  ],
+  [
+   "Nassau",
+   419
   ],
   [
    "Bronx",
-   188
+   180
   ],
   [
-   "Erie",
-   139
+   "Westchester",
+   172
   ],
   [
    "Rockland",
-   122
+   141
+  ],
+  [
+   "Erie",
+   129
   ],
   [
    "Monroe",
-   99
+   115
   ],
   [
    "Orange",
-   93
+   109
   ],
   [
    "Richmond",
-   87
-  ],
-  [
-   "Dutchess",
-   56
+   74
   ],
   [
    "Onondaga",
-   54
+   70
+  ],
+  [
+   "Dutchess",
+   52
   ]
  ],
- "generated_at": "2026-10-12T15:38:23+00:00",
+ "generated_at": "2026-10-19T13:29:54+00:00",
  "sample_rows": 25,
  "published": false
 }

@@ -232,5 +232,44 @@
     6
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "rows": 237,
+  "groups": [
+   [
+    "Harris",
+    58
+   ],
+   [
+    "Bexar",
+    21
+   ],
+   [
+    "Dallas",
+    20
+   ],
+   [
+    "Tarrant",
+    13
+   ],
+   [
+    "Denton",
+    12
+   ],
+   [
+    "Travis",
+    12
+   ],
+   [
+    "Hidalgo",
+    11
+   ],
+   [
+    "Randall",
+    9
+   ]
+  ]
  }
 ]
