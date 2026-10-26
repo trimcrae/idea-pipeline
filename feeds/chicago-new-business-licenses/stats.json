@@ -1,8 +1,8 @@
 {
  "id": "chicago-new-business-licenses",
- "week_start": "2026-10-12",
- "week_end": "2026-10-18",
- "rows": 129,
+ "week_start": "2026-10-19",
+ "week_end": "2026-10-25",
+ "rows": 157,
  "columns": [
   "license_id",
   "license_start",
@@ -21,27 +21,31 @@
  "group_by": "license_type",
  "groups": [
   [
-   "Retail Food Establishment",
-   32
-  ],
-  [
    "Limited Business License",
-   25
+   30
   ],
   [
    "Pop-Up Retail User",
-   23
+   25
+  ],
+  [
+   "Retail Food Establishment",
+   25
   ],
   [
    "Regulated Business License",
+   14
+  ],
+  [
+   "Video Gaming Location",
    11
   ],
   [
-   "Shared Housing Unit Operator",
-   5
+   "Pharmaceutical Representative",
+   6
   ],
   [
-   "Towing - Tow Truck",
+   "Video Gaming Terminal",
    5
   ],
   [
@@ -49,7 +53,11 @@
    4
   ],
   [
-   "Public Place of Amusement",
+   "Special Event Food",
+   4
+  ],
+  [
+   "Valet Parking Operator",
    4
   ],
   [
@@ -57,31 +65,23 @@
    3
   ],
   [
-   "Pharmaceutical Representative",
+   "Shared Kitchen User (Long Term)",
    3
   ],
   [
-   "Special Event Food",
-   3
+   "Motor Vehicle Services License",
+   2
   ],
   [
-   "Tobacco",
-   3
+   "Package Goods",
+   2
   ],
   [
-   "Valet Parking Operator",
-   3
-  ],
-  [
-   "Emerging Business",
-   1
-  ],
-  [
-   "Mobile Food License",
-   1
+   "Public Place of Amusement",
+   2
   ]
  ],
- "generated_at": "2026-10-19T13:29:51+00:00",
+ "generated_at": "2026-10-26T13:14:10+00:00",
  "sample_rows": 25,
  "published": false
 }

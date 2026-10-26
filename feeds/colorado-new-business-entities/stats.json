@@ -1,8 +1,8 @@
 {
  "id": "colorado-new-business-entities",
- "week_start": "2026-10-12",
- "week_end": "2026-10-18",
- "rows": 3414,
+ "week_start": "2026-10-19",
+ "week_end": "2026-10-25",
+ "rows": 3517,
  "columns": [
   "entity_id",
   "name",
@@ -22,66 +22,66 @@
  "groups": [
   [
    "Denver",
-   830
+   826
   ],
   [
    "Colorado Springs",
-   332
+   372
   ],
   [
    "Aurora",
-   163
-  ],
-  [
-   "DENVER",
-   130
-  ],
-  [
-   "Englewood",
-   67
-  ],
-  [
-   "Littleton",
-   65
+   208
   ],
   [
    "Fort Collins",
-   64
+   94
+  ],
+  [
+   "DENVER",
+   80
   ],
   [
    "Boulder",
-   62
+   71
   ],
   [
-   "Centennial",
-   62
+   "Littleton",
+   70
   ],
   [
    "Lakewood",
-   58
+   57
+  ],
+  [
+   "Montrose",
+   55
+  ],
+  [
+   "Centennial",
+   52
+  ],
+  [
+   "Thornton",
+   49
   ],
   [
    "Parker",
-   50
-  ],
-  [
-   "Castle Rock",
-   43
+   46
   ],
   [
    "Arvada",
-   42
+   41
   ],
   [
    "Broomfield",
-   38
+   40
   ],
   [
-   "Grand Junction",
+   "Loveland",
    37
   ]
  ],
- "generated_at": "2026-10-19T13:29:56+00:00",
+ "generated_at": "2026-10-26T13:14:24+00:00",
  "sample_rows": 25,
  "published": false
 }

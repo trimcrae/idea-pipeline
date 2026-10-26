@@ -1,6 +1,6 @@
 {
- "built_at": "2026-10-19T13:30:07+00:00",
- "week_end": "2026-10-19",
+ "built_at": "2026-10-26T13:14:32+00:00",
+ "week_end": "2026-10-26",
  "feeds": [
   "us-new-trucking-carriers",
   "nyc-restaurant-pest-violations",
@@ -8,7 +8,6 @@
   "chicago-restaurant-pest-violations",
   "ny-new-liquor-license-applications",
   "ny-newly-issued-liquor-licenses",
-  "texas-new-liquor-license-applications",
   "texas-newly-issued-liquor-licenses",
   "chicago-new-business-licenses",
   "connecticut-new-business-registrations",
@@ -18,6 +17,8 @@
   "new-orleans-str-permit-applications",
   "chicago-new-str-registrations"
  ],
- "failed": [],
+ "failed": [
+  "texas-new-liquor-license-applications"
+ ],
  "published": false
 }

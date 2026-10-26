@@ -1,8 +1,8 @@
 {
  "id": "texas-newly-issued-liquor-licenses",
- "week_start": "2026-10-12",
- "week_end": "2026-10-18",
- "rows": 142,
+ "week_start": "2026-10-19",
+ "week_end": "2026-10-25",
+ "rows": 199,
  "columns": [
   "license_id",
   "issued",
@@ -21,66 +21,66 @@
  "groups": [
   [
    "Harris",
-   20
-  ],
-  [
-   "Dallas",
-   11
+   35
   ],
   [
    "Bexar",
-   9
+   19
   ],
   [
-   "Tarrant",
-   8
-  ],
-  [
-   "Travis",
-   6
-  ],
-  [
-   "Collin",
-   5
+   "Dallas",
+   19
   ],
   [
    "(blank)",
-   4
+   12
   ],
   [
-   "El Paso",
-   4
+   "Travis",
+   10
+  ],
+  [
+   "Tarrant",
+   9
+  ],
+  [
+   "Hidalgo",
+   6
   ],
   [
    "Galveston",
+   5
+  ],
+  [
+   "Brazoria",
    4
   ],
   [
-   "Williamson",
+   "Collin",
    4
   ],
   [
-   "Aransas",
-   3
+   "Kaufman",
+   4
   ],
   [
-   "Bell",
-   3
+   "McLennan",
+   4
   ],
   [
-   "Cameron",
-   3
+   "Webb",
+   4
+  ],
+  [
+   "Wise",
+   4
   ],
   [
    "Denton",
    3
-  ],
-  [
-   "Fort Bend",
-   3
   ]
  ],
- "generated_at": "2026-10-19T13:29:49+00:00",
+ "generated_at": "2026-10-26T13:14:01+00:00",
  "sample_rows": 25,
  "published": false
 }
