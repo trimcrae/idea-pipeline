@@ -1,0 +1,998 @@
+account_number,name,entity_type,status,registered,domestic_or_foreign,formation_place,naics,street,city,state,zip,email
+3251874,Katie's Garden LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other Miscellaneous Crop Farming (111998),182 W High St,East Hampton,CT,06424-2113,katiesgardenllc@gmail.com
+3480607,"Connecticut Healthcare Cost Initiative, Inc.",Non-Stock,Active,2026-09-11,Domestic,Connecticut,Other Social Advocacy Organizations (813319),,,,,thachwa@baileycav.com
+3480719,"Recovery Point Systems, Inc.",Stock,Active,2026-09-11,Foreign,DELAWARE,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (518210)",75 W Watkins Mill Rd,Gaithersburg,MD,20878-4021,dcutsail@recoverypoint.com
+3494680,APAAR LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),228 Meadows End Rd,Monroe,CT,06468-1760,rhituraj.sarma@outlook.com
+3510495,Enter Inc.,Stock,Active,2026-09-11,Foreign,DELAWARE,Software Publishers (513210),,,,,geovana.guimaraes@getenter.ai
+3512659,Gale Engineers and Architects PC,Stock,Active,2026-09-11,Foreign,NEW JERSEY,Architectural Services (541310),703 Hebron Ave,Glastonbury,CT,06033-5000,chogan@galeengineersandarchitects.com
+3512698,JSG REMODELING INC.,Stock,Active,2026-09-11,Foreign,NEW YORK,Residential Remodelers (236118),12 Chestnut St,Port Chester,NY,10573-3121,cg599380@gmail.com
+3512714,NEW HOLLAND BREWING COMPANY LLC,LLC,Active,2026-09-11,Foreign,MICHIGAN,Distilleries (312140),690 Commerce Ct,Holland,MI,49424-2913,compliance.admin@newhollandbrew.com
+3512809,Razorpay Payments International Inc.,Stock,Active,2026-09-11,Foreign,DELAWARE,"Financial Transactions Processing, Reserve, and Clearinghouse Activities (522320)",201 Spear Street (c/o Volker Steinle),San Francisco,CA,94105,compliance_rpii@razorpay.com
+3513754,Executive Roofing & Remodeling LLC,LLC,Active,2026-09-11,Foreign,RHODE ISLAND,Commercial and Institutional Building Construction (236220),121 Huntinghouse Rd,North Scituate,RI,02857-2853,info@executiverr.com
+3513872,Rotolo Realty LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),14 Ruthellen Rd,Framingham,MA,01701-3841,vinnyrotolo@yahoo.com
+3514178,303 Weed LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),303 Weed Ave,Stamford,CT,06902-5409,msaade1914@yahoo.com
+3514352,Maverick Technology Insurance Services LLC,LLC,Active,2026-09-11,Foreign,DELAWARE,Insurance Agencies and Brokerages (524210),1905 Sherman St. 200-1124,Denver,CO,80203,compliance@mgtinsurance.com
+3514490,"Relevate, LLC",LLC,Active,2026-09-11,Foreign,ARIZONA,"All Other Professional, Scientific, and Technical Services (541990)",3133 W Frye Rd,Chandler,AZ,85226-5110,michibutler@relevatewith.us
+3514507,"Drs Choices Insurance Services, Inc.",Stock,Active,2026-09-11,Foreign,NEW JERSEY,Insurance Agencies and Brokerages (524210),52 Forest Ave,Paramus,NJ,07652,judith@drschoices.com
+3514544,Flor Del Sol Limited Liability Co.,LLC,Active,2026-09-11,Domestic,Connecticut,Mobile Food Services (722330),20 South St,hartford,CT,06114,flordelsolct@gmail.com
+3514558,"HQ-Pack, Inc.",Stock,Active,2026-09-11,Foreign,INDIANA,All Other Automotive Repair and Maintenance (811198),409 Joyce Kilmer Ave,New Brunswick,NJ,08901,eric@ericallred.com
+3514599,FAST PACED AUTO LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other Automotive Repair and Maintenance (811198),1656 Meriden Wtby Tpke,Milldale,CT,06467-6507,fastpacedauto3@gmail.com
+3514610,Precision Digital Templating LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Drafting Services (541340),2389 MAIN STREET STE 100,Glastonbury,CT,06033,ops@mainstayfiling.com
+3514611,Exotic Diesel Express LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Truckload (484121)",511 West Main Street,Stamford,CT,06902,exoticdieselexpress@gmail.com
+3514613,Mia's Daycare LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Child Care Services (624410),130 Lowin Ave,New Haven,CT,06515-2320,registrationhelp01@outlook.com
+3514615,Hibachi Buffet 99 LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Full-Service Restaurants (722511),99 Farmington Ave,Bristol,CT,06010-4226,bxvj1487@hotmail.com
+3514617,Day Night Nail 23 LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Nail Salons (812113),2300 Dixwell Ave,Hamden,CT,06514-2108,bxvj1487@hotmail.com
+3514618,Battle Tied Flies LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other General Merchandise Retailers (455219),152 Buff Cap Rd,Tolland,CT,06084,soldier2one2@me.com
+3514633,KINGORA LOGISTICS LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other General Merchandise Retailers (455219),115 Nutmeg Ln,East Hartford,CT,06118-1239,support@kingoralogistics.com
+3514640,JUBUNASOL LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Computer Related Services (541519),33 CEDAR SWAMP EXT,COVENTRY,CT,06238-1024,jubuna.solutions@gmail.com
+3514641,Ramesh Sandwich Station LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Limited-Service Restaurants (722513),98 West Main St,Clinton,CT,06413,rameshhussani38@gmail.com
+3514643,DelVecchio Outdoors LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Sporting Goods Retailers (459110),20 City Road,Warren,CT,06754,anthony@delvecchiooutdoors.com
+3514651,The URBN Orderhouse LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Cut and Sew Apparel Manufacturing except Contractors (315250),32 Hampton Ln,Bloomfield,CT,06002-1325,theurbanwildlife@gmail.com
+3514658,vizualstems LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Software Publishers (513210),221 Mechanic St,Bristol,CT,06010-5430,support@vizualstems.com
+3514661,Williams Street LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Activities Related to Real Estate (531390),54 Fuller Way,Berlin,CT,06037-1540,hvasel@yahoo.com
+3514663,34 Gospel Lane LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),54 Fuller Way,Berlin,CT,06037-1540,hvasel@yahoo.com
+3514665,Joseph Mezei Memorial Scholarship Company,Non-Stock,Active,2026-09-11,Domestic,Connecticut,Grantmaking Foundations (813211),,,,,jaymezeimemorialscholarship@gmail.com
+3514666,"Key Production Services, LLC",LLC,Active,2026-09-11,Foreign,FLORIDA,Other Management Consulting Services (541618),3311 Antica St,Fort Myers,FL,33905-1504,jay@keyproductions.net
+3514693,1 Russell LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Activities Related to Real Estate (531390),98 ridge road,Middletown,CT,06457,1russell10.2026@gmail.com
+3514695,"Seventy Five Collection, LLC",LLC,Active,2026-09-11,Foreign,DELAWARE,Offices of Other Holding Companies (551112),"595 Summer Street, 4th Floor",Stamford,CT,06901,legal@sunenergy1.com
+3514699,PLANNIX INSURANCE SOLUTIONS LLC,LLC,Active,2026-09-11,Foreign,,,"101 CRAWFORDS CORNER RD, SUITE 4233",HOLMDEL,NJ,07733,LICENSING@FIRSTENROLL.COM
+3514700,Court St Partners LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),151 New Park Ave,Hartford,CT,06106-2170,aaron@madecm.com
+3514702,"Fielding Family, LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),6 Spruce Ln,Oakdale,CT,06370,ljsrziegler@att.net
+3514706,Clear View Real Estate LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Offices of Real Estate Agents and Brokers (531210),69 Old County Rd,Windsor Locks,CT,06096,awagner5776@gmail.com
+3514709,"242 South Main Association, Inc.",Non-Stock,Active,2026-09-11,Domestic,Connecticut,"Other Similar Organizations except Business, Professional, Labor, and Political Organizations (813990)",,,,,phil@pinnlanddevelopment.com
+3514710,Brayfield Advisory LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Educational Support Services (611710),495 White Birch Dr,Guilford,CT,06437-2139,jake@brayfieldadvisory.com
+3514711,Say Something Creative LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Marketing Consulting Services (541613),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514720,QTA LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Financial Transactions Processing, Reserve, and Clearinghouse Activities (522320)",31 Norton Place,Norwalk,CT,06854,bfwq3@yahoo.com
+3514722,"66 State St., LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Other Activities Related to Real Estate (531390),381 State Street,North Haven,CT,06473,s.ryan@nationallumberinc.com
+3514726,Apfel Consulting & Engineering LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Computer Systems Design Services (541512),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514727,ADF ENGINEERING LLC,LLC,Active,2026-09-11,Foreign,,541330,"228 BYERS ROAD, SUITE 202",MIAMISBURG,OH,45342,RDONALDSON@ADFENGINEERING.COM
+3514743,LAKE WINE AND SPIRITS LIQUORS LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Beer, Wine, and Liquor Retailers (445320)",180 Main St S,Southbury,CT,06488-2299,appabcgllc@gmail.com
+3514752,La Iglesia De Dios Puerta Del Cielo Inc.,Non-Stock,Active,2026-09-11,Domestic,Connecticut,Religious Organizations (813110),,,,,malvarez30@gmail.com
+3514755,Linden Avenue Capital LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other Miscellaneous Fabricated Metal Product Manufacturing (332999),2319 Whitney Ave,Hamden,CT,06518,1258lindenavenuecapital@gmail.com
+3514758,Black Light Holdings LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Custom Computer Programming Services (541511),654 Cypress Road,Newington,CT,06111,blacklightholdingsllc@protonmail.com
+3514767,Saylors Squeeze LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Mobile Food Services (722330),47 Cottage St,Meriden,CT,06450,codi@saylors-squeeze.com
+3514773,"NSFH Fairfield, LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Other Personal Care Services (812199),2131 Black Rock Tpke,Fairfield,CT,06825,legal@nsf-holdings.com
+3514779,Carrot Leadership LLC,LLC,Active,2026-09-11,Foreign,FLORIDA,Administrative Management and General Management Consulting Services (541611),218 NW 24th St,Miami,FL,33127-4324,isabel@carrotexpress.com
+3514780,44 Main Street Owner LLC,LLC,Active,2026-09-11,Foreign,DELAWARE,Other Activities Related to Real Estate (531390),411 Theodore Fremd Ave,Rye,NY,10580,filings@acadiarealty.com
+3514785,AB3RN DESIGN LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Engineering Services (541330),20 LORRAINE DR,STORRS,CT,06268,efile1234@incfile.com
+3514791,FERN & FOREST LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Art Dealers (459920),27 COURT ST # 1,NEW HAVEN,CT,06511,efile1234@incfile.com
+3514797,J&D Green Hill Road LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),85 Green Hill Rd,Madison,CT,06443-2161,jimedbell@yahoo.com
+3514799,Everyday Detail LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Car Washes (811192),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514806,"Whitewolf Energy, LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Other Management Consulting Services (541618),21 Armand Rd,Ridgefield,CT,06877,darren1_kelly@hotmail.com
+3514808,Gomes Legacy Group LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Sports and Recreation Instruction (611620),1 Park Place Cir,West Hartford,CT,06110,gomeslegacygroupllc@gmail.com
+3514809,1258 Propco LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Activities Related to Real Estate (531390),2319 Whitney Ave,Hamden,CT,06518-3509,1258lindenavenuecapital@gmail.com
+3514815,"BAILEY EDUCATION GROUP, LLC",LLC,Active,2026-09-11,Foreign,MISSISSIPPI,Educational Support Services (611710),201 Park Ct Ste B,Ridgeland,MS,39157-2229,license@baileyarch.com
+3514821,Leo Grey Design LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Interior Design Services (541410),580 Rolling Hills Drive,Fairfield,CT,06824,breanne@leogreydesign.com
+3514823,Kamil Logistics LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"General Freight Trucking, Local (484110)",851 E Main st,Waterbury,CT,06705,logisticskamil@gmail.com
+3514831,Red Line Home Improvement llc,LLC,Active,2026-09-11,Domestic,Connecticut,Residential Remodelers (236118),295 Fan Hill Rd,Monroe,CT,06468,redlinehimprovement@gmail.com
+3514840,Our Legacy LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),9213 Avalon Gates,Trumbull,CT,06611,filings@corpnet.com
+3514842,Y & J Signature Cleaning LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Janitorial Services (561720),46 Oconnell Dr,East Hartford,CT,06118-3332,yahairahern@hotmail.com
+3514844,L & A Solutions Limited Liability Company,LLC,Active,2026-09-11,Domestic,Connecticut,All Other Consumer Goods Rental (532289),942 Sullivan Ave,South Windsor,CT,06074-2033,la@larentalsolutions.com
+3514845,The Fresh Factoryy LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Automotive Body, Paint, and Interior Repair and Maintenance (811121)",2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514851,DJ&J Trucking LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Truckload (484121)",20 OAKLAND TER,HARTFORD,CT,06112-2347,bankroftypk@gmail.com
+3514854,LT Seidel Consulting LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Research and Development in the Social Sciences and Humanities (541720),55 N Salem Rd,Ridgefield,CT,06877-3806,t.lorena@gmail.com
+3514856,Rent & Return Co. Limited Liability Company,LLC,Active,2026-09-11,Domestic,Connecticut,General Rental Centers (532310),39 Nott Hwy,Ashford,CT,06278-1341,rent@rentreturnco.com
+3514858,A.K.A Painters Etc LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),48 S Main St,ESSEX,CT,06426,akapaintersetc@aol.com
+3514861,SELF EVALUATION CARING SOLUTIONS INC.,Non-Stock,Active,2026-09-11,Domestic,Connecticut,Residential Mental Health and Substance Abuse Facilities (623220),,,,,efile1234@incfile.com
+3514863,J&Y Legacy Holdings LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),274 W Broad St,Stamford,CT,06902-3636,jylegacyholdingsllc@gmail.com
+3514869,MPNL Holdings LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Miscellaneous Financial Investment Activities (523999),190 BYRAM SHORE RD,Greenwich,CT,06830,patrick.lathrop@gmail.com
+3514877,CT FIREPLACE BROS LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Residential Remodelers (236118),32 Grace St,New Haven,CT,06511-2710,natanaeljuarez02@gmail.com
+3514883,Flywheel Forge LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Research and Development in the Physical, Engineering, and Life Sciences except Nanotechnology and Biotechnology (541715)",34 Hilltop View Rd,New Milford,CT,06776,shouldbediving@gmail.com
+3514887,Let's Talk Death Inc.,Non-Stock,Active,2026-09-11,Domestic,Connecticut,Educational Support Services (611710),,,,,lisa@letstalkdeath.life
+3514889,Helm LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),48 lake george rd,brookfield,CT,06804,kristin@helmwithyou.com
+3514893,26 KNIGHT STREET LLC,LLC,Active,2026-09-11,Domestic,,531390,26 KNIGHT STREET,NORWALK,CT,06851,JSTMPF@AOL.COM
+3514898,FACILITIES MANAGEMENT SOLUTIONS CORP.,Stock,Active,2026-09-11,Foreign,NEW YORK,Janitorial Services (561720),1207 Route 9 Ste 6D,Wappingers Falls,NY,12590-4987,sbr12550@gmail.com
+3514900,Dudzic Enterprises LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Miscellaneous Intermediation (523910),514 Foster St,South Windsor,CT,06074-2935,marcindudzic1110@gmail.com
+3514909,Wesco distributions Inc,Stock,Active,2026-09-11,Domestic,Connecticut,Advertising Material Distribution Services (541870),,,,,stop2424go@gmail.com
+3514927,Ice Rock Investments Limited Liability Company,LLC,Active,2026-09-11,Domestic,Connecticut,Other Activities Related to Real Estate (531390),30 Jelliff Mill Rd,New Canaan,CT,06840,tcalabretta@gmail.com
+3514928,ECUAMEXUSA LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Convenience Retailers (445131),318 Grand Ave,New Haven,CT,06513-3728,caro.tola1@gmail.com
+3514932,Bransfield Vanguard Biosciences LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers (423450)",19 Spector Road,Woodbridge,CT,06525,bransfieldvanguardbioscience@gmail.com
+3514939,MBA TRANSPORT LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Truckload (484121)",28 Tower Rd,East Hartford,CT,06108-3037,efieschi72@gmail.com
+3514944,caleb's diesel repair LLC,LLC,Active,2026-09-11,Domestic,Connecticut,General Automotive Repair (811111),41 Olenick Rd,lebanon,CT,06249,caleb@jgdiesel.com
+3514949,44 Mayo Ave LLC,LLC,Active,2026-09-11,Foreign,DELAWARE,Lessors of Residential Buildings and Dwellings (531110),"48 Waterfield Rd, #103",Winchester,MA,01890-7057,44mayo@bastioncaf.com
+3514952,Painting The Past LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",2552 Manitou Is,White Bear Lake,MN,55110-3901,paintingthepast2025@gmail.com
+3514964,Emergency Readiness and Solutions Group LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Individual and Family Services (624190),71 Bradley Road,madison,CT,06443,alex.klein@shorelinetherapycenter.com
+3514965,Swick Wine Cellars LLC,LLC,Active,2026-09-11,Foreign,OREGON,Wineries (312130),28005 NE Bell Rd,Newberg,OR,97132,compliance@swickwines.com
+3514967,Jack Kuenzle Coaching LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Sports and Recreation Instruction (611620),141 South St,Roxbury,CT,06783-2001,jackkuenzlecoaching@gmail.com
+3514969,Valley Music Hub LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Fine Arts Schools (611610),253 Bank Street,Seymour,CT,06483,valleymusichub@gmail.com
+3514983,SMYRNA LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Limited-Service Restaurants (722513),312 Hartford Tpke,Vernon Rockville,CT,06066,ogunckmk@gmail.com
+3514987,XTREME LIMO RIDE LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Automobile and Other Motor Vehicle Merchant Wholesalers (423110),76 RICHARDS PLACE,West Haven,CT,06516,efieschi72@gmail.com
+3514992,Golden Golf LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other Amusement and Recreation Industries (713990),6 Golden Hill St,Milford,CT,06460-4622,lizfogler@optonline.net
+3515001,"Coera, Inc.",Stock,Active,2026-09-11,Foreign,DELAWARE,Other Scientific and Technical Consulting Services (541690),201 College Rd E,Princeton,NJ,08540-6610,ykim@gclabt.com
+3515002,Friends of Conard Soccer Inc.,Non-Stock,Active,2026-09-11,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,friendsofconardsoccer@gmail.com
+3515006,"The Court Edit, LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),490 West Rd,New Canaan,CT,06840,courtedit@gmail.com
+3515008,NSFH West Hartford LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Personal Care Services (812199),1800 Asylum Ave,West Hartford,CT,06117-2659,legal@nsf-holdings.com
+3515017,I&I Legacy L.L.C.,LLC,Active,2026-09-11,Domestic,Connecticut,Record Production and Distribution (512250),80 Simmons Rd,East Hartford,CT,06118-1148,joshuachris@iandilegacy.com
+3515018,IKA Global Logistics LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Truckload (484121)",55 Howe RD,New Britain,CT,06053,isma._90@hotmail.com
+3515023,South St LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),49 Mulberry ln,NEW ROCHELLE,NY,10804,richie@pacehomebuyers.com
+3515024,FLAWLESS RENOVATION LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Residential Remodelers (236118),20 Deepwood Dr,Bethel,CT,06801-1267,sabrinabusinesscenter@gmail.com
+3515028,Junebug's Market Limited Liability Company,LLC,Active,2026-09-11,Domestic,Connecticut,Retail Bakeries (311811),138 Jordan Rd,Willimantic,CT,06226-3815,junebugsmarket.ct@gmail.com
+3515029,Green Beret Foundation Co,Non-Stock,Active,2026-09-11,Foreign,CALIFORNIA,Grantmaking Foundations (813211),10205 US 15 501 Hwy,Southern Pines,NC,28387-5180,gbffinance@greenberetfoundation.org
+3515043,TrustED Table LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Software Publishers (513210),2 Harbor Point Rd S,Stamford,CT,06902-9601,sshapiro.rd@gmail.com
+3515074,"SPC ADVISORS INTERNATIONAL, LIMITED PARTNERSHIP",Limited Partnership,Active,2026-09-11,Foreign,,525990,"TWO GREENWICH PLAZA, SUITE 1",GREENWICH,CT,06830,ENTITYMGMT@SILVERPOINTCAPITAL.COM
+3515078,Axis Rize LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),28 Colony Rd,Plymouth,CT,06782,contact@axisrize.com
+3515079,Scionti Property Services LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Residential Remodelers (236118),80 Tariff Street,Enfield,CT,06082,scionti.ps@outlook.com
+3515104,Great Society Strategies LLC,LLC,Active,2026-09-11,Domestic,,541820,100 TRESSER BLVD #1410,STAMFORD,CT,06901,simon@greatsocietystrategies.com
+3515106,AngelaTech Education LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Computer Training (611420),37 Carroll St,Stamford,CT,06907-1708,angela.dacunto@angelatecheducation.com
+3515113,Teleraven PLLC,LLC,Active,2026-09-11,Domestic,Connecticut,Diagnostic Imaging Centers (621512),57 Zenith Ln,Glastonbury,CT,06033-2826,hubervir@gmail.com
+3515114,Westport Imports LLC,LLC,Active,2026-09-11,Domestic,Connecticut,All Other General Merchandise Retailers (455219),26 Center St,Westport,CT,06880-5305,info@westportimports.com
+3515116,Access Market & Fulfillment LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Drugs and Druggists' Sundries Merchant Wholesalers (424210),97 Wyllys St,Hartford,CT,06106,nelymathurin1905@gmail.com
+3515131,Minis Metal Works LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Other Foundation, Structure, and Building Exterior Contractors (238190)",43 Flagg Hill Rd,Colebrook,CT,06021-4010,minismetalworks@gmail.com
+3515133,Noble Home Consultants L.L.C.,LLC,Active,2026-09-11,Domestic,Connecticut,Residential Remodelers (236118),30 Walter Ln,Hamden,CT,06514-2648,todd@noblehomeconsultants.com
+3515147,Pose Portal Photo Booth Rentals LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Recreational Goods Rental (532284),855 Main Street,Bridgeport,CT,06604,eerivera536@hotmail.com
+3515152,Serenity Property Maintenance llc by Kervin,LLC,Active,2026-09-11,Domestic,Connecticut,Electronic and Precision Equipment Repair and Maintenance (811210),118 south st,waterbury,CT,06706,kervin.torrez@aol.com
+3515168,"Bear Psychotherapy, LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Offices of Mental Health Practitioners except Physicians (621330),29 Carpenter Hts,Meriden,CT,06450-6108,clayrob@me.com
+3515190,Munio LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Insurance Agencies and Brokerages (524210),630 Oakwood Dr,Glastonbury,CT,06033-2440,mtetreault86@gmail.com
+3515193,"Beauty In, Gorgeous Out LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Beauty Salons (812112),32 Columbus Cir,East Hartford,CT,06108-1734,beautyingorgeousout@outlook.com
+3515197,Forever Moments Events By Lisa LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Convention and Trade Show Organizers (561920),88 Ambassador Dr,Manchester,CT,06042-2447,aliciaj524@gmail.com
+3515200,Capitol Admissions Professionals LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Educational Support Services (611710),113 Capitol Drive,shelton,CT,06484,karrie@capitoladmissions.com
+3515207,Tye Henney LLC,LLC,Active,2026-09-11,Domestic,Connecticut,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",65 Russo Ave,East Haven,CT,06513-2749,tyehenney120@icloud.com
+3515218,"V & Associates Automation, LLC",LLC,Active,2026-09-11,Domestic,Connecticut,Engineering Services (541330),7 Garden Path,Farmington,CT,06032-2728,svargas@vaacontrols.com
+3515229,Prep List Sell Rent LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Interior Design Services (541410),40 Motil Pl,STRATFORD,CT,06614,preplistsellrent@gmail.com
+3515233,Zayiti LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Graphic Design Services (541430),38 Fairfiel,Stamford,CT,06902,andersonlanglois01@gmail.com
+3515238,Byrneside Capital Holdings LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),37 Byrneside Ave,Waterbury,CT,06704-2920,vencapital@venbroker.com
+3515248,Terravian Snow & Ice Management LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Other Services to Buildings and Dwellings (561790),7 McKee Pl,Cheshire,CT,06410-1119,terraviansnow@gmail.com
+3515253,Off white LLC,LLC,Active,2026-09-11,Domestic,Connecticut,Janitorial Services (561720),859 Foxon Rd,East Haven,CT,06513-1835,aljordanian@gmail.com
+3202917,Black Onyx Investment Club LLC,LLC,Active,2026-09-10,Domestic,,523910,39 Masters Way,Manchester,CT,06040,PMMSPORT@AOL.COM
+3501504,"Pennigan Again, LLC",LLC,Active,2026-09-10,Foreign,DELAWARE,Private Households (814110),600 Madison Ave,New York,NY,10022,investments@rubenco.com
+3507229,Elevated Blends LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Barber Shops (812111),1 Liberty Sq,New Britain,CT,06051-2637,evbarber860@gmail.com
+3507445,"Opencare Global Health Initiative, Inc",Non-Stock,Active,2026-09-10,Domestic,Connecticut,Voluntary Health Organizations (813212),,,,,ebroni@opencareglobalhealthinitiative.org
+3508169,"Holistic Harmony Health, PLLC",LLC,Active,2026-09-10,Domestic,Connecticut,Offices of All Other Miscellaneous Health Practitioners (621399),2389 Main St.,Glastonbury,CT,06033,reingeorge@icloud.com
+3509233,Homestead Care LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Assisted Living Facilities for the Elderly (623312),306 Homestead Ave,Waterbury,CT,06705-2715,contact.homesteadcare@gmail.com
+3510097,Emerging Kids Pediatric Occupational Therapy LLC,LLC,Active,2026-09-10,Foreign,MASSACHUSETTS,"Offices of Physical, Occupational and Speech Therapists, and Audiologists (621340)",41 Crossroads Plz,West Hartford,CT,06117-2402,codylukasikotr@emergingkids.org
+3510137,"PILOTIS RETAIL US, Corp.",Stock,Active,2026-09-10,Foreign,NEW YORK,All Other Business Support Services (561499),350 5th Ave,New York,NY,10118,catherine.kastning@funaro.com
+3511639,10-12 Bigelow Ave LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),10-12 Bigelow Ave,Enfield,CT,06082,filings@strlawguys.com
+3512071,Haq Al Cake Inc,Stock,Active,2026-09-10,Foreign,NEW YORK,Confectionery Merchant Wholesalers (424450),10 Bernhard Rd,North Haven,CT,06473-3905,fareed@northeastdsd.com
+3512317,Clad LLC,LLC,Active,2026-09-10,Foreign,MASSACHUSETTS,Roofing Contractors (238160),24 Oak St,Dedham,MA,02026-1904,ilya@cladproject.com
+3512507,Apex Painting & Finishes LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),139 1st St,Hamden,CT,06514-4916,apexpaintingct@gmail.com
+3512670,RRC & Company LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Finish Carpentry Contractors (238350),83 Driftway Rd,Danbury,CT,06811-5125,rykardochaves2019@gmail.com
+3513172,SIMPLY FUNDING LLC,LLC,Active,2026-09-10,Foreign,NEW YORK,Consumer Lending (522291),525 Washington Blvd,Jersey City,NJ,07310-1606,melanieadler@simplyfunding.com
+3513531,TD 3D Design & Manufacturing LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Miscellaneous Manufacturing (339999),62 Stafford Rd,Somers,CT,06071-1241,trentd52@gmail.com
+3513652,Edit My House LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Remodelers (236118),301 N Beauregard St Apt 1109,Alexandria,VA,22312-2913,admin@editmyhouse.com
+3513704,Amaury Barber Shop LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Barber Shops (812111),604 Ogden St,Bridgeport,CT,06608-1763,amauryvioh3110@hotmail.com
+3513706,"Modern Energy Mechanical, LLC",LLC,Active,2026-09-10,Foreign,DELAWARE,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",287 Walton Avenue,Bronx,NY,10451,john@hickory.ai
+3513744,SUNVIEW LENDING LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Consumer Lending (522291),21 Hearthstone Dr,Hebron,CT,06248-1202,admin@sunviewlending.online
+3513748,R&D Plumbing LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Building Finishing Contractors (238390),131 Chasse St,Wolcott,CT,06716,receipts@state-filings.us
+3513749,DinoBytes LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Custom Computer Programming Services (541511),2389 Main Street,Glastonbury,CT,06033,filings@doola.com
+3513753,13 brand Limited Liability Company,LLC,Active,2026-09-10,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),56 Valley Falls Rd,Vernon Rockville,CT,06066-5522,jasonhillman79@yahoo.com
+3513756,SaintSense LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Miscellaneous Manufacturing (339999),521 Ezra Street,Bridgeport,CT,06606,saintsense011924@gmail.com
+3513760,Release to Rise LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513767,"OUR FUTURE FOUNDATION, INC.",Non-Stock,Active,2026-09-10,Domestic,Connecticut,Other Individual and Family Services (624190),,,,,theloyalfamilyvlog@gmail.com
+3513768,Stability Design Co LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513770,Thames Stamp Club Corp.,Non-Stock,Active,2026-09-10,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,vannoordennen@sbcglobal.net
+3513772,"Sky Blanco, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),37 Overlook Drive,New Canaan,CT,06840,scott.skyrm@yahoo.com
+3513774,Dual Channels LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Vending Machine Operators (445132),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513776,UNITED PRO PAINTING & HOME IMPROVEMENT LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),5 Barnum Ct,Danbury,CT,06810-5601,infous2019@gmail.com
+3513781,Placed LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Interior Design Services (541410),373 Westchester Ave,Tuckahoe,NY,10707-1614,hello@placedstudio.com
+3513787,Ward Property Management LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Nonresidential Property Managers (531312),755 Bread and Milk St,Coventry,CT,06238,ward.chris987@gmail.com
+3513799,"Fancy A Fork, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Caterers (722320),30 Woodrow St,West Hartford,CT,06107-2723,jesse@fancyafork.com
+3513801,MethodNorthUSA LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (518210)",2 ONEILL LANE,BRANFORD,CT,06405,hello@methodnorth.co
+3513802,Barbara's Apothecary LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Soap and Other Detergent Manufacturing (325611),102 Prospect St,Vernon Rockville,CT,06066,robertmbusque@gmail.com
+3513804,Erika Nikole LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",28 Fawn Meadow Dr,Naugatuck,CT,06770-3580,erikanikolejohnson@outlook.com
+3513813,Convergent Markets Advisory LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Management Consulting Services (541618),268 Post Rd Ste 200 #550354,Fairfield,CT,06824,chuck@convergentmarketsadvisory.com
+3513824,"KNK Builders, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,New Housing For-Sale Builders (236117),1088 Chase Pkwy,Waterbury,CT,06708-2942,bkaneelectric@yahoo.com
+3513828,"Oriana Tascione, PLLC",LLC,Active,2026-09-10,Domestic,Connecticut,All Other Legal Services (541199),354 Wheelers Farms Rd,Milford,CT,06461,o.tascione@gmail.com
+3513829,LA Q-EVA DEL BUEN SABOR LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Limited-Service Restaurants (722513),647 East Main St,Waterbury,CT,06702,rgc768223@gmail.com
+3513831,"Madison Home Services, Llc",LLC,Active,2026-09-10,Domestic,Connecticut,Residential Remodelers (236118),35 Sols Point Rd,Clinton,CT,06413-2300,mauriguy@sbcglobal.net
+3513835,Terro LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Personal Services (812990),61 Elliot st,Hartford,CT,06112,terronlindo517@gmail.com
+3513840,Strine Cakes LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Retail Bakeries (311811),213 Greenwood Ave,Bethel,CT,06801-2134,prime.business@outlook.com
+3513841,89 Windrow LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Property Managers (531311),89 Windrow Road,Norfolk,CT,06058,bluepeter4@gmail.com
+3513842,Vape Brothers LLc,LLC,Active,2026-09-10,Domestic,Connecticut,"Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers (459991)",1287 Silas Deane Hwy,Wethersfield,CT,06109-4302,pakshabbir385@gmail.com
+3513847,1079 Broad Property LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),195 Centennial Dr,Milford,CT,06461-1678,h_hazboun_2012@hotmail.com
+3513850,Southworth Gray LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Marketing Consulting Services (541613),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513854,LJWG LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Personal Services (812990),67 Mason Street,Fairfield,CT,06825,lisa@lisa-jacoby.com
+3513858,Luna Lee Photography LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Personal Services (812990),11 Idlewood,Bethel,CT,06801,johndinh203@icloud.com
+3513859,Sellmark Corporation,Stock,Active,2026-09-10,Foreign,TEXAS,Commercial and Service Industry Machinery Manufacturing (333310),2201 Heritage Parkway,Mansfield,TX,76063,le@sellmark.net
+3513861,NOROBA LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),"36 RUSS STREET , 3RD FLOOR #1732",HARTFORD,CT,06106,efile1234@incfile.com
+3513864,HMH WELDING & REPAIR LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Commercial and Industrial Machinery and Equipment except Automotive and Electronic Repair and Maintenance (811310),25 COUNTRY CLUB RD,TORRINGTON,CT,06790,efile1234@incfile.com
+3513866,Law Holdings LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Offices of Other Holding Companies (551112),1 Dale Rd,New Fairfield,CT,06812-4338,lrocc1023@gmail.com
+3513868,DURAN LIQUOR LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Beer, Wine, and Liquor Retailers (445320)",81 Bank St,Waterbury,CT,06702,anthony_wil@icloud.com
+3513869,"YARD PLUS, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Landscaping Services (561730),62 BIG BEAR HILL RD,New Milford,CT,06776,efieschi72@gmail.com
+3513870,BH Property Acquisitions LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),1090 Kane Concourse,Bay Harbor Islands,FL,33154-2130,lmanagestone@gmail.com
+3513873,GlowWithGomez LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",375 N Colony St,Wallingford,CT,06492-3185,glowwithgomez777@hotmail.com
+3513880,258 NORTH MAIN LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),258 N Main St,Ansonia,CT,06401-1411,vavidon@yahoo.com
+3513886,Next Level Electric L.L.C.,LLC,Active,2026-09-10,Domestic,Connecticut,Electrical Contractors and Other Wiring Installation Contractors (238210),25 Mohegan Dr,Griswold,CT,06351-1320,nextlevelelectric2@gmail.com
+3513892,Just Grind Training LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Sports and Recreation Instruction (611620),64 Woodridge Circle,Trumbull,CT,06611,jwesturner813@yahoo.com
+3513895,PRO PAINTING SERVICES LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),15 BECKETT ST,DANBURY,CT,06810,pedrorubens64@gmail.com
+3513901,Chingo Transports LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Less Than Truckload (484122)",14 Walsh St,Bloomfield,CT,06002-3261,chingotransportsllc@gmail.com
+3513915,"Arte & Trigo, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Commercial Bakeries (311812),12 Elm St,New Milford,CT,06776,arteetrigobakery@gmail.com
+3513917,Mindful Market LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),58 Gillotti Rd,New Fairfield,CT,06812-2526,hamadahmed2507@icloud.com
+3513919,groundA LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Scientific and Technical Consulting Services (541690),157 Church Street,New Haven,CT,06519,thomas.joa@bridgehouse.law
+3513927,Inventra Technologies LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Research and Development in the Physical, Engineering, and Life Sciences except Nanotechnology and Biotechnology (541715)",3102 Town Walk Drive,Hamden,CT,06518,dripline2026@gmail.com
+3513928,15 Pythian LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Property Managers (531311),100 Delaware Rd,Easton,CT,06612-2106,yuliacoggin@aol.com
+3513930,Summit Operations LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),7 Bethpage Dr,Bethel,CT,06801-2301,claraleles00@gmail.com
+3513938,"Minhaj-ul-Quran USA, Inc.",Non-Stock,Active,2026-09-10,Foreign,TEXAS,All Other Miscellaneous Schools and Instruction (611699),16810 Shortleaf Timber Dr,Humble,TX,77346-4958,mqi.usa001@gmail.com
+3513941,20 Pythian LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Property Managers (531311),100 Delaware Rd,Easton,CT,06612-2106,yuliacoggin@aol.com
+3513943,The Athletic Office LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Software Publishers (513210),11 Regan Cir,Shelton,CT,06484-6040,coachmac30@yahoo.com
+3513945,Like DecorationsRD LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Specialized Design Services (541490),704 Central Ave,Bridgeport,CT,06607-1701,awildariverapena@gmail.com
+3513957,805 Main Street LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Property Managers (531311),23 Hubbard Rd,Wilton,CT,06897-3056,yuliacoggin@aol.com
+3513963,"LOCAL OPTICS, LLC",LLC,Active,2026-09-10,Foreign,,561499,"4539 N 22ND ST., STE R",PHOENIX,AZ,85016,JHALLAM@TMVHOLDINGS.COM
+3513966,28-30 Nesbit Avenue LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),41 Crossroads Plz,West Hartford,CT,06117-2402,ken.potter2008@gmail.com
+3513969,BATTLE ROAD DIGITAL LLC,LLC,Active,2026-09-10,Foreign,NEW JERSEY,Software Publishers (513210),3161 Ala Ilima St,Honolulu,HI,96818-3055,filings@discern.com
+3513983,Moeller Marine And Mechanical LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Engineering Services (541330),59 S Main St,East Hampton,CT,06424,moellermarinemechanical@gmail.com
+3513985,43-45 Main street Torrington LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),25 water street,Torrington,CT,06790,arlenegonzalez81@gmail.com
+3513990,"CRKDesign, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Interior Design Services (541410),156 Overlook Drive,Greenwich,CT,06830,christarob@gmail.com
+3513991,Kay Pearl Luxury Antilles LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),1217 WHITNEY AVE,HAMDEN,CT,06517,kaypearlluxuryantilles@gmail.com
+3513996,NU HOODIE MFP LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),2609 East 14 Street,Brooklyn,NY,20001,info@nuhoodiemfp.com
+3514000,Solmara LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Supermarkets and Other Grocery Retailers except Convenience Retailers (445110),270 Maple Hill Road,Naugatuck,CT,06770,davidallegrini17@gmail.com
+3514001,Rustiques LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Used Merchandise Retailers (459510),484 Quaddick Rd,Thompson,CT,06277,recipts@state-fillings.us
+3514007,Sweeno Solutions LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Support Activities for Transportation (488999),239 Pleasant View Ave,Bristol,CT,06010-7278,sweenosolutionsllc@gmail.com
+3514008,Living Worlds Interactive LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Software Publishers (513210),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514009,Cowboy Hobby Group LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Hobby, Toy, and Game Retailers (459120)",200 Broad St,STAMFORD,CT,06901-2074,pokecowboytcg@gmail.com
+3514012,Brio West Farms 2080 LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Full-Service Restaurants (722511),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514015,Beyond The Road Limited Liability Company,LLC,Active,2026-09-10,Domestic,Connecticut,Couriers and Express Delivery Services (492110),46 Bob White Way,Moosup,CT,06354-1701,beyondtheroad@aol.com
+3514021,"Gurley Road Development, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),17R Boston Post Rd,Waterford,CT,06385,marc@benvenutioil.com
+3514022,CALIXTO SERVICES CT LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Document Preparation Services (561410),788 Maplewood Ave,Bridgeport,CT,06605-1603,wenservices1@gmail.com
+3514026,Wonders & Notions Publishing LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Book Publishers (513130),45 LaPerle Ave.,Plainfield,CT,06374,4jensbits@gmail.com
+3514028,4550 Meadows Lanes LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Child Care Services (624410),333 Schermerhorn St,Brooklyn,NY,11217-1047,jenelmco1@outlook.com
+3514029,AY LANDSCAPE PROPERTY MANAGEMENT Corp.,Stock,Active,2026-09-10,Domestic,Connecticut,Landscaping Services (561730),,,,,eturcios@turciosins.com
+3514031,369 Shelton LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),183 Wilson St,Brooklyn,NY,11211-7578,havenestatesct@gmail.com
+3514037,Bala Energy LLC,LLC,Active,2026-09-10,Foreign,PENNSYLVANIA,Electrical Contractors and Other Wiring Installation Contractors (238210),108 Colket Ln,Chester,PA,19333,eastern@northwestregisteredagent.com
+3514038,Three Sombreros LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Full-Service Restaurants (722511),93 E Elm St,Torrington,CT,06790-5045,singularitydigitalservices@gmail.com
+3514042,Finahco LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514047,Miniature Precision Ball Co. LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Industrial Supplies Merchant Wholesalers (423840),956 Old Colony Rd,Meriden,CT,06451-7921,andrewmcavallo@protonmail.com
+3514050,Ground to Crown Landscaping LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Landscaping Services (561730),245 George St,Middletown,CT,06457-6708,jose@groundtocrownlandscaping.com
+3514051,Peak IQ llc,LLC,Active,2026-09-10,Domestic,Connecticut,Environmental Consulting Services (541620),528 New Park Ave,West Hartford,CT,06110-1352,jerry@peakiq.energy
+3514055,"Kempinski Property Solutions, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Landscaping Services (561730),20 Curiosity Lane,Essex,CT,06426,kempinskipropertysolutions@gmail.com
+3514066,"Prospera Market Strategies, LLC",LLC,Active,2026-09-10,Foreign,DELAWARE,Miscellaneous Financial Investment Activities (523999),200 W 6th St,Austin,TX,78701-3161,cbarkett@centurionih.com
+3514069,Oxford Home LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Property Managers (531311),6 Velms Dr,Ansonia,CT,06401-2657,umumbrellamultiservices@gmail.com
+3514076,Scoop Force LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Solid Waste Collection (562111),56 Newport Ave,Shelton,CT,06484-5522,contact@scoopforceshelton.com
+3514080,"Nitor E, LLC",LLC,Active,2026-09-10,Foreign,NORTH CAROLINA,Electrical Contractors and Other Wiring Installation Contractors (238210),2389 Main St,Glastonbury,CT,06033,eastern@registeredagentsinc.com
+3514082,Adam & Envi Resiliency LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Management Consulting Services (541618),219 Glenbrook Rd,Stamford,CT,06906,caitrin@adamandevni.com
+3514093,LUX Coffee and Tea LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Specialty Food Retailers (445298),54 Terrace Ave,Riverside,CT,06878,eastern@registeredagentsinc.com
+3514095,The Second Breath LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Miscellaneous Schools and Instruction (611699),81 Aresco Dr,Middletown,CT,06457-4067,jlynndeegan@gmail.com
+3514098,Irri Care LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Water Supply and Irrigation Systems (221310),5 Rippowarn Road,Stamford,CT,06902,ocromar@msn.com
+3514102,RPM Ventures 2 LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),69 SOUNDVIEW AVE,MADISON,CT,06443,rpantalena@comcast.net
+3514103,"52 Pearl, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),243 Wilson St,Waterbury,CT,06708-3426,onegugis@gmail.com
+3514107,LD FH ASSETCO 2 LLC,LLC,Active,2026-09-10,Foreign,,531390,"400 CONTINENTAL BLVD, STE 500",EL SEGUNDO,CA,90245,CMATTHEWS@LANDMARKDIVIDEND.COM
+3514109,DUNBAR TRANSPORTATION & LOGISTICS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Support Activities for Road Transportation (488490),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514117,"Salvataggio, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Clothing and Clothing Accessories Merchant Wholesalers (424350),209 Sasco Hill Rd,Fairfield,CT,06824,pcaponenyc@yahoo.com
+3514119,LASHES BY GABRIELLA LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Beauty Salons (812112),11 Giles avenue,North Haven,CT,06473,lashesbygabriellact@gmail.com
+3514133,BCMRE Sonno JV LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),26 Robin Ln,Monroe,CT,06468-3006,bcmresonnojvllc@gmail.com
+3514134,Anthony's Pump Service LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Personal Services (812990),118 Lone Oak Drive,New Milford,CT,06776,anthonyspumps@gmail.com
+3514149,R.U. FLOORS & REMODELING LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Remodelers (236118),110 Porter St,Bridgeport,CT,06606-5440,taxesbpt@rohuer.com
+3514150,MELLOW LOGISTICS & HAULING LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Used Household and Office Goods Moving (484210),20 Sanford Ave,Trumbull,CT,06611-1620,chrismollenthiel@gmail.com
+3514156,"FWL PROPERTIES, LLC",LLC,Active,2026-09-10,Foreign,NEW HAMPSHIRE,Lessors of Residential Buildings and Dwellings (531110),167 LITTLE HARBOR RD,NEW CASTLE,NH,03854,fwlevin@gmail.com
+3514159,Grown & Good LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),341 Main St,West Haven,CT,06516-4432,grownandgoodco@gmail.com
+3514163,GaughanTV LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",99 Milford Point Road,Milford,CT,06460,gaughantv@gmail.com
+3514168,CLUB COMPOUND Limited Liability Company,LLC,Active,2026-09-10,Domestic,Connecticut,Full-Service Restaurants (722511),70 Union Pl,Hartford,CT,06103-1410,legendsbar860@gmail.com
+3514173,Steadfora LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Software Publishers (513210),1284 Park Ave,Bridgeport,CT,06604-3049,steadforallc@gmail.com
+3514176,Puccino Properties 56 Mill River St. LLC,LLC,Active,2026-09-10,Domestic,Connecticut,New Multifamily Housing Construction except For-Sale Builders (236116),1857 Middletown Ave,Northford,CT,06472,spiketmb@comcast.net
+3514177,Eden Properties LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),291 Dromara Rd,Guilford,CT,06437-2359,garrett.krier@gmail.com
+3514189,"Food Craft, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Full-Service Restaurants (722511),133 Atlantic street,Stamford,CT,06901,president@suchifoods.com
+3514192,"CANTALOUPE SYSTEMS, LLC",LLC,Active,2026-09-10,Foreign,,522320,1743 MAPLELAWN DR,TROY,MI,48084,LEGALCOMPLIANCE@CANTALOUPE.COM
+3514194,The Caddie Network Limited Liability Company,LLC,Active,2026-09-10,Domestic,Connecticut,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",31 Summit Road,Riverside,CT,06878,merrill@thecaddienetwork.com
+3514196,Aarna's First LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Beer, Wine, and Liquor Retailers (445320)",22 Union City Rd,Prospect,CT,06712-1578,aarupro156@gmail.com
+3514197,Madlil Holdings LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),17 Robbie Rd,Moodus,CT,06469-1130,madlilholdingsllc@gmail.com
+3514198,CMRB L.L.C.,LLC,Active,2026-09-10,Domestic,Connecticut,Reupholstery and Furniture Repair (811420),315 Eastern Street,New Haven,CT,06513,rogerii38@yahoo.com
+3514200,Dwayne & Sharicka Packing & Moving LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Used Household and Office Goods Moving (484210),900 washington st.,middletown,CT,06457,letusmoveyou26@gmail.com
+3514201,Puccino Properties 62 Mill River St. LLC,LLC,Active,2026-09-10,Domestic,Connecticut,New Multifamily Housing Construction except For-Sale Builders (236116),1857 Middletown Ave,Northford,CT,06472,spiketmb@comcast.net
+3514202,26 Starrs Plain Rd LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514212,TRUCARE MANAGEMENT CT P.C.,Stock,Active,2026-09-10,Domestic,Connecticut,Offices of Physicians except Mental Health Specialists (621111),,,,,sop@nucofilings.com
+3514213,SheR Consulting & Enterprises LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Portfolio Management and Investment Advice (523940),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514216,"CANTALOUPE, LLC",LLC,Active,2026-09-10,Foreign,,522320,1743 MAPLELAWN DR,TROY,MI,48084,LEGALCOMPLIANCE@CANTALOUPE.COM
+3514218,Squirrel Munchy Fiber Arts LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Fiber, Yarn, and Thread Mills (313110)",89 Great Ring Rd,Sandy Hook,CT,06482-1605,orders@newbusinessfiling.org
+3514220,Busy Mom but God 1st LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Gift, Novelty, and Souvenir Retailers (459420)",90 Sharp Hill Rd,Uncasville,CT,06382-2045,busymombutgod1st@gmail.com
+3514222,AN NA SPA INC,Stock,Active,2026-09-10,Domestic,Connecticut,Other Personal Care Services (812199),,,,,amerione.us@gmail.com
+3514228,Innovation Anonymous LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Custom Computer Programming Services (541511),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514230,ChequePoint LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Software Publishers (513210),1278 Summit Road,Cheshire,CT,06410,chequepointapp@gmail.com
+3514233,N & P LAND INVESTMENTS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),19 Werf Dr,Redding,CT,06896,bocco1117@gmail.com
+3514236,PERFECT TOUCH CLEANING LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Janitorial Services (561720),174 Hughes Ave,Bridgeport,CT,06604-1708,patriciapease@gmail.com
+3514241,"WillowTree Massage Therapies, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Other Personal Care Services (812199),235 Main St,Norwich,CT,06360-5833,willowclausonlmt@gmail.com
+3514243,Dinaj Stoneworks LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Masonry Contractors (238140),30 MILNE AVE,Shelton,CT,06484-4018,freskid.dinaj@yahoo.com
+3514246,DQ Physical Therapy Inc.,Stock,Active,2026-09-10,Domestic,Connecticut,"Offices of Physical, Occupational and Speech Therapists, and Audiologists (621340)",,,,,dquirante@fmtgrouphealth.com
+3514247,SAKURA WELLNESS Inc.,Stock,Active,2026-09-10,Domestic,Connecticut,All Other Personal Services (812990),,,,,taxmd8@gmail.com
+3514248,BBCMS 2024-C24 MARSHALL APARTMENTS LLC,LLC,Active,2026-09-10,Foreign,,525990,"740 E. CAMPBELL RD, SUITE 600",RICHARDSON,TX,75081,BRICKERT@ARGENTICSERVICES.COM
+3514255,"Central Diner, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Full-Service Restaurants (722511),1519 Silas Deane Hwy,Rocky Hill,CT,06067-1303,gmarnelos@me.com
+3514261,"10 Shorehaven, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),10 Shorehaven Rd,Norwalk,CT,06855-2807,kagriswold@gmail.com
+3514263,Oh nails & spa Inc.,Stock,Active,2026-09-10,Domestic,Connecticut,Nail Salons (812113),,,,,info@mandjcpa.com
+3514266,SSB LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),14 TERRACE AVE,STAMFORD,CT,06905-3411,sbrealestate14@gmail.com
+3514271,"Akrapoint Commercial Capital, LLC",LLC,Active,2026-09-10,Foreign,DELAWARE,Other Commercial and Industrial Machinery and Equipment Rental and Leasing (532490),6609 S Lincoln St,Centennial,CO,80121-2327,mfs-us-entityservices@maples.com
+3514272,"EMJAY CT REALTY, LLC",LLC,Active,2026-09-10,Domestic,,531110,"2 BRONXVILLE ROAD, APT. 3B",BRONXVILLE,NY,10708,MIKEFERRARA12@GMAIL.COM
+3514273,ON THE SIDE OF THE SKY LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Flooring Contractors (238330),8 Robinview Ter,Danbury,CT,06810-7819,atagualpademon@gmail.com
+3514284,OREVRI LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),218 emily drive,OXFORD,CT,06478,ctbusiness.sheri@gmail.com
+3514287,nFront Consulting LLC,LLC,Active,2026-09-10,Foreign,FLORIDA,Other Scientific and Technical Consulting Services (541690),4767 New Broad Street,ORLANDO,FL,32814,compliance@nfrontconsulting.com
+3514295,JM Tech LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Computer Systems Design Services (541512),13 Lee Rd,Prospect,CT,06712-1831,mark@jmtechct.com
+3514322,AMESUR 73 LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),3223 Main St,Bridgeport,CT,06606-4228,contact@amesur.net
+3514338,Little Bear Pok� LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Limited-Service Restaurants (722513),1094 N Colony Rd,Wallingford,CT,06492,littlebearpoke@gmail.com
+3514342,7C Enterprises Windsor Locks LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),100 Griffin Rd,West Suffield,CT,06093-2712,camile@hannoush.com
+3514354,Summit to Shore Design LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Interior Design Services (541410),1410 Burr Street,Fairfield,CT,06824,chris@summittoshoredesign.com
+3514355,PHOENIX PAINTING LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),1575 MAIN ST,WATERBURY,CT,06706,robjosue22@gmail.com
+3514358,Johnnie-O Greenwich I LLC,LLC,Active,2026-09-10,Foreign,DELAWARE,Clothing and Clothing Accessories Retailers (458110),2710 Wycliff Rd,Raleigh,NC,27607,klitaya@johnnie-o.com
+3514360,More Love Senior Care LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Continuing Care Retirement Communities (623311),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3514361,EAGLE DUMPSTERS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Waste Collection (562119),4 Research Dr,Shelton,CT,06484-6280,thamillap45@outlook.com
+3514367,Alexa Rome LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Marketing Consulting Services (541613),10 Meadowbrook Rd.,New Fairfield,CT,06812,filings@corpnet.com
+3514375,SMG Services Limited Liability Company,LLC,Active,2026-09-10,Domestic,Connecticut,Finish Carpentry Contractors (238350),60 Moylan Ct,Newington,CT,06111-1408,golfearth@gmail.com
+3514377,Mission Gee LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Remodelers (236118),124 Pomfret St,Putnam,CT,06260-1800,mgee860@gmail.com
+3514385,Invisible Hug LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Cosmetics, Beauty Supplies, and Perfume Retailers (456120)",83 Oakwood Cir,Bristol,CT,06010-3125,annmoura@att.net
+3514387,The Heart Forward Table Inc.,Non-Stock,Active,2026-09-10,Domestic,Connecticut,Other Individual and Family Services (624190),,,,,theheartforwardtable@gmail.com
+3514392,Oneco Mining Co LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Amusement and Recreation Industries (713990),7 Pond,Oneco,CT,06373,onecominingco@gmail.com
+3514397,Morning Beles LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),915 Main St,Hartford,CT,06103-1236,cld2690mil@gmail.com
+3514401,YASUEMP LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Professional and Management Development Training (611430),624 Broad Street,Meriden,CT,06450,unchartedsole@gmail.com
+3514403,Pure Quality Products LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),1298 Hartford Tpke,North Haven,CT,06473-2175,qqualityproducts1016@gmail.com
+3514410,EMPERIA HOME CARE LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Home Health Care Services (621610),18 Windell Pl,Stamford,CT,06906-2124,support@usa-llc-filing.com
+3514411,"Halo Aesthetics, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,Beauty Salons (812112),61 Main St,Centerbrook,CT,06409-1070,halo.fullcircle@gmail.com
+3514416,"203 IRON ST GANG, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,New Single-Family Housing Construction except For-Sale Builders (236115),420 Burningtree Dr,Groton,CT,06340-3106,support@usa-llc-filing.com
+3514417,Painted and Rooted LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Beauty Salons (812112),244 Main St,Farmington,CT,06032-3643,embbeauty13@gmail.com
+3514418,203 PERFORMANCE LLC,LLC,Active,2026-09-10,Domestic,Connecticut,General Automotive Repair (811111),135 INDUSTRY LN,WATERBURY,CT,06704,efile1234@incfile.com
+3514419,LA MADONNE LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),101 COURT ST,WEST HAVEN,CT,06516,efile1234@incfile.com
+3514423,FAMILY TIES LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Outpatient Mental Health and Substance Abuse Centers (621420),91 Sandy Brook Dr,New Britain,CT,06053,support@usa-llc-filing.com
+3514426,PRESTIGE PROPERTY OFFERS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Janitorial Services (561720),1174 CHOPSEY HILL RD,BRIDGEPORT,CT,06606,efile1234@incfile.com
+3514429,The Two Sisters Nails LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Nail Salons (812113),9 CHURCH ST,TERRYVILLE,CT,06786,tptc2012@gmail.com
+3514433,DECISIVE SOLUTIONS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),1019 MAIN ST #1118,BRIDGEPORT,CT,06604,efile1234@incfile.com
+3514437,jaybajarang mart llc,LLC,Active,2026-09-10,Domestic,Connecticut,"Financial Transactions Processing, Reserve, and Clearinghouse Activities (522320)",115 North St,Seymour,CT,06483,krishp503503@gmail.com
+3514438,OH YEAH LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Caterers (722320),"36 RUSS STREET , 3RD FLOOR #1725",HARTFORD,CT,06106,efile1234@incfile.com
+3514441,PATIENCE M LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Local Messengers and Local Delivery (492210),"36 RUSS STREET , 3RD FLOOR #1726",HARTFORD,CT,06106,efile1234@incfile.com
+3514442,NEICA BEAUTY LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Cosmetics, Beauty Supplies, and Perfume Retailers (456120)","36 RUSS STREET , 3RD FLOOR #1727",HARTFORD,CT,06106,efile1234@incfile.com
+3514444,BJOE TRUCKING LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Truckload (484121)",51 HENRY ST APT A5,NORWICH,CT,06360,efile1234@incfile.com
+3514445,G-Force Graphic Services LLC,LLC,Active,2026-09-10,Foreign,NEW JERSEY,All Other Support Services (561990),44 Prospect Street,Morristown,NJ,07960,susan@gforcegraphics.com
+3514446,V & L DEALMAKERS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Electronics and Appliance Retailers (449210),25 BEVERLY PL,NORWALK,CT,06850,efile1234@incfile.com
+3514447,RESOLVE HEALTH PARTNERS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),2 Mountainview Ter Unit 3234,Danbury,CT,06810-4168,support@usa-llc-filing.com
+3514454,MANHATTAN-CONNECTICUT ALLIANCE LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),1266 E MAIN ST STE 700R,STAMFORD,CT,06902,efile1234@incfile.com
+3514460,ROOTED IN HOPE SERVICES LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Individual and Family Services (624190),31 OAKLAND AVE,FARMINGTON,CT,06032,efile1234@incfile.com
+3514461,NEXT LEVEL HOME IMPROVEMENT SERVICES LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Remodelers (236118),"36 RUSS STREET , 3RD FLOOR #1731",HARTFORD,CT,06106,efile1234@incfile.com
+3514463,Luh Shmitt Entertainment LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Musical Groups and Artists (711130),97 Birch Dr,Stratford,CT,06615-7432,luhshmitt.entertainment@gmail.com
+3514467,Rosemary Lane LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Gift, Novelty, and Souvenir Retailers (459420)",2 Lookout Lndg,Ellington,CT,06029-2541,rosemarylaneellington@gmail.com
+3514475,"Everpath, Inc.",Stock,Active,2026-09-10,Domestic,Connecticut,Marketing Consulting Services (541613),,,,,meriamfinancial@gmail.com
+3514477,Forthamoney Apparel LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),157 Church St,New Haven,CT,06510-2100,info@forthamoney.store
+3514480,LY LEGACY HOLDINGS LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),349 W Main Street,Meriden,CT,06451,renovacapitalgroupco@gmail.com
+3514482,"Revityl Research, LLC",LLC,Active,2026-09-10,Domestic,Connecticut,All Other General Merchandise Retailers (455219),14 Harmac Dr,East Haven,CT,06513-1208,revitylize@gmail.com
+3514498,GloTria Enterprise LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Passenger Car Rental (532111),"914 Forbes St, East Hartford, CT 06118",East Hartford,CT,06118,glotriaenterprise@outlook.com
+3514503,Kinovis LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Custom Computer Programming Services (541511),777 W Putnam Ave,Greenwich,CT,06830-5091,mike@patchen.com
+3514505,Conn Glass & Metal LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Specialty Trade Contractors (238990),4 Gaylord Rd,Windsor Locks,CT,06096-2815,admin@conngm.com
+3514509,Stearns Subsidiary LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),148 Black Rock Tpke,Redding,CT,06896-2515,wendyguthrie@mail.com
+3514511,Wren Medical PLLC,LLC,Active,2026-09-10,Domestic,Connecticut,Offices of All Other Miscellaneous Health Practitioners (621399),54 Grist Mill Rd,Monroe,CT,06468-1348,admin@wrenmedicalgroup.com
+3514513,The New England Voice LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",15 North Main St.,West Hartford,CT,06107,author@isabelcalione.com
+3514523,United States Wrestling Federation LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Performing Arts Companies (711190),405 Rt 163,Montville,CT,06353,uswf1996@gmail.com
+3514527,Arros Safe Rides LLC,LLC,Active,2026-09-10,Domestic,Connecticut,School and Employee Bus Transportation (485410),25 Bushnell Ave,Oakville,CT,06779-1403,andrewmcavallo@protonmail.com
+3514536,Concise Business Consulting LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),31 Charter Oak Pl,Hartford,CT,06106,eastern@northwestregisteredagent.com
+3514538,Ember Rose Holdings LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Other Activities Related to Real Estate (531390),38 Hickey Rd Center,Pomfret Center,CT,06259,vjgamble@hotmail.com
+3514540,Aqua Eagle Water Pros LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",21 Milford Hunt Ln,Milford,CT,06461-9146,aquaeaglewaterpros@gmail.com
+3514545,MARZA BEAUTY SALON LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Nail Salons (812113),651 Enfield St,Enfield,CT,06082-2912,info@pmconsultinggroup.net
+3514561,KUPEC ENTERPRISES INC,Stock,Active,2026-09-10,Domestic,Connecticut,General Automotive Repair (811111),,,,,mike@abapc.com
+3514569,Refrigeration Guy LLC,LLC,Active,2026-09-10,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",253 Wilson Ave,Norwalk,CT,06854,services.refrigerationguy@gmail.com
+3514574,ZV Improvement LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Residential Remodelers (236118),70 Castle Dr,Stratford,CT,06614-2932,raulzeladav@gmail.com
+3514575,Consciously Positive LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Miscellaneous Schools and Instruction (611699),46 Middle Quarter Rd,Woodbury,CT,06798,cpwithkris@gmail.com
+3514579,Beacon Alder Procurement LLC,LLC,Active,2026-09-10,Domestic,Connecticut,Stationery and Office Supplies Merchant Wholesalers (424120),114 Miles St,Bridgeport,CT,06607-2111,beaconalder@shellsourcing.com
+3514583,24 Operating Company LLC,LLC,Active,2026-09-10,Domestic,Connecticut,All Other Personal Services (812990),1 Peaslee Hl,West Hartford,CT,06117-2918,ronssnv@gmail.com
+3514669,INOTIV HOLDINGS III LLC,LLC,Active,2026-09-10,Foreign,,541714,2701 KENT AVENUE,WEST LAFEYETTE,IN,47906,LEGALOPERATIONS@INOTIV.COM
+3514672,"HUGEL AMERICA, INC.",Stock,Active,2026-09-10,Foreign,,424210,"5 PARK PLAZA, SUITE 1750",IRVINE,CA,92614,US.TAXES@HUGEL-AESTHETICS.COM
+3514684,"RAHF SQUIRE PRESERVATION, LLC",LLC,Active,2026-09-10,Foreign,,531110,1083 VINE STREET #828,HEALDSBURG,CA,95448,LOUIS@TNGRM.COM
+3514691,"RAHF SQUIRE PRESERVATION MM, LLC",LLC,Active,2026-09-10,Foreign,,,1083 VINE STREET #828,HEALDSBURG,CA,95448,LOUIS@TNGRM.COM
+3514867,THE TORO COMPANY,Stock,Active,2026-09-10,Foreign,,,8111 LYNDALE AVENUE SOUTH,BLOOMINGTON,MN,55420,LEGAL.TORO@TORO.COM
+3465921,Wolf Construction Corporation 2018,Stock,Active,2026-09-09,Foreign,NEW YORK,Commercial and Institutional Building Construction (236220),56w 45th Street,New York,NY,10036,gwolf@wolfconstructioncorp.com
+3490394,"Greenlight Ascent, LLC",LLC,Active,2026-09-09,Foreign,UTAH,Administrative Management and General Management Consulting Services (541611),30 Upson Ter,New Haven,CT,06512-5028,mark@greenlightascent.com
+3493439,"The Land Trust Alliance, Inc.",Non-Stock,Active,2026-09-09,Foreign,MASSACHUSETTS,Other Grantmaking and Giving Services (813219),1250 H St NW,Washington,DC,20005-3952,ldavis@clrkc.com
+3505713,4CEnergy LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Petroleum and Petroleum Products Merchant Wholesalers except Bulk Stations and Terminals (424720),44 Beacon St,Waterbury,CT,06704-3422,4cenergyllc26@gmail.com
+3507710,SIA Solutions LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Miscellaneous Ambulatory Health Care Services (621999),52 Fitch Meadow Lane,South Windsor,CT,06074,sia.solutions26.llc@gmail.com
+3508123,Starling Reading Retreats LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Recreational and Vacation Camps except Campgrounds (721214),89 Ledgewood Rd,Groton,CT,06340,starlingreadingretreats@gmail.com
+3508865,86 Exchange Place LLC,LLC,Active,2026-09-09,Foreign,NEW JERSEY,Lessors of Residential Buildings and Dwellings (531110),1729 Cobblestone Court,Toms River,NJ,08755,yonirbils@gmail.com
+3509787,Merit Commercial Cleaning LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),231 Russell St,New Haven,CT,06513-4124,chris.sebastian@cleanwithmerit.com
+3511717,Healthy Chapters Nutrition LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Food Health Supplement Retailers (456191),12 Spruce Street,Jewett City,CT,06351,cjgjlm12@live.com
+3512672,CONEXION LATINA LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Convenience Retailers (445131),1636 Baldwin St,Waterbury,CT,06706-2008,salazartony679@gmail.com
+3512908,MC Trust Home Improvement llc,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Property Managers (531311),53 Golden Hill Rd,Danbury,CT,06811-4629,miltoncurillo@sbcglobal.net
+3512974,TLL Transportation LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Transit and Ground Passenger Transportation (485999),349 Meriden Rd,Waterbury,CT,06705-2202,lexusnieves@gmail.com
+3512985,Matrix of Mind Systemic Counseling Solutions PLLC,LLC,Active,2026-09-09,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",202 Gillette Rd.,New Hartford,CT,06057,jmancinone@matrixofmindcounselingsolutions.com
+3512989,Sauri Shine solutions LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),38 Atwood Ct,Watertown,CT,06795-2659,registrationhelp01@outlook.com
+3512997,Going Infinite FFA LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Portfolio Management and Investment Advice (523940),212 Gulf St,Milford,CT,06460-4838,kevinpreneta325@gmail.com
+3513000,"Munk Home Remodeling, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),42 Glen Ter,Stamford,CT,06906,josh@sellmycthometoday.com
+3513013,Kxautodrive-Ltd LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Passenger Car Rental (532111),64 Gorham ave,Hamden,CT,06514,incorporation@corporatedocfiling.com
+3513017,Cornerstone Project Management LLC,LLC,Active,2026-09-09,Domestic,Connecticut,New Single-Family Housing Construction except For-Sale Builders (236115),169 Woodside Ave,Bridgeport,CT,06606,cornerstonemppm@gmail.com
+3513018,30 Norwich Road LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),8 West Main Street,Baltic,CT,06330,rajvirenpatel@gmail.com
+3513028,STRAWBERRY FIELDS HAT BAR LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),64 Curt Smith Rd,Southbury,CT,06488,nbroadbrook@gmail.com
+3513031,JaniG LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Marketing Consulting Services (541613),48 Nanel Dr,Glastonbury,CT,06033,jjg.theofficial@gmail.com
+3513032,"FOOTBALLCO US, INC.",Stock,Active,2026-09-09,Foreign,DELAWARE,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",7 W 22ND ST,NEW YORK,NY,10010,stephanie@messaslaw.com
+3513035,R&R PROS CONSTRUCTION LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),1166 Forbes St,East Hartford,CT,06118-2220,rrprosconstruction@gmail.com
+3513038,Central Equities LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),1274 49th Street,Brooklyn,NY,11219,chaimaron90@gmail.com
+3513042,"SMS CT MG09C, LLC",LLC,Active,2026-09-09,Foreign,DELAWARE,Engineering Services (541330),51 S. Broad St,Ridgewood,NJ,07450,legal@scalemicrogrids.com
+3513053,Dynasty Real Estate Equity LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),156 Denslow Hill Rd,Hamden,CT,06514-2004,athomas.ctrealtor@gmail.com
+3513057,Gitche Gumee LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),281 Mountain Rd,Norfolk,CT,06058,dhk@kennedyluce.com
+3513062,"CONN-STEEL, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",46 Benz St,Ansonia,CT,06401-2559,battaglinob@aol.com
+3513064,Shinobi Auto Works LLC,LLC,Active,2026-09-09,Domestic,Connecticut,General Automotive Repair (811111),56 Stock Place,Manchester,CT,06042,joseph.santaniello@outlook.com
+3513076,AJ Beauty Studio LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Personal Care Services (812199),590 Danbury Rd,Ridgefield,CT,06877-2722,ajbeautystudioct@gmail.com
+3513078,Built To Last Construction LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),2 WHITTIER RD,EAST HAMPTON,CT,06424,norman@builttolastconstructionllc.com
+3513080,Olmo Capital LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Miscellaneous Intermediation (523910),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513088,D.R.E LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),156 Denslow Hill Rd,Hamden,CT,06514-2004,athomas.ctrealtor@gmail.com
+3513089,Domakonda Investments LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),6 Old Gate Rd,Wallingford,CT,06492-3327,kdomakonda@gmail.com
+3513090,Crozier Consulting LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Computer Related Services (541519),1052 North Grand Street,West Suffield,CT,06093,ctc21146@gmail.com
+3513091,OTalented Productions LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Sound Recording Studios (512240),102 High St,Vernon Rockville,CT,06066-6739,otpincme@gmail.com
+3513092,"Women's Work Institute, Inc.",Non-Stock,Active,2026-09-09,Domestic,Connecticut,Research and Development in the Social Sciences and Humanities (541720),,,,,amanda@womensworkinstitute.org
+3513102,"TransformED Academy, Inc.",Non-Stock,Active,2026-09-09,Domestic,Connecticut,All Other Miscellaneous Schools and Instruction (611699),,,,,mbrase@empoweredalternatives.org
+3513105,Purpose & Story Development Communications LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",43 Own Home Avenue,Wilton,CT,06897,karen@karenreddington.com
+3513107,JoJo Marketing LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Marketing Consulting Services (541613),32 Jaidee Dr,East Hartford,CT,06118-1581,anthonymontanez5858@gmail.com
+3513111,MICHAEL DURAN LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415),1097 Hillside Ave,Stratford,CT,06614-4803,ronnie_s@yopmail.com
+3513113,Phases LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Food Health Supplement Retailers (456191),3 Pine Tree Lane,Glastonbury,CT,06033,brittanytassone@gmail.com
+3513114,"The Summit, Inc",Non-Stock,Active,2026-09-09,Domestic,Connecticut,Other Individual and Family Services (624190),,,,,summitmissionct@gmail.com
+3513120,One Madison LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),5204 Madison Ave,Trumbull,CT,06611-1016,rmalz7@gmail.com
+3513121,Decoding Success LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Educational Support Services (611710),24 Hildurcrest Dr,Simsbury,CT,06070,decodingsuccessllc@gmail.com
+3513126,"That Ian Tolmie, D.O., PLLC",LLC,Active,2026-09-09,Foreign,VIRGINIA,Offices of Physicians except Mental Health Specialists (621111),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513128,All Saints Eve LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Motion Picture and Video Production (512110),85 Pollys Ln,Uncasville,CT,06382-1427,allsaintsevefilm@gmail.com
+3513129,E&D Legacy LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Portfolio Management and Investment Advice (523940),79 Mountain Rd,Wilton,CT,06897,stephenpanico@yahoo.com
+3513130,Excelsior Marshall LLC,LLC,Active,2026-09-09,Foreign,DELAWARE,Other Activities Related to Real Estate (531390),10 Marshall St,Norwalk,CT,06854-2204,farbcal@hotmail.com
+3513131,"Eight Eighteen Longevity-Fairfield, LLC",LLC,Active,2026-09-09,Domestic,,,1121 High Ridge Road Unit 6,Stamford,CT,06905,chris@fairfieldlongevity2.com
+3513134,Hollyberry Functional Wellness LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Personal Care Services (812199),69 Hollyberry Ln,Plainville,CT,06062,emily.kosswig@gmail.com
+3513138,FMORALES CLEANING SERVICES LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),324 Canaan Rd,Stratford,CT,06614-4614,kenirm371@gmail.com
+3513139,"BEACON MEDTECH SOLUTIONS-MA, LLC",LLC,Active,2026-09-09,Foreign,,,32 JUNGLE ROAD,LEOMINSTER,MA,01453,LPAGENTS@LPLEGAL.COM
+3513150,overtimecafe LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Limited-Service Restaurants (722513),1719 E Main St,Waterbury,CT,06705-1096,overtimecafellc@gmail.com
+3513158,8 Keynote Partners LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),112 Wall Street,Torrington,CT,06790,mattoneglia@ogind.com
+3513159,The Kovacs Family Day School Limited Liability Company,LLC,Active,2026-09-09,Domestic,Connecticut,Child Care Services (624410),13 Sydney Ln,Cromwell,CT,06416-1134,c.kovacs@comcast.net
+3513167,C Squared Enrichment CT LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Exam Preparation and Tutoring (611691),220 Main St S,Southbury,CT,06488-2275,csquaredenrichment@gmail.com
+3513169,"150 Stevens St, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),150 Stevens St,East Haven,CT,06512-4747,bhinman8382@gmail.com
+3513171,Best Choice Home Health Care LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Home Health Care Services (621610),100 Bradley Road,Woodbridge,CT,06525,emailjoice@yahoo.com
+3513173,B&B Property Maintenance LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Landscaping Services (561730),67 Chappell St,Chaplin,CT,06235,grbennettjr@gmail.com
+3513176,Dar Aasal LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),25 Midway Dr,Cromwell,CT,06416-2551,erinadelong@gmail.com
+3513178,EVENTS & DECOR RENTAL LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),796 Noble Ave,Bridgeport,CT,06608-1503,contact@amesur.net
+3513185,Wethersfield Communications LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Electronics and Appliance Retailers (449210),1345 Silas Deane Hwy,Wethersfield,CT,06109-4302,scott.seder@wireless-zone.com
+3513193,SAVOR KITCHEN LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Mobile Food Services (722330),67 Oakland Rd,Southington,CT,06489-3275,sophroniko@gmail.com
+3513197,GD Beauty CO LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Cosmetics, Beauty Supplies, and Perfume Retailers (456120)",23 Kramer Avenue,WATERBURY,CT,06705-2828,gdbeautyco@yahoo.com
+3513199,VNH Wellness Infusion Clinic PLLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Outpatient Care Centers (621498),1275 Post Rd,Fairfield,CT,06824-6015,info@vivonovahealth.com
+3513200,NATIVE AKL LIQUORS LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Beer, Wine, and Liquor Retailers (445320)",1820 EAST MAIN ST,Waterbury,CT,06705,sofocused221@gmail.com
+3513201,LC DESIGN & PAINTING LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),95 Hospital Ave,Danbury,CT,06810-6086,luanteixeira031@gmail.com
+3513204,KL Commerce LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other General Merchandise Retailers (455219),12 Lovers Ln,East Lyme,CT,06333-1516,klcommercllc@gmail.com
+3513206,Sound Connections Inc.,Non-Stock,Active,2026-09-09,Domestic,Connecticut,Business Associations (813910),,,,,soundconnectionsct@gmail.com
+3513209,38 Glenrock LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Property Managers (531311),281 Tresser Blvd,Stamford,CT,06901-3284,radevellis@blairandpotts.com
+3513211,"America's�Equipment�Auction�Connecticut, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",10401�N.�Meridian�Street,Carmel,IN,46290,ron.kruczynski@americasaa.com
+3513216,162 Lonetown Road LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Property Managers (531311),5 Old Field Lane,Redding,CT,06896,hans@hjsprojects.com
+3513221,IOSC LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),47 Hemmelskamp Rd,Wilton,CT,06897-2104,scott.bravi@gmail.com
+3513224,"Out of This World Consulting, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Marketing Consulting Services (541613),18 Sherwin Dr,Enfield,CT,06082-2064,danielrtedone@gmail.com
+3513226,Chipi LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other General Merchandise Retailers (455219),1 Town Hill Rd,Lakeville,CT,06039-2311,beckybelcher5@gmail.com
+3513227,MONTENEGRO LANDSCAPING LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Landscaping Services (561730),464 Candlewood Lake Rd N,New Milford,CT,06776-4129,montenegrolandscape@gmail.com
+3513231,Kmoralescleaningservices LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),324 Canaan Rd,Stratford,CT,06614-4614,kenirm371@gmail.com
+3513233,Viktoriia Wellness LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Personal Care Services (812199),27 Faith Road,NEWINGTON,CT,06111,viktoriiawellnessllc@yahoo.com
+3513237,360 Mechanical Services L.L.C.,LLC,Active,2026-09-09,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",309 Sugar Hill Rd,Tolland,CT,06084-2136,cthvac08@yahoo.com
+3513238,PAUL'S CONSTRUCTION COMPANY LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Masonry Contractors (238140),8 W Park Rd,Plymouth,CT,06782-2510,meritadinkollari1966@gmail.com
+3513247,Novak Construction Company,Stock,Active,2026-09-09,Foreign,ILLINOIS,Commercial and Institutional Building Construction (236220),3423 N Drake Ave,Chicago,IL,60618-5449,arubino@novakconstruction.com
+3513253,Monomoy Point Brokers LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Insurance Agencies and Brokerages (524210),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513258,"SAMPOLL, INC.",Stock,Active,2026-09-09,Foreign,DELAWARE,Advertising Material Distribution Services (541870),8 the Grn,Dover,DE,19901-3618,justin@trysampoll.com
+3513260,EDDIE'S home improvement llc,LLC,Active,2026-09-09,Domestic,Connecticut,Framing Contractors (238130),50 Wildflower Rd,East Hartford,CT,06118-1639,eddier_22@hotmail.com
+3513261,PARK CITY TENNIS AND PICKLEBALLS LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Personal Services (812990),302 OLIVE ST,BRIDGEPORT,CT,06604,tonytrinh1974@yahoo.com
+3513263,Omni Leasing LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Truck, Utility Trailer, and RV Recreational Vehicle Rental and Leasing (532120)",285 Southington Rd,Berlin,CT,06037-3420,bwargo@gc-cpas.com
+3513268,SWEET BRAZIL LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),240 ALEXANDER AVE,BRIDGEPORT,CT,06606,kellysouzadmv@gmail.com
+3513269,CLEANART SERVICES LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Personal and Household Goods Repair and Maintenance (811490),230 Thompson St,Stratford,CT,06615-6125,contact@amesur.net
+3513275,NK Imports LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Farm Product Raw Material Merchant Wholesalers (424590),15 Fairway Dr,Ellington,CT,06029-3653,nkimportsllc26@gmail.com
+3513277,"HG Properties, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),83 Woodstock Rd,Pomfret Center,CT,06259-1227,cgalante912@gmail.com
+3513278,"Cyndi Palma, LCSW Professional Limited Liability Co.",LLC,Active,2026-09-09,Domestic,Connecticut,Offices of Mental Health Practitioners except Physicians (621330),102 North St,Norwich,CT,06360,cyndipalma4@gmail.com
+3513279,TATIANE SILVA CLEANING SERVICES LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),39 Tamarack Ave,Danbury,CT,06811-4959,silvatatiane1986@icloud.com
+3513280,WOLCOTTST 5 LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),22 Bicycle St,Plainville,CT,06062-2249,jeffselmani3@gmail.com
+3513282,US Forged Rings Inc,Stock,Active,2026-09-09,Foreign,DELAWARE,Engineering Services (541330),16 Doubling Rd,Greenwich,CT,06830-4846,gs@usfr.com
+3513287,TORRES HOME IMPROVEMENT LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),130 KAYNOR DRIVE,WATERBURY,CT,06708,juanjt21@gmail.com
+3513292,Fixit Estimator LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",15 Maggie Ln,Shelton,CT,06484-5377,support@fixitestimator.com
+3513295,"MortgageOne, Inc.",Stock,Active,2026-09-09,Foreign,CALIFORNIA,Real Estate Credit (522292),"2714 Loker Ave West, Suite 300",Carlsbad,CA,92010,david@gomortgageone.com
+3513301,AP Property Holdings LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),72 Bennett Ave,Waterbury,CT,06708-4047,anperez0910@gmail.com
+3513302,"Gleekers, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),51 Stevens St,Norwalk,CT,06850-3540,bluecactusgrill@yahoo.com
+3513306,JOSE LUIS BORTOLOTTI RODRIGUEZ LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),75 Westfield St,West Haven,CT,06516-1332,luisbortolotti68@gmail.com
+3513308,Speaking Naturallee Therapy LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Offices of Physical, Occupational and Speech Therapists, and Audiologists (621340)",12 Foothills Way,Bloomfield,CT,06002,llee.hardy@speakingnaturallee.com
+3513309,Mission Restoration Inc,Non-Stock,Active,2026-09-09,Domestic,Connecticut,Other Community Housing Services (624229),,,,,missionrinc@gmail.com
+3513312,Heller Home Improvement LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),235 Main St,danbury,CT,06810,hellerhomeimprovement@gmail.com
+3513326,Green Horizon Properties LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Property Managers (531311),76 Oak St,New Canaan,CT,06840,chrissy.w.hewitt@gmail.com
+3513328,NextGen Realty LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),3 Vardon Rd,West Hartford,CT,06117-2848,thamer.bajory@gmail.com
+3513330,Body of Light Massage Therapy Limited Liability Company,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Personal Services (812990),81 Harbor St,Branford,CT,06405-4410,elana@elanacohenlmt.com
+3513339,MOUNTAIN ASH FARM LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Nursery and Tree Production (111421),292 Plain Hill Rd,Norwich,CT,06360-9416,jean.stott@yahoo.com
+3513340,golden petal logistic LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Specialized Freight except Used Goods Trucking, Local (484220)",125 Timber Trl,Wethersfield,CT,06109-1454,support@usa-llc-filing.com
+3513342,Acuity Operations LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Office Administrative Services (561110),264 N Anguilla Rd,Pawcatuck,CT,06379-1200,mgarner8878@gmail.com
+3513345,Advocate Technologies Inc.,Stock,Active,2026-09-09,Foreign,DELAWARE,"All Other Professional, Scientific, and Technical Services (541990)",3229 Greenpoint Ave PMB 120,New York,NY,11101,accounting@tryadvocate.com
+3513348,Diane Behavioral Nutrition Coaching LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Fitness and Recreational Sports Centers (713940),72 Northwood Rd,Newington,CT,06111-3150,support@usa-llc-filing.com
+3513351,BRIAN'S LOCK & KEY LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Locksmiths (561622),185 HILL STREET,EAST HARTFORD,CT,06118,brianslock@yahoo.com
+3513353,A Brighter Tomorrow LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Personal Services (812990),213 Kennedy Dr,Putnam,CT,06260-1628,laprade.emily@icloud.com
+3513356,From Hallways To Hedges LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Janitorial Services (561720),1097 Main Street,Manchester,CT,06040,debramagowan@yahoo.com
+3513357,Virginia Apple Design LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Interior Design Services (541410),49 Fox Run Ln,Greenwich,CT,06831-3706,alex@premiercfs.com
+3513362,LB Elevates LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Advertising Material Distribution Services (541870),351 Stanley Dr,Glastonbury,CT,06033-2623,dailyaction@yahoo.com
+3513369,MCLR Construction LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Commercial and Institutional Building Construction (236220),4 Pine Tree Lane,Glastonbury,CT,06033,gregorymurphy327@gmail.com
+3513375,RCJM L.L.C.,LLC,Active,2026-09-09,Domestic,Connecticut,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures (711410)",208 ROXBURY RD,WASHINGTON,CT,06793,efile1234@incfile.com
+3513377,Wildflower Boutique Limited Liability Company,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),51 Pautipaug Hill Rd,Baltic,CT,06330,wildflowerboutiquect@gmail.com
+3513379,"56 Columbus Avenue, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),670 Arbutus St,Middletown,CT,06457-7106,philip.m.barbaro@gmail.com
+3513380,O SHELL INC,Stock,Active,2026-09-09,Domestic,Connecticut,Nail Salons (812113),,,,,zhu-zi-zheng@foxmail.com
+3513384,RuneLore LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),58 Georgia Street,Groton,CT,06340,sgrid.caps@gmail.com
+3513389,Sunrising LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other General Merchandise Retailers (455219),5 Meriden Rd,Rockfall,CT,06481-2908,ramzan.styles110@gmail.com
+3513391,4 SANDCUT 3 LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Nonresidential Property Managers (531312),4 Sand Cut Rd,Brookfield,CT,06804-2644,zachary.lord15@gmail.com
+3513395,Vitoria Connecticut LLC,LLC,Active,2026-09-09,Foreign,,,4601 SW 25th Place,Cape Coral,FL,33914,drussell@vitoriarx.com
+3513398,Everstead Home Care LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Services for the Elderly and Persons with Disabilities (624120),143 Farmington Ave,New Britain,CT,06053-2925,ecruz@eversteadct.com
+3513409,International Marine Electronics LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Specialty Trade Contractors (238990),243 Bloomingdale Road,Quaker Hill,CT,06375,int.me.ct@gmail.com
+3513413,BERLIN TOOLING I LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Miscellaneous Fabricated Metal Product Manufacturing (332999),304 CHRISTIAN LANE,BERLIN,CT,06037,markruh@bowspritadvisors.com
+3513417,SLSTE MGMT LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),230 Saw Mill River Rd,Millwood,NY,10546,rd5propllc@gmail.com
+3513420,11 Cowles Ave LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),380 Summer St,Plantsville,CT,06479-1121,22venturesct@gmail.com
+3513424,Lamode Property LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),1427 Ella T Grasso Blvd,New Haven,CT,06511-2960,ntspiceman23@msn.com
+3513436,Project Communion Limited Liability Company,LLC,Active,2026-09-09,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",433 Kent Cornwall Rd,Kent,CT,06757-1211,nickb@projectcommunion.com
+3513437,Gearhead Motors LLC,LLC,Active,2026-09-09,Domestic,Connecticut,General Automotive Repair (811111),569 park ave,Bridgeport,CT,06604,gearheadmotors3@gmail.com
+3513439,The Compounding Pharmacy LLC,LLC,Active,2026-09-09,Foreign,TENNESSEE,All Other Miscellaneous Ambulatory Health Care Services (621999),310 Bluff City Hwy,Bristol,TN,37620,consult@waterswellness.com
+3513440,ST&CT Smoke LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers (459991)",1035 Washington Blvd,Stamford,CT,06901,libertytaxstamford@hotmail.com
+3513447,RYCO HVAC Limited Liability Company,LLC,Active,2026-09-09,Domestic,Connecticut,Appliance Repair and Maintenance (811412),"462 North Main St, Seymour, CT 06483",Seymour,CT,06483,samantharockefeller@yahoo.com
+3513448,EP Installers LLC,LLC,Active,2026-09-09,Foreign,NEW JERSEY,Residential Remodelers (236118),203 Parsippany Rd,Whippany,NJ,07981,office@epinstallers.com
+3513450,Make It All Apparel and More llc,LLC,Active,2026-09-09,Domestic,Connecticut,Commercial Screen Printing (323113),86 Topstone Drive,Danbury,CT,06810-7040,makeitallapparel@gmail.com
+3513464,D&J roofing and carpentry Limited Liability Company,LLC,Active,2026-09-09,Domestic,Connecticut,Adhesive Manufacturing (325520),1 Woodside Ave,Danbury,CT,06810-7126,ronaljaract@gmail.com
+3513465,"38 Lancaster Drive, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Offices of Other Holding Companies (551112),2 Pettipaug Rd,Westbrook,CT,06498-1591,scudderw@theleeco.com
+3513467,Impact Advisory LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),56 Cotswold Close,Glastonbury,CT,06033-3734,cjesposito1@gmail.com
+3513469,JJ DIAZ CONSTRUCTION LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Support Services (561990),1421 Corbin Ave,New Britain,CT,06053-3848,diazjuanjose382@gmail.com
+3513472,YCR Logistics LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"General Freight Trucking, Local (484110)",104 Birchfield Dr,Waterbury,CT,06705-3520,robert.carrion@ycrlogistics.com
+3513493,Henry's Heating and Cooling LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",275 Longvue Dr,Wethersfield,CT,06109-3348,henryshvac@outlook.com
+3513498,BELVARICK INC,Stock,Active,2026-09-09,Domestic,Connecticut,All Other General Merchandise Retailers (455219),,,,,taxsolutionz@gmail.com
+3513501,"CASSONETTI, LLC",LLC,Active,2026-09-09,Foreign,FLORIDA,New Single-Family Housing Construction except For-Sale Builders (236115),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513505,"Ultimate Access, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",7 Pratt St,Essex,CT,06426-1169,none@none.com
+3513507,"Paradigm Design, Inc.",Stock,Active,2026-09-09,Foreign,MICHIGAN,Architectural Services (541310),415 Leonard St NW Ste 200,Grand Rapids,MI,49504-4399,adminassistant@paradigmae.com
+3513509,H2 LOGISTICS LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"General Freight Trucking, Local (484110)",100 Reserve Rd,Danbury,CT,06810-5267,h2logistics.group@gmail.com
+3513511,Divine Shield Logistics LLC,LLC,Active,2026-09-09,Foreign,NEW MEXICO,Couriers and Express Delivery Services (492110),2389 Main St.,Glastonbury,CT,06033,eastern@registeredagentsinc.com
+3513512,Old Cove Integrators L.L.C.,LLC,Active,2026-09-09,Foreign,NEW YORK,Computer Systems Design Services (541512),1 North Road,SETAUKET,NY,11733,captain@oldcoveintegrators.com
+3513513,Larabee & Co. LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),206 Sharp Hill Rd,Wilton,CT,06897-3129,hey@elissalarabee.com
+3513524,LIGHTHOUSE HARBOR LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),34 South Broadway,White Plains,NY,10601,david@lighthouseliving.com
+3513528,Connecticut Emerging Technology Leadership Roundtable LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Professional Organizations (813920),444 Mansfield Ave,Darien,CT,06820-2114,plavecchia@gmail.com
+3513534,"Pianobooker, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Software Publishers (513210),149 High Valley Dr,Canton,CT,06019,randy@pianobooker.com
+3513535,CAB MOVING LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Used Household and Office Goods Moving (484210),76 Brittania Dr,Danbury,CT,06811-2619,sweets607@icloud.com
+3513538,HARBOR PAWS LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Pet Care except Veterinary Services (812910),98 Hoyt St,Stamford,CT,06905-5785,harborpawsllc@gmail.com
+3513545,K.E.C INC,Stock,Active,2026-09-09,Domestic,Connecticut,Limited-Service Restaurants (722513),,,,,kecinc@chucpapc.com
+3513549,Suave Junk Removal LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Solid Waste Collection (562111),807 Evergreen Avenue,Hamden,CT,06518,ctdsuarez@suavejunkremoval.com
+3513550,Hair by Me LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),23 Michael Rd,Hamden,CT,06514-4504,hairbyme1006@gmail.com
+3513551,LRY - NJ Construction LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Specialty Trade Contractors (238990),907 Baldwin St,Waterbury,CT,06706-1514,luzita1986villa@gmail.com
+3513553,Green Ink Services LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Accounting Services (541219),51 Thorn Hill Road,Guilford,CT,06437,laura.smulski@gmail.com
+3513558,Greenfield Professional Solutions LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Accounting Services (541219),6 Jacobs Ln,Bethel,CT,06801,jg@greenfieldprofessionalsolutions.com
+3513563,HT Roofing & Restoration LLC,LLC,Active,2026-09-09,Domestic,Connecticut,New Single-Family Housing Construction except For-Sale Builders (236115),398 Lexington Ave,New Haven,CT,06513,hectortello1991@gmail.com
+3513564,The Hawker Edit LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Interior Design Services (541410),83 GATEHOUSE RD,TRUMBULL,CT,06611-1610,brittany.p.nolan@gmail.com
+3513567,"Medford Wellington Service, LLC",LLC,Active,2026-09-09,Foreign,DELAWARE,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",9 Executive Park Dr Ste 100,North Billerica,MA,01862-1358,mpottle@pierceatwood.com
+3513569,MJB Pet LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Pet and Pet Supplies Retailers (459910),260 Kenwood Ave,Hamden,CT,06518-2138,info@beausballs.com
+3513570,"Rare Collectibles TV, LLC",LLC,Active,2026-09-09,Foreign,DELAWARE,All Other Miscellaneous Retailers (459999),23930 Madison St.,Torrance,CA,90505,mcarloni@rarecollectiblestv.com
+3513571,Pathfinder Business Consulting LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Computer Systems Design Services (541512),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3513574,RNG Transportation LLC,LLC,Active,2026-09-09,Foreign,MASSACHUSETTS,"Specialized Freight except Used Goods Trucking, Local (484220)",142 Fox Hill Road,Needham,MA,02492,matt@rngtransportation.com
+3513580,ABConcrete7 LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Other Foundation, Structure, and Building Exterior Contractors (238190)",67 Hanover St,Wallingford,CT,06492-1641,abconcrete7@outlook.com
+3513585,Hall Marketing LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Advertising Agencies (541810),6 Valli Drive,East Hampton,CT,06424,hallscaling@gmail.com
+3513589,Ilchyshyn LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Wood Kitchen Cabinet and Countertop Manufacturing (337110),85 York St,Bridgeport,CT,06610,kolailcisin336@gmail.com
+3513590,BR RIBEIRO PAINTING LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),80 Chipman St,Waterbury,CT,06708-3702,ramosribeirobruno9@gmail.com
+3513594,TS Enterprises LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (516210)",321 Ellis St,New Britain,CT,06051-3504,tsenterprisesct@gmail.com
+3513598,PLANET PIZZA DANBURY INC,Stock,Active,2026-09-09,Domestic,Connecticut,Full-Service Restaurants (722511),,,,,rudygt86@icloud.com
+3513600,Miller Miles Transport LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Less Than Truckload (484122)",36 Alden St,Stamford,CT,06902,dushanemiller@rocketmail.com
+3513603,Solara Wellness Corporation,Stock,Active,2026-09-09,Domestic,Connecticut,Fitness and Recreational Sports Centers (713940),,,,,laurenmcbrideblog@gmail.com
+3513607,AK NET LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),66 DEERFIELD LN,WATERTOWN,CT,06795,efile1234@incfile.com
+3513610,KANE WAT ENTERPRISES LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other General Merchandise Retailers (455219),11 CROWN ST APT 9,MERIDEN,CT,06450,efile1234@incfile.com
+3513611,"Heavenly Hands Cakes and Catering, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Caterers (722320),76 Peabody St,West Haven,CT,06516-2570,sarina.richardson@queenheavenlyhands.com
+3513612,OLD SAYBROOK AIRPORT EXPRESS LLC,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Transit and Ground Passenger Transportation (485999),116 N Cove Rd,Old Saybrook,CT,06475-2560,support@usa-llc-filing.com
+3513616,13 Garland Drive 06033 LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),15 Penwood Xing,Glastonbury,CT,06033-2755,dim_shining_4o@icloud.com
+3513619,Tyghter Services LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),59 Albert Road,Hamden,CT,06514,gavin.tyghter@gmail.com
+3513621,"Starport, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Other Activities Related to Real Estate (531390),2505 Main Street,Stratford,CT,06615,vazzanofamily5@gmail.com
+3513625,Vazquez Pro Tile LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),62 Glemby St,Hamden,CT,06514,franklinvasquez0389@gmail.com
+3513626,949 Pleasant Valley Road Apt 11-1 06074 LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),15 Penwood Xing,Glastonbury,CT,06033-2755,dim_shining_4o@icloud.com
+3513628,Esther Crown Professional Group PLLC,LLC,Active,2026-09-09,Domestic,Connecticut,Offices of Physicians except Mental Health Specialists (621111),4 East View Road,New Fairfield,CT,06812,esthercrownpllc@proton.me
+3513631,CERVANTES LOGISTIC LLC,LLC,Active,2026-09-09,Domestic,Connecticut,"General Freight Trucking, Local (484110)",21 1/2 Franklin St,Danbury,CT,06810-5801,cervanteslogistic693@gmail.com
+3513637,949 Pleasant Valley Road Apt 11-6 06074 LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),15 Penwood Xing,Glastonbury,CT,06033-2755,dim_shining_4o@icloud.com
+3513645,SDL AMOUR LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),462 Ridge Rd,Wethersfield,CT,06109-1923,sdlamour@yahoo.com
+3513648,River Valley Customs LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),99 Pond Meadow Rd,Killingworth,CT,06419,mrmiller996@yahoo.com
+3513667,J & Ls Home Improvement LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),32 Bidwell Ave,East Hartford,CT,06108,jnlhomeimprovement26@gmail.com
+3513669,Wish upon a getaway LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Travel Agencies (561510),38 Alderwood Dr,West Hartford,CT,06117-1501,tina@wishuponagetaway.com
+3513671,RAMBAIMAA LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Hotels except Casino Hotels and Motels (721110),37 Spencer Plain Rd,Old Saybrook,CT,06475-4001,motel6office37@gmail.com
+3513672,ARP Ventures LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),14 CENTER ST,BRISTOL,CT,06010-4915,acproctor1982@gmail.com
+3513677,Advanced Home Services LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),582 W Main St,New Britain,CT,06053-3920,aliali130323@gmail.com
+3513691,Panther Network Security LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Computer Related Services (541519),53 Flat Swamp Rd,Newtown,CT,06470-1852,titus@panthernetworksecurity.com
+3513692,Sree Elegance LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),709 Sand Stone Dr,South Windsor,CT,06074-2865,sreeelegancellc@gmail.com
+3513698,Dr Elite Construction Group LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),28 Cleveland St,New London,CT,06320-5319,danielrodriguez98980@outlook.com
+3513700,Reflective Moments Therapy LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Offices of Mental Health Practitioners except Physicians (621330),219 Kent Road,New Milford,CT,06776,reflectivemomentstherapy@outlook.com
+3513701,Prime Home Hernandez K.R. LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),1578 Ella T Grasso Blvd,New Haven,CT,06511-2920,primehometlaxcala@gmail.com
+3513713,Elevator Instruments LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Other Measuring and Controlling Device Manufacturing (334519),84 4th Street,Suffield,CT,06078,info@elevatorinstruments.com
+3513718,"MelMed Care and Wellness, PLLC",LLC,Active,2026-09-09,Domestic,Connecticut,Offices of All Other Miscellaneous Health Practitioners (621399),168 Hobart St,Southington,CT,06489-3333,melissa@melmedscrubs.com
+3513720,"Crown of Glory Hats International Boutique, LLC",LLC,Active,2026-09-09,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),175 Main Street,East Haven,CT,06512,jiannajaneillejovell@gmail.com
+3513722,GONZALEZ REPAIR Construction LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Residential Remodelers (236118),24 Walker St,New London,CT,06320-5714,eduardogonzalez98852@outlook.com
+3513724,Bradley Wire llc,LLC,Active,2026-09-09,Domestic,Connecticut,All Other Specialty Trade Contractors (238990),9E townhouse rd,Broad Brook,CT,06016,wizzard.electric@gmail.com
+3513725,ShowPow Jamaican Cuisine LLC,LLC,Active,2026-09-09,Domestic,Connecticut,Limited-Service Restaurants (722513),719 Albany Ave,Hartford,CT,06112-2305,showpowcuisine@gmail.com
+3513782,"CARELON INSIGHTS, LLC",LLC,Active,2026-09-09,Foreign,,551114,220 VIRGINIA AVENUE,INDIANAPOLIS,IN,46204,JUDY.BELLAMY-WOODFORD@ELEVANCEHEALTH.COM
+3513792,VYLOR INC.,Stock,Active,2026-09-09,Foreign,,,1000 N. WEST ST.,WILMINGTON,DE,19801,LISA.M.PATTERSON@CORTEVA.COM
+3513839,"LIFEFORCE ULTIMATE MEDICAL GROUP, P.A., P.C.",Stock,Active,2026-09-09,Foreign,,621111,100 WILSHIRE BLVD. SUITE 700,SANTA MONICA,CA,90401,RENAE.JACOB@MYLIFEFORCE.COM
+3513875,"POLARIS EXPERIENCE, LLC",LLC,Active,2026-09-09,Foreign,,,2100 HIGHWAY 55,MEDINA,MN,55340,TAMMY.TESAR@POLARIS.COM
+3514016,"FIRST MANHATTAN TRUST COMPANY, LLC",LLC,Active,2026-09-09,Foreign,,,80 FIELD POINT ROAD,GREENWICH,CT,06830,ASPEN@FIRSTMANHATTAN.COM
+3514169,"LAFAYETTE SQUARE MORTGAGE SOLUTIONS, LLC",LLC,Active,2026-09-09,Foreign,,522292,"1601 BELVEDERE ROAD, SUITE 46",WEST PALM BEACH,FL,33406,BRENNER@LSMORTGAGESOLUTIONS.COM
+3476434,The Royal Crow Holding Company LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),40 South Ave,North Haven,CT,06473-2714,jscrosby.95@gmail.com
+3499392,PharmDog Wellness LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Pet and Pet Supplies Retailers (459910),310 Flanders Rd Rear,East Lyme,CT,06333-1760,robynbernard@pharmdogplus.com
+3504415,ZEN RELAX BEAUTY SPA INC,Stock,Active,2026-09-08,Domestic,Connecticut,Other Personal Care Services (812199),,,,,info@nystartax.com
+3506172,"CABICASH SOLUTIONS, INC.",Stock,Active,2026-09-08,Foreign,DELAWARE,Miscellaneous Financial Investment Activities (523999),1000 N West St,Wilmington,DE,19801-1047,registrations@ualett.com
+3507570,Vex Lending LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"International, Secondary Market, and All Other Nondepository Credit Intermediation (522299)",2389 Main St,Glastonbury,CT,06033,info@point26cap.com
+3509687,JOYCON USA CORP.,Stock,Active,2026-09-08,Foreign,NEW YORK,Administrative Management and General Management Consulting Services (541611),34 CORTELYOU AVE,STATEN ISLAND,NY,10312,kjin@easternaccounting.com
+3509799,Orion Global LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other General Merchandise Retailers (455219),3 Pogany St,Norwalk,CT,06854-3402,orionglobalusa@gmail.com
+3510205,"Myriad Construction Services, Inc.",Stock,Active,2026-09-08,Foreign,NEW YORK,Residential Remodelers (236118),900 Park Avenue,New York,NY,10075,elies@myriadconstruction.net
+3510875,Source Of Success ABA LLC,LLC,Active,2026-09-08,Foreign,NEW YORK,Offices of Mental Health Practitioners except Physicians (621330),28 Cole Ter,New Rochelle,NY,10801-1504,afeldman79@yahoo.com
+3511053,ALSA (USA) HOLDINGS INC.,Stock,Active,2026-09-08,Foreign,DELAWARE,Offices of Other Holding Companies (551112),1313 N Market St,Wilmington,DE,19801,alek.safarian@alsaventures.com
+3511397,Go-To Handyman L.L.C.,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),2389 Main St,Glastonbury,CT,06033-4617,info@gotohandymanllc.com
+3511853,HVR Architecture LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Architectural Services (541310),2389 Main St,Glastonbury,CT,06033,megan@hvrarchitecture.com
+3512060,Pick lock and key LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Locksmiths (561622),738 Middletown Rd,Colchester,CT,06415-2338,rorostaxservice@gmail.com
+3512112,WATSON FAMILY TREE TRANSPORTS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Truckload (484121)",74 LENOX STREET,HARTFORD,CT,06112,markywatson8@gmail.com
+3512166,K&J Home Services LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),505 Wethersfield Ave,Hartford,CT,06114,kennettjesus2@gmail.com
+3512176,Live Well Financial Group LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Insurance Agencies and Brokerages (524210),2389 main st,glastonbury,CT,06033,tonycruz.sfg@gmail.com
+3512201,Nutmeg couriers LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Couriers and Express Delivery Services (492110),12 Windsor Pl,Norwalk,CT,06854-4127,apaige75@nutmegcouriers.com
+3512207,203 Lounge & Bar LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Drinking Places Alcoholic Beverages (722410),7 Phoenix Ave,Waterbury,CT,06702-1417,the203lounge@gmail.com
+3512220,J&W LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Offices of Other Holding Companies (551112),48 Columbus Pl,Stamford,CT,06907-1674,aaronwheeler20@gmail.com
+3512230,Oat property L.L.C.,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Property Managers (531311),557 Prospect Ave. Suite 102,West Hartford,CT,06105,omun65@gmail.com
+3512237,Eaton Transport Group LLC,LLC,Active,2026-09-08,Domestic,Connecticut,General Automotive Repair (811111),50 Saw Mill Rd,Danbury,CT,06810-5131,eatontransportgroup@gmail.com
+3512244,casa bianca new britain llc,LLC,Active,2026-09-08,Domestic,Connecticut,Limited-Service Restaurants (722513),45 arch st,new britain,CT,06051,casabiancanewbritain@gmail.com
+3512248,FAST MACHINES LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Computer Storage Device Manufacturing (334112),94 Brandy Hill Rd,Thompson,CT,06277-2310,dan@fast-machines.com
+3512251,HTM CONSTRUCTION LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),177 Ash St,Bridgeport,CT,06605-2146,taxesbpt@rohuer.com
+3512254,INTUITIV Creative LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),17 Church Hill Rd,Redding,CT,06896-2106,ivanpoljak1@gmail.com
+3512258,Riverview LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),61 Riverview Rd,Niantic,CT,06357-1120,jlfoley25@gmail.com
+3512261,VibeRide Corporation,Stock,Active,2026-09-08,Domestic,Connecticut,Taxi and Ridesharing Services (485310),,,,,abdul@viberideapp.com
+3512268,RNG Ventures LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Used Merchandise Retailers (459510),8 Osprey Dr,Seymour,CT,06483,nelson@nelsec.com
+3512270,ATR All Things Roofing Limited Liability Company,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),7 McKee Pl,Cheshire,CT,06410,austinjohn.butler@gmail.com
+3512277,Eileen Rose Underwood LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",75 Lynwood Road,Storrs,CT,06268,eileenroseunderwood@gmail.com
+3512291,AVAST STAFFING & SERVICES LLC,LLC,Active,2026-09-08,Foreign,NEW JERSEY,Office Administrative Services (561110),1342 Ventura Dr,Lakewood,NJ,08701-2261,alex@premiercfs.com
+3512292,Luke Bula Ventures LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Software Publishers (513210),206 Elm St,New Haven,CT,06520,lukejb0001@gmail.com
+3512293,SCW Holdings I Corp.,Stock,Active,2026-09-08,Foreign,DELAWARE,Car Washes (811192),472 Wheelers Farms Rd,Milford,CT,06461,jford@splashcarwashes.com
+3512297,JMJ RENOVATIONS & REMODELING LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Commercial and Institutional Building Construction (236220),5 HART RD,GUILFORD,CT,06437,efile1234@incfile.com
+3512302,ENERGY EFFICIENCY REBATE CONSULTANTS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),19 ELIZABETH ST,ENFIELD,CT,06082,efile1234@incfile.com
+3512304,Cove Movement LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other Personal Services (812990),124 Randal Ave,West Hartford,CT,06110,covemovementllc@gmail.com
+3512306,Always Somewhere Cafe LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Mobile Food Services (722330),67 Wilbur Ave,Meriden,CT,06450-5931,bgollnick@aol.com
+3512310,VRANGA PROPERTY HOLDINGS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),165 Echo Lake Rd,Watertown,CT,06795-2622,ilirvranga74@gmail.com
+3512314,JUAREZ GREEN VALLEY LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Landscaping Services (561730),25 Saint Benedict Cir,Stamford,CT,06902-5214,ixtecoccarlos341@gmail.com
+3512321,NDecioPhoto LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other General Merchandise Retailers (455219),40 Glendale Street,Hamden,CT,06517-2821,info@ndeciophoto.com
+3512322,Havora Construction LLC,LLC,Active,2026-09-08,Foreign,PENNSYLVANIA,Roofing Contractors (238160),882 S Matlack St,West Chester,PA,19382-4502,jeff@havoraconstruction.com
+3512329,AM Capital Group LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),25 GREY ROCK RD,Bridgeport,CT,06606,angelamg670@icloud.com
+3512337,Homage Deliveries LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Couriers and Express Delivery Services (492110),61 Radel St,Bridgeport,CT,06607-2114,homagedeliveries@gmail.com
+3512338,"249 Winsted Rd, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),39 Rocky Road West,Harwinton,CT,06791,bp.brilin@gmail.com
+3512339,"Crowe's Logistics, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Local (484110)",62 Mallard Court,Windsor Locks,CT,06096,croweslogisticsllc@gmail.com
+3512341,Gold Medical Innovation LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Scientific and Technical Consulting Services (541690),4 Morgan Ave,Norwalk,CT,06851-5009,samuelagold@gmail.com
+3512346,Northeast Built LLC,LLC,Active,2026-09-08,Domestic,Connecticut,New Single-Family Housing Construction except For-Sale Builders (236115),479 Kettletown Rd,Southbury,CT,06488-2638,juliabhenry1@gmail.com
+3512348,ALSK LANDSCAPING SERVICE LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Landscaping Services (561730),30 Maple Ave,North Haven,CT,06473-2601,atlantisllc@gmail.com
+3512350,"203 Hartford Turnpike, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),42 N River Rd,Tolland,CT,06084-2710,sutcliffe@foleybaker.com
+3512353,Bunker Hill Boutique LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),330 Bunker Hill Road,Coventry,CT,06238,shineline34@gmail.com
+3512357,"The Farmer's Community, Inc.",Non-Stock,Active,2026-09-08,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),,,,,princevallemark@gmail.com
+3512364,Handypro LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Commercial and Institutional Building Construction (236220),461 Dixwell Ave,New Haven,CT,06511-1703,tevmoye@gmail.com
+3512370,Marshmo Active LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),5085 MAIN STREET,Trumbull,CT,06611,hellomarshmo@gmail.com
+3512375,Simar Holmes LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other Legal Services (541199),186 Jelliff Mill Rd,New Canaan,CT,06840-6510,simar.holmes@taylor-rose.co.uk
+3512377,Sunflower Mountain Mental Health LLC,LLC,Active,2026-09-08,Foreign,COLORADO,Offices of Mental Health Practitioners except Physicians (621330),1309 Coffeen Avenue STE 1200,Sheridan,WY,82801,formations@wyomingllcattorney.com
+3512380,"Fitty Lissy Fit, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,All Other Personal Services (812990),29 New Ln,Cromwell,CT,06416-2007,alissa@fittylissyfit.com
+3512385,"Cats and Dogs Spirits, LLC",LLC,Active,2026-09-08,Foreign,FLORIDA,Wine and Distilled Alcoholic Beverage Merchant Wholesalers (424820),735 E Venice Ave,Venice,FL,34285-7057,stephen.riedel@westernspirits.com
+3512394,3 Victor Drive LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),100 Danbury Road,Ridgefield,CT,06877,mike@ridgefieldapartments.com
+3512395,MQJ LUXURY BEAUTY LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Beauty Salons (812112),3 admiral stre,Westhaven,CT,06516,suggsniagrah11@gmail.com
+3512397,OV Gourmet Group LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),25 Grey Rock Rd,Bridgeport,CT,06606-1411,orri6298@gmail.com
+3512401,203 Iron Street Gang LLC,LLC,Active,2026-09-08,Domestic,Connecticut,New Single-Family Housing Construction except For-Sale Builders (236115),420 Burningtree Dr.,Groton,CT,06340,203ironstgang@gmail.com
+3512403,Arthur Winslow Jr LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),1656 Meriden Wtby Tpke,Milldale,CT,06467-6507,artwinjr@gmail.com
+3512418,"Lone Pine Acres Family Farm, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Other Vegetable except Potato and Melon Farming (111219),26 Allison Rd,Vernon Rockville,CT,06066-5208,lonepineacresfamilyfarm@gmail.com
+3512420,Ceimeanna Steps to Stage Initiative Inc,Non-Stock,Active,2026-09-08,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,ceimeannastepstostage@gmail.com
+3512424,Keen Kami LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),23 Wakefield Cir,East Hartford,CT,06118-1624,kamilahkashia01@gmail.com
+3512427,Pernel Consulting LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),22 Park Pl,New Britain,CT,06052,mikepernel@gmail.com
+3512432,TwoShea LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),102 Rainbow Trl,Vernon,CT,06066,sheajennie@yahoo.com
+3512434,Butler Growth LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),49 Fairlawn Dr,North Haven,CT,06473-1417,cmbutler2005@gmail.com
+3512441,"National Durable Medical Equipment, Inc",Stock,Active,2026-09-08,Foreign,UTAH,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers (423450)",7757 S Allen St,Midvale,UT,84047-7227,contracting@nationaldme.com
+3512442,MA Sales LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),14 Craig Ct,East Hartford,CT,06108-1521,mickeyadjei424@gmail.com
+3512444,DC Transportation LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Local (484110)",175 Stimson Rd,New Haven,CT,06511-1670,dcannon01@att.net
+3512446,Chosen MJ LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),101 Graham Rd,East Hartford,CT,06118-2130,migdavil3116@gmail.com
+3512449,24 New Hampshire Drive LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),41 Crossroads Plz,West Hartford,CT,06117-2402,ken.potter2008@gmail.com
+3512452,STONEBRIDGE DESIGN AND BUILD INC.,Stock,Active,2026-09-08,Foreign,NEW YORK,Tile and Terrazzo Contractors (238340),127 Dupont St,Plainview,NY,11803-1607,tiziana@stonebridge.nyc
+3512453,HER 376160 LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Civic and Social Organizations (813410),45 Wintonbury Ave,Bloomfield,CT,06002-2470,her376160@gmail.com
+3512460,"Kuprion, Inc.",Stock,Active,2026-09-08,Foreign,DELAWARE,"Copper Rolling, Drawing, Extruding, and Alloying (331420)",500 S Pointe Dr,Miami Beach,FL,33139,maryann.pronovost@elementsolutionsinc.com
+3512466,Finessedbeautee LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Beauty Salons (812112),83a Washington ave,north have,CT,06473,finessedbeautee.info@gmail.com
+3512469,DDAB Group LLC,LLC,Active,2026-09-08,Foreign,DELAWARE,Wholesale Trade Agents and Brokers (425120),1 Kennedy Avenue,Danbury,CT,06810,denniskasante@gmail.com
+3512471,Lorena HomeServices LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Janitorial Services (561720),84 Gilbert St,West Haven,CT,06516-1629,mlarias0809@gmail.com
+3512473,53 SOUTH VIEW ST LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),53 Southview St,Waterbury,CT,06706-1423,elimeliza@gmail.com
+3512474,Jrock.Sparkle.Cleaning.Services LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Janitorial Services (561720),22 Briarwood Ln,East Hartford,CT,06118-1605,jrock.cleanbusiness@gmail.com
+3512479,Miss Mon�t LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),472 S Main St Apt 15,New Britain,CT,06051-3548,kianiharrell11@gmail.com
+3512480,RBR2 Advisors LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),288 Newtown Turnpike,Weston,CT,06883,rickrbr2@gmail.com
+3512481,"LP Long Legs, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Other Management Consulting Services (541618),136 Old Tavern Rd,Orange,CT,06477,pmjesse@sbcglobal.net
+3512482,"Employbridge, LLC",LLC,Active,2026-09-08,Foreign,CALIFORNIA,"Corporate, Subsidiary, and Regional Managing Offices (551114)","1845 Satellite Blvd, Suite 300",Duluth,GA,30097,legal@employbridge.com
+3512485,"Mint Management, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Other Activities Related to Real Estate (531390),8 Greenbriar lane,wilton,CT,06897,jkwilton68@gmail.com
+3512491,YNOA TRANSPORT LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Local (484110)",168 WOLCOTT ST,WATERBURY,CT,06705,jeysonynoa@gmail.com
+3512493,JG&J Partners LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Activities Related to Real Estate (531390),15 Spice Hill Dr,East Hampton,CT,06424-1762,jgjllc9326@gmail.com
+3512500,Summit Wood Works LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Finish Carpentry Contractors (238350),66 Highland Ave,Danbury,CT,06810-5344,summitwoodworkspro@gmail.com
+3512502,Kare For All Services Limited Liability Company,LLC,Active,2026-09-08,Domestic,Connecticut,Other Individual and Family Services (624190),239 Centerbrook Rd,Hamden,CT,06518-3413,kelliot052@gmail.com
+3512503,CC AUTO UPHOLSTERY & USED TIRE LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"Automotive Body, Paint, and Interior Repair and Maintenance (811121)",11 Ann St,East Hartford,CT,06108-3402,ctnetsales298@gmail.com
+3512505,JV TRANSPORTATION LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Local (484110)",18 ELLSWORTH AVE,DANBURY,CT,06810,josue98_new1@hotmail.com
+3512506,"Lewistown Valley Enterprises, Inc.",Stock,Active,2026-09-08,Foreign,PENNSYLVANIA,Turkey Production (112330),416 Valley Road,Tamaqua,PA,18252,brock.stein@kochsturkey.com
+3512519,Anchor Watch Estate Management LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Property Managers (531311),24 Beebe Rd,East Haddam,CT,06423,johnny@anchorwatchestate.com
+3512520,LD Telecom PropCo LLC,LLC,Active,2026-09-08,Foreign,,,400 CONTINENTAL BLVD. STE. 500,EL SEGUNDO,CA,90245,cmatthews@landmarkdividend.com
+3512523,KC Canine LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Pet Care except Veterinary Services (812910),39 Spruce Hill Rd,Shelton,CT,06484-1910,kccaninetrainingservices@gmail.com
+3512528,Strategic Group Inc.,Stock,Active,2026-09-08,Domestic,Connecticut,"Corporate, Subsidiary, and Regional Managing Offices (551114)",,,,,madilyn.smith@rawsonmaterials.com
+3512530,Eliora & Co LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other General Merchandise Retailers (455219),45 Albright Ave,Stratford,CT,06614,jacquescoryne@gmail.com
+3512546,"The Awesome Group, LLC",LLC,Active,2026-09-08,Foreign,WASHINGTON,Administrative Management and General Management Consulting Services (541611),320 Rhodena Dr,Coupeville,WA,98239-9571,jamie.mcmillin@the-awesome-group.com
+3512550,ARIUM NETWORKS PROCUREMENT LLC,LLC,Active,2026-09-08,Foreign,,,"1500 CORPORATE DRIVE, C/O TAX DEPARTMENT",CANONSBURG,PA,15317,deborah.kelly@ariumnetworks.com
+3512551,Shoreline Builds LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Community Housing Services (624229),682 E Pond Meadow Rd,Westbrook,CT,06498-2805,scottsantiago93@gmail.com
+3512552,The Bar and The Counter L.L.C.,LLC,Active,2026-09-08,Domestic,Connecticut,Caterers (722320),30 vanderbilt road,Bristol,CT,06010,thebarandthecounter@gmail.com
+3512557,Boyko Farms LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Services to Buildings and Dwellings (561790),301 Dudley Town Rd,Windsor,CT,06095-2644,boykosnow@gmail.com
+3512558,"Tristan Rose Nutting Foundation, Inc.",Non-Stock,Active,2026-09-08,Domestic,Connecticut,Other Grantmaking and Giving Services (813219),,,,,anutting19@gmail.com
+3512561,HOM Properties LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),2286 E Main St,Bridgeport,CT,06610-1929,jorume72@yahoo.com
+3512562,Shoreline Trades LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Investment Banking and Securities Intermediation (523150),682 E Pond Meadow Rd,Westbrook,CT,06498-2805,scottsantiago93@gmail.com
+3512563,AFB CARPENTRY LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Finish Carpentry Contractors (238350),34 MacNamara St,Waterbury,CT,06708-4713,aislanbrito548@gmail.com
+3512571,"HOME AND OFFICE GOODS, LLC",LLC,Active,2026-09-08,Foreign,UTAH,All Other General Merchandise Retailers (455219),34 Bailey Ave,RIDGEFIELD,CT,06877,homeaog@gmail.com
+3512583,Hamden CT Vortex LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Limited-Service Restaurants (722513),3300 Northside Parkway NW,ATLANTA,GA,30327,charles@vortexhospitalitygroup.com
+3512587,"CT Solar 3, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Solar Electric Power Generation (221114),400 Rella Blvd.,Montebello,NY,10901,dgrohman@hespsolar.com
+3512592,76 CHAPMAN AVE LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),13 Ellsworth Ave,Danbury,CT,06810-5946,edstree@live.com
+3512593,"VILLAGE FERTILITY PHARMACY, LLC",LLC,Active,2026-09-08,Foreign,,,335 BEAR HILL ROAD,WALTHAM,MA,02451,Subsidiaries@Cigna.com
+3512594,BADA LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Support Activities for Road Transportation (488490),2389 Main St.,Glastonbury,CT,06033,eastern@registeredagentsinc.com
+3512598,Socially Attuned LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Advertising Material Distribution Services (541870),2389 Main St.,Glastonbury,CT,06033,shannen@sociallyattuned.com
+3512601,124 CLEVELAND AV LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),53 Southview St,Waterbury,CT,06706-1423,elimeliza@gmail.com
+3512602,AM ORAL SURGERY LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Offices of Dentists (621210),3 Drummers Trl,Old Saybrook,CT,06475-1210,ctnetsales298@gmail.com
+3512612,"CT Solar 4, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Solar Electric Power Generation (221114),400 Rella Blvd.,Montebello,NY,10901,dgrohman@hespsolar.com
+3512613,21 LOCKWOOD CIRCLE LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Activities Related to Real Estate (531390),39 Gramercy Park N,New York,NY,10010,scott.hefler@gmail.com
+3512619,"CT Solar 5, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Solar Electric Power Generation (221114),400 Rella Blvd.,Montebello,NY,10901,dgrohman@hespsolar.com
+3512620,JUANKCE EVENTS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Caterers (722320),3 Silent Grove Ct,Norwalk,CT,06851-1018,juankcevents@gmail.com
+3512631,Bailey Business Solutions LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Human Resources Consulting Services (541612),873 West Blvd,Hartford,CT,06105-4153,kayliabailey2001@gmail.com
+3512633,Djoune's Spice LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Spice and Extract Manufacturing (311942),9 Park St,Norwalk,CT,06851,djounespice@gmail.com
+3512640,De Light House Group Homes Inc,Non-Stock,Active,2026-09-08,Domestic,Connecticut,Residential Intellectual and Developmental Disability Facilities (623210),,,,,delighthousegrouphomes@gmail.com
+3512642,Saybrook Services LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),6 Chestnut Cir,Old Saybrook,CT,06475,rm.build@outlook.com
+3512646,RCR Paint & Maintenance Performance LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),177 Willetts Ave,New London,CT,06320-4821,pintorcabrerarivas@gmail.com
+3512647,710 LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Nonresidential Buildings except Miniwarehouses (531120),211 Townsend Ave,New Haven,CT,06512,katielamb17@yahoo.com
+3512648,alxdag LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Commercial Photography (541922),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512649,PKN INNOVATIONS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (518210)",429 Farmington Ave,Hartford,CT,06105-4465,ctnetsales298@gmail.com
+3512652,Haven Foundry LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Software Publishers (513210),235 Franklin Street Extension,Danbury,CT,06811,jcon.pace@gmail.com
+3512660,Clean Bean LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Chocolate and Confectionery Manufacturing from Cacao Beans (311351),163 Fitch St,New Haven,CT,06515-1301,mehl@cleanbean.co
+3512674,561 Bridgeport Ave LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Nonresidential Property Managers (531312),375 Bridgeport Ave,Shelton,CT,06484-3844,management@crownpointmgt.com
+3512683,14 Burr School Road Investor LLC,LLC,Active,2026-09-08,Domestic,,531390,14 BURR SCHOOL ROAD INVESTOR LLC C/O CHARLES WINKLER 50 CARRIGLEA DRIVE,RIVERSIDE,CT,06878,cwinkler@hudsonbaycapital.com
+3512692,70 Beaver MDC LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Nonresidential Property Managers (531312),70 Beaver St,Danbury,CT,06810-5449,odonotm@gmail.com
+3512694,PACEWAY FUNDING LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Activities Related to Credit Intermediation (522390),2067 MCDONALD AVE,BROOKLYN,NY,11223,submissions@pacewayfunding.com
+3512695,Solexah LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Computer Related Services (541519),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512697,"PREMIER BUILDING ASSOCIATES - RHODE ISLAND, LLC",LLC,Active,2026-09-08,Foreign,,238160,20 INDUSTRIAL ROAD,CUMBERLAND,RI,02864,tchatham@pbaroofing.com
+3512699,102 Combs Road LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),102 Combs Rd,Warrensburg,NY,12885-5823,karenrking@yahoo.com
+3512708,SUNRISE 8688 INC.,Stock,Active,2026-09-08,Domestic,Connecticut,All Other Personal Services (812990),,,,,sunriseinc829@gmail.com
+3512710,Built Together LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Commercial Printing except Screen and Books (323111),51 Parkman Pl,Naugatuck,CT,06770-3718,office@builttogetherllc.com
+3512717,Paul's Books LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Used Merchandise Retailers (459510),70 Williams St W,Glastonbury,CT,06033-2213,paul@paulsbooksllc.com
+3512724,E&R Transport Service LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Local (484110)",12 Balmforth Ave,Danbury,CT,06810-5958,ed.mt89@hotmail.com
+3512725,"Richardson Equestrian, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Sports and Recreation Instruction (611620),23 Giles Hill Rd,Redding,CT,06896-2511,richardsonj1228@gmail.com
+3512729,Chi Omicron Chapter Omega Psi Phi Inc.,Non-Stock,Active,2026-09-08,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,xoques1947@gmail.com
+3512735,Concrete Builders LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Poured Concrete Foundation and Structure Contractors (238110),370 West Ave Apt 323,Norwalk,CT,06850,concretebuildersco@outlook.com
+3512736,29 SALT ISLAND LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),39 Great Ring Rd,Sandy Hook,CT,06482-1638,29saltisland@gmail.com
+3512742,PEDRO HENRIQUE RODRIGUES DOS SANTOS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Janitorial Services (561720),40 Starrs Plain Rd,Danbury,CT,06810-8333,efieschi72@gmail.com
+3512745,"Precision Task Group, Inc.",Stock,Active,2026-09-08,Foreign,TEXAS,Other Computer Related Services (541519),9801 Westheimer Rd Ste 803,Houston,TX,77042-3956,processing@incorp.com
+3512747,Ghost LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers (423620)",283 S Center St,Windsor Locks,CT,06096-2834,moehuss00@gmail.com
+3512751,Rise Interiors Inc,Stock,Active,2026-09-08,Domestic,Connecticut,Drywall and Insulation Contractors (238310),,,,,mara@risedrywall.com
+3512753,Prime Home Tlaxcala LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),1578 Ella T Grasso Blvd,New Haven,CT,06511-2920,primehometlaxcala@gmail.com
+3512754,CHULLO LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Full-Service Restaurants (722511),1211-1213 Farmington Ave,BERLIN,CT,06037,everestlincoln@gmail.com
+3512755,8 IN 1 BARGAIN BOX LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other General Merchandise Retailers (455219),23 FRANKLIN ST,TORRINGTON,CT,06790,8in1bargainbox@gmail.com
+3512760,The Rooted Home Group LLP,LLP,Active,2026-09-08,Domestic,Connecticut,Wholesale Trade Agents and Brokers (425120),187 W Norwalk Rd,Norwalk,CT,06850,kchigson@gmail.com
+3512761,Bronze Society LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Beauty Salons (812112),162 Church St,Naugatuck,CT,06770-4120,info@bronze-society.com
+3512762,Iron and Lace Health LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"Cosmetics, Beauty Supplies, and Perfume Retailers (456120)",207 Austin Ryer Ln,Branford,CT,06405-2674,ironlacehealth@gmail.com
+3512767,Sisterhood flag football LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),10 Dewey Ave,Windsor Locks,CT,06096,sisterhood111984@gmail.com
+3512780,Innovating Visions LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Software Publishers (513210),7 Center St,Andover,CT,06232,contact@innovatingvisions.com
+3512781,Chinstrap Investments LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Miscellaneous Financial Investment Activities (523999),297 Lake Ave,Greenwich,CT,06830-4517,amasafy@gmail.com
+3512784,"Granby, CT Real Estate, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),12 Oakwood Dr,Granby,CT,06035-2818,brendan@horseworksinsurance.com
+3512789,NyreseBryan inc L.L.C.,LLC,Active,2026-09-08,Domestic,Connecticut,Advertising Material Distribution Services (541870),319 Central Ave,Norwich,CT,06360,nyresebryan@gmail.com
+3512790,eternals by yami LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),70 ferry st,middletown,CT,06457,yamia21dj@gmail.com
+3512791,MiyaEricka LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),137 Porter St,East Hartford,CT,06118-3223,miyaam06@gmail.com
+3512792,ZS & Co. LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Marketing Consulting Services (541613),499 allen st,new britain,CT,06053,semideyemerald@gmail.com
+3512794,PBI One LLC,LLC,Active,2026-09-08,Foreign,DELAWARE,Administrative Management and General Management Consulting Services (541611),1420 Fifth Ave.,Seattle,WA,98101,legalandcompliance@pointb.com
+3512803,BRANFORD FM LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Snack and Nonalcoholic Beverage Bars (722515),353 Jones St,Amston,CT,06231-1500,ctfreshmonkee@gmail.com
+3512808,Ease Preferable Hauling LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Less Than Truckload (484122)",17 Liberty Ln,Thompson,CT,06277-1413,easehauling2026@gmail.com
+3512812,The Country Ladybug LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other General Merchandise Retailers (455219),22 Rockville Rd,Voluntown,CT,06384-1913,hedunn920@gmail.com
+3512825,Locare LLC,LLC,Active,2026-09-08,Domestic,Connecticut,General Rental Centers (532310),62 Turtleback LN E,New Canaan,CT,06840,juliancash@hotmail.com
+3512827,W & F PAINTING LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),76 Victory St,Bridgeport,CT,06606-2335,majutax@outlook.com
+3512830,The Brown Collective Logistics LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Local Messengers and Local Delivery (492210),66 Marne St,Hamden,CT,06514-3617,browncollectivelogistics@gmail.com
+3512834,HIGASYN LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"Research and Development in the Physical, Engineering, and Life Sciences except Nanotechnology and Biotechnology (541715)",66 Harvey Rd,Ridgefield,CT,06877-5212,higasyn.co@gmail.com
+3512837,KOWALSKY LANDSCAPING LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Landscaping Services (561730),25 Oak Ridge Park,Westport,CT,06880-4933,support@usa-llc-filing.com
+3512839,The Painted Whisk Ct LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Snack and Nonalcoholic Beverage Bars (722515),35 Todd Street Unit 204,Hamden,CT,06518,h_schingh@hotmail.com
+3512841,Moksha Foundry LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Software Publishers (513210),161 Deer Run,Burlington,CT,06013-1838,info@mokshafoundry.com
+3512845,Blue Property Management Services LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Property Managers (531311),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512857,Head to Toe Performance LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Sports and Recreation Instruction (611620),1 Greyrock Place,Stamford,CT,06901,maraymond9@gmail.com
+3512863,Almighty LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Telemarketing Bureaus and Other Contact Centers (561422),169 Center St,Manchester,CT,06040-5049,angelcarda314@gmail.com
+3512868,B&A Loyalty services LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Couriers and Express Delivery Services (492110),403 Indian Ave,Bridgeport,CT,06606,abloyaltyservices@gmail.com
+3512873,Lummar Commerce LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other General Merchandise Retailers (455219),56 Glendale Ave,Bridgeport,CT,06606-2705,info@lummarcommerce.com
+3512884,V & R Constructions and Painting LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),2 Buff Ln,Bethel,CT,06801-1247,vvrconstructionandpainting@gmail.com
+3512892,iUYa Health LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),7 Wyndemere,AVON,CT,06001,rachelvorobyev@gmail.com
+3512893,K Luxe LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Telemarketing Bureaus and Other Contact Centers (561422),616 Allen St,New Britain,CT,06053-3332,karinar8094@gmail.com
+3512895,Bible Adventures Toons LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Motion Picture and Video Production (512110),15 Manwaring Rd,Norwich,CT,06360-6507,bible.adventures.001@gmail.com
+3512896,8 benson Rd LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Property Managers (531311),8 Benson Rd,Bethel,CT,06801-1706,stevedamico1965@icloud.com
+3512898,Beef Supply Chain Solutions LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Management Consulting Services (541618),215 CORNWALL RD,WARREN,CT,06754-1519,guyficeto@yahoo.com
+3512906,Pop up Bronze LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Personal Care Services (812199),40 Urban St,New Canaan,CT,06840,aurelia.heagle@yahoo.com
+3512910,Shared Ground Society LLC,LLC,Active,2026-09-08,Domestic,Connecticut,All Other Miscellaneous Schools and Instruction (611699),462 Danbury Rd,Wilton,CT,06897-2132,hello@sharedgroundsociety.com
+3512916,Sunny's Kitchen LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Food Service Contractors (722310),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512918,84 Foote Road LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),63 Woodland St,South Glastonbury,CT,06073-2720,84footerdllc@gmail.com
+3512921,JRBY LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),58 Colonial Hts,Meriden,CT,06450-7907,onlyyou@jrby.company
+3512925,All Axis LLC,LLC,Active,2026-09-08,Domestic,Connecticut,"General Freight Trucking, Local (484110)",181 Goshen Rd,Moosup,CT,06354,allaxisllc@yahoo.com
+3512926,HOMEVENT PROS LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Services to Buildings and Dwellings (561790),2389 Main St,Glastonbury,CT,06033,homeventpros@gmail.com
+3512934,BUILDPRO CITI LLC,LLC,Active,2026-09-08,Domestic,Connecticut,New Housing For-Sale Builders (236117),140 Seymour Rd,Woodbridge,CT,06525-1014,kamran@buildproct.com
+3512935,"Spicy Kiss Foods, LLC",LLC,Active,2026-09-08,Domestic,Connecticut,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing (311941)",135 Mountain Brook Circle,Cheshire,CT,06410,ghnissan@yahoo.com
+3512938,Alonso Consulting Limited Liability Company,LLC,Active,2026-09-08,Domestic,Connecticut,Telemarketing Bureaus and Other Contact Centers (561422),164 Jubilee St,New Britain,CT,06051-2408,alonsoconsultingllc@gmail.com
+3512940,Legacy Point Partners LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Telemarketing Bureaus and Other Contact Centers (561422),89 Hawthorne St,Manchester,CT,06042-3022,alexiashanaye16@gmail.com
+3512942,CAWO L.L.C.,LLC,Active,2026-09-08,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),491 Den Ln,Greenwich,CT,06831,courtneysclough@gmail.com
+3512949,ClearSpace Junk Removal & Organizing LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Solid Waste Collection (562111),232 Bennett St,Bridgeport,CT,06605,clearspacejunkrun@gmail.com
+3512950,Jexci LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Software Publishers (513210),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512951,True Rose Aesthetics LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Offices of Physicians except Mental Health Specialists (621111),17 HOME STAKE LN,KILLINGWORTH,CT,06419-2423,foxx022@comcast.net
+3512961,Cutting Edge Assist PLLC,LLC,Active,2026-09-08,Domestic,Connecticut,Offices of All Other Miscellaneous Health Practitioners (621399),100 Arcadia Ave,Stratford,CT,06614-3503,cuttingedgeassistpllc@gmail.com
+3512963,OTW Services LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Other Support Activities for Road Transportation (488490),309 Ely Ave,Norwalk,CT,06854-4634,otw.services01@gmail.com
+3512967,Chmara Construction LLC,LLC,Active,2026-09-08,Domestic,Connecticut,Residential Remodelers (236118),22 White Plains Rd,Norwich,CT,06360-9469,chmara_construction@yahoo.com
+3513044,EOS Hotel MGMT Holdings LLC,LLC,Active,2026-09-08,Foreign,,,"444 Madison Avenue, 14th Floor",New York,NY,10022,EStromberg@EOSInvestors.com
+3513046,EOS Hospitality WAP Employee LLC,LLC,Active,2026-09-08,Foreign,,721110,"444 Madison Avenue, 14th Floor",New York,NY,10022,EStromberg@EOSInvestors.com
+3513874,"CASERTA CONCEPTS, LLC",LLC,Active,2026-09-08,Foreign,,541611,"175 GREENWICH ST, 3WTC, 60-64TH FL",NEW YORK,NY,10007,CORPORATE_AGENT@MCKINSEY.COM
+3513893,"OPTIFREIGHT LOGISTICS, LLC",LLC,Active,2026-09-08,Foreign,,,7000 CARDINAL PLACE,DUBLIN,OH,43017,CORPORATEFILINGS@CARDINALHEALTH.COM
+3513979,LD TELECOM ASSETCO LLC,LLC,Active,2026-09-08,Foreign,,531390,"400 CONTINENTAL BLVD., STE 500",EL SEGUNDO,CA,90245,CMATTHEWS@LANDMARKDIVIDEND.COM
+3502998,BG Design LLC,LLC,Active,2026-09-07,Foreign,RHODE ISLAND,Residential Remodelers (236118),43 Stella Dr,North Providence,RI,02911,garcia1000@cox.net
+3509380,"Southport Hills, LLC",LLC,Active,2026-09-07,Domestic,Connecticut,"Corporate, Subsidiary, and Regional Managing Offices (551114)",25 EASTON RD,MONROE,CT,06468,domenicjp@aol.com
+3511871,Davis Equipmemt Repair PLLC,LLC,Active,2026-09-07,Domestic,Connecticut,Commercial and Industrial Machinery and Equipment except Automotive and Electronic Repair and Maintenance (811310),11 Farnam Hl,Bethel,CT,06801,beckadavis8@gmail.com
+3511873,DuckyDogCake LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Periodical Publishers (513120),363 Main St,Hartford,CT,06106-1824,info@duckydogcake.com
+3511883,Rony LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Residential Remodelers (236118),938 Hancock Ave,Bridgeport,CT,06605,cordon_12@icloud.com
+3511885,Sen Studios LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Software Publishers (513210),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511891,ABRAXAS STONE LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Business Support Services (561499),40 Balazs Rd,Willington,CT,06279-2400,ethan.griswold@gmail.com
+3511893,Greengart Ventures LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Food Service Contractors (722310),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511897,Manchester Investment LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511898,Indorf Auctions LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Used Merchandise Retailers (459510),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511899,New England Property Care LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Landscaping Services (561730),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511900,Darice Corey LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511902,Walton Mini Golf LLC,LLC,Active,2026-09-07,Foreign,MISSOURI,All Other Consumer Goods Rental (532289),26 Loundsbury Ave,Norwalk,CT,06851-4514,wanderinggreensminigolf@gmail.com
+3511903,Legacy MGT LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Portfolio Management and Investment Advice (523940),2389 Main St. Ste 100,06033,CT,06033,eastern@northwestregisteredagent.com
+3511905,AMIR CONSTRUCTION LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Specialty Trade Contractors (238990),91 CAPEN STREET,WINDOR,CT,06095,amirllc0926@gmail.com
+3511911,The Midnight Luncheon Inc.,Non-Stock,Active,2026-09-07,Domestic,Connecticut,Community Food Services (624210),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511913,Coco Design LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Interior Design Services (541410),530 Roxbury Rd,Stamford,CT,06902-1131,kryan7610@yahoo.com
+3511929,UpscaleVenture Limited Liability Company,LLC,Active,2026-09-07,Domestic,Connecticut,All Other General Merchandise Retailers (455219),672 Queen St,Southington,CT,06489-1540,upscaleventures1@yahoo.com
+3511933,"L & A Premium Landscaping, LLC",LLC,Active,2026-09-07,Domestic,Connecticut,Landscaping Services (561730),1 Carla Dr,Danbury,CT,06811-3880,lucascabucus2018@gmail.com
+3511936,Ferraro House LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Offices of Other Holding Companies (551112),17 Rock Spring Rd,Stamford,CT,06906,michael@thumping-tails.com
+3511937,"Southport Hill, LLC",LLC,Active,2026-09-07,Domestic,Connecticut,"Corporate, Subsidiary, and Regional Managing Offices (551114)",25 EASTON RD,MONROE,CT,06468,rjpaniccia@gmail.com
+3511938,BlackFinn REI LLC,LLC,Active,2026-09-07,Foreign,WYOMING,Other Activities Related to Real Estate (531390),2389 Main St. Ste 100,Glastonbury,CT,06033,eastern@registeredagentsinc.com
+3511942,KM EXPRESS TRANSPORT LLC,LLC,Active,2026-09-07,Domestic,Connecticut,"General Freight Trucking, Local (484110)",36 New St,Danbury,CT,06810-3500,kalexander193my@yahoo.com
+3511943,Evergreen Suppliers LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Iron Ore Mining (212210),275 South St Apt 2F,Vernon Rockville,CT,06066,wayontomson@gmail.com
+3511944,Genie Lamp LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Web Search Portals and All Other Information Services (519290),18 LOUGHRAN AVE,STAMFORD,CT,06902,mohamadfayyad@genielampgift.com
+3511945,GreenBrain LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Software Publishers (513210),10 Cedar Ave,Wolcott,CT,06716,tgrabz6@gmail.com
+3511946,COOL1ONE LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Other Computer Related Services (541519),97 Newkirk Street Suite 310,Jersey City,NJ,07306,eastern@northwestregisteredagent.com
+3511949,Stoneworks of New England LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Masonry Contractors (238140),6 Watrous Farm Rd,Wallingford,CT,06492-2819,craig@stoneworksne.com
+3511952,BodhiLuna LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Jewelry Retailers (458310),255 Strawberry Hill Ave,Stamford,CT,06902-2547,namaste@bodhiluna.com
+3511953,DYBABYCOOL1 LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Other Computer Related Services (541519),97 Newkirk Street Suite 310,Jersey City,NJ,07306,eastern@northwestregisteredagent.com
+3511954,J.D.Multiplus LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Beauty Salons (812112),120 Hillside Ave,Waterbury,CT,06710-2139,jdmultiplusllc@gmail.com
+3511956,JA SILVA LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Painting and Wall Covering Contractors (238320),1606BALDWIN ST,WATERBURY,CT,06706,jeni.nmelo@gmail.com
+3511957,"GlowWithNathalieM, LLC",LLC,Active,2026-09-07,Domestic,Connecticut,Beauty Salons (812112),10 Pawtucket Avenue,Shelton,CT,06484,natmiguel@sbcglobal.net
+3511964,DHT Services LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Miscellaneous Waste Management Services (562998),557 Prospect Ave. Suite 102,West Hartford,CT,06105,deontekeys203@icloud.com
+3511968,Pierina & Co. LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Marketing Consulting Services (541613),198 Farmington Ave,Berlin,CT,06037-1266,pierinapalacios@icloud.com
+3511973,Dayana Cleaning Company LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Janitorial Services (561720),57 Westerly St,Manchester,CT,06042-3081,dayanacleaningct@gmail.com
+3511976,Shacee Stoner Brand LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),557 Prospect Ave. Suite 102,West Hartford,CT,06105,shaceestoner@gmail.com
+3511980,Ken�s Family Shipping L.L.C.,LLC,Active,2026-09-07,Domestic,Connecticut,Private Mail Centers (561431),557 Prospect Ave. Suite 102,West Hartford,CT,06105,woukendall@gmail.com
+3511985,Jacob�s Corner LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),505 Burnside Ave,East Hartford,CT,06108,rb1hart2001@gmail.com
+3511987,Different Together Consulting LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Miscellaneous Schools and Instruction (611699),855 Main St,Bridgeport,CT,06604,westby.katie@gmail.com
+3511989,QB Support LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Motion Picture and Video Production (512110),40 Donna Dr,New Haven,CT,06513,eastern@northwestregisteredagent.com
+3512002,16 Bayberry Limited Liability Company,LLC,Active,2026-09-07,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),78 Random Rd,Fairfield,CT,06825-1406,acohen9733@aol.com
+3512004,Americaeverydayapparel LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),133 Niles Hill Rd,Waterford,CT,06385,americaeverydayapparel@gmail.com
+3512010,Sofisa Global Import LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),470 James St,New Haven,CT,06513,raulvpd@gmail.com
+3512011,Batim Investments LLC,LLC,Active,2026-09-07,Foreign,DELAWARE,Lessors of Residential Buildings and Dwellings (531110),399 Whalley Ave,New Haven,CT,06511-3008,leibi@mandymanagement.com
+3512013,Three Brooks in the Woods LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Support Activities for Forestry (115310),10 Sexton Hill Rd,East Hampton,CT,06424,eastern@registeredagentsinc.com
+3512014,1FAM LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Offices of Other Holding Companies (551112),44 Elizabeth Street,Bridgeport,CT,06610-3219,mattfammatt@gmail.com
+3512015,"Fox and Son's Property Solutions, LLC",LLC,Active,2026-09-07,Domestic,Connecticut,Residential Remodelers (236118),33 Marilyn Dr,Glastonbury,CT,06033-4128,foxandsonspropertysolutions@gmail.com
+3512019,Clover & Key Properties LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Traveler Accommodation (721199),11 Washington Ave,Sandy Hook,CT,06482-1339,shamrock77jms@aol.com
+3512021,Majors Pro Solutions LLC,LLC,Active,2026-09-07,Domestic,Connecticut,"General Freight Trucking, Long-Distance, Less Than Truckload (484122)",130 Myron Street,New Haven,CT,06512-3951,devonemajors@gmail.com
+3512023,Hill Fitness LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Sports and Recreation Instruction (611620),105 Overlook Drive,Windsor,CT,06095,rhhfit@gmail.com
+3512026,Health360 LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Professional and Management Development Training (611430),25 Bramley Rd,West Hartford,CT,06110-1603,health360office@gmail.com
+3512040,Farm Chase LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Residential Property Managers (531311),117 Juniper Dr,Avon,CT,06001-3472,quncheng3@icloud.com
+3512041,Tremblay Tree Management LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Landscaping Services (561730),498 Root Rd,Coventry,CT,06238-1659,tremblaytreemanagement@gmail.com
+3512042,Amity Boys Hockey Parents Club Corporation,Non-Stock,Active,2026-09-07,Domestic,Connecticut,Sports Teams and Clubs (711211),,,,,amityspartanshockeyparents@gmail.com
+3512046,KaVeer LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Advertising Agencies (541810),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512053,Prime Source Holding LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Wholesale Trade Agents and Brokers (425120),1273 North Ave,Bridgeport,CT,06604-2717,primeholdings101@gmail.com
+3512055,Selah Studio LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Motion Picture and Video Production (512110),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512058,Chris reliable Business LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),24 Mountain St,Hartford,CT,06106,allenchris288@gmail.com
+3512062,Brand Culture Media Studios Limited Liability Company,LLC,Active,2026-09-07,Domestic,Connecticut,Clothing and Clothing Accessories Retailers (458110),1162 Dixwell Ave,Hamden,CT,06514-4732,bcmstudios203@gmail.com
+3512068,MEDICAL DIRECTOR SERVICES CONNECTICUT P.C.,Stock,Active,2026-09-07,Domestic,Connecticut,Offices of Physicians except Mental Health Specialists (621111),,,,,sop@nucofilings.com
+3512074,Schedride LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Software Publishers (513210),10 STEPPINGSTONE PL,CT,CT,06850,johnjeannis@gmail.com
+3512075,Woofies Pet Care LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Pet Care except Veterinary Services (812910),395 Lebanon Ave,Lebanon,CT,06249,860woofiespetcare@gmail.com
+3512078,ALEX ROOFING LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Landscaping Services (561730),192 PARK ST,WEST HAVEN,CT,06516,katherinramirez012@yahoo.com
+3512089,Recycled Charm Collective LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),18 Gallaudet Dr,West Hartford,CT,06107,kearaboisjolie@gmail.com
+3512096,Breezy Farm LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Wineries (312130),383 Bethel Rd,Griswold,CT,06351,jason@breezyfarm.com
+3512098,KODIO 77 LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),77 Glenrock,Norwalk,CT,06850-1380,k.gbenro@gmail.com
+3512100,MS Cool LLC,LLC,Active,2026-09-07,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",130 Mulberry St,Stamford,CT,06907-1717,mscools014@gmail.com
+3512102,"Fantastic Finds, Inc.",Stock,Active,2026-09-07,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",,,,,chrisnemphos@gmail.com
+3512108,Mobile SAFA LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Other Miscellaneous Durable Goods Merchant Wholesalers (423990),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512120,"Lily Nails Spa Co, LLC",LLC,Active,2026-09-07,Domestic,Connecticut,Nail Salons (812113),469 Howe Ave,Shelton,CT,06484,lilynailspaco@gmail.com
+3512121,BRE & Friends LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Book Publishers (513130),226 Upper State St,North Haven,CT,06473-1235,brenda@cascadingpondpress.com
+3512126,MadeFromLiving LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Media Representatives (541840),268 Post Rd Ste 200 #558574,Fairfield,CT,06824,madefromliving@yahoo.com
+3512132,A COMPASSIONATE VOICE LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Other Individual and Family Services (624190),231 Still Water Circle,Brookfield,CT,06804,fawcettconsultinggroup@outlook.com
+3512138,Alliance Advisory Collective LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),85 River Rd,Barkhamsted,CT,06063-3321,jen@allianceadvisorycollective.com
+3512143,WAYFIELD CAPITAL LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),457 Fanning St,Staten Island,NY,10314-5268,lmanagestone@gmail.com
+3512146,Quality Home Work LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Janitorial Services (561720),143 Pine Hill Road,Thomaston,CT,06787,groovyglammie@gmail.com
+3512148,FENIX Rich L.L.C.,LLC,Active,2026-09-07,Domestic,Connecticut,Clothing and Clothing Accessories Merchant Wholesalers (424350),32 Baltimore St,Hartford,CT,06112-2116,fenixrich@gmail.com
+3512153,Loyalty A&B Services LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Couriers and Express Delivery Services (492110),403 Indian Ave,Bridgeport,CT,06606,abloyaltyservices@gmail.com
+3512155,Blue Cedar Realty LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512159,Private Concierge Care living LLC,LLC,Active,2026-09-07,Domestic,Connecticut,"Rooming and Boarding Houses, Dormitories, and Workers' Camps (721310)",CT,West haven,CT,06516,sherroinescmc@gmail.com
+3512160,Interrobang LLC,LLC,Active,2026-09-07,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",1136 Ogden Street Ext,Bridgeport,CT,06610-2724,hello@interrobangtrivia.com
+3512161,JUNCOS HOT RODS LLC,LLC,Active,2026-09-07,Domestic,Connecticut,General Automotive Repair (811111),198 Lexington Ave,Bridgeport,CT,06604-3116,favibuiss@gmail.com
+3512172,DOREVA & CO. LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other General Merchandise Retailers (455219),15 Grove Avenue,Groton,CT,06340,rosario.rebecca1986@gmail.com
+3512183,Torque Union Mobile LLC,LLC,Active,2026-09-07,Domestic,Connecticut,All Other Automotive Repair and Maintenance (811198),58 Crystal Ln,Storrs Mansfield,CT,06268-1168,torque.union.auto@gmail.com
+3512186,Renova Capital Group Co.,Stock,Active,2026-09-07,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),,,,,renovacapitalgroupco@gmail.com
+3512188,The Polished Penny LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),14 Flagstad Rd,West Hartford,CT,06107-1124,susan.catizone@gmail.com
+3512199,Blue Phoenix Multiservices LLC,LLC,Active,2026-09-07,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3512249,G&I XII BISHOPS CORNER LLC,LLC,Active,2026-09-07,Foreign,,,"575 FIFTH AVENUE, 38TH FLOOR",NEW YORK,NY,10017,Inegron@draadvisors.com
+3512269,G&I XII SAND HILL PLAZA LLC,LLC,Active,2026-09-07,Foreign,,,"575 FIFTH AVENUE, 38TH FLOOR",NEW YORK,NY,10017,Inegron@draadvisors.com
+3511557,MissELKK LLC,LLC,Active,2026-09-06,Domestic,Connecticut,"Cosmetics, Beauty Supplies, and Perfume Retailers (456120)",500 Bedford St,Stamford,CT,06901,info@misselkk.com
+3511662,"Blu Nose Scoop Co., LLC",LLC,Active,2026-09-06,Domestic,Connecticut,Pet Care except Veterinary Services (812910),359 Boston Post Rd,East Lyme,CT,06333-1402,blunosescoopco@gmail.com
+3511665,J-Squared Travel LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Travel Agencies (561510),237 West Road,Colchester,CT,06415,jsquaredtravelllc@gmail.com
+3511668,Hartford Community Services Inc.,Non-Stock,Active,2026-09-06,Domestic,Connecticut,Professional Organizations (813920),,,,,youngthad123@gmail.com
+3511672,ProSource Solutions LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Insurance Agencies and Brokerages (524210),41 Hillside ave,New Haven,CT,06512,info@prosourcesolutionsct.com
+3511674,Precision Motors Limited Liability Company,LLC,Active,2026-09-06,Domestic,Connecticut,General Automotive Repair (811111),107 Franklin Ave,Hartford,CT,06114-4045,service@precisionmotorsllc.com
+3511684,Ekon Trading LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Sporting Goods Retailers (459110),987 silver lane,East Hartford,CT,06118,ekontrading1@gmail.com
+3511685,J&Bs Real Estate LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),95 Anita Dr,East Hartford,CT,06118,crawfordjohnette@gmail.com
+3511686,Dosera LLC,LLC,Active,2026-09-06,Domestic,Connecticut,All Other Health and Personal Care Retailers (456199),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511693,The Village Academy Inc,Non-Stock,Active,2026-09-06,Domestic,Connecticut,Sports Teams and Clubs (711211),,,,,veronicarosa_89@yahoo.com
+3511696,"Doody Calls, LLC",LLC,Active,2026-09-06,Domestic,Connecticut,Other Waste Collection (562119),187 Natchaug Dr,Meriden,CT,06450,doodycallsllc2@gmail.com
+3511700,Pyles Equity Management LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Offices of Other Holding Companies (551112),75 Tolland Turnpike,Ellington,CT,06029,pylesequity@gmail.com
+3511702,Vardo Distribution LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Other Grocery and Related Products Merchant Wholesalers (424490),65 Westville Ave,Danbury,CT,06810-5327,jeanettef0112@gmail.com
+3511704,United By Comedy LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Motion Picture and Video Production (512110),"550 Summer St, Unit 648",Stamford,CT,06901,info@unitedbycomedy.com
+3511708,James Benard Plumbing LLC,LLC,Active,2026-09-06,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",681 John Fitch Blvd,South Windsor,CT,06074-3300,enardj@yopmail.com
+3511712,M&T GENERAL CONTRACTOR LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Other Services to Buildings and Dwellings (561790),74 Rowe Ave,Hartford,CT,06106-1038,monaspike@gmail.com
+3511715,Robert Waleczek LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415),14844 NE 13th St,Bellevue,WA,98007-4234,darbaby@yopmail.com
+3511719,Theslowswing LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Periodical Publishers (513120),211 Pembroke Ter,Glastonbury,CT,06033-2869,gjv1000@gmail.com
+3511721,GBK Management LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Residential Property Managers (531311),3 Water Street,Mystic,CT,06355,eric@esgoodmangroup.com
+3511723,Skyblue Tax IQ LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Other Accounting Services (541219),703 Hebron Ave,Glastonbury,CT,06033,eric@skybluetaxiq.com
+3511727,AM Truck and Trailer LLC,LLC,Active,2026-09-06,Domestic,Connecticut,General Automotive Repair (811111),35 Tripp Hollow Rd,Brooklyn,CT,06234,amtruckandtrailerllc@gmail.com
+3511729,CGM Media Partners LLC,LLC,Active,2026-09-06,Domestic,Connecticut,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures (711410)",108 croft drive,manchester,CT,06042,nicholas@cgmcreators.com
+3511733,Granite Peak Electric LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Electrical Contractors and Other Wiring Installation Contractors (238210),104 James St,Colchester,CT,06415-1135,granitepeakelectric@gmail.com
+3511734,Vardaman Ventures Limited Liability Company,LLC,Active,2026-09-06,Domestic,Connecticut,New Multifamily Housing Construction except For-Sale Builders (236116),148 LAKEVIEW DRIVE,Colchester/CT,CT,06415,barretoaprn@outlook.com
+3511741,Farzino Accounting & Advisory LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Other Accounting Services (541219),26 Circle DR,Windsor Locks,CT,06096,contact@farzino.com
+3511744,Angjelo's Household LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Other Activities Related to Real Estate (531390),136 Chicory Dr,Wolcott,CT,06716-1822,angjeloshouseholdllc@gmail.com
+3511747,"Cedar Hill Studio, LLC",LLC,Active,2026-09-06,Domestic,Connecticut,Interior Design Services (541410),1 Cedar Hl,Greenwich,CT,06830-4701,dlevy17@tulane.edu
+3511756,Total Home Solutions Property Services llc,LLC,Active,2026-09-06,Domestic,Connecticut,Residential Remodelers (236118),675townsend ave,New haven,CT,06512,jgeneus85@gmail.com
+3511757,Team Pull-Vora LLC,LLC,Active,2026-09-06,Domestic,Connecticut,All Other Miscellaneous Retailers (459999),238 Second Ave,West Haven,CT,06516-5123,teampullvora@gmail.com
+3511760,Jamaican celebrity jerk chicken LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Limited-Service Restaurants (722513),268 Post Rd Ste 200 #364293,Fairfield,CT,06824,ricebag2017@gmail.com
+3511772,Strong Heaven Care Services LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Home Health Care Services (621610),1 douglas ave,Niantic,CT,06357,mafu.lucia@gmail.com
+3511773,Sir Fix A Lot Limited Liability Company,LLC,Active,2026-09-06,Domestic,Connecticut,All Other Specialty Trade Contractors (238990),132 Wade Road,POMFRET CENTER,CT,06259,mpryan1128@gmail.com
+3511780,Allan4everBarber LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Barber Shops (812111),462 Colony St,Meriden,CT,06451-2215,allan4everbarber@gmail.com
+3511788,"Her Hour, Inc",Non-Stock,Active,2026-09-06,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,info@herhourct.com
+3511789,Hintd LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Software Publishers (513210),40 Country Club Ln,Easton,CT,06612-1158,amsalazar501@gmail.com
+3511791,"LUGO SIGNATURE CLEANING, LLC",LLC,Active,2026-09-06,Domestic,Connecticut,Janitorial Services (561720),28 Otis St,Manchester,CT,06040-5953,katherinlugo2@gmail.com
+3511794,Concordia Counseling of Connecticut LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Offices of Mental Health Practitioners except Physicians (621330),15 Berkeley Dr.,Vernon,CT,06066-6321,concordiacounselingct@gmail.com
+3511796,Heart & Home Companions LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Services for the Elderly and Persons with Disabilities (624120),21 Natick Street,Hartford,CT,06106,heartandhomecompanionsct@gmail.com
+3511797,17 Hackberry LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),17 Hackberry Hill Rd,Weston,CT,06883,kristin.l.miller@gmail.com
+3511799,Stuart Ko LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Cut and Sew Apparel Manufacturing except Contractors (315250),88 Liberty St,Pawcatuck,CT,06379-1638,stuart@stuartko.com
+3511801,Wabi Sabi Exotics LLC,LLC,Active,2026-09-06,Domestic,Connecticut,All Other Animal Production (112990),720 Frenchtown Rd,Bridgeport,CT,06606-1311,zack@cohensconstrictors.com
+3511804,Joey's Real Estate & Development Limited Liability Company,LLC,Active,2026-09-06,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),2 Daisy Drive,Shelton,CT,06484,jclombo@gmail.com
+3511806,Anastasia Plumbing LLC,LLC,Active,2026-09-06,Domestic,Connecticut,"Plumbing, Heating, and Air-Conditioning Contractors (238220)",79 Balance Rock Rd,Seymour,CT,06483-6058,cpanastasia@yahoo.com
+3511810,SVVN Labs LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Book Publishers (513130),1019 Main St,Bridgeport,CT,06604,rlw@svvnlabs.com
+3511811,Mary Elizabeth Foundation Incorporated,Non-Stock,Active,2026-09-06,Domestic,Connecticut,Other Community Housing Services (624229),,,,,maryehousing@gmail.com
+3511818,Alpha Drive LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Couriers and Express Delivery Services (492110),44 Chestnut Hill Rd,Trumbull,CT,06611-4112,myalphadrivellc@gmail.com
+3511820,Sod Sai LLC,LLC,Active,2026-09-06,Foreign,NORTH CAROLINA,All Other Miscellaneous Retailers (459999),14 Yew St,Norwalk,CT,06850-1231,hello@sodsai.us
+3511824,True North Outdoor Living LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Landscaping Services (561730),1195 Durham Rd,Wallingford,CT,06492-2547,truenorthoutdoorlivingct@gmail.com
+3511829,Calla House Events LLC,LLC,Active,2026-09-06,Domestic,Connecticut,All Other Personal Services (812990),56 Short St,New Britain,CT,06051-1345,callahouseevents@gmail.com
+3511839,Greenwich Avenue Advisory LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),"221 Weaver Street, Unit 19H",Greenwich,CT,06831,paulyounes@yahoo.com
+3511840,Elersa Trading LLC,LLC,Active,2026-09-06,Domestic,Connecticut,All Other General Merchandise Retailers (455219),43 Cold Spring Drive,Westbrook,CT,06498,sales@elersatrading.com
+3511846,440 Dixwell LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Residential Property Managers (531311),440 Dixwell Ave,New Haven,CT,06511,3521769@gmail.com
+3511847,"Northeast Structure & Repair Co., LLC",LLC,Active,2026-09-06,Domestic,Connecticut,Residential Remodelers (236118),15 Brookview Dr,Glastonbury,CT,06033-1424,nestructureco@gmail.com
+3511860,D&D Closing Service LLC,LLC,Active,2026-09-06,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",147 Birchwood Dr,Hamden,CT,06518-1141,donna816@sbcglobal.net
+3511864,Dbrown Coaching LLC,LLC,Active,2026-09-06,Domestic,Connecticut,All Other Personal Services (812990),1 Wilson ave,Wallingford,CT,06492-5133,dabrown149@gmail.com
+3511867,Plant Cortex LLC,LLC,Active,2026-09-06,Domestic,Connecticut,Custom Computer Programming Services (541511),221 Trumbull St,Hartford,CT,06103-1500,gaurav.plantcortex@gmail.com
+3513055,South Pole Heating and Cooling LLC,LLC,Active,2026-09-06,Foreign,,238220,111 Clifton Ave,Lakewood,NJ,08701,judith@southpolehvac.com
+3508602,The Yard Crew LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Landscaping Services (561730),19 Impala Dr,Enfield,CT,06082-1929,mnm10203@icloud.com
+3510040,1564 MWT LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),1564 Meriden Wtby Tpke,Milldale,CT,06467-6506,shpendisurocaj@yahoo.com
+3511315,PROIETTE HOLDINGS L.L.C.,LLC,Active,2026-09-05,Domestic,Connecticut,Other Activities Related to Real Estate (531390),36 Saint John St,North Haven,CT,06473-2333,proiettellc@gmail.com
+3511389,A&B loyalty services LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Couriers and Express Delivery Services (492110),403 Indian Ave,Bridgeport,CT,06606,abloyaltyservices@gmail.com
+3511406,Selecto Automotive LLC,LLC,Active,2026-09-05,Domestic,Connecticut,General Automotive Repair (811111),47 Sumner St,Hartford,CT,06105-2041,service@selectoautomotive.com
+3511424,One Ninety Nine LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Stationery Product Manufacturing (322230),59 Myers Rd,Windham,CT,06280-1517,mlsusan199@gmail.com
+3511425,Nutrition Mediation by Edy McClure LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Professional Organizations (813920),124 S Pomperaug Ave,Woodbury,CT,06798-3739,edy@nutritionmediation.com
+3511426,Gomez Ltd. Liability Co.,LLC,Active,2026-09-05,Domestic,Connecticut,Other Activities Related to Real Estate (531390),10852 42nd Ave,Corona,NY,11368,gomezjoselenny@gmail.com
+3511429,Keelby AI LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",230 Great Plain Road,Danbury,CT,06811,alex.villalobos@keelbyai.com
+3511434,GHS Spirit Club Inc.,Non-Stock,Active,2026-09-05,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,grizzliesspiritclub@gmail.com
+3511437,Boreas Boatworks LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Boat Dealers (441222),344 Furnace Brook Rd,Cornwall Bridge,CT,06754,eryoun9@gmail.com
+3511445,Total Transport LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"Specialized Freight except Used Goods Trucking, Local (484220)",42 Thompson street,East Haven,CT,06513,totaltransportllc1@gmail.com
+3511446,StellarRoute LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Couriers and Express Delivery Services (492110),60 Avery St,Stamford,CT,06902-6244,davedalencourtt@gmail.com
+3511453,The Wee Creamery LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Mobile Food Services (722330),50 Carlyle Rd,West Hartford,CT,06117,niamh@theweecreamery.com
+3511463,Dibbs & Kiffy LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Book Publishers (513130),311 E Ridge Rd,Middletown,CT,06457-5405,dibbskiffydiffy@gmail.com
+3511476,Iron Restaurant Group LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Business Associations (813910),59 John Paul Ln,Coventry,CT,06238-1400,rmercier3691@mail.com
+3511479,Artisan Studio Design LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Interior Design Services (541410),1200 Boston Post Rd Ste 202,Guilford,CT,06437-2472,mratib@mustapharatibllc.com
+3511484,TT GARAGEDOOR LLC,LLC,Active,2026-09-05,Domestic,Connecticut,All Other Personal Services (812990),187 Winthrop Ave,New Haven,CT,06511-5125,torrestomas1221@gmail.com
+3511485,Johnson Glass Solutions LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Residential Remodelers (236118),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511487,Just Pray Foundation Inc.,Non-Stock,Active,2026-09-05,Domestic,Connecticut,Other Individual and Family Services (624190),,,,,juneminto21@gmail.com
+3511489,Sargis Consulting LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),135 White Oak Shade Rd,New Canaan,CT,06840-6832,cheryl.sargis@sargisconsulting.com
+3511490,GRAY'S FREIGHT & TRANSPORTATION LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"General Freight Trucking, Local (484110)",206 High Top Cir W,Hamden,CT,06514,cedrickgray24@gmail.com
+3511491,"ALPHA LEGACY GROUP, LLC",LLC,Active,2026-09-05,Domestic,Connecticut,All Other Personal Services (812990),30 Riverview Ave,Deep River,CT,06417-2030,anthonymserra21@gmail.com
+3511501,Clarity Vestibular Therapy LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"Offices of Physical, Occupational and Speech Therapists, and Audiologists (621340)",113 Bayberry Hill Road,Ridgefield,CT,06877,clarityvestibulartherapy@gmail.com
+3511505,RIV212 LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Marketing Consulting Services (541613),1 Greyrock Place,Stamford,CT,06901,ms.mrivera212@gmail.com
+3511507,A and M Cleaning Services and Renovation Limited Liability Company,LLC,Active,2026-09-05,Domestic,Connecticut,Janitorial Services (561720),523 Stanley St,New Britain,CT,06051-2732,contact@aandmcleaningservicesma.com
+3511508,JOANNA OGNIEWSKI AUTHOR LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"Independent Artists, Writers, and Performers (711510)",218 Pershing Ave,New Britain,CT,06053-2746,joannao1507@gmail.com
+3511510,PEPPERBUSH LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415),9 Pepperbush Rd,Weston,CT,06883-1428,brendie@yopmail.com
+3511514,noman L.L.C.,LLC,Active,2026-09-05,Domestic,Connecticut,Residential Remodelers (236118),39 Foxcroft Dr,Manchester,CT,06040-3822,shabanar@yahoo.com
+3511517,Voices By Lee Rickal LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Graphic Design Services (541430),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511518,Hovely Nest LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Other Miscellaneous Durable Goods Merchant Wholesalers (423990),87 Greenwood Dr,South Windsor,CT,06074,zransari2001@yahoo.com
+3511520,Athawri Locksmith LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Locksmiths (561622),82 Ashford Street,Hartford,CT,06120-1103,athawrilocksmith@gmail.com
+3511522,PICKFACTS LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),"55 Post Road West, 2nd Floor",Westport,CT,06880,info@pickfacts.com
+3511528,LiveWire Electric LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Electrical Contractors and Other Wiring Installation Contractors (238210),88 Hunters Avenue,TAFTVILLE,CT,06380,livewireelectricct@gmail.com
+3511530,Keen Assist LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Services for the Elderly and Persons with Disabilities (624120),2 Revere Rd,Washington,CT,06793-1007,keen.assist926@gmail.com
+3511533,Just Like That Professional Ltd. Liability Co.,LLC,Active,2026-09-05,Domestic,Connecticut,Other Personal and Household Goods Repair and Maintenance (811490),178 Lockwood Ave,Stamford,CT,06902-5229,anthony@justlikethatpro.com
+3511538,Jennifer Hilbert LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415),9 Pepperbush Rd,Weston,CT,06883-1428,jenhilb@yopmail.com
+3511540,Arpegio Comunicaciones & Marketing LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Marketing Consulting Services (541613),859 Main St,Willimantic,CT,06226,kris@arpegiocomunicaciones.com
+3511544,Namor Delivery & Cleanup LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Local Messengers and Local Delivery (492210),392 Elm St,West Haven,CT,06516-4243,namor@namorholdings.com
+3511546,Smoke Porch LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers (459991)",392 Elm St,West Haven,CT,06516-4243,smokeporch@namorholdings.com
+3511550,Jhomar Nato LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415),9 Pepperbush Rd,Weston,CT,06883-1428,homarta@yopmail.com
+3511556,Ingressible LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Other Scientific and Technical Consulting Services (541690),20 Myrna Ave,Waterbury,CT,06704-2535,bonifacekechi@gmail.com
+3511561,New Haven Historical Fencing Inc,Non-Stock,Active,2026-09-05,Domestic,Connecticut,Sports and Recreation Instruction (611620),,,,,newhavenhistoricalfencing@gmail.com
+3511567,"Vergato Design Group, LLC",LLC,Active,2026-09-05,Foreign,GEORGIA,Engineering Services (541330),233 Arnold Mill Rd,Woodstock,GA,30188-7608,jvergato@vergato-dg.com
+3511570,Dakar Eats LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Limited-Service Restaurants (722513),4640 Main St,Stratford,CT,06614-3634,yayoumbaye.dc@gmail.com
+3511577,"Spera Outdoor Services, LLC",LLC,Active,2026-09-05,Domestic,Connecticut,Landscaping Services (561730),27 Soljer Dr,Waterford,CT,06385-4313,speraoutdoorservices@gmail.com
+3511582,ADELA MARTHA MOLINA PINA LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Janitorial Services (561720),5 4TH STREET,DANBURY,CT,06810,efieschi72@gmail.com
+3511583,InsideOut Psychotherapy and Wellness PLLC,LLC,Active,2026-09-05,Domestic,Connecticut,Offices of Mental Health Practitioners except Physicians (621330),34 Seneca Dr,Trumbull,CT,06611,kapellegrin@gmail.com
+3511590,Ortus Development Company,Stock,Active,2026-09-05,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),,,,,ibizhaocliff@ortusdev.com
+3511593,TRoseLodge LLC,LLC,Active,2026-09-05,Domestic,Connecticut,"Administration of Human Resource Programs except Education, Public Health, and Veterans' Affairs Programs (923130)",247 Old Long Ridge Rd,Stamford,CT,06903,terrilevine22@gmail.com
+3511598,Connecticut Chapter Piano Technicians Guild inc,Non-Stock,Active,2026-09-05,Domestic,Connecticut,"All Other Professional, Scientific, and Technical Services (541990)",,,,,ctptgtreas@gmail.com
+3511606,EP CARPENTRY SOLUTION LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Finish Carpentry Contractors (238350),127 Wardwell St,Stamford,CT,06902-0600,elderpelaez.carpentry@gmail.com
+3511607,Phomus LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Administrative Management and General Management Consulting Services (541611),"470 Prospect St, Apt53",New Haven,CT,06511,happyphono@gmail.com
+3511611,Evermore Creative LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Advertising Agencies (541810),20 Quarry Hill Rd,Waterbury,CT,06706-2836,hello@evermorecreativestudio.com
+3511612,Snack Vibes L.L.C.,LLC,Active,2026-09-05,Domestic,Connecticut,Vending Machine Operators (445132),101 Kent St,Hartford,CT,06112-1827,levieking37@gmail.com
+3511619,DA Service Works LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Lessors of Other Real Estate Property (531190),80 Woodbridge Road,coventry,CT,06238,daservworks@gmail.com
+3511623,Nahmean Express LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Couriers and Express Delivery Services (492110),4 Russell St,Wallingford,CT,06492-3221,nahmean486@gmail.com
+3511629,RALLY IN PEACE PROJECT Inc.,Non-Stock,Active,2026-09-05,Domestic,Connecticut,Civic and Social Organizations (813410),,,,,peace_rally@aol.com
+3511630,The Bespoke Pour LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Caterers (722320),326 Monroe st,new britain,CT,06052,thebespokepour369@gmail.com
+3511632,Pivot Conversations LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Professional and Management Development Training (611430),2389 Main St.,Glastonbury,CT,06033,eastern@northwestregisteredagent.com
+3511635,67 Providence Property LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),49 Putnam Blvd,Glastonbury,CT,06033-1079,providenceproperties7@gmail.com
+3511637,Good Sticks LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Office Supplies and Stationery Retailers (459410),33 Long Meadow Rd,Riverside,CT,06878-1103,shadowdpb321@gmail.com
+3511643,89 Providence Property LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),49 Putnam Blvd,Glastonbury,CT,06033-1079,providenceproperties7@gmail.com
+3511644,Lights! Camera! Action! LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Television Broadcasting Stations (516120),109 Spring Ln,Suffield,CT,06078,m.j.i.siegal@gmail.com
+3511645,99 Providence Property LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Lessors of Residential Buildings and Dwellings (531110),49 Putnam Blvd,Glastonbury,CT,06033-1079,providenceproperties7@gmail.com
+3511646,Radiant Cleaning Co. LLC,LLC,Active,2026-09-05,Domestic,Connecticut,Janitorial Services (561720),19 Rourke Ave,Southington,CT,06489-3015,radiantcleaningco24@gmail.com
