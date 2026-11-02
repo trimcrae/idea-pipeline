@@ -310,5 +310,44 @@
     57
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
+  "rows": 4065,
+  "groups": [
+   [
+    "Denver",
+    919
+   ],
+   [
+    "Colorado Springs",
+    307
+   ],
+   [
+    "Aurora",
+    258
+   ],
+   [
+    "DENVER",
+    122
+   ],
+   [
+    "Grand Junction",
+    117
+   ],
+   [
+    "Fort Collins",
+    91
+   ],
+   [
+    "Greeley",
+    81
+   ],
+   [
+    "Craig",
+    73
+   ]
+  ]
  }
 ]

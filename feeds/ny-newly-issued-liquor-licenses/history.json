@@ -310,5 +310,44 @@
     11
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
+  "rows": 715,
+  "groups": [
+   [
+    "New York",
+    145
+   ],
+   [
+    "Kings",
+    56
+   ],
+   [
+    "Queens",
+    53
+   ],
+   [
+    "Suffolk",
+    51
+   ],
+   [
+    "Nassau",
+    50
+   ],
+   [
+    "Erie",
+    47
+   ],
+   [
+    "Westchester",
+    44
+   ],
+   [
+    "Onondaga",
+    43
+   ]
+  ]
  }
 ]

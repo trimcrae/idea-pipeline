@@ -222,5 +222,28 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
+  "rows": 20,
+  "groups": [
+   [
+    "Restaurant",
+    16
+   ],
+   [
+    "Grocery Store",
+    2
+   ],
+   [
+    "Children's Services Facility",
+    1
+   ],
+   [
+    "Liquor",
+    1
+   ]
+  ]
  }
 ]
