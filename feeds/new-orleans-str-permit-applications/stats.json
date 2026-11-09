@@ -1,8 +1,8 @@
 {
  "id": "new-orleans-str-permit-applications",
- "week_start": "2026-10-26",
- "week_end": "2026-11-01",
- "rows": 38,
+ "week_start": "2026-11-02",
+ "week_end": "2026-11-08",
+ "rows": 24,
  "columns": [
   "reference",
   "applied",
@@ -18,10 +18,10 @@
  "groups": [
   [
    "Short Term Rental Commercial Owner",
-   38
+   24
   ]
  ],
- "generated_at": "2026-11-02T16:10:23+00:00",
- "sample_rows": 25,
+ "generated_at": "2026-11-09T16:33:44+00:00",
+ "sample_rows": 24,
  "published": false
 }

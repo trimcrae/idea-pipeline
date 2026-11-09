@@ -249,5 +249,32 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "rows": 1024,
+  "groups": [
+   [
+    "LLC",
+    921
+   ],
+   [
+    "Stock",
+    74
+   ],
+   [
+    "Non-Stock",
+    26
+   ],
+   [
+    "Limited Partnership",
+    2
+   ],
+   [
+    "Religious",
+    1
+   ]
+  ]
  }
 ]

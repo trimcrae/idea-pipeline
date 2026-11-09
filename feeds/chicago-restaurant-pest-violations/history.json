@@ -245,5 +245,44 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "rows": 31,
+  "groups": [
+   [
+    "Restaurant",
+    17
+   ],
+   [
+    "Grocery Store",
+    6
+   ],
+   [
+    "Children's Services Facility",
+    3
+   ],
+   [
+    "COMMISSARY",
+    1
+   ],
+   [
+    "Catering",
+    1
+   ],
+   [
+    "Daycare Above and Under 2 Years",
+    1
+   ],
+   [
+    "Hospital",
+    1
+   ],
+   [
+    "Long Term Care",
+    1
+   ]
+  ]
  }
 ]

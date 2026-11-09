@@ -349,5 +349,44 @@
     3
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "rows": 170,
+  "groups": [
+   [
+    "Limited Business License",
+    37
+   ],
+   [
+    "Pop-Up Retail User",
+    29
+   ],
+   [
+    "Retail Food Establishment",
+    23
+   ],
+   [
+    "Regulated Business License",
+    21
+   ],
+   [
+    "Consumption on Premises - Incidental Activity",
+    9
+   ],
+   [
+    "Pharmaceutical Representative",
+    8
+   ],
+   [
+    "Video Gaming Location",
+    6
+   ],
+   [
+    "Shared Kitchen User (Long Term)",
+    5
+   ]
+  ]
  }
 ]

@@ -349,5 +349,44 @@
     43
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "rows": 517,
+  "groups": [
+   [
+    "New York",
+    85
+   ],
+   [
+    "Kings",
+    55
+   ],
+   [
+    "Queens",
+    47
+   ],
+   [
+    "Suffolk",
+    43
+   ],
+   [
+    "Nassau",
+    30
+   ],
+   [
+    "Erie",
+    27
+   ],
+   [
+    "Westchester",
+    25
+   ],
+   [
+    "Bronx",
+    16
+   ]
+  ]
  }
 ]

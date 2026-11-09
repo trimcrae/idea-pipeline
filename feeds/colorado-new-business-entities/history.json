@@ -349,5 +349,44 @@
     73
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "rows": 3470,
+  "groups": [
+   [
+    "Denver",
+    810
+   ],
+   [
+    "Colorado Springs",
+    227
+   ],
+   [
+    "Aurora",
+    171
+   ],
+   [
+    "DENVER",
+    98
+   ],
+   [
+    "Lakewood",
+    79
+   ],
+   [
+    "Fort Collins",
+    74
+   ],
+   [
+    "Centennial",
+    64
+   ],
+   [
+    "Boulder",
+    63
+   ]
+  ]
  }
 ]
