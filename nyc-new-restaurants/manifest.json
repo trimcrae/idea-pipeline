@@ -1,0 +1,94 @@
+{
+ "id": "nyc-new-restaurants",
+ "title": "New restaurants getting their first NYC health inspection this week",
+ "columns": [
+  "camis",
+  "restaurant",
+  "cuisine",
+  "building",
+  "street",
+  "borough",
+  "zip",
+  "phone",
+  "inspected",
+  "inspection_type",
+  "action"
+ ],
+ "generated_at": "2026-11-16T15:58:58+00:00",
+ "encrypted": false,
+ "latest": "2026-11-15.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "file": "2026-09-27.csv",
+   "rows": 56,
+   "bytes": 11152,
+   "encrypted": false,
+   "sha256": "f388fa7478c60286505dffd62ae8042646f1cfe455e2050c96a6e18cda43b8f3"
+  },
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "file": "2026-10-04.csv",
+   "rows": 58,
+   "bytes": 10919,
+   "encrypted": false,
+   "sha256": "ffb0e0a0b1a306920cdb3498ea9953d4469aec2934467c7f63992bcdacddb2ac"
+  },
+  {
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "file": "2026-10-11.csv",
+   "rows": 61,
+   "bytes": 11504,
+   "encrypted": false,
+   "sha256": "99fbd428f07f17e93375f73d94af7d4211c27c0116a9dcda7a7e5b3305c88471"
+  },
+  {
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "file": "2026-10-18.csv",
+   "rows": 35,
+   "bytes": 6801,
+   "encrypted": false,
+   "sha256": "077c7fa36db0450034dee3e8343293746bfb062428e12f6747a44b3c35735036"
+  },
+  {
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
+   "file": "2026-10-25.csv",
+   "rows": 42,
+   "bytes": 8117,
+   "encrypted": false,
+   "sha256": "f622e126a4cacb5a1317154ecc38d70df374e487c5ff50205e7b8153d2671f13"
+  },
+  {
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
+   "file": "2026-11-01.csv",
+   "rows": 32,
+   "bytes": 6240,
+   "encrypted": false,
+   "sha256": "3c4004081c613de30826fa6ef0dca654db6d0a2270e8b7dc67a948a91e7f79df"
+  },
+  {
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "file": "2026-11-08.csv",
+   "rows": 34,
+   "bytes": 6344,
+   "encrypted": false,
+   "sha256": "e11e644718b40d40ed4801f2a53a176b0b1598f3c2b29c4cc074e334ee492517"
+  },
+  {
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "file": "2026-11-15.csv",
+   "rows": 21,
+   "bytes": 4171,
+   "encrypted": false,
+   "sha256": "f1e1b71f80158511057331080af3fbadc7aec8631d4d7ab146e59014c9f4ce17"
+  }
+ ]
+}
