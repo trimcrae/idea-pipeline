@@ -1,8 +1,8 @@
 {
  "id": "ny-new-liquor-license-applications",
- "week_start": "2026-11-02",
- "week_end": "2026-11-08",
- "rows": 148,
+ "week_start": "2026-11-09",
+ "week_end": "2026-11-15",
+ "rows": 134,
  "columns": [
   "application_id",
   "received",
@@ -19,50 +19,54 @@
  "groups": [
   [
    "New York",
-   23
+   17
   ],
   [
    "Kings",
-   18
-  ],
-  [
-   "Queens",
-   16
-  ],
-  [
-   "Suffolk",
    14
   ],
   [
-   "Erie",
-   13
+   "Onondaga",
+   12
   ],
   [
-   "Monroe",
-   7
-  ],
-  [
-   "Nassau",
-   6
-  ],
-  [
-   "Westchester",
-   6
+   "Queens",
+   12
   ],
   [
    "Bronx",
+   8
+  ],
+  [
+   "Nassau",
+   7
+  ],
+  [
+   "Oneida",
+   7
+  ],
+  [
+   "Erie",
    5
   ],
   [
-   "Onondaga",
-   4
-  ],
-  [
-   "Franklin",
-   3
+   "Monroe",
+   5
   ],
   [
    "Orange",
+   5
+  ],
+  [
+   "Suffolk",
+   5
+  ],
+  [
+   "Westchester",
+   5
+  ],
+  [
+   "Oswego",
    3
   ],
   [
@@ -70,15 +74,11 @@
    3
   ],
   [
-   "St Lawrence",
+   "Seneca",
    3
-  ],
-  [
-   "Cortland",
-   2
   ]
  ],
- "generated_at": "2026-11-09T16:32:55+00:00",
+ "generated_at": "2026-11-16T15:59:02+00:00",
  "sample_rows": 25,
  "published": false
 }

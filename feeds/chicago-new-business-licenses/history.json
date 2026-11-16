@@ -388,5 +388,44 @@
     5
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-09",
+  "week_end": "2026-11-15",
+  "rows": 122,
+  "groups": [
+   [
+    "Limited Business License",
+    29
+   ],
+   [
+    "Regulated Business License",
+    27
+   ],
+   [
+    "Pop-Up Retail User",
+    18
+   ],
+   [
+    "Retail Food Establishment",
+    11
+   ],
+   [
+    "Pharmaceutical Representative",
+    9
+   ],
+   [
+    "Shared Kitchen User (Long Term)",
+    5
+   ],
+   [
+    "Commercial Garage",
+    4
+   ],
+   [
+    "Special Event Liquor",
+    4
+   ]
+  ]
  }
 ]

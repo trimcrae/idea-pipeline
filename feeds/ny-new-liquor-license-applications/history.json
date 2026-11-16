@@ -388,5 +388,44 @@
     6
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-09",
+  "week_end": "2026-11-15",
+  "rows": 134,
+  "groups": [
+   [
+    "New York",
+    17
+   ],
+   [
+    "Kings",
+    14
+   ],
+   [
+    "Onondaga",
+    12
+   ],
+   [
+    "Queens",
+    12
+   ],
+   [
+    "Bronx",
+    8
+   ],
+   [
+    "Nassau",
+    7
+   ],
+   [
+    "Oneida",
+    7
+   ],
+   [
+    "Erie",
+    5
+   ]
+  ]
  }
 ]

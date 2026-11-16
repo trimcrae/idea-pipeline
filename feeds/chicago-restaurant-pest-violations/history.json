@@ -284,5 +284,24 @@
     1
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-09",
+  "week_end": "2026-11-15",
+  "rows": 13,
+  "groups": [
+   [
+    "Restaurant",
+    8
+   ],
+   [
+    "Grocery Store",
+    3
+   ],
+   [
+    "Children's Services Facility",
+    2
+   ]
+  ]
  }
 ]
