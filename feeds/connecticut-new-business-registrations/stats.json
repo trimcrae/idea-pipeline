@@ -1,8 +1,8 @@
 {
  "id": "connecticut-new-business-registrations",
- "week_start": "2026-11-09",
- "week_end": "2026-11-15",
- "rows": 1000,
+ "week_start": "2026-11-16",
+ "week_end": "2026-11-22",
+ "rows": 1035,
  "columns": [
   "account_number",
   "name",
@@ -22,26 +22,26 @@
  "groups": [
   [
    "LLC",
-   895
+   924
   ],
   [
    "Stock",
-   59
+   71
   ],
   [
    "Non-Stock",
-   41
-  ],
-  [
-   "Limited Partnership",
-   4
+   36
   ],
   [
    "LLP",
+   3
+  ],
+  [
+   "Religious",
    1
   ]
  ],
- "generated_at": "2026-11-16T15:59:15+00:00",
+ "generated_at": "2026-11-23T18:22:58+00:00",
  "sample_rows": 25,
  "published": false
 }

@@ -427,5 +427,44 @@
     170
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "rows": 4899,
+  "groups": [
+   [
+    "Albany",
+    756
+   ],
+   [
+    "New York",
+    648
+   ],
+   [
+    "Kings",
+    623
+   ],
+   [
+    "Queens",
+    486
+   ],
+   [
+    "Nassau",
+    428
+   ],
+   [
+    "Suffolk",
+    344
+   ],
+   [
+    "Westchester",
+    208
+   ],
+   [
+    "Rockland",
+    178
+   ]
+  ]
  }
 ]

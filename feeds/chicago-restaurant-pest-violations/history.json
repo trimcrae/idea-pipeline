@@ -303,5 +303,36 @@
     2
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "rows": 20,
+  "groups": [
+   [
+    "Restaurant",
+    11
+   ],
+   [
+    "Grocery Store",
+    4
+   ],
+   [
+    "Children's Services Facility",
+    2
+   ],
+   [
+    "Daycare Above and Under 2 Years",
+    1
+   ],
+   [
+    "School",
+    1
+   ],
+   [
+    "Wholesale",
+    1
+   ]
+  ]
  }
 ]

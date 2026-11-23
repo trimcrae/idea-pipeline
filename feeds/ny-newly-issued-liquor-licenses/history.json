@@ -427,5 +427,44 @@
     13
    ]
   ]
+ },
+ {
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "rows": 537,
+  "groups": [
+   [
+    "New York",
+    123
+   ],
+   [
+    "Queens",
+    59
+   ],
+   [
+    "Kings",
+    53
+   ],
+   [
+    "Nassau",
+    50
+   ],
+   [
+    "Suffolk",
+    39
+   ],
+   [
+    "Westchester",
+    21
+   ],
+   [
+    "Erie",
+    18
+   ],
+   [
+    "Monroe",
+    17
+   ]
+  ]
  }
 ]
