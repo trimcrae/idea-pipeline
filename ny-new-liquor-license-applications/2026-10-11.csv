@@ -1,0 +1,66 @@
+application_id,received,status,license_class,legal_name,trade_name,premises_address,city,zip,county
+NA-0081-26-130222,2026-10-09,IntakeComplete,Grocery Store,1624 Utica Deli & Grocery Inc.,,1624 Utica Ave,Brooklyn,11234,Kings
+NA-0081-26-130219,2026-10-09,IntakeComplete,Grocery Store,SAR Convenience Inc,,260 Sunrise Hwy,Lindenhurst,11757,Suffolk
+NA-0340-26-130214,2026-10-09,IntakeComplete,Restaurant,"SSP AMERICA JFK T5, LLC",Gotham Burger Social Club,"JFK International Airport, Terminal 5",Jamaica,11430,Queens
+NA-0340-26-130210,2026-10-09,IntakeComplete,Restaurant,Tuscan Cucina LLC,,1801 E Jericho Tpke,Huntington,11743,Suffolk
+NA-0340-26-130194,2026-10-09,IntakeComplete,Restaurant,WHOLE FOODS MARKET GROUP LLC and TNC BRYANT PARK LLC,Whole Foods Market and Tsar Nicoulai Caviar Cafe,1095 Avenue of the Americas Fl 2,New York,10036,New York
+NA-0340-26-130188,2026-10-09,IntakeComplete,Restaurant,JIHO HOSPITALITY LLC,Jiho,21 W 17th St,New York,10011,New York
+NA-0370-26-130186,2026-10-09,IntakeComplete,Food & Beverage Business,JIMMYLEATHERPANTS LLC,IDAHO,349 E 13th St,New York,10003,New York
+NA-0340-26-330184,2026-10-09,IntakeComplete,Restaurant,TEXAS 5 STAR BBQ LLC,,4110 W Main Street Rd,Batavia,14020,Genesee
+NA-0340-26-330180,2026-10-09,IntakeComplete,Restaurant,SALSAS MEXICAN RESTAURANT II LLC,,805 Pennsylvania Ave,Elmira,14904,Chemung
+NA-0111-26-130177,2026-10-09,IntakeComplete,Restaurant,EL MAIZ DELI GROCERY CORPORATION,,721 5th Ave,Brooklyn,11215,Kings
+NA-0340-26-130175,2026-10-09,IntakeComplete,Restaurant,LO NORMALI INC.,Lo Normali,1300 Peninsula Blvd,Hewlett,11557,Nassau
+NA-0340-26-130168,2026-10-09,IntakeComplete,Restaurant,33rd Street Hospitality LLC,,450 W 33rd St,New York,10001,New York
+NA-0370-26-130161,2026-10-09,IntakeComplete,Food & Beverage Business,Cabarete Cafe LLC,,206 Bedford Ave,Bellmore,11710,Nassau
+NA-0340-26-330111,2026-10-09,IntakeComplete,Restaurant,"Yard House USA, Inc.",Yard House (#8408),1641 Niagara Falls Blvd,Buffalo,14228,Erie
+NA-0240-26-130113,2026-10-08,IntakeComplete,Restaurant,JAI JHULELALL INC.,Burger X,360 W 42nd St,New York,10036,New York
+NA-0340-26-130100,2026-10-08,IntakeComplete,Restaurant,KHP Rockville LLC,,716 Sunrise Hwy,Rockville Centre,11570,Nassau
+NA-0340-26-130103,2026-10-08,IntakeComplete,Restaurant,SESILYA RESTAURANT LLC,Sesilya,256 5th Ave,Brooklyn,11215,Kings
+NA-0370-26-130095,2026-10-08,IntakeComplete,Food & Beverage Business,CONNOISSEUR HOSPITALITY LLC,,232 W 14th St,New York,10011,New York
+NA-0240-26-130085,2026-10-08,IntakeComplete,Restaurant,Wuarache Restaurant Corp,,1229 Castle Hill Ave,Bronx,10462,Bronx
+NA-0370-26-230088,2026-10-08,IntakeComplete,Food & Beverage Business,PEACE & CONFLICT LLC,Glove City Bar and Lounge,7 11 N Main St,Gloversville,12078,Fulton
+NA-0340-26-230083,2026-10-08,IntakeComplete,Restaurant,M-KAT CATERING LLC,JB'S II,3 Tompkins Rd,Verbank,12585,Dutchess
+NA-0340-26-130079,2026-10-08,IntakeComplete,Restaurant,QUEEN VENTURE LIC LLC,,33-02 Queens Blvd,Long Island City,11101,Queens
+NA-0267-26-130070,2026-10-08,IntakeComplete,Food & Beverage Business,Mangetsu Sushi LLC,,"150 Manhattan Ave, South Shore",New York,10025,New York
+NA-0370-26-330075,2026-10-08,IntakeComplete,Food & Beverage Business,BEILEIN CONSULTING LLC,Somewhere 2,681 Blairville Rd,Youngstown,14174,Niagara
+NA-0240-26-130068,2026-10-08,IntakeComplete,Restaurant,TACOS EL RANCHITO CORP.,,90-19 Corona Ave,Elmhurst,11373,Queens
+NA-0240-26-130066,2026-10-08,IntakeComplete,Restaurant,OMIYA SUSHI 2025 INC.,,8618 4th Ave,Brooklyn,11209,Kings
+NA-0081-26-230059,2026-10-08,IntakeComplete,Grocery Store,781 Springs One Stop Inc,,781 State Route 7,Sanitaria Springs,13833,Broome
+NA-0081-26-230047,2026-10-08,IntakeComplete,Grocery Store,Endwell One Stop Inc,,2105 E Main St,Endwell,13760,Broome
+NA-0081-26-230039,2026-10-08,IntakeComplete,Grocery Store,Yorkville One Stop Inc,,826 Oriskany Blvd,Yorkville,13495,Oneida
+NA-0370-26-330031,2026-10-08,IntakeComplete,Food & Beverage Business,"Patterson Group NY, LLC",,19 Saint Johns Park,Rochester,14612,Monroe
+NA-0343-26-230023,2026-10-08,IntakeComplete,Hotel,Rainbow Group of Central Valley Inc,,6 Locey Ln,Harriman,10926,Orange
+NA-0340-26-130014,2026-10-08,IntakeComplete,Restaurant,Bondi - 1445 Third Avenue LLC,,1445 3rd Ave,New York,10028,New York
+NA-0071-26-230011,2026-10-08,IntakeComplete,Grocery Store,Hermity Caribbean Market Inc,,165 Central Ave,Albany,12206,Albany
+NA-0071-26-129970,2026-10-07,IntakeComplete,Grocery Store,Nash Convenience Corp.,,824 E 181st St,Bronx,10460,Bronx
+NA-0071-26-128777,2026-10-07,Under Review,Grocery Store,ADAM GROCERY & SNACK CORP.,,658 New Dorp Ln,Staten Island,10306,Richmond
+NA-0081-26-128243,2026-10-07,Under Review,Grocery Store,WASSAIC GAS & GO CORP.,,215 W 1st St,Mount Vernon,10550,Westchester
+NA-0081-26-229965,2026-10-07,IntakeComplete,Grocery Store,CROSSTOWN MART INC.,,2501 Albany St,Schenectady,12304,Schenectady
+NA-0081-26-129956,2026-10-07,IntakeComplete,Grocery Store,WILLIAMSBURG CONVENIENCE Y LLC,,208 Broadway,Brooklyn,11211,Kings
+NA-0081-26-129952,2026-10-07,IntakeComplete,Grocery Store,WT PETROLEUM INC.,,226 Islip Ave,Islip,11751,Suffolk
+NA-0071-26-129950,2026-10-07,IntakeComplete,Grocery Store,E & A GRAB TO GO CORP.,,1737 Saint Marks Ave,Brooklyn,11233,Kings
+NA-0340-26-129944,2026-10-07,IntakeComplete,Restaurant,NEW WORLD HOSPITALITY GROUP LLC,Tavolina,24 26 28 Jefferson Blvd,Staten Island,10312,Richmond
+NA-0340-26-129921,2026-10-07,IntakeComplete,Restaurant,"FRANKLIN HOSPITALITY 1, LLC",,658 660 Franklin Ave,Garden City,11530,Nassau
+NA-0240-26-129915,2026-10-07,IntakeComplete,Restaurant,BUDDHA BODAI ONE VEGETARIAN RESTAURANT INC,,5 Mott St,New York,10013,New York
+NA-0240-26-129905,2026-10-07,IntakeComplete,Restaurant,HUAYUCHUAN INC.,,44-18 Kissena Blvd,Flushing,11355,Queens
+NA-0340-26-229888,2026-10-07,IntakeComplete,Restaurant,Nolan DeJesus Hospitality LLC,,904 Broadway,Albany,12207,Albany
+NA-0071-26-229841,2026-10-06,IntakeComplete,Grocery Store,Cedar Street Deli Inc.,,109 Cedar St,Kingston,12401,Ulster
+NA-0346-26-129831,2026-10-06,IntakeComplete,Catering Establishment,"GREAT PERFORMANCES/ARTISTS AS WAITRESSES, INC.",,420 5th Ave,New York,11018,New York
+NA-0240-26-129825,2026-10-06,IntakeComplete,Restaurant,HKM VENTURES LLC,Cascarinos,152-59 10th Ave,Whitestone,11357,Queens
+NA-0081-26-129821,2026-10-06,IntakeComplete,Grocery Store,182 CANDY STORE INC.,,182 Merritts Rd,Farmingdale,11735,Nassau
+NA-0340-26-229817,2026-10-06,IntakeComplete,Restaurant,Umarell LLC,Umarell,40 Main St,Cold Spring,10516,Putnam
+NA-0081-26-129806,2026-10-06,IntakeComplete,Grocery Store,BCF FOOD CORP.,Shop Fair Supermarket,239 Bond St,Brooklyn,11217,Kings
+NA-0346-26-229587,2026-10-06,IntakeComplete,Catering Establishment,"Compass Group USA, Inc.",,1727 State Route 12B,Hamilton,13346,Madison
+NA-0370-26-229734,2026-10-05,IntakeComplete,Food & Beverage Business,"DBH HUDSON VALLEY CONCESSIONS, LLC",,1500 Route 9D,Wappingers Falls,12590,Dutchess
+NA-0014-26-129728,2026-10-05,IntakeComplete,Micro-Brewer,"SakeBrooklyn Brewing Co., LLC",,508 Degraw St,Brooklyn,11217,Kings
+NA-0111-26-129724,2026-10-05,IntakeComplete,Restaurant,FINE FLAVORS DELI GRILL CORPORATION,,7215 3rd Ave,Brooklyn,11209,Kings
+NA-0370-26-129700,2026-10-05,IntakeComplete,Food & Beverage Business,"SakeBrooklyn Brewing Co., LLC",,508 Degraw St,Brooklyn,11217,Kings
+NA-0340-26-129694,2026-10-05,IntakeComplete,Restaurant,"SODEXO OPERATIONS, LLC",,"JFK Airport, Terminal 6, Building 58",Jamaica,11430,Queens
+NA-0240-26-229690,2026-10-05,IntakeComplete,Restaurant,Rama Thai Bistro LLC,,96 Jay St,Schenectady,12305,Schenectady
+NA-0240-26-129685,2026-10-05,Under Review,Restaurant,EL NUEVO ENCUENTRO RESTAURANT INC.,,39-01 104th St,Corona,11368,Queens
+NA-0240-26-129679,2026-10-05,IntakeComplete,Restaurant,Kera NYC Inc.,,95 2nd Ave,New York,10003,New York
+NA-0370-26-129683,2026-10-05,IntakeComplete,Food & Beverage Business,Lux Venue Inc,,122-13 Guy R Brewer,Jamaica,11434,Kings
+NA-0370-26-129663,2026-10-05,IntakeComplete,Food & Beverage Business,BETTY RESTAURANT CORP.,Sportivo,2711 Grand Ave,Bellmore,11710,Nassau
+NA-0081-26-129675,2026-10-05,IntakeComplete,Grocery Store,Wow The Deli Corp.,,1017 Woodfield Rd,West Hempstead,11552,Nassau
+NA-0100-26-229659,2026-10-05,IntakeComplete,Liquor Store,17K Wine & Liquor Corp.,,1401 State Route 302,Bullville,10915,Orange
+NA-0267-26-129647,2026-10-05,IntakeComplete,Food & Beverage Business,Ralph Fielding LLC,,10 Putnam Ave,Brooklyn,11238,Kings

@@ -1,0 +1,92 @@
+{
+ "id": "new-orleans-str-permit-applications",
+ "title": "New short-term rental permit applications in New Orleans this week",
+ "columns": [
+  "reference",
+  "applied",
+  "address",
+  "permit_type",
+  "subtype",
+  "status",
+  "bedroom_limit",
+  "guest_limit",
+  "city_record"
+ ],
+ "generated_at": "2026-11-23T18:23:20+00:00",
+ "encrypted": false,
+ "latest": "2026-11-22.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "file": "2026-10-04.csv",
+   "rows": 26,
+   "bytes": 4032,
+   "encrypted": false,
+   "sha256": "84c2d9336a7e7a50a43ac5f7043130279c5ac8d94989d95487eaed138d8b08ad"
+  },
+  {
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "file": "2026-10-11.csv",
+   "rows": 32,
+   "bytes": 5056,
+   "encrypted": false,
+   "sha256": "016f5233eeec36f1e2e0c01fd6ec8d1175d95c8499d30ba19c6b3eedb3f88e4c"
+  },
+  {
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "file": "2026-10-18.csv",
+   "rows": 18,
+   "bytes": 2889,
+   "encrypted": false,
+   "sha256": "b556fc33c26e72b72587b5a7e8da3ae9b79c27a189f6b46e275d3d83d825c2f1"
+  },
+  {
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
+   "file": "2026-10-25.csv",
+   "rows": 20,
+   "bytes": 3190,
+   "encrypted": false,
+   "sha256": "3819de916b27c7a46714ec824f93b403f11ec26ce83949d75b5c60318d8035af"
+  },
+  {
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
+   "file": "2026-11-01.csv",
+   "rows": 38,
+   "bytes": 5954,
+   "encrypted": false,
+   "sha256": "b59be16179661600c95067050ac78cf400e4c714d149dcd1ad02e2fa7ad37aed"
+  },
+  {
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "file": "2026-11-08.csv",
+   "rows": 24,
+   "bytes": 3698,
+   "encrypted": false,
+   "sha256": "abffaaaa5b7cc17a2e37dc530f5c11031a8e824ea7b81a0e365217eb94d1b1bf"
+  },
+  {
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "file": "2026-11-15.csv",
+   "rows": 22,
+   "bytes": 3548,
+   "encrypted": false,
+   "sha256": "c9413fb3870f59779bf5de036b9165c89723099ed97e6ee1addcdad51a18c1ba"
+  },
+  {
+   "week_start": "2026-11-16",
+   "week_end": "2026-11-22",
+   "file": "2026-11-22.csv",
+   "rows": 40,
+   "bytes": 6277,
+   "encrypted": false,
+   "sha256": "233ab636f76b6eb22fac00b473c9872aebfc7f9ace109d1c5a3ff8925370f734"
+  }
+ ]
+}

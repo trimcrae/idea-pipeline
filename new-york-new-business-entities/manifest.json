@@ -1,0 +1,95 @@
+{
+ "id": "new-york-new-business-entities",
+ "title": "New corporations and LLCs filed in New York this week",
+ "columns": [
+  "dos_id",
+  "name",
+  "filed",
+  "entity_type",
+  "county",
+  "jurisdiction",
+  "process_name",
+  "process_address",
+  "process_address_2",
+  "process_city",
+  "process_state",
+  "process_zip"
+ ],
+ "generated_at": "2026-11-23T18:23:04+00:00",
+ "encrypted": false,
+ "latest": "2026-11-22.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "file": "2026-10-04.csv",
+   "rows": 4618,
+   "bytes": 715696,
+   "encrypted": false,
+   "sha256": "fc730d60702c4570ff53af6f8f4932c440f4335b2221a9533b78e3e4b29146e3"
+  },
+  {
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "file": "2026-10-11.csv",
+   "rows": 4758,
+   "bytes": 734948,
+   "encrypted": false,
+   "sha256": "c97cbbdfed71c031fafd5ce53a4be83b5bcc586f6809fbcaadc189db61eabd33"
+  },
+  {
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "file": "2026-10-18.csv",
+   "rows": 4574,
+   "bytes": 712322,
+   "encrypted": false,
+   "sha256": "ea1d4c955110d00187b30dc875d6672a01ec7a4b1bc296810e8273cea4249cfb"
+  },
+  {
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
+   "file": "2026-10-25.csv",
+   "rows": 5063,
+   "bytes": 786372,
+   "encrypted": false,
+   "sha256": "31bad4f92220200607b84cdf81a2dc58983c1ab90fd10839d741d8c9664ec0bc"
+  },
+  {
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
+   "file": "2026-11-01.csv",
+   "rows": 4857,
+   "bytes": 751884,
+   "encrypted": false,
+   "sha256": "69a7c917b9923674e10278c314d25b683a22b6c1132a8f6655d87aef3291102b"
+  },
+  {
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "file": "2026-11-08.csv",
+   "rows": 4852,
+   "bytes": 750715,
+   "encrypted": false,
+   "sha256": "c4f4acb8e51238db0c12052e98e8bb5232d4c8258a8db8d235926fbfd281edcb"
+  },
+  {
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "file": "2026-11-15.csv",
+   "rows": 4511,
+   "bytes": 696253,
+   "encrypted": false,
+   "sha256": "aa98be79d0abc3756c96de324f7c72e6cdd5161183baa8e24afc77cb269bce37"
+  },
+  {
+   "week_start": "2026-11-16",
+   "week_end": "2026-11-22",
+   "file": "2026-11-22.csv",
+   "rows": 4899,
+   "bytes": 758424,
+   "encrypted": false,
+   "sha256": "9eb7727e66fff427a6f4040af7d5a5a9a302e71f3a82267f3988b058e9bac22c"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "id": "texas-newly-issued-liquor-licenses",
+ "title": "TABC liquor licenses newly issued in Texas this week",
+ "columns": [
+  "license_id",
+  "issued",
+  "license_type",
+  "tier",
+  "status",
+  "trade_name",
+  "owner",
+  "address",
+  "city",
+  "zip",
+  "county",
+  "phone"
+ ],
+ "generated_at": "2026-11-23T18:22:54+00:00",
+ "encrypted": false,
+ "latest": "2026-11-22.csv",
+ "weeks": [
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "file": "2026-10-04.csv",
+   "rows": 215,
+   "bytes": 25536,
+   "encrypted": false,
+   "sha256": "f29af92ed337e19ae5a845a105fbfe596bd2d03bf6268ee6008cb3f81a745ea9"
+  },
+  {
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "file": "2026-10-11.csv",
+   "rows": 224,
+   "bytes": 26550,
+   "encrypted": false,
+   "sha256": "de5f6be372c7e8574cb3224f40bd92db0f280364c3ca7bd0e3dc4ff9d700c0d3"
+  },
+  {
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "file": "2026-10-18.csv",
+   "rows": 142,
+   "bytes": 16865,
+   "encrypted": false,
+   "sha256": "2b1b75c68d692efb2254b10f6d4f2f8a197399c62ebe9acf10c885b6d78ef602"
+  },
+  {
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
+   "file": "2026-10-25.csv",
+   "rows": 199,
+   "bytes": 24004,
+   "encrypted": false,
+   "sha256": "b05b6986fa4eadad23827c980e2b40663bdae4fe80f9979ae7e34672469c0d1f"
+  },
+  {
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
+   "file": "2026-11-01.csv",
+   "rows": 206,
+   "bytes": 24955,
+   "encrypted": false,
+   "sha256": "4bb1d9a8ad7fca84356b5d0504b5abfd465eb14e155af6ee98da96433a5ddb7b"
+  },
+  {
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "file": "2026-11-08.csv",
+   "rows": 206,
+   "bytes": 24784,
+   "encrypted": false,
+   "sha256": "734aed99c1b8225fb984b3aada74770c7309590f76ca6bbe962731fdb5c525bc"
+  },
+  {
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "file": "2026-11-15.csv",
+   "rows": 141,
+   "bytes": 17216,
+   "encrypted": false,
+   "sha256": "896d783c43bb6f593d6cd2d76454e6d55ebddf1d21690692aa22bd2d2fdb0066"
+  },
+  {
+   "week_start": "2026-11-16",
+   "week_end": "2026-11-22",
+   "file": "2026-11-22.csv",
+   "rows": 198,
+   "bytes": 23908,
+   "encrypted": false,
+   "sha256": "9af1b904f00afd993d5f551fcd753cd84b90599222387c1afe3dc8f4d0f344c9"
+  }
+ ]
+}
